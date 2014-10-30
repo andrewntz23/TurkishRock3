@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Ersen</artist><title>Uç Kız Bir Ana</title><album>Dünden Bugüne</album><year>1977</year><source>http://musicvideoswiz.com/artist/Ersen%20ve%20Dadaslar/lyrics#</source></metadata>
+instrumental(?)
+</song>

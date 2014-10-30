@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Erkin Koray</artist><title>Sır</title><album>Elektronik Türküler</album><year>1974</year><source>http://www.anatolianrock.com/Erkin_Koray/sarki_sozleri/sir-4-25657.htm</source></metadata>
+instrumental</song>

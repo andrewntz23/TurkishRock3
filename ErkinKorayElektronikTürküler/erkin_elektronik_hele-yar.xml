@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Erkin Koray</artist><title>Hele Yar</title><album>Elektronik Türküler</album><year>1974</year><source>http://www.turkcemuzik.com/sarki/S%C3%B6z/170969/Erkin-Koray_Hele-Yar.html</source></metadata>
+
+<stanza type='verse'><line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line></stanza>
+<break/>
+<stanza type='verse'><line>Dilber kalk gidelim fakirhaneye</line>
+<line>İtiraz eyleme gel yavaş yavaş</line>
+<line>Gözümden akıttın kan ile yaşı</line>
+<line>Zülüfün eylesin gel yavaş yavaş</line></stanza>
+<break/>
+<stanza type='verse'><line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line></stanza>
+<break/>
+<stanza type='verse'><line>Bir gün değil, beş gün değil, yüz gündür</line>
+<line>Deste zülüf al yanak öpülür</line>
+<line>Melhem almaz yaralarım algındır</line>
+<line>Derdimin lokmanı gel yavaş yavaş</line></stanza>
+<break/>
+<stanza type='verse'><line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line>
+<line>Hele, hele, hele, hele, hele yar</line></stanza>
+</song>

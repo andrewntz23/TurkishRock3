@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Ersen</artist><title>Kozan Dağı</title><album>Dünden Bugüne</album><year>1977</year><source>http://www.sarki-sozleri.net/ersen-ve-dadaslar-kozan-dagi</source></metadata>
+
+<stanza type='verse'><line><place where='rural'><place where='urban'>Kozan</place> <nature>dağının eteği</nature></place></line>
+<line>Bura koç yiğit yatağı</line>
+<line>Anam <!--><sorrow>derdimin</sorrow><--> ortağı</line>
+<line><address formality='formal'><addressee>Beyler</addressee> aman aman</address></line>
+<line><family>Evlat</family> derde ağlarmıola</line></stanza>
+<break/>
+<stanza type='verse'><line>Çıktım kozanın dağına</line>
+<line>Karı dizleyi,dizleyi</line>
+<line>Yaralarım göz göz olmuş</line>
+<line><address formality='formal'><addressee>Beyler</addressee> aman aman</address></line>
+<line>Cerrah gözleyi gözleyi</line></stanza>
+<break/>
+<stanza type='verse'><line><place where='rural'><place where='urban'>Kozan</place> dağı</place> <m>çatal matal</m></line>
+<line>Arasında arslan yatar</line>
+<line>Bir yiğide bir gelin yeter</line>
+<line><address formality='formal'><addressee>Beyler</addressee> aman aman</address></line>
+<line>İki alanın derdi artar</line></stanza>
+</song>

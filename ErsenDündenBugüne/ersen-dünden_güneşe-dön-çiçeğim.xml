@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Ersen</artist><title>Güneşe Dön Çiçeğim</title><album>Dünden Bugüne</album><year>1977</year><source>http://musicvideoswiz.com/artist/Ersen/lyrics#</source></metadata>
+<!-->This is most certainly not an instrumental but the lyrics don't seem to be online anywhere<-->
+</song>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Erkin Koray</artist><title>İnat</title><album>Elektronik Türküler</album><year>1974</year><source>http://www.sozkolik.com/inat-erkin-koray/</source></metadata>
+<!-->This is an instrumental<-->
+</song>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Ersen</artist><title>Garip Gönlüm</title><album>Dünden Bugüne</album><year>1977</year><source>http://www.neolsunki.com/sarki-sozleri/5793-etkin--garip-gonlum.html</source></metadata>
+<!-->These were the lyrics to the wrong song. :'(<-->
+</song>

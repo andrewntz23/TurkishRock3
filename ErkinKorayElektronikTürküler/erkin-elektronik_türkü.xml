@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Erkin Koray</artist><title>Türkü</title><album>Elektronik Türküler</album><year>1974</year><source>http://www.sarkisozum.gen.tr/erkin-koray/turku-sarkisozu</source></metadata>
+
+<stanza type='verse'><line>Dörtnala gelip <place where='foreign'>Uzak Asya'dan</place></line>
+<line><place where='region'>Akdenize</place> bir kısrak başı gibi uzanan</line>
+<line><nationalism approve='yes'>Bu <place where='turkey'>memleket</place> <narrator>bizim</narrator>!</nationalism></line>
+</stanza>
+<break/>
+<stanza type='chorus'><line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator></line></stanza>
+<break/>
+<stanza type='verse'><line>Bilekler kan içinde, dişler kenetli ayaklar çıplak</line>
+<line>Ve ipek bir halıya benzeyen toprak</line>
+<line>Bu cehennem, bu cennet bizim!</line></stanza>
+<break/>
+<stanza type='chorus'><line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator></line></stanza>
+<break/>
+<stanza type='verse'><line>Kapansın el kapıları bir daha açılmasın</line>
+<line>Yok edin insanın insana kulluğunu</line>
+<line><nationalism approve='yes'>Bu <place where='turkey'>davet</place> <narrator>bizim</narrator>!</nationalism></line></stanza>
+<break/>
+<stanza type='chorus'><line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator></line></stanza>
+<break/>
+<stanza type='verse'><line><nature>Yaşamak bir ağaç</nature> gibi <nationalism approve="yes">tek ve hür</nationalism></line>
+<line>Ve bir <nature>orman</nature> gibi <friendship>kardeşçesine</friendship></line></stanza>
+<stanza type='chorus'><line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator> <friendship>dostlar</friendship></line>
+<line><narrator>bizim</narrator></line></stanza>
+</song>
