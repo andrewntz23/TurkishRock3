@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Edip Akbayram</artist><title>Değmen Benim Gamlı Yaslı Gönlüme</title><album>Edip Akbayram</album><year>1974</year><source>http://sarki.alternatifim.com/data.asp?ID=2804&amp;sarki=De%F0men%20Benim%20Gaml%FD%20Yasl%FD%20G%F6nl%FCme&amp;sarkici=Edip%20Akbayram</source></metadata>
+
+<stanza type='verse'><line>Değmen benim gamlı yaslı gönlüme</line>
+<line>Ben bir selvi boylu yardan</line>
+<line>Ayrıldım, ayrıldım, ayrıldım oy</line></stanza>
+<break/>
+<stanza type='verse'><line>Evvel bağban idim dostun bağında</line>
+<line>Talan vurdu ayva nardan</line>
+<line>Ayrıldım, ayrıldım, ayrıldım oy</line></stanza>
+<break/>
+<stanza type='verse'><line>Garip kaldım şimdi gurbet ellerde</line>
+<line>Ben gönlümü çalan yardan</line>
+<line>Ayrıldım, ayrıldım, ayrıldım oy</line></stanza>
+<break/>
+<stanza type='verse'><line>Çok ağladım Mecnun gibi çöllerde</line>
+<line>Ferhat gibi şîrin yardan</line>
+<line>Ayrıldım, ayrıldım, ayrıldım oy</line></stanza>
+</song>

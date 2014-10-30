@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Edip Akbayram</artist><title>İnce İnce Bir Kar Yağar</title><album>Edip Akbayram</album><year>1974</year><source>http://www.sarkisozum.gen.tr/edip-akbayram/ince-ince-bir-kar-yagar-sarkisozu</source></metadata>
+
+<stanza type='verse'><line>İnce ince bir kar yağar</line>
+<line>Fakirlerin üstüne</line>
+<line>Neden felek inanmıyor</line>
+<line>Gariplerin sözüne</line>
+<line>Yandım yandım bana of of</line>
+<line>Etme ağam nolur nolur</line></stanza>
+<break/>
+<stanza type='verse'><line>Adam mı ölür toprak verince</line>
+<line>Hayat sevince nolur nolur</line></stanza>
+<break/>
+<stanza type='verse'><line>Sen anandan ben babamdan</line>
+<line>Ağa doğmadık dostum</line>
+<line>Gel beraber yaşayalım</line>
+<line>Sanma ki sana küstüm</line>
+<line>Yandık yandık bize of of</line>
+<line>Etme ağam nolur nolur</line></stanza>
+<break/>
+<stanza type='verse'><line>Adam mı ölür toprak verince</line>
+<line>Hayat sevince nolur nolur </line></stanza>
+</song>

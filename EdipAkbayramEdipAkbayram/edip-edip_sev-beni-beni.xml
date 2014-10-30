@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Edip Akbayram</artist><title>Sev Beni Beni</title><album>Edip Akbayram</album><year>1974</year><source>http://www.anatolianrock.com/Edip_Akbayram/sarki_sozleri/sev_beni_beni-3-61279.htm</source></metadata>
+
+<stanza type='verse'><line>Sar beni beni anam</line>
+<line>Sev beni vay vay</line>
+<line>Sar beni beni anam</line>
+<line>Sev beni vay</line></stanza>
+<break/>
+<stanza type='verse'><line>Yunusum derya içinde</line>
+<line>Mecnunum kerem peşinde vay</line>
+<line>Ölürüm yara içinde</line></stanza>
+<break/>
+<stanza type='verse'><line>Sar beni beni anam</line>
+<line>Sev beni vay vay</line>
+<line>Sar beni beni anam</line>
+<line>Sev beni vay</line></stanza>
+<break/>
+<stanza type='verse'><line>Aslı isen kerem'i bul</line>
+<line>Derde derman vereni bul oy</line>
+<line>Garip gibi seveni bul</line></stanza>
+<break/>
+<stanza type='verse'><line>Sev beni beni beni</line>
+<line>Sar beni vay vay</line>
+<line>Sar beni beni beni</line>
+<line>Sev beni vay</line></stanza>
+</song>

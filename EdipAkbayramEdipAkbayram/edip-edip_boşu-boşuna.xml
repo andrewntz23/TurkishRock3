@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Edip Akbayram</artist><title>Boşu Boşuna</title><album>Edip Akbayram</album><year>1974</year><source>http://www.sarkisozum.gen.tr/edip-akbayram/bosu-bosuna-sarkisozu</source></metadata>
+
+<stanza type='verse'><line>Tanrım bana ömür vermiş</line>
+<line>Ömür vermiş boşu boşuna</line>
+<line>Boşu boşuna,boşu boşuna</line></stanza>
+<break/>
+<stanza type='verse'><line>Vücuduma bir can girmiş</line>
+<line>Bir can girmiş boşu boşuna</line>
+<line>Boşu boşuna,boşu boşuna</line></stanza>
+<break/>
+<stanza type='verse'><line>Su akar deryaya varır</line>
+<line>Deryadan mahi çıkarır</line>
+<line>Gökyüzünde yağmur olur</line>
+<line>Gökyüzünde yağmur olur</line></stanza>
+<break/>
+<stanza type='verse'><line>Damlaları boşu boşuna</line>
+<line>Boşu boşuna,boşu boşuna</line></stanza>
+<break/>
+<stanza type='verse'><line>Süleyman bir sultan olmuş</line>
+<line>Süleyman bir sultan olmuş</line>
+<line>Saltanatı boşu boşuna</line>
+<line>Boşu boşuna boşu boşuna </line></stanza>
+</song>
