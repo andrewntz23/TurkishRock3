@@ -1,0 +1,18 @@
+Addressee tags within address tags
+	address attributes include pos (verb, noun), mood (imperative, negative imperative, etc.)
+
+place with attributes (home, rural, urban)
+
+narrator tag (number=“singular” || “plural) (NO SPEAKER TAG)
+
+
+
+
+class= “high” || “middle” || “low” || “working”
+
+poverty, crime, neglect(things falling apart), econ
+
+Make everything stanza, type=“chorus” || “verse”
+
+advice, warning, 
+
