@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Barış Manço</artist><title>Kayaların Oğlu</title><album>2023</album><year>1975</year><source>http://www.akormerkezi.com/baris-manco-kayalarin-oglu-sarki-sozu_sarki-jvhrdf.html</source></metadata>
+<!-->This should probably get split into multiple stanzas but too lazy to do that at the moment<-->
+<stanza type='verse'><line><past when="foundingOfTurkey">1923`ün ılık bir ekim sabahında</past></line>
+<line><past when="foundingOfTurkey"><nature>Kayaların toprağa dikine saplandığı yerde</nature> doğdum</past></line>
+<line>Toprak anayla kaya <family>babanın oğluyum</family> <narrator>ben</narrator></line>
+<line><place where="turkey">Toprak <family>anam sevgi</family></place> dolu, <wealth>bereket dolu</wealth></line>
+<line><place where="turkey">Toprak <family>anam</family></place> sessiz, ama toprak <family>anam</family> dopdolu</line>
+<!-->I'm not sure if 'nature' works as a tag<-->
+<line><place where="turkey">Toprak <family>anam</family> toprak <family>anam</family> <place where="turkey">Anadolu</place></place></line>
+<line><place where='turkey'><family>Babamsa</family></place> <poliWord rl='r'>sağı</poliWord> <poliWord rl='l'>solu</poliWord> belli olmaz</line>
+<line><violence>Bir gürledimi yer yerinden oynar</violence></line>
+<line><!--><pain><-->Göğsünde çatırdamalar olurmuş<!--></pain><--></line>
+<line>Onun için derdi, onun için sayısız irili ufaklı</line>
+<line><nature><!--><bad><-->Kaya parçaları<!--></bad><--> vardır bu <place where='turkey'>topraklarda</place></nature></line>
+<line><address formality="informal" pos="pronoun">Ve <addressee>sen <family>benim oğlum</family></addressee></address></line>
+<line><address formality="informal" pos="pronoun">Ve <addressee>sen <nature>kayaların <family>oğlu</family></nature></addressee></address></line>
+<line>Bu taşı <place where='turkey'>toprağı</place> <nationalism approve='yes'>birarada</nationalism> tutacaksın</line>
+<line>Kolay değil <place where='turkey'>kayaların <family>oğlu</family></place> olmak</line>
+<line><place where='region'>Kuzeyden</place> esen <nature>rüzgara</nature></line>
+<line><place where='region'>Güneyden</place> gelen <nature>kavurucu sıcağa</nature></line>
+<line>Karşı koruyacaksın onları</line>
+<line>Kolay değil, kolay değil</line>
+<line><place where='turkey'>Kayaların <family>oğlu</family></place> olmak</line>
+<line><future>2023`ün ılık bir ekim sabahında</future></line>
+<line><future>Bacaklarımda hafif bir uyuşma ile uyandım</future></line>
+<line><future>Ve sankı yüz yıllık ulu bir <nature>çınar</nature> gibi</future></line>
+<line><future>Kök <nature>salmaya başladım</nature> o sabah</future></line>
+<line><future>Ve ilk kez sağımda solumda asırlardır</future></line>
+<line><future>Durmakta olan diğer çınarları farkettim</future></line>
+<line><future><place where='region'>Doğudan</place> <nature>hafif bir seher yeli yükseldi</nature></future></line>
+<line><future>Ve <nature>asırlık çınarlar</nature> benide aralarına aldılar</future></line>
+<line><future>Ve 2023`ün ılık bir ekim sabahında</future></line>
+<line><future><place where='turkey'>Yeni bir kayaların oğlunun</place> doğuşunu</future></line>
+<line><future><nationalism approve='yes'>Beraberce</nationalism> seyre koyulduk...</future></line></stanza>
+</song>

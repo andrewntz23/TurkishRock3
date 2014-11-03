@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../turkishRock_lyricsSchema%5Bmerge%5D.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Barış Manço</artist><title>Uzun İnce Bir Yoldayım</title><album>2023</album><year>1975</year><source>http://www.akormerkezi.com/baris-manco-uzun-ince-bir-yoldayim-sarki-sozu_sarki-dtfjj.html</source></metadata>
+
+<stanza type='verse'><line><place where="rural">Uzun ince bir yoldayım</place> gidiyorum gündüz gece</line>
+<line>Bilmiyorum ne haldeyim gidiyorum gündüz gece </line>
+<line>Gündüz gece gündüz gece gündüz gece </line>
+<line><past><place where="world">Dünyaya</place> geldiğim anda yürüdüm aynı zamanda</past></line>
+<line>İki kapılı bir anda gidiyorum gündüz gece</line>
+<line>Gündüz gece gündüz gece gündüz gece </line>
+<line>Şaşar Veysel işbu hale gah ağlayı gah güle </line>
+<line>Yetişmek için <place where='abstract'>menzile</place> gidiyorum gündüz gece</line>
+<line>Gündüz gece gündüz gece gündüz gece</line></stanza>
+</song>

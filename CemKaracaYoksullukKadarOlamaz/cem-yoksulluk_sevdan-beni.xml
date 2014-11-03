@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Cem Karaca </artist><title>Sevdan Beni</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/sevdan_beni-2-389.htm</source></metadata>
+
+<stanza type='verse'><line>Sevdan <narrator>beni</narrator></line>
+<line>Terk etmedi <love l='romantic'><narrator>sevdan</narrator></love> <narrator>beni</narrator></line>
+<line><!--><suffering><-->Aç kaldım susuz kaldım<!--></suffering><--></line>
+<line>Ay karanlıktı gecem</line>
+<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator>beni</narrator></line>
+<line>İlle can garip ille can suskun</line>
+<line>Can paramparça</line>
+<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator>beni</narrator></line>
+<line>Ellerim kelepçede</line>
+<line>Tütünsüz uykusuz kaldım</line>
+<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator>beni</narrator></line></stanza>
+</song>

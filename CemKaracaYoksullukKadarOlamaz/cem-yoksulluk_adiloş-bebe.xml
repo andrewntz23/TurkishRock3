@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Cem Karaca </artist><title>Adiloş Bebe</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/adilos_bebe-2-388.htm</source></metadata>
+<!-->fuck these vaccine prices cause we can keep our baby healthy but not eat, btw here's some breast milk<-->
+<stanza type='verse'><line>Doğdun üç gün aç tuttuk</line>
+<line>Üç gün <family>meme vermedik</family> sana</line>
+<line>Adiloş bebem</line>
+<line>Hasta düşmeyesin diye</line>
+<line>Töremiz böyle diye</line>
+<line>Saldır şimdi memeye</line>
+<line>Saldır da büyü</line>
+<line>Adiloş <family>bebem</family></line></stanza>
+<break/>
+<stanza type='verse'><line>Bunlar engerekler ve çıyanlardır</line>
+<line><poverty>Bunlar aşımıza ekmeğimize göz koyanlardır</poverty></line>
+<line>Tanı bunları tanı da büyü</line>
+<line>Adiloş <family>bebem</family></line></stanza>
+<break/>
+<stanza type='verse'><line>Bu namustur künyemize kazınmış</line>
+<line>Bu da sabır ağulardan süzülmüş</line>
+<line>Sarıl bunlara sarıl da büyü</line>
+<line>Adiloş <family>bebem</family></line></stanza>
+</song>

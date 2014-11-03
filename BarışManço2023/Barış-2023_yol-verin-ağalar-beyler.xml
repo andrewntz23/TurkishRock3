@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Barış Manço</artist><title>Yol Verin Ağalar Beyler</title><album>2023</album><year>1975</year><source>http://www.akormerkezi.com/baris-manco-yol-verin-agalar-beyler</source></metadata>
+<!-->I think like all of Barış Manço's songs are about journeying, tbh...<-->
+<stanza type='verse'><line><address formality='formal'>Selam olsun <addressee>ağalar beyler</addressee> <nature>mor sümbüllü alaca dağlar</nature></address></line>
+<line><address formality='formal' pos='verb' mood='imp'><addressee/>Yol verin hele bir yol geçeyim</address></line>
+<line><address formality='formal' pos='verb' mood='imp'><addressee/>Yol verin <love l='romantic'>yare kavuşayım</love></address></line>
+<line><address formality='formal' pos='verb' mood='imp'>Yol verin <addressee>ağalar beyler</addressee> bitsin bu <love l='romantic'>hasret</love></address></line>
+</stanza>
+<break/>
+<!--> Commented out lines do not occur. <line>Bekledim tam yedi iklim geçti</line>
+<line>Bekledim bağ bahçe bozuldu</line><-->
+<stanza type='chorus'><line>Yol verin ağalar beyler</line></stanza>
+<break/>
+<!--> bitsin bu hasret</line><-->
+<stanza type='verse'>   
+<line><nature>Seherde esen ılık rüzgar hasretliği çekenler anlar</nature></line>
+<line><address formality='formal' pos='verb' mood='imp'><addressee/>Yol verin hele bir yol geçeyim</address></line>
+<line><address formality='formal' pos='verb' mood='imp'><addressee/>Yol verin <love l='romantic'>yare kavuşayım</love></address></line>
+<line><address formality='formal' pos='verb' mood='imp'>Yol verin <addressee>ağalar beyler</addressee> bitsin bu <love l='romantic'>hasret</love></address></line>
+</stanza>
+<break/>
+<stanza type='chorus'><line><address formality='formal' pos='verb' mood='imp'>Yol verin <addressee><class classtype='upper'>ağalar</class> beyler</addressee></address></line></stanza>
+<break/>
+</song>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Cem Karaca </artist><title>Bir Öğretmene Ağıt</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/bir_ogretmene_agit-2-341.htm</source></metadata>
+
+<stanza type='verse'><line>Bu gün okul yok artık çocuklar</line>
+<line>Ama yarın mutlaka açılır</line>
+<line>Ellerimi hemen, kavuşturmayın ne olur</line>
+<line>Bırakın bırakın bırakın biraz daha yatayım</line>
+<line>Başıma değen taşlar çocuklar</line>
+<line><violence>Şakağımdan sızan kan</violence></line>
+<line>Ağlamayın, ağlamayın, ağlamayın çocuklar</line>
+<line>O ellerde bir gün kırılır</line>
+<line>Kapatın gözlerimi bağlayın çenemi</line>
+<line>Ben toprağa hazırım</line>
+<line>Yanında yer ayır <military forNot="yes">Kubilay Teğmenim</military></line>
+<line><place where='rural'><poverty>Yoksul</poverty> bir köyde</place> <narrator>öğretmenim</narrator></line>
+<line>Biliyorum bütün kabahat bende <communism>öğretmen oluşumda</communism></line>
+<line>Ve saklamamamda aydınlık düşüncelerimi</line>
+<line><nationalism>Ama ben Cumhuriyette doğdum, Cumhuriyet çocuğuyum</nationalism></line>
+<line>Olamaz <communism>öğretmen oluşum</communism> suçum</line></stanza>
+</song>
