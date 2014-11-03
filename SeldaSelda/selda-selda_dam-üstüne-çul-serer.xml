@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Selda Bağcan</artist><title>Dam Üstüne Çul Serer</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=183485&amp;sarki=Dam%20%DCst%FCne%20%C7ul%20Serer&amp;sarkici=Selda%20Ba%F0can</source></metadata>
+
+<stanza type='verse'><line>Dam üstüne çul serer</line>
+<line>Leyli de yar loylu da yar</line>
+<line>Loy loy loy</line>
+<line>Bilmem yar kimi sever</line></stanza>
+<break/>
+<stanza type='verse'><line>A leylim nenni de kınalım</line>
+<line>Nenni de belalım nenni de nenni</line></stanza>
+<break/>
+<stanza type='verse'><line>Onun bir sevdiği var</line>
+<line>Leyli de yar loylu da yar</line>
+<line>Loy loy loy</line>
+<line>Günde on çeşit giyer</line></stanza>
+<break/>
+<stanza type='verse'><line>Al taşı kaldırsalar</line>
+<line>Leyli de yar loylu da yar</line>
+<line>Loy loy loy</line>
+<line>Yılanı öldürseler</line></stanza>
+<break/>
+<stanza type='verse'><line>Küçükten yar seveni</line>
+<line>Leyli de yar loylu da yar</line>
+<line>Loy loy loy</line>
+<line>Cennete gönderseler</line></stanza>
+</song>

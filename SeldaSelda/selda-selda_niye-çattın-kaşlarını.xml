@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Selda Bağcan</artist><title>Niye Çattın Kaşlarını</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=183530&amp;sarki=Niye%20%C7att%FDn%20Ka%FElar%FDn%FD&amp;sarkici=Selda%20Ba%F0can</source></metadata>
+
+<stanza type='verse'><line><address formality='informal' pos='verb'>Niye <addressee>çattın kaşlarını</addressee></address></line>
+<line>Bilmiyom yar <addressee><love l='romantic'>suçlarını</love></addressee></line>
+<line><death><narrator>Ben</narrator> ölürsem</death> saçlarını</line>
+<line><address formality='informal' pos='noun'>Yolma gayrı yolma <addressee>leyli leyli</addressee> yar</address></line></stanza>
+<break/>
+<stanza type='verse'><line>Ben düştüm <love l='romantic'>aşkın narına</love></line>
+<line>Meyletmem <place where='world'>dünya</place> malına</line>
+<line><death><narrator>Ben ölürsem</narrator></death> <place where='abstract'>mezarıma</place></line>
+<line><address formality='informal' pos='noun'>Gelme gayrı gelme <addressee>leyli leyli</addressee> yar</address></line></stanza>
+<break/>
+<stanza type='verse'><line><narrator>Bir garibim düştüm dile</narrator></line>
+<line>Gerçeklerde olmaz hile</line>
+<line>Zalimler elinden bile</line>
+<line><address formality='informal' pos='noun'>Alma gayrı alma <addressee>leyli leyli</addressee> yar</address></line></stanza>
+</song>

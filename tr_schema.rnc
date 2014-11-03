@@ -1,0 +1,105 @@
+#ARGH!
+start = song
+song = element song {metadata, (stanza|break)*}
+metadata = element metadata {artist, title, album, year, source}
+stanza = element stanza {type, line+, text}
+type = attribute type {'chorus' | 'verse' | 'monologue' }
+artist = element artist {politicalA?, text}
+title = element title {text}
+album = element album {text}
+year = element year {xsd:int}
+source = element source {text}
+politicalA = attribute politicalA {text} #Right or left
+
+
+line = element line { (text|family|poverty|death|m|aşık|address|nature|addressee|friendship|love|nature|past|future|wealth|narrator|place|youth|poliWord|curse|sac|sarc|critAtt|emp|islam|allah|family|economic|war|military|nationalism|communism|poverty|coup|drugs|morals|class|place|race|violence|neglect|econ|friendship|future|warning)*  }
+
+address = element address {formality, neglect?, pos?, voice?, evid?, mood?, tense?, aspect?, (addressee|love|class|place|narrator|drugs|violence|econ|family|future|nature|friendship|warning|text)+}
+formality = attribute formality {'formal' | 'informal'}
+addressee = element addressee {atype*, (place|love|allah|family|nature|text|class)+}
+atype = attribute atype{'romantic'}
+pos = attribute pos {'noun' |'pronoun'| 'verb' | 'adj' | 'adv'|'posessive-factual-2p'}
+#neg = attribute neg {'true' | 'false'}
+evid = attribute evid {'true' | 'false'}
+mood = attribute mood {'imp'|'imp-neg' | 'cond' | 'subj' | 'fac' | 'abil' | 'caus'}
+tense = attribute tense {'present' | 'aorist'| 'past' | 'future' | 'nonpast'}
+aspect = attribute aspect {'perfect' | 'imperfect'}
+voice = attribute voice{'passive'|'active'}
+
+place = element place {where, (text|neglect|nature|place|class|family)+}
+journey = element journey{where, (text|nature|place)+}
+where = attribute where {('home' |'region'| 'general'| 'rural' | 'urban' | 'turkey' | 'foreign'| 'world' | 'abstract')}
+nature = element nature{(text|family|place|address|wealth)+}
+nationalism = element nationalism { approve, (narrator|place|nature|text)+ }
+approve = attribute approve { text } #yes or no of nationalism
+
+violence = element violence {(family|target|text)+}
+target = element target {(text|youth)*} #object of violence
+neglect = element neglect {(text|family|death|place)+}
+death = element death {(text|narrator)+}
+econ = element econ {(place|text)+} #economic problems
+#injustice
+
+future = element future {(text|place|nature|nationalism|addressee|narrator|wealth)+}
+past = element past {when?, (text|nature|love|place)+}
+when = attribute when{'foundingOfTurkey'|text}
+
+narrator = element narrator {number?,(text|place|death)+}
+number = attribute number {xsd:int}
+
+class = element class {classtype, (place|class|narrator|violence|text)+}
+classtype = attribute classtype{ 'upper' | 'middle' | 'lower' | 'working'}
+
+warning = element warning {text}
+wealth = element wealth{text}
+poverty = element poverty {(nature|text)+}
+crime = element crime {text}
+#corruption
+
+#rep = element rep{count, text}
+#count = attribute count{thing that means numbers!!!}
+
+family = element family { (text|narrator)+ }
+friendship = element friendship {text}
+youth = element youth{text}
+love = element love{l, (text|narrator|family)+}
+l = attribute l{'romantic'|'platonic'|'religious'}
+
+break = element break {instr*, scale*} #musical break
+instr = attribute instr { text } #what instrements are prominent
+scale = attribute scale { text } #choose major or minor
+
+poliWord = element poliWord { rl, text } #any word from the list of politically charged words - peace, concede land, remove troops
+rl = attribute rl { text } #right or left referencing word (ie which party the context of the word pts to
+
+allah = element allah { text } #ref specifically to god
+m = element m {text} #a particular type of wordplay
+aşık = element aşık {text} #ref to a folksinger
+
+curse = element curse { degree, text }
+degree = element degree { text } #choose minor, offensive, or banned word
+sac = element sac { text } #sacrilige against Islam
+sarc = element sarc { text } #any obvious sarcasm
+critAtt = element critAtt {text} #criticism of Attaturk
+emp = element emp {empDegree, text } #clear empathy or support of Kurds
+empDegree = attribute empDegree { text } #Support or just not hate
+
+islam = element islam {i, text } #ref to practice of Islam
+i = attribute i {text} #specific school or type of Islam
+
+economic = element economic {negOrPos, text } #turkey's econ policy
+negOrPos = attribute negOrPos {text} #choose neg or pos view of turkey's econ policy
+war = element war { text } #there def needs to be an attribute here, but the songs will dictate it
+military = element military { forNot, text } 
+forNot = attribute forNot { text } #for or against military
+coup = element coup {whichCoup?, proCon?, text }
+whichCoup = attribute whichCoup {text} #1980, 1971, 1960, 1913
+proCon = attribute proCon { text } #pro or con coup
+communism = element communism { wantC?, text }
+wantC = attribute wantC { text } #want communism or not (Y or N)
+drugs = element drugs { take?, text } #includes alcohal and all banned substances
+take = attribute take { text } #for or against illicit substances
+morals = element morals { trad, text }
+trad = attribute trad { text } #traditional or modern
+race = element race { eq, text }
+eq = attribute eq { text } #call for equality or seperation?

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Selda Bağcan</artist><title>Gine Haber Gelmiş</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=183532&amp;sarki=Gine%20Haber%20Gelmi%FE&amp;sarkici=Selda%20Ba%F0can</source></metadata>
+
+<stanza type='verse'><line>Gine haber gelmiş dostun elinden</line>
+<line>Durmayıp sevdiğim, gelesin demiş</line>
+<line>Bergüzar göndermiş zülfün telinden</line>
+<line>Saldığım haberden bilesin demiş</line></stanza>
+<break/>
+<stanza type='verse'><line>Böyle selam salmış kaşlar' karam</line>
+<line>Tazelendi yine yürekten yaram</line>
+<line>Yardan haber gelmiş ben nasıl duram</line>
+<line>Tez günler içinde gelesin demiş</line></stanza>
+</song>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Selda Bağcan</artist><title>nasırlı eller</title><album>Selda</album><year>1976</year><source>https://eksisozluk.com/nasirli-eller--3605352</source></metadata>
+
+<stanza type='verse'><line>bak ellerim nasırlı ve yorgun</line>
+<line>gözler yaşlı, çatlamış topraklar</line>
+<line>kan ağlıyor burada bir insan</line>
+<line>ne ilk ne de son matem bu</line></stanza>
+<break/>
+<stanza type='verse'><line>ne bir han, ne mahşer yıktı bu dünyayı</line>
+<line>sorarım, kim aldı benden seni</line></stanza>
+<break/>
+<stanza type='verse'><line>allahım yalvarırım acı bana</line>
+<line>kabul et bu şarkıyı ondan yana</line>
+<line>gözlerim arıyor bak boş yerlerde</line>
+<line>ölümdür tek çare bana</line></stanza>
+<break/>
+<stanza type='verse'><line>can veriyor insanlar derinde</line>
+<line>son demini yaşıyor biçilen</line>
+<line>bir geçici misafirdir sade</line>
+<line>gel, yer solgun, sarı yüzler</line></stanza>
+<break/>
+<stanza type='verse'><line>ne bir han, ne mahşer yıktı bu dünyayı</line>
+<line>sorarım, kim aldı benden seni</line></stanza>
+<break/>
+<stanza type='verse'><line>allahım yalvarırım acı bana</line>
+<line>kabul et bu şarkıyı ondan yana</line>
+<line>gözlerim arıyor bak boş yerlerde</line>
+<line>ölümdür tek çare bana</line></stanza>
+<break/>
+<stanza type='verse'><line>allahım yalvarırım acı bana</line>
+<line>kabul et bu şarkıyı ondan yana</line>
+<line>gözlerim arıyor bak boş yerlerde</line>
+<line>ölümdür tek çare bana</line></stanza>
+<break/>
+<stanza type='verse'><line>ölümdür tek çare bana</line></stanza>
+<break/>
+<stanza type='verse'><line>ne olur, al bu canı ondan yana</line></stanza>
+</song>

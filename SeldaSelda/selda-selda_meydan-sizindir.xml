@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<!-->This is a (very nearly finished) work in progress!!<-->
+<?xml-model href="../turkishRock_lyricsSchema%5Bmerge%5D.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Selda Bağcan</artist><title>Meydan Sizindir</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=183527&amp;sarki=Meydan%20Sizindir&amp;sarkici=Selda%20Ba%F0can</source></metadata>
+<!-->There's a monologue before the first verse not included in the lyrics from the internet. Otherwise, it is good<-->
+<stanza type="verse"><line>Soyulmadık bir derimiz kalmıştı</line>
+<!-->Make it one address tag<-->
+<line><address formality="formal">Soyun babo soyun</address>, <address formality="formal" pos="posessive-factual-2p"><place where='urban'>meydan</place> <addressee>sizindir</addressee></address></line>
+<line><friendship>Hiçbir canlı kardeşine</friendship> kıyamaz<!-->will not stand up<--></line>
+<line><address formality="formal">Kıyın <addressee>babo</addressee> kıyın,</address> <address formality="formal" pos="posessive-factual-2p"><place where='urban'>meydan</place> <addressee>sizindir</addressee></address></line></stanza>
+<!-->So the lines here mean "The world is ours." How do we want to structure this in a tree?<-->
+<stanza type="chorus">
+<line><address formality="formal"><time>Bugün <addressee>sizin</addressee></time> ama <time>yarın <narrator>bizimdir</narrator></time></address></line>
+<line><place type='universal'>Dünya <narrator>bizimdir</narrator></place>, <place>evren</place> <narrator>bizimdir</narrator></line>
+<line><friendship>Dostluk</friendship> <narrator>bizimdir</narrator>, <friendship>kardeşlik</friendship> <narrator>bizimdir,</narrator> <addressee>dost</addressee></line></stanza>
+<break/>
+<stanza type="verse"><line>Toprağa karışmış fakirin teri</line>
+<line><neglect_or_something>Ağlamak</neglect_or_something> bilir mi beylerin biri</line>
+<line><addressee>Size</addressee> <addressee>beyefendi</addressee>, <narrator>bize</narrator> serseri</line>
+<line><address formality="formal" pos="verb">Deyin <addressee>bab</addressee>, deyin,</address> <address formality="formal" pos="posessive-factual-2p"><place>meydan</place> <addressee>sizindir</addressee></address></line></stanza>
+<break/>
+<!-->Chorus Goes Here<-->
+
+<stanza type="chorus"><line>Kıyas edilir mi <class type="low">çul</class> ile <class type="middle-high">halı</class></line>
+<line><!-->Who made us this way?<-->Kimler yaptı <narrator>bize</narrator> böyle bir yolu</line>
+<line><!-->Will the food end before it meets the nation's needs<--> <!-->SHOULD BE A TAG HERE, NOT SURE WHAT FOR<-->Yemekle biter mi <location><nationalism>milletin</nationalism></location> malı</line>
+<line><!-->Eat, boss, eat. The square is yours<--><address>Yeyin <addressee>babo</addressee> yeyin, <place>meydan <addressee>sizindir</addressee></place></address></line></stanza>
+<!-->In this case, the square is yours is an indication of the mad power of the addressee, who though
+treated with respect is responsible for lots of problems for people<-->
+
+<!-->Chorus Goes Here<-->
+</song>

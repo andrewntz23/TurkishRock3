@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Selda Bağcan</artist><title>İnce İnce Bir Kar Yağar</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=183528&amp;sarki=%DDnce%20%DDnce%20Bir%20Kar%20Ya%F0ar&amp;sarkici=Selda%20Ba%F0can</source></metadata>
+
+<stanza type='verse'><line><poverty><nature>İnce ince bir kar</nature> yağar fakirlerin üstüne</poverty></line>
+<line>Neden felek <neglect>inanmıyor fukaranın sözüne</neglect></line>
+<line><address formality='formal' pos='noun'><neglect><death>Öldük öldük</death> biz açlıktan</neglect> etme <addressee>ağam</addressee> n'olur.</address></line></stanza>
+<break/>
+<stanza type='verse'><line><class classtype='upper'>Kimi mebus kimi vali</class> <narrator>bize tahsil haramdır</narrator></line>
+<line><address formality='informal' pos='pronoun'>Dayanamam artık <addressee>senin bu yalancı pozuna</addressee></address></line>
+<line><narrator>Yandık yandık bize okul bize yol bize hayat</narrator></line>
+<line><address formality='formal' pos='noun'>Etme <addressee>ağam</addressee> n'olur n'olur n'olur n'olur n'olur n'olur.</address></line></stanza>
+<break/>
+<stanza type='verse'><line><neglect><death>Adam mı ölür</death> yol yapılınca</neglect></line>
+<line>Okul olunca hayat bulunca</line>
+<line><address formality='formal'><addressee/>n'olur n'olur n'olur n'olur n'olur…</address></line></stanza>
+<break/>
+<stanza type='verse'><line><place where='urban'>İstanbul'un</place> benzemiyor neden <place where='rural'>o urfalara</place></line>
+<line><place where='rural'><neglect>Yoksul</neglect> maraş</place> <place where='rural'><neglect>susuz</neglect> urfa</place> ya <place where='rural'>diyarbakırların</place>?</line>
+<line><narrator>Yandık yandık <death>öldük öldük</death></narrator> <poverty>bir yudum su</poverty></line>
+<line><address formality='formal' pos='noun'>Etme <addressee>ağam</addressee> n'olur…</address></line></stanza>
+<break/>
+<stanza type='verse'><line><death>Öldük öldük</death> bir mektup yaz yapma ağam</line>
+<line>N'olur n'olur n'olur n'olur n'olur n'olur…</line></stanza>
+<break/>
+<stanza type='verse'><line><neglect><death>Adam mı ölür</death> toprak verince</neglect></line>
+<line><love l='religious'>İnsan sevince kendin bilince.</love></line></stanza>
+<break/>
+<stanza type='verse'><line><address formality='formal'><addressee/>N'olur n'olur n'olur n'olur n'olur…</address></line></stanza>
+<break/>
+<stanza type='verse'><line><address formality='informal'><addressee>Sen</addressee> <family>anandan</family> <narrator>ben</narrator> <family>babamdan</family> <class classtype='middle'><class classtype='upper'>ağa</class> <narrator>doğmadık</narrator></class> <addressee>dostum</addressee></address></line>
+<line><address formality='informal' pos='pronoun'>Gel <friendship>beraber yaşayalım</friendship> sanma ki <addressee>sana</addressee> küstüm</address></line>
+<line><address formality='informal' pos='noun'>Yandım yandım ayrı gezme etme <addressee>gardaş</addressee></address></line>
+<line><address formality='informal'><addressee/>N'olur n'olur n'olur n'olur n'olur n'olur…</address></line></stanza>
+<break/>
+<stanza type='verse'><line><neglect><death>Adam mı ölür</death> toprak verince</neglect></line>
+<line><econ>Borç ödeyince</econ> <love l='religious'>kendin bilince</love></line>
+<line><address formality='informal' pos='noun'>N'olur n'olur n'olur <addressee>gardaş</addressee> n'olur</address></line></stanza>
+</song>

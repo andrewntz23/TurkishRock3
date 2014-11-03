@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Selda Bağcan</artist><title>Yaz gazeteci yaz</title><album>Selda</album><year>1976</year><source>http://lyricstranslate.com/en/yaz-gazeteci-yaz-write-journalist-write.html</source></metadata>
+
+<stanza type="verse"><line><address formality='informal' pos='verb' mood='imp'>Aman <addressee>gazeteci</addressee> gel<narrator>bizim <place where='rural'>köye</place></narrator><narrator>bizim halları</narrator> da yaz</address></line>
+<line><address formality='informal' pos='verb' mood='imp-neg'><place where='urban'>Şehirde</place> <class type="upper">ojeli parmakları</class> yazma</address></line>
+<line>Bir de <narrator>bizim <place where='rural'>köyde</place></narrator> <class type="working">nasırlanmış</class> elleri de</line></stanza>
+<break/>
+<stanza type="chorus"><line><address formality='informal' pos='verb'>Yaz yaz <addressee>gazeteci</addressee> yaz,</address></line>
+<line><address formality='informal' pos='verb'>yaz yaz <addressee>efendi</addressee> yaz</address></line></stanza>
+<break/>
+<stanza type="verse"><line><address formality='informal' pos='verb' mood='imp-neg'><class type="upper">Bankada parası olan kulları</class> yazma</address></line>
+<line><address formality='informal' pos='verb' mood='imp-neg'>Onlara aldanıp yolundan azma</address></line>
+<line><address formality='informal' pos='verb' mood='imp-neg'><place where='urban'>Şehirden</place> asfalt geçen yolları yazma</address></line>
+<line>Bir de <narrator>bizim <place where='rural'>köyden</place></narrator> <neglect>eşek geçmeyen yolları</neglect></line></stanza>
+<break/>
+<stanza type="chorus"><line><address formality='informal' pos='verb'>Yaz yaz <addressee>gazeteci</addressee> yaz,</address></line>
+<line><address formality='informal' pos='verb'>yaz yaz <addressee>efendi</addressee> yaz</address></line></stanza>
+<break/>
+<stanza type="verse"><line>Şöhretten bunalmış dilleri <address formality='informal' pos='verb' mood='imp-neg'>yazma</address></line>
+<line><address formality='informal' pos='verb' mood='imp-neg'><class type="upper">Kendi bahçendeki gülleri</class> yazma</address></line>
+<line><address formality='informal' pos='verb' mood='imp-neg'><violence><!--><injustice></-->Haksız<!--></injustice><--> yere genç öldüren elleri</violence> yazma</address></line>
+<line><neglect><place where='rural'>Doğuda</place> doktorsuz ölen</neglect> kulları</line></stanza>
+<break/>
+<stanza type="chorus"><line><address formality='informal' pos='verb'>Yaz yaz <addressee>gazeteci</addressee> yaz,</address></line>
+<line><address formality='informal' pos='verb'>yaz yaz <addressee>efendi</addressee> yaz</address></line></stanza>
+<break/>
+<stanza type="verse"><line><address formality='informal' pos='verb' mood='imp-neg'><class type="working"><place where="foreign">Almanya'da</place> çalışan elleri</class> yazma</address></line>
+<line><address formality='informal' pos='verb' mood='imp-neg'><econ><place where="foreign">Libya'ya</place> gidecek olanlara</econ> şaşma</address></line>
+<line><address formality='informal' pos='verb' mood='imp-neg'><violence><family>Evi barkı</family> yıkılanları</violence> yazma</address></line>
+<line>Bir de <place where='turkey'>türkiye'de</place> <class type="working"><violence><family>dul kalan</family></violence> kulları</class> da</line></stanza>
+<break/>
+<stanza type="chorus"><line><address formality='informal' pos='verb'>Yaz yaz <addressee>gazeteci</addressee> yaz,</address></line>
+<line><address formality='informal' pos='verb'>yaz yaz <addressee>efendi</addressee> yaz</address></line></stanza>
+</song>

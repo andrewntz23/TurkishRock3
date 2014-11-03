@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
+<song>
+<metadata><artist>Selda Bağcan</artist><title>Dost Uyan</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=183526&amp;sarki=Dost%20Uyan&amp;sarkici=Selda%20Ba%F0can</source></metadata>
+
+<stanza type='verse'><line>Bu uykudan böyle bir ses</line>
+<line>Duy uyan etme uyan</line>
+<line>Uyku bir can olsa bile</line>
+<line>Kıy uyan gardaş uyan</line></stanza>
+<break/>
+<stanza type='verse'><line>Uyku tembel niyetidir</line>
+<line>Aç gözünü hayat nedir</line>
+<line>Gittiğin yol çok kötüdür</line>
+<line>Çay uyan halkım uyan</line></stanza>
+<break/>
+<stanza type='verse'><line>Ateş düşmüş döşeğine</line>
+<line>Sen gene uyursun gene</line>
+<line>Elini vicdan üstüne</line>
+<line>Koy uyan nolur uyan</line></stanza>
+<break/>
+<stanza type='verse'><line>Kazanmadan yemek ayıp</line>
+<line>İnsan hakkı olur kayıp</line>
+<line>Tek benim sırtımdan soyup</line>
+<line>Doy uyan yapma uyan</line></stanza>
+<break/>
+<stanza type='verse'><line>Uyuyanın kazancı olmaz</line>
+<line>İnsana bir vefa gelmez</line>
+<line>Bir daha Mahzuni gelmez</line>
+<line>Say uyan dostum uyan</line></stanza>
+</song>
