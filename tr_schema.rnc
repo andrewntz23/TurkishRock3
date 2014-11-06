@@ -21,7 +21,7 @@ atype = attribute atype{'romantic'}
 pos = attribute pos {'noun' |'pronoun'| 'verb' | 'adj' | 'adv'|'posessive-factual-2p'}
 #neg = attribute neg {'true' | 'false'}
 evid = attribute evid {'true' | 'false'}
-mood = attribute mood {'imp'|'imp-neg' | 'cond' | 'subj' | 'fac' | 'abil' | 'caus'}
+mood = attribute mood {'imp'|'imp-neg' | 'cond' | 'subj' | 'fac' | 'abil' | 'caus'|'pas'}
 tense = attribute tense {'present' | 'aorist'| 'past' | 'future' | 'nonpast'}
 aspect = attribute aspect {'perfect' | 'imperfect'}
 voice = attribute voice{'passive'|'active'}
@@ -62,7 +62,7 @@ crime = element crime {text}
 family = element family { (text|narrator)+ }
 friendship = element friendship {text}
 youth = element youth{text}
-love = element love{l, (text|narrator|family)+}
+love = element love{l, (text|narrator|address|family)+}
 l = attribute l{'romantic'|'platonic'|'religious'}
 
 break = element break {instr*, scale*} #musical break
@@ -72,7 +72,7 @@ scale = attribute scale { text } #choose major or minor
 poliWord = element poliWord { rl, text } #any word from the list of politically charged words - peace, concede land, remove troops
 rl = attribute rl { text } #right or left referencing word (ie which party the context of the word pts to
 
-allah = element allah { text } #ref specifically to god
+allah = element allah { (narrator|text)+ } #ref specifically to god
 m = element m {text} #a particular type of wordplay
 aşık = element aşık {text} #ref to a folksinger
 

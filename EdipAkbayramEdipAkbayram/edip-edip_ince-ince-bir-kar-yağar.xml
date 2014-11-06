@@ -3,23 +3,23 @@
 <song>
 <metadata><artist>Edip Akbayram</artist><title>İnce İnce Bir Kar Yağar</title><album>Edip Akbayram</album><year>1974</year><source>http://www.sarkisozum.gen.tr/edip-akbayram/ince-ince-bir-kar-yagar-sarkisozu</source></metadata>
 
-<stanza type='verse'><line>İnce ince bir kar yağar</line>
-<line>Fakirlerin üstüne</line>
-<line>Neden felek inanmıyor</line>
+<stanza type='verse'><line><nature>İnce ince bir kar</nature> yağar</line>
+<line><poverty>Fakirlerin üstüne</poverty></line>
+<line>Neden <neglect>felek inanmıyor</neglect></line>
 <line>Gariplerin sözüne</line>
-<line>Yandım yandım bana of of</line>
-<line>Etme ağam nolur nolur</line></stanza>
+<line><narrator>Yandım yandım bana of of</narrator></line>
+<line><address formality='informal' pos='verb'>Etme <addressee>ağam</addressee> nolur nolur</address></line></stanza>
 <break/>
-<stanza type='verse'><line>Adam mı ölür toprak verince</line>
+<stanza type='chorus'><line><neglect>Adam mı <death>ölür</death> toprak verince</neglect></line>
 <line>Hayat sevince nolur nolur</line></stanza>
 <break/>
-<stanza type='verse'><line>Sen anandan ben babamdan</line>
-<line>Ağa doğmadık dostum</line>
-<line>Gel beraber yaşayalım</line>
-<line>Sanma ki sana küstüm</line>
-<line>Yandık yandık bize of of</line>
-<line>Etme ağam nolur nolur</line></stanza>
+<stanza type='verse'><line><address formality='informal' pos='pronoun'><addressee>Sen</addressee> <family>anandan</family> <narrator>ben</narrator> <family>babamdan</family></address></line>
+<line><address formality='informal' pos='noun'><narrator>Ağa doğmadık</narrator> <addressee>dostum</addressee></address></line>
+<line><address formality='informal' pos='verb' mood='imp'>Gel <friendship>beraber yaşayalım</friendship></address></line>
+<line><address formality='informal' pos='pronoun'>Sanma ki <addressee>sana</addressee> küstüm</address></line>
+<line><narrator>Yandık yandık bize of of</narrator></line>
+<line><address formality='informal' pos='verb'>Etme <addressee>ağam</addressee> nolur nolur</address></line></stanza>
 <break/>
-<stanza type='verse'><line>Adam mı ölür toprak verince</line>
-<line>Hayat sevince nolur nolur </line></stanza>
+<stanza type='chorus'><line><neglect>Adam mı <death>ölür</death> toprak verince</neglect></line>
+<line>Hayat sevince nolur nolur</line></stanza>
 </song>

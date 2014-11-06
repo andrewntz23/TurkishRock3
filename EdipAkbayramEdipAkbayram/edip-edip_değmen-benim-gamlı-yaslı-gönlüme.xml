@@ -3,19 +3,19 @@
 <song>
 <metadata><artist>Edip Akbayram</artist><title>Değmen Benim Gamlı Yaslı Gönlüme</title><album>Edip Akbayram</album><year>1974</year><source>http://sarki.alternatifim.com/data.asp?ID=2804&amp;sarki=De%F0men%20Benim%20Gaml%FD%20Yasl%FD%20G%F6nl%FCme&amp;sarkici=Edip%20Akbayram</source></metadata>
 
-<stanza type='verse'><line>Değmen benim gamlı yaslı gönlüme</line>
-<line>Ben bir selvi boylu yardan</line>
-<line>Ayrıldım, ayrıldım, ayrıldım oy</line></stanza>
+<stanza type='verse'><line>Değmen <narrator>benim</narrator> gamlı yaslı gönlüme</line>
+<line><narrator>Ben</narrator> bir selvi boylu yardan</line>
+<line><narrator>Ayrıldım, ayrıldım, ayrıldım oy</narrator></line></stanza>
 <break/>
 <stanza type='verse'><line>Evvel bağban idim dostun bağında</line>
 <line>Talan vurdu ayva nardan</line>
-<line>Ayrıldım, ayrıldım, ayrıldım oy</line></stanza>
+<line><narrator>Ayrıldım, ayrıldım, ayrıldım</narrator> oy</line></stanza>
 <break/>
 <stanza type='verse'><line>Garip kaldım şimdi gurbet ellerde</line>
-<line>Ben gönlümü çalan yardan</line>
-<line>Ayrıldım, ayrıldım, ayrıldım oy</line></stanza>
+<line><narrator>Ben</narrator> gönlümü çalan yardan</line>
+<line><narrator>Ayrıldım, ayrıldım, ayrıldım oy</narrator></line></stanza>
 <break/>
-<stanza type='verse'><line>Çok ağladım Mecnun gibi çöllerde</line>
+<stanza type='verse'><line><love l='romantic'>Çok <narrator>ağladım</narrator> Mecnun gibi çöllerde</love></line>
 <line>Ferhat gibi şîrin yardan</line>
-<line>Ayrıldım, ayrıldım, ayrıldım oy</line></stanza>
+<line><narrator>Ayrıldım, ayrıldım, ayrıldım oy</narrator></line></stanza>
 </song>

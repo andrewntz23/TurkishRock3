@@ -3,18 +3,18 @@
 <song>
 <metadata><artist>Selda Bağcan</artist><title>nasırlı eller</title><album>Selda</album><year>1976</year><source>https://eksisozluk.com/nasirli-eller--3605352</source></metadata>
 
-<stanza type='verse'><line>bak ellerim nasırlı ve yorgun</line>
-<line>gözler yaşlı, çatlamış topraklar</line>
+<stanza type='verse'><line><address formality='informal' pos='verb' mood='imp'><addressee/>bak <narrator>ellerim nasırlı ve yorgun</narrator></address></line>
+<line><narrator>gözler yaşlı, çatlamış topraklar</narrator></line>
 <line>kan ağlıyor burada bir insan</line>
 <line>ne ilk ne de son matem bu</line></stanza>
 <break/>
-<stanza type='verse'><line>ne bir han, ne mahşer yıktı bu dünyayı</line>
-<line>sorarım, kim aldı benden seni</line></stanza>
+<stanza type='verse'><line>ne bir <place where='general'>han</place>, ne <place where='world'>mahşer yıktı bu dünyayı</place></line>
+<line><address formality='informal' pos='pronoun'>sorarım, kim aldı <narrator>benden</narrator> <addressee>seni</addressee></address></line></stanza>
 <break/>
-<stanza type='verse'><line>allahım yalvarırım acı bana</line>
-<line>kabul et bu şarkıyı ondan yana</line>
-<line>gözlerim arıyor bak boş yerlerde</line>
-<line>ölümdür tek çare bana</line></stanza>
+<stanza type='chorus'><line><address formality='formal' pos='verb' tense='aorist'><addressee><allah>allahım</allah></addressee> yalvarırım acı <narrator>bana</narrator></address></line>
+<line><address formality='informal' pos='verb' mood='imp'>kabul et bu şarkıyı ondan yana</address></line>
+<line><address formality='informal' pos='verb' mood='imp'><narrator>gözlerim arıyor</narrator><addressee/> bak boş yerlerde</address></line>
+<line><death>ölümdür</death> tek çare <narrator>bana</narrator></line></stanza>
 <break/>
 <stanza type='verse'><line>can veriyor insanlar derinde</line>
 <line>son demini yaşıyor biçilen</line>
@@ -24,17 +24,17 @@
 <stanza type='verse'><line>ne bir han, ne mahşer yıktı bu dünyayı</line>
 <line>sorarım, kim aldı benden seni</line></stanza>
 <break/>
-<stanza type='verse'><line>allahım yalvarırım acı bana</line>
-<line>kabul et bu şarkıyı ondan yana</line>
-<line>gözlerim arıyor bak boş yerlerde</line>
-<line>ölümdür tek çare bana</line></stanza>
+<stanza type='chorus'><line><address formality='formal' pos='verb' tense='aorist'><addressee><allah>allahım</allah></addressee> yalvarırım acı <narrator>bana</narrator></address></line>
+<line><address formality='informal' pos='verb' mood='imp'>kabul et bu şarkıyı ondan yana</address></line>
+<line><address formality='informal' pos='verb' mood='imp'><narrator>gözlerim arıyor</narrator><addressee/> bak boş yerlerde</address></line>
+<line><death>ölümdür</death> tek çare <narrator>bana</narrator></line></stanza>
 <break/>
-<stanza type='verse'><line>allahım yalvarırım acı bana</line>
-<line>kabul et bu şarkıyı ondan yana</line>
-<line>gözlerim arıyor bak boş yerlerde</line>
-<line>ölümdür tek çare bana</line></stanza>
+<stanza type='chorus'><line><address formality='formal' pos='verb' tense='aorist'><addressee><allah>allahım</allah></addressee> yalvarırım acı <narrator>bana</narrator></address></line>
+<line><address formality='informal' pos='verb' mood='imp'>kabul et bu şarkıyı ondan yana</address></line>
+<line><address formality='informal' pos='verb' mood='imp'><narrator>gözlerim arıyor</narrator><addressee/> bak boş yerlerde</address></line>
+<line><death>ölümdür</death> tek çare <narrator>bana</narrator></line></stanza>
 <break/>
-<stanza type='verse'><line>ölümdür tek çare bana</line></stanza>
+<stanza type='verse'><line><death>ölümdür</death> tek çare bana</line></stanza>
 <break/>
 <stanza type='verse'><line>ne olur, al bu canı ondan yana</line></stanza>
 </song>

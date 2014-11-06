@@ -3,23 +3,23 @@
 <song>
 <metadata><artist>Edip Akbayram</artist><title>Deniz Üstü Köpürür</title><album>Edip Akbayram</album><year>1974</year><source>http://sarki.alternatifim.com/data.asp?ID=49733&amp;sarki=Deniz%20%DCst%FC%20K%F6p%FCr%FCr&amp;sarkici=Edip%20Akbayram</source></metadata>
 
-<stanza type='verse'><line>Deniz üstü köpürür</line>
-<line>Hey canım rinna nay rinna rinna nay</line>
-<line>Kayığa da binsem götürür</line>
-<line>Hey canım hey</line></stanza>
+<stanza type='verse'><line><nature>Deniz üstü köpürür</nature></line>
+<line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> rinna nay rinna rinna nay</address></line>
+<line>Kayığa da <narrator>binsem</narrator> götürür</line>
+<line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> hey</address></line></stanza>
 <break/>
-<stanza type='verse'><line>Benim de şu dünyaya gelişim</line>
-<line>Hey canım rinna nay rinna rinna nay</line>
+<stanza type='verse'><line><narrator>Benim</narrator> de şu <place where="world">dünyaya</place> gelişim</line>
+    <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> rinna nay rinna rinna nay</address></line>
 <line>Bir güzelin hatırı</line>
-<line>Hey canım hey</line></stanza>
+    <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> hey</address></line></stanza>
 <break/>
-<stanza type='verse'><line>Karıncanın katarı</line>
-<line>Hey canım rinna nay rinna rinna nay</line>
+<stanza type='verse'><line><nature>Karıncanın katarı</nature></line>
+<line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> rinna nay rinna rinna nay</address></line>
 <line>Yüreğinde yatarı</line>
-<line>Hey canım hey</line></stanza>
+    <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> hey</address></line></stanza>
 <break/>
-<stanza type='verse'><line>Taş üstüne taş koydum</line>
-<line>Hey canım rinna nay rinna rinna nay</line>
-<line>Gül yastığa baş koydum</line>
-<line>Hey canım hey</line></stanza>
+<stanza type='verse'><line><nature>Taş üstüne taş</nature> <narrator>koydum</narrator></line>
+<line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> rinna nay rinna rinna nay</address></line>
+<line><nature>Gül</nature> yastığa baş <narrator>koydum</narrator></line>
+<line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> hey</address></line></stanza>
 </song>

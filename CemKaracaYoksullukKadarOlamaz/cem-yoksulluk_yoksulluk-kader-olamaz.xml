@@ -10,12 +10,12 @@
 <line>Açlıktan verem olana bal ye diyorlar</line></stanza>
 <break/>
 
-<stanza type='verse'><line>Yoksulluk kader olamaz kader değildir</line>
+<stanza type='verse'><line><poverty>Yoksulluk</poverty> kader olamaz kader değildir</line>
 <line>Firavunlar bile böyle zalim değildir</line></stanza>
 <break/>
-<stanza type='verse'><line>Ben vatandaş Ahmet'im evkafta memur</line>
+<stanza type='verse'><line><narrator>Ben</narrator> vatandaş Ahmet'im evkafta memur</line>
 <line>Ay sonuna yetmiyor evdeki kömür</line>
-<line>Bir kilo et seksen lira tadını unuttum</line>
+<line><neglect>Bir kilo et seksen lira</neglect> tadını unuttum</line>
 <line>İnsan gibi yaşamanın adını unuttum</line></stanza>
 <break/>
 
