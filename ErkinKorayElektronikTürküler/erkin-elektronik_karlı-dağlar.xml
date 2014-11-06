@@ -3,6 +3,7 @@
 <song>
 <metadata><artist>Erkin Koray</artist><title>Karlı Dağlar</title><album>Elektronik Türküler</album><year>1974</year><source>http://www.sarki-sozleri.net/erkin-koray-karli-daglar</source></metadata>
 <!-->lots of oversentimental lines of sadness here... there's no tag for that.<-->
+<break instr='saz' scale='minor' solo='yes'/>
 <stanza type='verse'><line><nature>Karlı dağlar</nature> geçit vermez</line>
 <line>Garip gönlüm ağlar gülmez</line>
 <line><love l='romantic'>Nazlı yarim</love> <death>gitti gelmez</death></line>
@@ -14,9 +15,10 @@
 <line>Kalem kaşlar bal dudaklar</line>
 <line><address formality='informal' pos='verb' mood='imp'><addressee/>Gel <narrator>bana</narrator> yarim</address></line>
 <line><address formality='informal' pos='verb' mood='imp'><addressee><allah>Tanrım</allah></addressee> al beni beni de</address></line></stanza>
-<break/>
+<break instr='guitar' scale='minor' solo='yes'/>
+<break instr='saz' scale='minor' solo='yes'/>
 <stanza type='verse'><line>Karlı dağlar yol ver bana</line>
 <line><address formality='informal' pos='verb' mood='imp'>Söyle gidem hangi yana</address></line>
 <line>Elden birşey gelmiyor</line>
-<line><address formality='informal' pos='verb' mood='imp'><allah>Tanrım</allah> kavuştur beni ona</address></line></stanza>
+<line><address formality='informal' pos='verb' mood='imp'><addressee><allah>Tanrım</allah></addressee> kavuştur beni ona</address></line></stanza>
 </song>

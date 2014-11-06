@@ -7,14 +7,15 @@
 <line>Gecenin karanlığında</line>
 <line>Yosun tuttu gözlerim</line>
 <line>Yalnızlar rıhtımında</line></stanza>
-<break/>
+<break instr='guitar, piano' scale='major'/>
 <stanza type='verse'><line>Bütün gece ağladım</line>
 <line>Dalgalar kucağında</line>
 <line>Geceler <narrator>ben</narrator> ve deniz</line>
 <line>Yalnızlar rıhtımında</line></stanza>
-<break/>
+<break instr='electric guitar' scale='major' solo='yes'/>
 <stanza type='verse'><line>Bir <narrator>beni</narrator> mi unuttular</line>
 <line>Uçup gitti martılar</line>
 <line>Geceler <narrator>ben</narrator> ve deniz</line>
 <line>Yalnızlar rıhtımında</line></stanza>
+<break instr='electric guitar' scale='major' solo='yes'/>
 </song>

@@ -35,14 +35,13 @@ Selda Bağcan	Niye Çattın Kaşlarını
 Selda Bağcan	Yaylalar
 
 for week of 11/6
-Cem Karaca	Yoksulluk Kader Olamaz (UNFINISHED)
 Edip Akbayram	Deniz Üstü Köprürür
 Edip Akbayram	Sev Beni Beni
 Edip Akbayram	İnce İnce Bir Kar Yağar
-Edip Akbayram	Değmen Benim Gamlı Yaslı Gönlüme '?
+Edip Akbayram	Değmen Benim Gamlı Yaslı Gönlüme '
 Edıp Akbayram	Boşu Başına
 Erkin Koray	Hele Yar
 Selda Bağcan	Nasırlı Elleri
 Selda Bağcan	Çul Serer
 Selda Bağcan	Dost Uyan
-
+Cem Karaca	Yoksulluk Kader Olamaz '''

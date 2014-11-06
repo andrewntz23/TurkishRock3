@@ -65,9 +65,10 @@ youth = element youth{text}
 love = element love{l, (text|narrator|address|family)+}
 l = attribute l{'romantic'|'platonic'|'religious'}
 
-break = element break {instr*, scale*} #musical break
+break = element break {instr*, scale*, solo*} #musical break
 instr = attribute instr { text } #what instrements are prominent
 scale = attribute scale { text } #choose major or minor
+solo = attribute solo {'yes'} #indicates that this is a solo
 
 poliWord = element poliWord { rl, text } #any word from the list of politically charged words - peace, concede land, remove troops
 rl = attribute rl { text } #right or left referencing word (ie which party the context of the word pts to
