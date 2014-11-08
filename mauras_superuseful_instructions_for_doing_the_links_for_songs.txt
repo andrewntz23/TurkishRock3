@@ -1,0 +1,31 @@
+FOR GETTING THE LINKS IN ORDER
+
+STEP 1 - use xquery to quickly get file names
+
+xquery version "3.0";
+let $songs := collection('/db/course/turkish/data')
+return $songs/substring-after(base-uri(), 'data/')
+
+STEP 2 - paste into text document, to use regular expressions to create links
+
+STEP 3 - delete annoying white space
+
+find \n
+replace with \n\n
+
+STEP 4 - REGEX-IT-UPS
+
+find .xml
+replace with nothing
+
+find(.*)
+replace with \<a href='\1.html'\>  \1\</a\>
+
+find (\s\s.*)_
+replace with nothing
+
+find html'>(.*)-
+replace with html'>\1 
+run this until all dashes are removed
+
+GOOD JOB!!!
