@@ -8,7 +8,7 @@
 
     <xsl:template match='/'>
         <html>
-            <head><title>turkish</title></head>
+            <head><link rel='stylesheet' type='text/css' href='turkishSplashpg.css'></link><title>turkish</title></head>
             <body>
                 <xsl:apply-templates select='//song'/>
             </body>
@@ -23,22 +23,21 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match='artist'>
-        <xsl:apply-templates/>
+        <h1><xsl:apply-templates/></h1>
     </xsl:template>
     <xsl:template match='artist' mode='politicalA'>
         <xsl:apply-templates select='@politicalA'/>
     </xsl:template>
     <xsl:template match='title'>
-        <xsl:apply-templates/>
+        <h1><xsl:apply-templates/></h1>
     </xsl:template>
     <xsl:template match='album'>
-        <xsl:apply-templates/>
+        <h2><xsl:apply-templates/></h2>
     </xsl:template>
     <xsl:template match='year'>
-        <xsl:apply-templates/>
+        <h2><xsl:apply-templates/></h2>
     </xsl:template>
     <xsl:template match='source'>
-        <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match='line'>
