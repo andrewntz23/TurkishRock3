@@ -1,3 +1,0 @@
-put whole song thing in a div, 
-
-Now Alex and I were both getting the error out of nowhere, something about a working tree files overwrite error. Talk to David, Github is nut as shit. 
