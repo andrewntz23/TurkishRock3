@@ -1,0 +1,15 @@
+go to directory that holds the files you want to upload
+
+sftp -P 17171 mauvermor@obdurodon.org
+
+enter password
+
+that puts you in your personal home directory
+
+cd /var/www/html/turkish
+
+this moves you into project directory
+
+put selda*.html
+
+YAY THAT'S IT
