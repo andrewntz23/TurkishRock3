@@ -2,4 +2,83 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Vur Ha Vur</title><album>2023</album><year>1975</year><source></source></metadata>
-instrumental</song>
+instrumental
+
+Turnalardan haberimi aldığın gün sevdiceğim
+
+Gülme sakın gülme ha gülme
+
+Alnıma bir kara yazı yazılmışki yok ilacı
+
+Sevdiceğim gülme ha gülme
+
+Yağmur ince ığıl ığıl ağlar
+
+Her damlası yüreğimi dağlar
+
+Seni bana çok görenler neyler
+
+Karlı dağlar uzun uzun yollar
+
+Hepsi pişman susmuş ağlar
+
+Seni bana çok görenler neyler
+
+Sılada kalan dertli yaşar
+
+Sevişenler dağlar aşar
+
+Sevdiceğim gülme ha gülme
+
+Dağların üstünden doğdu bir yıldız
+
+Deftere alındı 12 bin kız
+
+Yollara döküldük er kişiyiz biz
+
+Vur ha kardaş vur ha vur ha vur
+
+Çalınan davulları düğünmü sandın?
+
+Nazlı bayrağı sen gelin mi sandın?
+
+Top tüfek vuruşmayı cümbüşmü sandın?
+
+Vur ha kardaş vur ha vur ha vur
+
+Karadeniz içinde yatar gemiler
+
+Topçu dağları döver yer gök inler
+
+Banu Çiçek Baykocayı bir ümit bekler
+
+Vur ha kardaş vur ha vur ha vur
+
+Deftere alınanların pek çoğu geri dönmedi
+
+Banu Çiçek Baykocanın dönüşünü bekledi bekledi
+
+Yağmur ince ığıl ığıl ağlar
+
+Her damlası yüreğimi dağlar
+
+Seni bana çok görenler neyler
+
+Karlı dağlar uzun uzun yollar
+
+Hepsi pişman susmuş ağlar
+
+Seni bana çok görenler neyler
+
+Yıllar geçti güz yaz oldu
+
+Baykoca'ysa toprak oldu
+
+Sil gözyaşın durma ha durma
+
+Baykoca'ysa toprak oldu
+
+Sil gözyaşın durma ha durma
+
+    <break instr="guitar, quanun, synth" scale="minor"></break>
+</song>

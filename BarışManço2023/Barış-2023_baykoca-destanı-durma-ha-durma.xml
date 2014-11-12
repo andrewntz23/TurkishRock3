@@ -2,4 +2,11 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Durma Ha Durma</title><album>2023</album><year>1975</year><source></source></metadata>
-instrumental</song>
+instrumental
+
+
+    <!-- THIS IS NOT ACTUALLY AN INSTREMENTAL   https://community.musixmatch.com/lyrics/Bar%C4%B1%C5%9F-Man%C3%A7o/Baykoca-Destan%C4%B1-Durma-Ha-Durma
+    http://www.lyricsmania.com/baykoca_destani_lyrics_baris_manco.html-->
+ 
+    <break instr="strings" scale="minor"></break>
+</song>

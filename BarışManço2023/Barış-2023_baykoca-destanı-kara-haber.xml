@@ -2,4 +2,7 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Kara Haber</title><album>2023</album><year>1975</year><source></source></metadata>
-instrumental</song>
+instrumental
+
+    <break instr="kaval, synth" scale="minor"></break>
+</song>

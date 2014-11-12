@@ -2,4 +2,9 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Gülme Ha Gülme</title><album>2023</album><year>1975</year><source></source></metadata>
-instrumental</song>
+instrumental
+
+
+    <!-- ALSO NOT AN INSTREMENTAL  -->
+    <break instr="synth, tar(?)" scale="minor"></break>
+</song>
