@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Barış Manço</artist><title>Acıh da Bağa Vir</title><album>2023</album><year>1975</year><source>http://www.akormerkezi.com/baris-manco-acihda-baga-vir-sarki-sozu_sarki-nnjvpf.html</source></metadata>
+    <metadata>
+        <artist>Barış Manço</artist>
+        <title>Acıh da Bağa Vir</title>
+        <album>2023</album>
+        <year>1975</year>
+        <source>http://www.akormerkezi.com/baris-manco-acihda-baga-vir-sarki-sozu_sarki-nnjvpf.html</source>
+    </metadata>
 
-<stanza type='verse'><line>Acıhda bağa vir biraz da oğa vir</line>
-<line>Çevir kazı yanmasın aman kız uyanmasın</line>
-<line>Acıhda bağa vir biraz da oğa vir</line>
-<line>Canı kaymak isteyen cebinde manda taşır</line>
-<line>Canı kaymak isteyen cebinde manda taşır</line>
-<line>Bulguru yağı bulan çorbasın kaynatır</line>
-<line>Ya bulamayan gariban omzunu oynatır</line>
-<line>Acıhda bağa vir biraz da oğa vir</line>
-<line>Çevir kazı yanmasın aman kız uyanmasın</line>
-<line>Acıhda bağa vir biraz da oğa vir</line>
-<line>Ayağında yok postal başına giyer püskül</line>
-<line>Ayağında yok postal başına giyer püskül</line>
-<line>Sonradan görmesi meğersem ne müşkül</line>
-<line>Ya hiç bir şey bilmemek pilav üstüne keşkül</line>
-<line>Acıhda bağa vir biraz da oğa vir</line>
-<line>Ayrana daldır yoğurduna saldır</line>
-<line>Selam veğdi gödün mü</line>
-<line>Selamı ağmadın mı a...a</line>
-<line>Çevir kazı yanmasın aman kız uyanmasın</line>
-<line>Türkünün sonu geldi gari</line>
-<line>Haydaaa</line>
-<line>Balcının baltası var oduncunun baltası var</line>
-<line>Öyle de olur böyle de olur</line>
-<line>Avcı vurur turnayı biz çalarız zurnayı</line>
-<line>Öyle de olur böyle de olur</line></stanza>
+    <stanza type="verse"><line>Acıhda bağa vir biraz da oğa vir</line>
+        <line>Çevir kazı yanmasın aman kız uyanmasın</line>
+        <line>Acıhda bağa vir biraz da oğa vir</line>
+        <line>Canı kaymak isteyen cebinde manda taşır</line>
+        <line>Canı kaymak isteyen cebinde manda taşır</line>
+        <line>Bulguru yağı bulan çorbasın kaynatır</line>
+        <line>Ya bulamayan gariban omzunu oynatır</line>
+        <line>Acıhda bağa vir biraz da oğa vir</line>
+        <line>Çevir kazı yanmasın aman kız uyanmasın</line>
+        <line>Acıhda bağa vir biraz da oğa vir</line>
+        <line>Ayağında yok postal başına giyer püskül</line>
+        <line>Ayağında yok postal başına giyer püskül</line>
+        <line>Sonradan görmesi meğersem ne müşkül</line>
+        <line>Ya hiç bir şey bilmemek pilav üstüne keşkül</line>
+        <line>Acıhda bağa vir biraz da oğa vir</line>
+        <line>Ayrana daldır yoğurduna saldır</line>
+        <line>Selam veğdi gödün mü</line>
+        <line>Selamı ağmadın mı a...a</line>
+        <line>Çevir kazı yanmasın aman kız uyanmasın</line>
+        <line>Türkünün sonu geldi gari</line>
+        <line>Haydaaa</line>
+        <line>Balcının baltası var oduncunun baltası var</line>
+        <line>Öyle de olur böyle de olur</line>
+        <line>Avcı vurur turnayı biz çalarız zurnayı</line>
+        <line>Öyle de olur böyle de olur</line></stanza>
+    <break instr="cümbüs, synth" scale="minor"/>
 </song>

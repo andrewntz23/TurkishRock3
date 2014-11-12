@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Barış Manço</artist><title>2023</title><album>2023</album><year>1975</year><source></source></metadata>
-instrumental
-
-    <break instr="synth, bass, " scale="minor" ></break>
+    <metadata>
+        <artist>Barış Manço</artist>
+        <title>2023</title>
+        <album>2023</album>
+        <year>1975</year>
+        <source/>
+    </metadata> instrumental <break instr="synth, bass, " scale="minor"/>
 </song>
