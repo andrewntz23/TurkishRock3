@@ -1,0 +1,13 @@
+body {background-image:url(psychedelic_background.jpg); background-color:aqua; margin:10%; }
+h1 {font-weight:bold; text-align:"center"; font-family:krungthep;}
+p {font-family:arial, helvetica, sans-serif;}
+div {background-color:tan;     
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-left: 150px; }
+img {  width:  150px;
+       height: auto; }
+li {font-family:arial, helvetica, sans-serif;}
+h2 {font-weight:bold; font-family:arial, helvetica, sans-serif;}
+h3 {font-weight:bold; font-family:arial, helvetica, sans-serif;}
