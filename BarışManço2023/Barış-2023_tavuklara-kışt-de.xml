@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Barış Manço</artist><title>Tavuklara Kışt De</title><album>2023</album><year>1975</year><source></source></metadata>
-instrumental</song>
+    <metadata>
+        <artist>Barış Manço</artist>
+        <title>Tavuklara Kışt De</title>
+        <album>2023</album>
+        <year>1975</year>
+        <source/>
+    </metadata> instrumental <break instr="bağlama, experimental sounds, heavy percussion" scale="major"/></song>
