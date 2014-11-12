@@ -2,7 +2,6 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Vur Ha Vur</title><album>2023</album><year>1975</year><source></source></metadata>
-instrumental
 
 Turnalardan haberimi aldığın gün sevdiceğim
 
