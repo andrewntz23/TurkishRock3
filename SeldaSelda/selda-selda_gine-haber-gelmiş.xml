@@ -3,13 +3,13 @@
 <song>
 <metadata><artist>Selda Bağcan</artist><title>Gine Haber Gelmiş</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=183532&amp;sarki=Gine%20Haber%20Gelmi%FE&amp;sarkici=Selda%20Ba%F0can</source></metadata>
 
-<stanza type='verse'><line>Gine haber gelmiş dostun elinden</line>
-<line>Durmayıp sevdiğim, gelesin demiş</line>
+<stanza type='verse'><line><address formality='informal' pos='noun'>Gine haber gelmiş <addressee><friendship>dostun elinden</friendship></addressee></address></line>
+<line><love l='romantic'>Durmayıp sevdiğim</love>, gelesin demiş</line>
 <line>Bergüzar göndermiş zülfün telinden</line>
 <line>Saldığım haberden bilesin demiş</line></stanza>
 <break/>
 <stanza type='verse'><line>Böyle selam salmış kaşlar' karam</line>
-<line>Tazelendi yine yürekten yaram</line>
-<line>Yardan haber gelmiş ben nasıl duram</line>
+<line>Tazelendi yine <love l='romantic'>yürekten</love> yaram</line>
+<line>Yardan haber gelmiş <narrator>ben</narrator> nasıl duram</line>
 <line>Tez günler içinde gelesin demiş</line></stanza>
 </song>

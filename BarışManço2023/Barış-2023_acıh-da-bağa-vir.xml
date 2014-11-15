@@ -8,29 +8,32 @@
         <year>1975</year>
         <source>http://www.akormerkezi.com/baris-manco-acihda-baga-vir-sarki-sozu_sarki-nnjvpf.html</source>
     </metadata>
-
-    <stanza type="verse"><line>Acıhda bağa vir biraz da oğa vir</line>
+<!--lots of food references-->
+    <stanza type="chorus"><line>Acıhda bağa vir biraz da oğa vir</line>
         <line>Çevir kazı yanmasın aman kız uyanmasın</line>
-        <line>Acıhda bağa vir biraz da oğa vir</line>
-        <line>Canı kaymak isteyen cebinde manda taşır</line>
+        <line>Acıhda bağa vir biraz da oğa vir</line></stanza>
+        
+        <stanza type="verse"><line>Canı kaymak isteyen cebinde manda taşır</line>
         <line>Canı kaymak isteyen cebinde manda taşır</line>
         <line>Bulguru yağı bulan çorbasın kaynatır</line>
-        <line>Ya bulamayan gariban omzunu oynatır</line>
-        <line>Acıhda bağa vir biraz da oğa vir</line>
-        <line>Çevir kazı yanmasın aman kız uyanmasın</line>
-        <line>Acıhda bağa vir biraz da oğa vir</line>
+        <line>Ya bulamayan gariban omzunu oynatır</line></stanza>
+        
+        <!--Chorus-->
+        
+        <stanza type="verse"><line>Ayağında yok postal başına giyer püskül</line>
         <line>Ayağında yok postal başına giyer püskül</line>
-        <line>Ayağında yok postal başına giyer püskül</line>
-        <line>Sonradan görmesi meğersem ne müşkül</line>
-        <line>Ya hiç bir şey bilmemek pilav üstüne keşkül</line>
-        <line>Acıhda bağa vir biraz da oğa vir</line>
+        <line>Sonradan görmesi <narrator>meğersem</narrator> ne müşkül</line>
+        <line>Ya hiç bir şey bilmemek pilav üstüne keşkül</line></stanza>
+            
+        <stanza type = "chorus"><line>Acıhda bağa vir biraz da oğa vir</line>
         <line>Ayrana daldır yoğurduna saldır</line>
-        <line>Selam veğdi gödün mü</line>
-        <line>Selamı ağmadın mı a...a</line>
+        <line><address formality='informal'>Selam veğdi gödün mü</address></line>
+        <line><address formality='informal'>Selamı ağmadın mı a...a</address></line>
         <line>Çevir kazı yanmasın aman kız uyanmasın</line>
-        <line>Türkünün sonu geldi gari</line>
-        <line>Haydaaa</line>
-        <line>Balcının baltası var oduncunun baltası var</line>
+        <line><aşık>Türkünün sonu geldi gari</aşık></line>
+        <line>Haydaaa</line></stanza>
+            
+        <stanza type="verse"><line>Balcının baltası var oduncunun baltası var</line>
         <line>Öyle de olur böyle de olur</line>
         <line>Avcı vurur turnayı biz çalarız zurnayı</line>
         <line>Öyle de olur böyle de olur</line></stanza>

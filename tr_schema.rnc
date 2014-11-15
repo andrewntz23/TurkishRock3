@@ -16,7 +16,7 @@ line = element line { (text|family|poverty|death|m|aşık|address|nature|address
 
 address = element address {formality, neglect?, pos?, voice?, evid?, mood?, tense?, aspect?, (addressee|love|class|place|narrator|drugs|violence|econ|family|future|nature|friendship|warning|text)+}
 formality = attribute formality {'formal' | 'informal'}
-addressee = element addressee {atype*, (place|love|allah|family|nature|text|class)+}
+addressee = element addressee {atype*, (place|love|allah|family|nature|text|class|friendship)+}
 atype = attribute atype{'romantic'}
 pos = attribute pos {'noun' |'pronoun'| 'verb' | 'adj' | 'adv'|'posessive-factual-2p'}
 #neg = attribute neg {'true' | 'false'}

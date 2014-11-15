@@ -2,9 +2,26 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Gülme Ha Gülme</title><album>2023</album><year>1975</year><source></source></metadata>
-instrumental
-
-
-    <!-- ALSO NOT AN INSTREMENTAL  -->
+    <stanza type="chorus">
+        <line>Turnalardan haberimi aldığın gün sevdiceğim</line>
+        <line><address formality='informal' pos='verb' mood='imp-neg'>Gülme <addressee>sakın</addressee> gülme ha gülme</address></line>
+        <line>Alnıma bir kara yazı yazılmışki yok ilacı</line>
+        <line><address formality='informal' pos='verb' mood='imp-neg'>Gülme <addressee>sakın</addressee> gülme ha gülme</address></line>
+    </stanza>
+    <stanza type="verse">
+        <line><nature>Yağmur ince ığıl ığıl ağlar</nature></line>
+        <line><nature>Her damlası yüreğimi dağlar</nature></line>
+        <line><address formality='informal'><addressee>Seni</addressee> <narrator>bana</narrator> çok görenler neyler</address></line>
+    </stanza>
+    <stanza type="verse">
+        <line><nature>Karlı dağlar</nature> uzun uzun yollar</line>
+        <line>Hepsi pişman susmuş ağlar</line>
+        <line><addressee>Seni</addressee> <narrator>bana</narrator> çok görenler neyler</line>
+    </stanza>
+    <stanza type="verse">
+        <line>Sılada kalan dertli yaşar</line>
+        <line>Sevişenler dağlar aşar</line>
+        <line><address formality='informal' pos='verb' mood='imp-neg'>Sevdiceğim gülme ha gülme</address></line>
+    </stanza>  
     <break instr="synth, tar(?)" scale="minor"></break>
 </song>
