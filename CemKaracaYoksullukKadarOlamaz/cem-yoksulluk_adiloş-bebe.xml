@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca </artist><title>Adiloş Bebe</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/adilos_bebe-2-388.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Adiloş Bebe</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/adilos_bebe-2-388.htm</source></metadata>
 <!-->fuck these vaccine prices cause we can keep our baby healthy but not eat, btw here's some breast milk<-->
 <stanza type='verse'><line>Doğdun üç gün aç tuttuk</line>
 <line>Üç gün <family>meme vermedik</family> sana</line>

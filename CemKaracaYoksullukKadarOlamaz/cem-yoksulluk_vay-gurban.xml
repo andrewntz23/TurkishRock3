@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca </artist><title>Vay Gurban</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/vay_gurban-2-392.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Vay Gurban</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/vay_gurban-2-392.htm</source></metadata>
 <!-->There's a patient, could be anyone with a knife, like a sacrifice.<-->
 <stanza type='verse'><line><nature>Dağların ardı nazlıdır</nature></line>
 <line><nature>Uçurum kıyısında</nature></line>

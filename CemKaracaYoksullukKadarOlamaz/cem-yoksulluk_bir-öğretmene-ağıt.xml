@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca </artist><title>Bir Öğretmene Ağıt</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/bir_ogretmene_agit-2-341.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Bir Öğretmene Ağıt</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/bir_ogretmene_agit-2-341.htm</source></metadata>
 
 <stanza type='verse'><line>Bu gün okul yok artık çocuklar</line>
 <line>Ama yarın mutlaka açılır</line>

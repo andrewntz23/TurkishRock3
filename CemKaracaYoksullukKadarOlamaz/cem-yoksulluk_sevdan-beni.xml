@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca </artist><title>Sevdan Beni</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/sevdan_beni-2-389.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Sevdan Beni</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/sevdan_beni-2-389.htm</source></metadata>
 
 <stanza type='verse'><line>Sevdan <narrator>beni</narrator></line>
 <line>Terk etmedi <love l='romantic'><narrator>sevdan</narrator></love> <narrator>beni</narrator></line>

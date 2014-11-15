@@ -1,0 +1,13 @@
+xquery version "3.0";
+(: THIS RETURNS MOST COMMON ELEMENTS BY ARTIST :)
+let $turkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($turkus//artist)
+for $art in $arts
+
+let $artsongs := $turkus//artist[contains(., $art)]/../..
+let $artelements := $artsongs//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")]
+for $artelement in distinct-values($artelements)
+
+let $count := count($artsongs//*/name()[contains(., $artelement[1])])
+order by $art, $count descending, $artelement
+return $artelement ||" "|| $art ||" "|| $count

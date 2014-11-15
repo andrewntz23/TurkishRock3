@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca </artist><title>Maden Ocağının Dibinde</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/maden_ocaginin_dibinde-2-391.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Maden Ocağının Dibinde</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/maden_ocaginin_dibinde-2-391.htm</source></metadata>
 <!-->There's no light, food, or connection to family in bottom of mine<-->
 <stanza type='verse'><line><place where='general'>Maden ocağının dibinde</place></line>
 <line>Hava yok ışık yok</line>

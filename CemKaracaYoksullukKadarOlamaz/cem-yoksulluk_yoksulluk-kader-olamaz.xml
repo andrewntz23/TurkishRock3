@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca </artist><title>Yoksulluk Kader Olamaz</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/yoksulluk_kader_olamaz-2-386.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Yoksulluk Kader Olamaz</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/yoksulluk_kader_olamaz-2-386.htm</source></metadata>
 
 <stanza type='verse'><line>Sıram gibi sıradağlar</line>
 <line>Anam anam derdin mi var?</line>
