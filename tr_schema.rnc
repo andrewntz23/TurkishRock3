@@ -40,7 +40,7 @@ death = element death {(text|narrator)+}
 econ = element econ {(place|text)+} #economic problems
 #injustice
 
-future = element future {(text|place|nature|nationalism|addressee|narrator|wealth)+}
+future = element future {(text|place|nature|nationalism|addressee|narrator|poverty|wealth)+}
 past = element past {when?, (text|nature|love|place)+}
 when = attribute when{'foundingOfTurkey'|text}
 

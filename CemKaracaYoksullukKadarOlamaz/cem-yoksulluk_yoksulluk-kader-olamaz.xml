@@ -22,13 +22,13 @@
 <stanza type='chorus'><line><poverty>Yoksulluk kader olamaz kader değildir</poverty></line>
 <line>Firavunlar bile böyle zalim değildir</line></stanza>
 <break/>
-<stanza type='verse'><line>Devlet baba borç içinde sabret diyorlar</line>
+<stanza type='verse'><line>Devlet <family>baba</family> borç içinde sabret diyorlar</line>
 <line><addressee>Sen</addressee> de bakkala kasaba borç et diyorlar</line>
 <line><narrator>Ben</narrator> onurlu insanım boyun eğemem</line>
 <line>Alacaklı ver deyince ödün veremem</line></stanza>
 <break/>
 
-<stanza type='chorus'><line>Yoksulluk kader olamaz kader değildir</line>
+<stanza type='chorus'><line><future><poverty>Yoksulluk</poverty> kader olamaz kader değildir</future></line>
 <line>Firavunlar bile böyle zalim değildir</line></stanza>
 <break/>
 <stanza type='verse'><line>Devlet baba borç içinde sabret diyorlar</line>
