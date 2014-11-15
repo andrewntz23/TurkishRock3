@@ -1,0 +1,15 @@
+declare option exist:serialize "method=xhtml enforce-xhtml=yes";
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><title>Most Common Tags in Turkish Songs</title></head>
+    <body><table><tr><td>Song Name</td><td>Element Name</td><td>Count</td></tr>
+{let $turkus := collection('/db/course/turkish/data')
+for $turku in $turkus
+let $elements := distinct-values($turku//*/name()[not(.= "address")])
+(: This returns the names of all of the elements :)
+for $element in $elements
+
+let $count := count($turku//*/name()[contains(., $element)])
+where $count gt 15
+order by $turku, $count descending
+return <tr><td>{$turku//*:title/string()}</td><td> {$element}</td><td> {$count}</td></tr>}
+</table></body></html>
