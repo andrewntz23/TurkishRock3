@@ -1,0 +1,12 @@
+xquery version "3.0";
+(: THIS RETURNS A LIST OF EACH PLACENAME USED IN THE CORPUS,
+ : IT DOES NOT PROVIDE NUMBERS, BUT IS USEFUL FOR A USER READING VIEW :)
+let $turkus := collection('/db/course/turkish/data')
+for $turku in $turkus
+let $places:= $turku//place
+for $place in $places
+let $where := $place/@where
+let $artist := $place/root()//artist/text()
+let $title := $place/root()//title/text()
+order by $where, $artist, $title
+return $where || " - '" || $place ||"' Artist: "|| $artist ||" Title: "|| $title

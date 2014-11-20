@@ -1,0 +1,11 @@
+xquery version "3.0";
+(: THIS RETURNS A COUNT OF PLACES BY @WHERE BY ARTIST :)
+let $turkus := collection('/db/course/turkish/data')
+let $artists := distinct-values($turkus//artist)
+for $artist in $artists
+let $artsongs := $turkus//artist[.=$artist]/root()
+let $wheres := distinct-values($artsongs//place/@where)
+for $where in $wheres
+let $wheresongs := $artsongs//place/@where[.=$where]/root()
+order by count($wheresongs) descending, $artist, $where
+return $artist || " " || $where||" " || count($wheresongs)

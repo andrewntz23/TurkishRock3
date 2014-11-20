@@ -1,0 +1,5 @@
+xquery version "3.0";
+(: THIS RETURNS A LIST OF ALL SONGS WITH INFORMAL AND FORMAL ADDRESSES :)
+let $turkus := collection('/db/course/turkish/data')
+for $turku in $turkus
+return $turku//address/@formality[.="informal"]/root()//address/@formality[.="formal"]/root()//title/text()
