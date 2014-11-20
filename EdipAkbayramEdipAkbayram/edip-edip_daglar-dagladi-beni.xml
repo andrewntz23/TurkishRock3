@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Edip Akbayram</artist><title>Daglar Dagladi Beni</title><album>Edip Akbayram</album><year>1974</year><source>http://www.akormerkezi.com/edip-akbayram-daglar-dagladi-beni-sarki-sozu_sarki-hddddp.html</source></metadata>
+    <metadata>
+        <artist>Edip Akbayram</artist>
+        <title>Daglar Dagladi Beni</title>
+        <album>Edip Akbayram</album>
+        <year>1974</year>
+        <source>http://www.akormerkezi.com/edip-akbayram-daglar-dagladi-beni-sarki-sozu_sarki-hddddp.html</source>
+    </metadata>
 
-<stanza type='verse'><line><nature>Dağlar</nature> dağladı <narrator>beni</narrator></line>
-<line>Gören ağladı <narrator>beni</narrator></line>
-<line>Gitti <friendship>canım</friendship> (yarim) gelmedi</line>
-<line>Derde bağladı <narrator>beni</narrator></line>
-<line>Oy <narrator>bana</narrator> <narrator>bana</narrator> <narrator>bana</narrator></line>
-<line><address formality='formal' pos='verb' tense='aorist'> Su vermez çaylar <narrator>bana</narrator></address></line>
-<line>Vay <narrator>bana</narrator> <narrator>bana</narrator> <narrator>bana</narrator></line>
-<line>Yol vermez dağlar <narrator>bana</narrator></line>
-<line>Gitti canım gelmedi</line>
-<line><address formality='formal' pos='verb' tense='aorist'> Su vermez çaylar <narrator>bana</narrator></address></line>
-<line>Dağların arkasından</line>
-<line><death>Öldüm</death> yar sevdasından</line>
-<line>Bilseydim ayrılık var</line>
-<line>Giderdim arkasından</line>
-<line>Oy <narrator>bana</narrator> <narrator>bana</narrator> <narrator>bana</narrator></line>
-<line>Yol vermez dağlar <narrator>bana</narrator></line>
-<line>Gitti yarim gelmedi</line>
-<line><address formality='formal' pos='verb' tense='aorist'> Su vermez çaylar <narrator>bana</narrator></address></line></stanza>
+    <stanza type="verse"><line><nature>Dağlar</nature> dağladı <narrator>beni</narrator></line>
+        <line>Gören ağladı <narrator>beni</narrator></line>
+        <line>Gitti <friendship>canım</friendship> (yarim) gelmedi</line>
+        <line>Derde bağladı <narrator>beni</narrator></line>
+        <line>Oy <narrator>bana</narrator>
+            <narrator>bana</narrator>
+            <narrator>bana</narrator></line>
+        <line><address formality="formal" pos="verb" tense="aorist"> Su vermez çaylar <narrator>bana</narrator></address></line>
+        <line>Vay <narrator>bana</narrator>
+            <narrator>bana</narrator>
+            <narrator>bana</narrator></line>
+        <line>Yol vermez dağlar <narrator>bana</narrator></line>
+        <line>Gitti canım gelmedi</line>
+        <line><address formality="formal" pos="verb" tense="aorist"> Su vermez çaylar <narrator>bana</narrator></address></line>
+    </stanza>
+    <break instr="synth, electric guitar" scale="minor" solo="yes"/>
+    <stanza type="verse">
+        <line>Dağların arkasından</line>
+        <line><death>Öldüm</death> yar sevdasından</line>
+        <line>Bilseydim ayrılık var</line>
+        <line>Giderdim arkasından</line>
+        <line>Oy <narrator>bana</narrator>
+            <narrator>bana</narrator>
+            <narrator>bana</narrator></line>
+        <line>Yol vermez dağlar <narrator>bana</narrator></line>
+        <line>Gitti yarim gelmedi</line>
+        <line><address formality="formal" pos="verb" tense="aorist"> Su vermez çaylar <narrator>bana</narrator></address></line></stanza>
+
 </song>
