@@ -1,0 +1,78 @@
+I’ve attached a screenshot after fooling around with the css a little for some design ideas. Some of these definitely need to be done (centering the menu and ensuring that it doesn’t wrap, putting the cc logo at the very bottom rather than in line with the albums), and others are suggestions based off of notes by other team mentors and my personal design preferences. Take note of these—-and make sure to change the javascript so that it is functioning properly. We can worry about making everything external a little bit later, but it needs to be working properly. 
+
+edits to make: 
+
+On the artists page, I like gray links which turn red on hover personally. You might want to go with a lighter shade of blue however, as links are blue by standard, but the default blue is too dark. 
+
+try setting background color to rgba(0, 0, 40, .8) or play around with that (standard rob setting with the last number indicating opacity) and using white text. It was recommended by Alathia to use black background with white text; I personally am a big fan of opacity so I would use the opaque dark blue rather than the black. I would also use a much smaller  margin (closer to between 1 and 5 % than 1-. ) 
+
+The reason for the excessive space under the menu is the <div style=“clear:both”></div> which doesn’t appear to contain anything or have any purpose. Unless I am missing something and it has a functional purpose, just delete that. Appears to be a part of the SSI
+
+If you want, you can make the creative commons a little bit smaller. It should also be at the very bottom of either the div or the page, rather than in the row with the album covers.
+
+In dropdownCSS.css delete display:inline from qqq div a 
+
+The display:inline-block of the qqq is whats preventing the menu from being centered. change it to block. This should also prevent the menu from collapsing. This will displace the hr elements, but those are not completely necessary. You will have to alter the positioning or something of those to fix them. This will also alter the h1; just change it to inline-block display to stick it under the menu. I would also make the blocks of the menu wider personally by a bit. 
+
+Here are the changes I noted to the menu. if you want to compare this code to the original to see how these css commands were messing things up, take a look at this. It could still be improved
+
+#qqq
+{	margin-left: auto;
+	margin-right: auto;
+	width:600px;
+	z-index: 30;
+	text-align: center;
+	display:block;
+	white-space:nowrap;}
+
+#qqq li
+{	
+	list-style: none;
+	float: left;
+	font: bold 18px arial;
+	display: inline;
+	}
+
+#qqq li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 6px 28px;
+	width: 60px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	position:relative;
+	}
+
+#qqq li a:hover
+{	background: #49A3FF}
+
+#qqq div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2;
+	display: inline;}
+
+	#qqq div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		font: 11px arial;
+		}
+
+	#qqq div a:hover
+	{	background: #49A3FF;
+		color: #FFF}
+
+

@@ -1,0 +1,16 @@
+body {background-image:url(psychedelic_background.jpg); background-color:aqua; margin:1%; }
+h1 {font-weight:bold; text-align:"center"; font-family:krungthep; display:inline-block;}
+p {font-family:arial, helvetica, sans-serif;}
+div {background-color:rgba(0, 0, 40, .80);  
+     
+    color:white;  
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-left: 150px; }
+img {  width:  150px;
+       height: auto; }
+li {font-family:arial, helvetica, sans-serif;}
+h2 {font-weight:bold; font-family:arial, helvetica, sans-serif;}
+h3 {font-weight:bold; font-family:arial, helvetica, sans-serif;}
+#creative {width:10px; color:black;}
