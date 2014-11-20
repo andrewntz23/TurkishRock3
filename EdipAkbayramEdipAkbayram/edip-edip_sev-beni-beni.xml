@@ -1,27 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Edip Akbayram</artist><title>Sev Beni Beni</title><album>Edip Akbayram</album><year>1974</year><source>http://www.anatolianrock.com/Edip_Akbayram/sarki_sozleri/sev_beni_beni-3-61279.htm</source></metadata>
+    <metadata>
+        <artist>Edip Akbayram</artist>
+        <title>Sev Beni Beni</title>
+        <album>Edip Akbayram</album>
+        <year>1974</year>
+        <source>http://www.anatolianrock.com/Edip_Akbayram/sarki_sozleri/sev_beni_beni-3-61279.htm</source>
+    </metadata>
 
-<stanza type='chorus'><line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
-<line><address formality="informal" pos="verb" mood="imp">Sev <narrator>beni</narrator> vay vay</address></line>
-<line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
-<line><address formality="informal" pos="verb" mood="imp">Sev <narrator>beni</narrator> vay</address></line></stanza>
-<break/>
-<stanza type='verse'><line><nature>Yunusum <place where="general">derya</place> içinde</nature></line>
-<line><love l="romantic">Mecnunum kerem peşinde vay</love></line>
-<line><death>Ölürüm</death> yara içinde</line></stanza>
-<break/>
-    <stanza type='chorus'><line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
+    <stanza type="chorus"
+            ><line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
         <line><address formality="informal" pos="verb" mood="imp">Sev <narrator>beni</narrator> vay vay</address></line>
         <line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
         <line><address formality="informal" pos="verb" mood="imp">Sev <narrator>beni</narrator> vay</address></line></stanza>
-<break/>
-<stanza type='verse'><line><address formality="informal" pos="verb" mood="imp">Aslı isen kerem'i bul</address></line>
-<line><address formality="informal" pos="verb" mood="imp">Derde derman vereni bul oy</address></line>
-<line><address formality="informal" pos="verb" mood="imp"><love l="romantic">Garip gibi seveni</love> bul</address></line></stanza>
-<break/>
-    <stanza type='chorus'><line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
+    <break/>
+    <stanza type="verse"><line><nature>Yunusum <place where="general">derya</place>
+            içinde</nature></line>
+        <line><love l="romantic">Mecnunum kerem peşinde vay</love></line>
+        <line><death>Ölürüm</death> yara içinde</line></stanza>
+    <break instr="tambourine, bağlama" scale="major"/>
+    <stanza type="chorus"
+            ><line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
+        <line><address formality="informal" pos="verb" mood="imp">Sev <narrator>beni</narrator> vay vay</address></line>
+        <line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
+        <line><address formality="informal" pos="verb" mood="imp">Sev <narrator>beni</narrator> vay</address></line></stanza>
+    <break/>
+    <stanza type="verse"
+            ><line><address formality="informal" pos="verb" mood="imp">Aslı isen kerem'i bul</address></line>
+        <line><address formality="informal" pos="verb" mood="imp">Derde derman vereni bul oy</address></line>
+        <line><address formality="informal" pos="verb" mood="imp"><love l="romantic">Garip gibi seveni</love> bul</address></line></stanza>
+    <break/>
+    <stanza type="chorus"
+            ><line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
         <line><address formality="informal" pos="verb" mood="imp">Sev <narrator>beni</narrator> vay vay</address></line>
         <line><address formality="informal" pos="verb" mood="imp">Sar <narrator>beni beni</narrator> <addressee><family>anam</family></addressee></address></line>
         <line><address formality="informal" pos="verb" mood="imp">Sev <narrator>beni</narrator> vay</address></line></stanza>

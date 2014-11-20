@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Edip Akbayram</artist><title>Kükredi Çimenler</title><album>Edip Akbayram</album><year>1974</year><source>http://www.anatolianrock.com/Edip_Akbayram/sarki_sozleri/kukredi_cimenler-3-10849.htm</source></metadata>
+    <metadata>
+        <artist>Edip Akbayram</artist>
+        <title>Kükredi Çimenler</title>
+        <album>Edip Akbayram</album>
+        <year>1974</year>
+        <source>http://www.anatolianrock.com/Edip_Akbayram/sarki_sozleri/kukredi_cimenler-3-10849.htm</source>
+    </metadata>
 
-<stanza type='verse'><line><nature>Kükredi çimenler açıldı güller</nature></line>
-<line><nature><address formality='informal' pos='verb' mood='imp'><addressee/>Al <drugs>şarap</drugs></address> yüklü bahçeler bağlar</nature></line></stanza>
-<break/>
-<stanza type='verse'><line><nature>Ömrümden gidiyor güzel günler</nature></line>
-<line><nature>Ah çektikçe ciğerim kan ağlar</nature></line></stanza>
-<break/>
-<stanza type='verse'><line><nature>Mart ayında sarı çiğdem açılır</nature></line>
-<line><nature>Nisan gelir çayır çimen seçilir</nature></line>
-<line><nature>Mayıs sonu yaylalara göçülür</nature></line>
-<line><nature>Güzellere eda verir o çağlar</nature></line></stanza>
+    <stanza type="verse"><line><nature>Kükredi çimenler açıldı güller</nature></line>
+        <line><nature><address formality="informal" pos="verb" mood="imp"><addressee/>Al <drugs>şarap</drugs></address>
+                yüklü bahçeler bağlar</nature></line></stanza>
+    <break scale="major" instr="electric guitar, kaval, trumpet"/>
+    <stanza type="verse"><line><nature>Ömrümden gidiyor güzel günler</nature></line>
+        <line><nature>Ah çektikçe ciğerim kan ağlar</nature></line></stanza>
+    <break/>
+    <stanza type="verse"><line><nature>Mart ayında sarı çiğdem açılır</nature></line>
+        <line><nature>Nisan gelir çayır çimen seçilir</nature></line>
+        <line><nature>Mayıs sonu yaylalara göçülür</nature></line>
+        <line><nature>Güzellere eda verir o çağlar</nature></line></stanza>
 </song>

@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Edip Akbayram</artist><title>İnce İnce Bir Kar Yağar</title><album>Edip Akbayram</album><year>1974</year><source>http://www.sarkisozum.gen.tr/edip-akbayram/ince-ince-bir-kar-yagar-sarkisozu</source></metadata>
+    <metadata>
+        <artist>Edip Akbayram</artist>
+        <title>İnce İnce Bir Kar Yağar</title>
+        <album>Edip Akbayram</album>
+        <year>1974</year>
+        <source>http://www.sarkisozum.gen.tr/edip-akbayram/ince-ince-bir-kar-yagar-sarkisozu</source>
+    </metadata>
 
-<stanza type='verse'><line><nature>İnce ince bir kar</nature> yağar</line>
-<line><poverty>Fakirlerin üstüne</poverty></line>
-<line>Neden <neglect>felek inanmıyor</neglect></line>
-<line>Gariplerin sözüne</line>
-<line><narrator>Yandım yandım bana of of</narrator></line>
-<line><address formality='informal' pos='verb'>Etme <addressee>ağam</addressee> nolur nolur</address></line></stanza>
-<break/>
-<stanza type='chorus'><line><neglect>Adam mı <death>ölür</death> toprak verince</neglect></line>
-<line>Hayat sevince nolur nolur</line></stanza>
-<break/>
-<stanza type='verse'><line><address formality='informal' pos='pronoun'><addressee>Sen</addressee> <family>anandan</family> <narrator>ben</narrator> <family>babamdan</family></address></line>
-<line><address formality='informal' pos='noun'><narrator>Ağa doğmadık</narrator> <addressee>dostum</addressee></address></line>
-<line><address formality='informal' pos='verb' mood='imp'>Gel <friendship>beraber yaşayalım</friendship></address></line>
-<line><address formality='informal' pos='pronoun'>Sanma ki <addressee>sana</addressee> küstüm</address></line>
-<line><narrator>Yandık yandık bize of of</narrator></line>
-<line><address formality='informal' pos='verb'>Etme <addressee>ağam</addressee> nolur nolur</address></line></stanza>
-<break/>
-<stanza type='chorus'><line><neglect>Adam mı <death>ölür</death> toprak verince</neglect></line>
-<line>Hayat sevince nolur nolur</line></stanza>
+    <stanza type="verse"><line><nature>İnce ince bir kar</nature> yağar</line>
+        <line><poverty>Fakirlerin üstüne</poverty></line>
+        <line>Neden <neglect>felek inanmıyor</neglect></line>
+        <line>Gariplerin sözüne</line>
+        <line><narrator>Yandım yandım bana of of</narrator></line>
+        <line><address formality="informal" pos="verb">Etme <addressee>ağam</addressee> nolur nolur</address></line></stanza>
+    <break/>
+    <stanza type="chorus"><line><neglect>Adam mı <death>ölür</death> toprak verince</neglect></line>
+        <line>Hayat sevince nolur nolur</line></stanza>
+    <break/>
+    <stanza type="verse"
+            ><line><address formality="informal" pos="pronoun"><addressee>Sen</addressee> <family>anandan</family> <narrator>ben</narrator> <family>babamdan</family></address></line>
+        <line><address formality="informal" pos="noun"><narrator>Ağa doğmadık</narrator> <addressee>dostum</addressee></address></line>
+        <line><address formality="informal" pos="verb" mood="imp">Gel <friendship>beraber yaşayalım</friendship></address></line>
+        <line><address formality="informal" pos="pronoun">Sanma ki <addressee>sana</addressee> küstüm</address></line>
+        <line><narrator>Yandık yandık bize of of</narrator></line>
+        <line><address formality="informal" pos="verb">Etme <addressee>ağam</addressee> nolur nolur</address></line></stanza>
+    <break/>
+    <stanza type="chorus"><line><neglect>Adam mı <death>ölür</death> toprak verince</neglect></line>
+        <line>Hayat sevince nolur nolur</line></stanza>
 </song>
