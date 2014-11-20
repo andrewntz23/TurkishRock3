@@ -15,7 +15,7 @@
         <line>Gariplerin sözüne</line>
         <line><narrator>Yandım yandım bana of of</narrator></line>
         <line><address formality="informal" pos="verb">Etme <addressee>ağam</addressee> nolur nolur</address></line></stanza>
-    <break/>
+    <break instr="electric guitar, drums, unidentified reedy wind instr" scale="minor"/>
     <stanza type="chorus"><line><neglect>Adam mı <death>ölür</death> toprak verince</neglect></line>
         <line>Hayat sevince nolur nolur</line></stanza>
     <break/>

@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Edip Akbayram</artist><title>Dumanli Dumanli Oy Bizim Eller</title><album>Edip Akbayram</album><year>1974</year><source>http://sarki.alternatifim.com/data.asp?ID=49732&amp;sarki=Dumanl%FD%20Dumanl%FD&amp;sarkici=Edip%20Akbayram</source></metadata>
-<!-->I have a funny feeling this might be horribly misfiled<-->
-<stanza type='verse'><line>Oy göresim geldi suna boylum <addressee>seni</addressee></line>
-<line>Dumanlı dumanlı oy <narrator>bizim</narrator> eller</line>
-<line>Oturup ağlasam delidir derler</line></stanza>
-<break/>
-<stanza type='verse'><line>Dumanlı dumanlı oy <narrator>bizim</narrator> eller</line>
-<line>Oturup ağlasam delidir derler</line></stanza>
-<break/>
-<stanza type='verse'><line><narrator>Bizim</narrator> elin yiğitleri bol olur</line>
-<line>Çalar davulları dizgin doludur</line>
-<line><death>Ölüm</death> <narrator>bizim</narrator> için tozlu yol olur</line></stanza>
-<break/>
-<stanza type='verse'><line>Dumanlı dumanlı oy bizim eller</line>
-<line>Oturup ağlasam delidir derler</line></stanza>
-<break/>
-<stanza type='verse'><line>Mahzuni</line></stanza>
+    <metadata>
+        <artist>Edip Akbayram</artist>
+        <title>Dumanli Dumanli Oy Bizim Eller</title>
+        <album>Edip Akbayram</album>
+        <year>1974</year>
+        <source>http://sarki.alternatifim.com/data.asp?ID=49732&amp;sarki=Dumanl%FD%20Dumanl%FD&amp;sarkici=Edip%20Akbayram</source>
+    </metadata>
+    <!-->I have a funny feeling this might be horribly misfiled<-->
+    <stanza type="verse"><line>Oy göresim geldi suna boylum <addressee>seni</addressee></line>
+        <line>Dumanlı dumanlı oy <narrator>bizim</narrator> eller</line>
+        <line>Oturup ağlasam delidir derler</line></stanza>
+    <break/>
+    <stanza type="verse"><line>Dumanlı dumanlı oy <narrator>bizim</narrator> eller</line>
+        <line>Oturup ağlasam delidir derler</line></stanza>
+    <break instr="acoustic guitar, bağlama" scale="major"/>
+    <stanza type="verse"><line><narrator>Bizim</narrator> elin yiğitleri bol olur</line>
+        <line>Çalar davulları dizgin doludur</line>
+        <line><death>Ölüm</death>
+            <narrator>bizim</narrator> için tozlu yol olur</line></stanza>
+    <break/>
+    <stanza type="verse"><line>Dumanlı dumanlı oy bizim eller</line>
+        <line>Oturup ağlasam delidir derler</line></stanza>
+    <break/>
+    <stanza type="verse"><line>Mahzuni</line></stanza>
 </song>
