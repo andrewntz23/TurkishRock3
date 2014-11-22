@@ -4,4 +4,9 @@ div {position:relative;}
 
 #sidebar div {
     position:fixed;
-    right:100px;}
+    right:100px;
+    top:40px;}
+    
+#paddingtonDiv {
+    padding-top: 900px;
+}
