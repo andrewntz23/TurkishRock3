@@ -9,7 +9,7 @@
 <a href='Barış-2023_kayaların-oğlu.html'>kayaların oğlu</a>
 <a href='Barış-2023_tavuklara-kışt-de.html'>tavuklara kışt de</a>
 <a href='Barış-2023_uzun-ince-bir-yoldayım.html'>uzun ince bir yoldayım</a>
-<a href='Barış-2023_Yine yol-göründü-gurbete.html'>Yine yol göründü gurbete</a>
+<a href='Barış-2023_yine-yol-göründü-gurbete.html'>yine yol göründü gurbete</a>
 <a href='Barış-2023_yol-verin-ağalar-beyler.html'>yol verin ağalar beyler</a>
 <a href='cem-yoksulluk_adiloş-bebe.html'>adiloş bebe</a>
 <a href='cem-yoksulluk_bir-öğretmene-ağıt.html'>bir öğretmene ağıt</a>
@@ -45,7 +45,7 @@
 <a href='ersen-dünden_kara-yazı.html'>kara yazı</a>
 <a href='ersen-dünden_kozan-dağı.html'>kozan dağı</a>
 <a href='ersen-dünden_yedin-beni.html'>yedin beni</a>
-<a href='erson-dünden_uç-kız-bir-ana.html'>uç kız bir ana</a>
+<a href='ersen-dünden_uç-kız-bir-ana.html'>uç kız bir ana</a>
 <a href='selda-selda_dam-üstüne-çul-serer.html'>dam üstüne çul serer</a>
 <a href='selda-selda_dost-uyan.html'>dost uyan</a>
 <a href='selda-selda_gine-haber-gelmiş.html'>gine haber gelmiş</a>
