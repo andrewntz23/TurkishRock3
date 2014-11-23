@@ -2,7 +2,7 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Erkin Koray</artist><title>Hele Yar</title><album>Elektronik Türküler</album><year>1974</year><source>http://www.turkcemuzik.com/sarki/S%C3%B6z/170969/Erkin-Koray_Hele-Yar.html</source></metadata>
-<break instr='saz' scale='non-western' solo='yes'/>
+<break instr='saz' scale='minor' solo='yes'/>
 <break instr='saz' scale='major' solo='yes'/>
 <stanza type='chorus'><line><love l='romantic'>Hele, hele, hele, hele, hele yar</love></line>
     <line><love l='romantic'>Hele, hele, hele, hele, hele yar</love></line>
