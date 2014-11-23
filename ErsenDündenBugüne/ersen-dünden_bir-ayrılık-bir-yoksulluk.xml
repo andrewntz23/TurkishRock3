@@ -2,20 +2,21 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Ersen</artist><title>Bir Ayrılık Bir Yoksulluk</title><album>Dünden Bugüne</album><year>1977</year><source>http://sarki.alternatifim.com/data.asp?ID=149382&amp;sarki=Bir%20Ayr%FDl%FDk%20Bir%20Yoksulluk%20Bir%20%D6l%FCm&amp;sarkici=Ersen%20ve%20Dada%FElar</source></metadata>
-
+<break instr="electic saz, drums, guitar, saz" scale="minor"/>
 <stanza type='verse'><line>Bir Ayrılık <poverty>Bir Yoksulluk</poverty> <death>Bir Ölüm</death></line>
-<line>Vara vara vardım o kara taşa</line>
-<line>Hasret ettin beni kavim gardaşa</line>
+<line>Vara vara vardım <nature>o kara taşa</nature></line>
+<line>Hasret ettin <narrator>beni</narrator> kavim <friendship>gardaşa</friendship></line>
 <line>Sebep ne gözden <neglect>akan kanlı</neglect><!-->flowing blood, not really neglect<--> yaşa</line>
 <line>Bir ayrılık, <poverty>bir yoksulluk</poverty>, <death>bir ölüm</death></line></stanza>
-<break/>
+<break instr="electic saz" scale="minor"/>
 <stanza type='verse'><line><coup proCon='con'>Nice sultanları tahttan indirdin</coup></line>
 <line>Nicelerin gül benzini soldurdun</line>
 <line>Niceleri gelmez yola gönderdin</line>
 <line>Bir ayrılık, <poverty>bir yoksulluk</poverty>, <death>bir ölüm</death></line></stanza>
-<break/>
+<break instr="electic saz" scale="minor"/>
 <stanza type='verse'><line><aşık>Karacoğlan</aşık> der kondum göçülmez</line>
 <line>Acıdır ecel şerbeti içilmez</line>
 <line>Üç derdim var birbirinden seçilmez</line>
 <line>Bir ayrılık, <poverty>bir yoksulluk</poverty>, <death>bir ölüm</death></line></stanza>
+<break instr="guitar" solo="yes" scale="minor"/>
 </song>
