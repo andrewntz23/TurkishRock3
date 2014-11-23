@@ -1,0 +1,4 @@
+xquery version "3.0";
+let $turkus := collection('/db/course/turkish/data')
+let $instrs := $turkus//break/@instr
+return $instrs
