@@ -1,0 +1,8 @@
+xquery version "3.0";
+(: This should be overall counts of nonstructural tags for the entire corpus :)
+<root>{let $turkus := collection('/db/course/turkish/data')
+let $elements := distinct-values($turkus//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")][not(.="song")])
+for $element in $elements
+let $count := count($turkus//*/name()[. = $element])
+order by $count descending
+return <ref type = "{$element}">{$count}</ref>}</root>
