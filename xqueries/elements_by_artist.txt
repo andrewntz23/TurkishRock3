@@ -6,7 +6,7 @@ let $arts := distinct-values($turkus//artist)
 for $art in $arts
     return <artist who="{$art}">
 {let $artsongs := $turkus//artist[contains(., $art)]/../..
-let $artelements := $artsongs//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")]
+let $artelements := $artsongs//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")][not(.="song")]
 for $artelement in distinct-values($artelements)
 
 let $count := count($artsongs//*/name()[contains(., $artelement[1])])
