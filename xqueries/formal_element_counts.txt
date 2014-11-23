@@ -1,0 +1,17 @@
+xquery version "3.0";
+(: THIS RETURNS A LIST OF ALL TAGS CONTAINED WITHIN ALL SONGS WITH FORMAL ADDRESSES WITHIN ARTIST TAGS:)
+<root>{
+let $turkus := collection('/db/course/turkish/data')
+for $art in distinct-values($turkus//artist/text())
+return <artist who="{$art}">
+{for $turku in $turkus
+let $formalTs := $turku//address/@formality[.="formal"]/root()
+for $formalT in $formalTs
+return <song title="{$formalT//title/text()}">
+{let $elements := distinct-values($formalT//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")][not(.="song")])
+for $element in $elements
+let $count := count($formalT//*/name()[. = $element])
+return <ref type="{$element}">{$count}</ref>}
+</song>}
+</artist>}
+</root>
