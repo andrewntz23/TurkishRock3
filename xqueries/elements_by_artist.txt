@@ -4,13 +4,13 @@ xquery version "3.0";
 {let $turkus := collection('/db/course/turkish/data')
 let $arts := distinct-values($turkus//artist)
 for $art in $arts
-
-let $artsongs := $turkus//artist[contains(., $art)]/../..
+    return <artist who="{$art}">
+{let $artsongs := $turkus//artist[contains(., $art)]/../..
 let $artelements := $artsongs//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")]
 for $artelement in distinct-values($artelements)
 
 let $count := count($artsongs//*/name()[contains(., $artelement[1])])
 order by $art, $count descending, $artelement
-return <ref type="{$artelement}" artist="{$art}">{$count}</ref>}
-(: It would make more sense for these to be _inside_ big tags for each artist. I'll fix this shortly. :)
+return <ref type="{$artelement}">{$count}</ref>}
+</artist>}
 </root>
