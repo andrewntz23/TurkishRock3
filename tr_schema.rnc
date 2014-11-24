@@ -17,11 +17,10 @@ line = element line { (text|family|poverty|death|m|aşık|address|nature|address
 address = element address {formality, neglect?, pos?, voice?, evid?, mood?, tense?, aspect?, (addressee|love|class|place|narrator|drugs|violence|econ|family|future|nature|friendship|warning|text)+}
 formality = attribute formality {'formal' | 'informal'}
 addressee = element addressee {atype*, (place|love|allah|family|nature|text|class|friendship)+}
-atype = attribute atype{'romantic'}
+atype = attribute atype{'romantic'} #I don't think I used this, but should double check. It would be useful.
 pos = attribute pos {'noun' |'pronoun'| 'verb' | 'adj' | 'adv'|'posessive-factual-2p'}
-#neg = attribute neg {'true' | 'false'}
 evid = attribute evid {'true' | 'false'}
-mood = attribute mood {'imp'|'imp-neg' | 'cond' | 'subj' | 'fac' | 'abil' | 'caus'|'pas'}
+mood = attribute mood {'imp'|'imp-neg' | 'cond' | 'subj' | 'fac' | 'abil' | 'caus'|'pas'} #this should refer to grammatical mood, but is a bit more of a catch-all verb grammar thing with tense occasionally used; should be simplified
 tense = attribute tense {'present' | 'aorist'| 'past' | 'future' | 'nonpast'}
 aspect = attribute aspect {'perfect' | 'imperfect'}
 voice = attribute voice{'passive'|'active'}
@@ -45,7 +44,7 @@ past = element past {when?, (text|nature|love|place)+}
 when = attribute when{'foundingOfTurkey'|text}
 
 narrator = element narrator {number?,(text|place|death)+}
-number = attribute number {xsd:int}
+number = attribute number {xsd:int} #This should be reinstated. a '1' for single narrators, '2' for plurals or collectives like we.
 
 class = element class {classtype, (place|class|narrator|violence|text)+}
 classtype = attribute classtype{ 'upper' | 'middle' | 'lower' | 'working'}
@@ -54,16 +53,12 @@ warning = element warning {text}
 wealth = element wealth{text}
 poverty = element poverty {(nature|text)+}
 crime = element crime {text}
-#corruption
-
-#rep = element rep{count, text}
-#count = attribute count{thing that means numbers!!!}
 
 family = element family { (text|narrator)+ }
-friendship = element friendship {text}
+friendship = element friendship {text} #references to friendship, often dost
 youth = element youth{text}
-love = element love{l, (text|narrator|address|family)+}
-l = attribute l{'romantic'|'platonic'|'religious'}
+love = element love{l, (text|narrator|address|family)+} #references to love
+l = attribute l{'romantic'|'platonic'|'religious'} #attribute denoting the type of love that is expressed
 
 break = element break {instr*, scale*, solo*} #musical break
 instr = attribute instr { text } #what instrements are prominent
@@ -74,20 +69,22 @@ poliWord = element poliWord { rl, text } #any word from the list of politically 
 rl = attribute rl { text } #right or left referencing word (ie which party the context of the word pts to
 
 allah = element allah { (narrator|text)+ } #ref specifically to god
-m = element m {text} #a particular type of wordplay
-aşık = element aşık {text} #ref to a folksinger
+m = element m {text} #a particular type of wordplay (I believe I may have used this once, should be removed.)
+aşık = element aşık {text} #ref to a folksinger or folk music
 
 curse = element curse { degree, text }
 degree = element degree { text } #choose minor, offensive, or banned word
+
+
+islam = element islam {i, text } #ref to practice of Islam
+i = attribute i {text} #specific school or type of Islam
+
+#I'm fairly certain none of them after this hashtag get used but are here //just in case// they need used
 sac = element sac { text } #sacrilige against Islam
 sarc = element sarc { text } #any obvious sarcasm
 critAtt = element critAtt {text} #criticism of Attaturk
 emp = element emp {empDegree, text } #clear empathy or support of Kurds
 empDegree = attribute empDegree { text } #Support or just not hate
-
-islam = element islam {i, text } #ref to practice of Islam
-i = attribute i {text} #specific school or type of Islam
-
 economic = element economic {negOrPos, text } #turkey's econ policy
 negOrPos = attribute negOrPos {text} #choose neg or pos view of turkey's econ policy
 war = element war { text } #there def needs to be an attribute here, but the songs will dictate it

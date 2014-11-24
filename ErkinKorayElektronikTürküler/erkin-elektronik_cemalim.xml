@@ -2,18 +2,18 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Erkin Koray</artist><title>Cemalim</title><album>Elektronik Türküler</album><year>1974</year><source>http://sarki.alternatifim.com/data.asp?ID=54008&amp;sarki=Cemalim&amp;sarkici=Erkin%20Koray</source></metadata>
-<break instr='electric guitar' solo='yes'/>
+<break instr='electric guitar' solo='yes' scale='minor'/>
 <stanza type='verse'><line>Şen olasın <place where='rural'>Ürgüp</place> dumanın tütmez</line>
 <line>Kır atıma <place where='home'>cemin <class classtype="upper">konağı</class></place> tutmaz</line>
 <line>Oğlunda pek küçük yerini tutmaz</line></stanza>
 <stanza type='chorus'><line><addressee>Cemalım cemalım aslan cemalım</addressee></line>
 <line>Al kanlar içinde kaldın <addressee>cemalım</addressee></line></stanza>
-<break instr='electric guitar' solo='yes'/>
+<break instr='electric guitar' solo='yes' scale='minor'/>
 <stanza type='verse'><line><place where='rural'>Ürgüp'ten</place> de çıktığımı görmüşler</line>
 <line>Kır atımın sekişinden bilmişler</line> <!-->The eight that knew my horse broke<-->
 <line><narrator>Beni</narrator> öldürmeye karar vermişler</line></stanza>
-<break instr='electric guitar' solo='yes'/>
+<break instr='electric guitar' solo='yes' scale='minor'/>
 <stanza type='chorus'><line><addressee>Cemalım cemalım aslan cemalım</addressee></line>
 <line>Al kanlar içinde kaldın <addressee>cemalım</addressee></line></stanza>
-<break instr='electric guitar' solo='yes'/>
+<break instr='electric guitar' solo='yes' scale='minor'/>
 </song>
