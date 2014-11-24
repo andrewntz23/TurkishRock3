@@ -11,7 +11,7 @@
             <head><link rel='stylesheet' type='text/css' href='turkishSplashpg.css'></link><title>turkish</title></head>
             <body>
                 <div>
-                    <xsl:comment>#include virtual='dropDownMenu.html"</xsl:comment>
+                    <xsl:comment>#include virtual='dropDownMenu.html'</xsl:comment>
                     <xsl:comment>#include virtual='<xsl:value-of select='lower-case(substring-before(//artist, " "))'/>SSI.html'</xsl:comment>
                     <xsl:apply-templates select='//song'/>
                 </div>
