@@ -2,15 +2,15 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Cem Karaca</artist><title>Kerem Gibi</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/kerem_gibi-2-390.htm</source></metadata>
-<break instr="drums, bass" scale=""/>
+<break instr="drums, bass" scale="major"/>
 <stanza type='verse'><line>Kerem Gibi</line>
 <line>Hava kurşun gibi ağır</line>
 <line>Bağır bağır bağırıyorum</line>
 <line>Koşun, kurşun eritmeye çağırıyorum</line></stanza>
 <stanza type="chorus"><line>O diyor ki bana</line></stanza>
-<break instr="organ"/>
-<break instr="guitar"/>
+<break instr="organ" scale="major"/>
+<break instr="guitar" scale="major"/>
 <stanza type="chorus"><line><islam i="sufism">Sen yanmasan, ben yanmasam, biz yanmasak</islam></line>
 <line><islam i="sufism">Nasıl çıkar karanlıklar aydınlığa?</islam></line></stanza>
-<break instr="synthesizer" solo="yes"/>
+<break instr="synthesizer" scale="major" solo="yes"/>
 </song>

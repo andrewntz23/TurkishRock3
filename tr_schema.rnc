@@ -12,7 +12,7 @@ source = element source {text}
 politicalA = attribute politicalA {text} #Right or left
 
 
-line = element line { (text|family|poverty|death|m|aşık|address|nature|addressee|friendship|love|nature|past|future|wealth|narrator|place|youth|poliWord|curse|sac|sarc|critAtt|emp|islam|allah|family|economic|war|military|nationalism|communism|poverty|coup|drugs|morals|class|place|race|violence|neglect|econ|friendship|future|warning)*  }
+line = element line { (text|family|poverty|death|m|aşık|address|nature|poverty|addressee|friendship|love|nature|past|future|wealth|narrator|place|youth|poliWord|curse|sac|sarc|critAtt|emp|islam|allah|family|economic|war|military|nationalism|communism|poverty|coup|drugs|morals|class|place|race|violence|neglect|econ|friendship|future|warning)*  }
 
 address = element address {formality, neglect?, pos?, voice?, evid?, mood?, tense?, aspect?, (addressee|love|class|place|narrator|drugs|violence|econ|family|future|nature|friendship|warning|text)+}
 formality = attribute formality {'formal' | 'informal'}
@@ -25,7 +25,7 @@ tense = attribute tense {'present' | 'aorist'| 'past' | 'future' | 'nonpast'}
 aspect = attribute aspect {'perfect' | 'imperfect'}
 voice = attribute voice{'passive'|'active'}
 
-place = element place {where, (text|neglect|nature|place|class|family)+}
+place = element place {where, (text|neglect|poverty|nature|place|class|family)+}
 journey = element journey{where, (text|nature|place)+}
 where = attribute where {('home' |'region'| 'general'| 'rural' | 'urban' | 'turkey' | 'foreign'| 'world' | 'abstract')}
 nature = element nature{(text|family|place|address|wealth)+}
@@ -43,7 +43,7 @@ future = element future {(text|place|nature|nationalism|addressee|narrator|pover
 past = element past {when?, (text|nature|love|place)+}
 when = attribute when{'foundingOfTurkey'|text}
 
-narrator = element narrator {number?,(text|place|death)+}
+narrator = element narrator {number?,(text|place|family|death)+}
 number = attribute number {xsd:int} #This should be reinstated. a '1' for single narrators, '2' for plurals or collectives like we.
 
 class = element class {classtype, (place|class|narrator|violence|text)+}
