@@ -1,38 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Selda Bağcan</artist><title>Gitme</title><album>Selda</album><year>1976</year><source>http://lyricstranslate.com/en/gitme-dont-leave.html</source></metadata>
+    <metadata>
+        <artist>Selda Bağcan</artist>
+        <title>Gitme</title>
+        <album>Selda</album>
+        <year>1976</year>
+        <source>http://lyricstranslate.com/en/gitme-dont-leave.html</source>
+    </metadata>
 
-<stanza type='verse'><line><love l='romantic'>Perişan hallerim aşkın elinden</love></line>
-<line><address formality='informal' pos='verb' mood='imp-neg'><addressee/>Gel buna bir çare bulmadan gitme</address></line>
-<line><address formality='informal' pos='pronoun'>Çaresiz dertlerim, dermanı <addressee>sende</addressee></address></line>
-<line><address formality='informal' pos='verb' mood='imp-neg'><addressee/>Derdime dermanı vermeden gitme</address></line></stanza>
+    <stanza type="verse"><line><love l="romantic">Perişan hallerim aşkın elinden</love></line>
+        <line><address formality="informal" pos="verb" mood="imp-neg"><addressee/>Gel buna bir çare bulmadan gitme</address></line>
+        <line><address formality="informal" pos="pronoun">Çaresiz dertlerim, dermanı <addressee>sende</addressee></address></line>
+        <line><address formality="informal" pos="verb" mood="imp-neg"><addressee/>Derdime dermanı vermeden gitme</address></line></stanza>
 
-<break/>
+    <break instr="electro bağlama" scale="minor" solo="yes"/>
 
-<stanza type='verse'><line><address pos='pronoun' formality='informal'>Çaresiz dertlerim dermanı <addressee>sende</addressee></address></line>
-<line><address formality='informal' pos='verb' mood='imp-neg'><addressee/>Derdime dermanı vermeden gitme</address></line></stanza>
-<stanza type='verse'><line>Perişan hallerim aşkın elinden</line>
-<line>Gel buna bir çare bulmadan gitme</line>
-<line>Çaresiz dertlerim, dermanı sende</line>
-<line>Derdime dermanı vermeden gitme</line></stanza>
-<break/>
-<stanza type='verse'><line>Çaresiz dertlerim dermanı sende</line>
-<line>Derdime dermanı vermeden gitme</line></stanza>
-<break/>
-<stanza type='verse'><line>Çaresiz dertlerim derman bulmuyor</line>
-<line><address formality='informal' pos='pronoun'>Neden gönül neden <addressee>sensiz</addressee> olmuyor</address></line>
-<line>Azdı yaralarım derman bulmuyor</line>
-<line><address formality='informal' pos='verb' mood='imp-neg'><addressee/>Ne olur yaramı sarmadan gitme</address></line></stanza>
-<break/>
-<stanza type='verse'><line>Azdı yaralarım derman bulmuyor</line>
-<line><address formality='informal' pos='verb' mood='imp-neg'><addressee/>Ne olur yaramı sarmadan gitme</address></line></stanza>
-<break/>
-<stanza type='verse'><line>Canım bağlı yar zülfünün telinden</line>
-<line><aşık>Mecnun</aşık> gibi gezdim aşkın <nature>çölünden</nature></line>
-<line><address formality='informal' pos='noun'>Bir garibim kaldım <place where='foreign'>gurbet</place> <addressee>elinden</addressee></address></line>
-<line><address formality='informal' pos='verb' mood='imp-neg'><addressee/>Şu garip halimi görmeden gitme</address></line></stanza>
-<break/>
-<stanza type='verse'><line>Bir garibim kaldım gurbet elinden</line>
-<line>Şu garip halimi görmeden gitme</line></stanza>
+    <stanza type="verse"
+            ><line><address pos="pronoun" formality="informal">Çaresiz dertlerim dermanı <addressee>sende</addressee></address></line>
+        <line><address formality="informal" pos="verb" mood="imp-neg"><addressee/>Derdime dermanı vermeden gitme</address></line></stanza>
+    <stanza type="verse"><line>Perişan hallerim aşkın elinden</line>
+        <line>Gel buna bir çare bulmadan gitme</line>
+        <line>Çaresiz dertlerim, dermanı sende</line>
+        <line>Derdime dermanı vermeden gitme</line></stanza>
+    <break/>
+    <stanza type="verse"><line>Çaresiz dertlerim dermanı sende</line>
+        <line>Derdime dermanı vermeden gitme</line></stanza>
+    <break/>
+    <stanza type="verse"><line>Çaresiz dertlerim derman bulmuyor</line>
+        <line><address formality="informal" pos="pronoun">Neden gönül neden <addressee>sensiz</addressee> olmuyor</address></line>
+        <line>Azdı yaralarım derman bulmuyor</line>
+        <line><address formality="informal" pos="verb" mood="imp-neg"><addressee/>Ne olur yaramı sarmadan gitme</address></line></stanza>
+    <break/>
+    <stanza type="verse"><line>Azdı yaralarım derman bulmuyor</line>
+        <line><address formality="informal" pos="verb" mood="imp-neg"><addressee/>Ne olur yaramı sarmadan gitme</address></line></stanza>
+    <break/>
+    <stanza type="verse"><line>Canım bağlı yar zülfünün telinden</line>
+        <line><aşık>Mecnun</aşık> gibi gezdim aşkın <nature>çölünden</nature></line>
+        <line><address formality="informal" pos="noun">Bir garibim kaldım <place where="foreign">gurbet</place> <addressee>elinden</addressee></address></line>
+        <line><address formality="informal" pos="verb" mood="imp-neg"><addressee/>Şu garip halimi görmeden gitme</address></line></stanza>
+    <break/>
+    <stanza type="verse"><line>Bir garibim kaldım gurbet elinden</line>
+        <line>Şu garip halimi görmeden gitme</line></stanza>
 </song>
