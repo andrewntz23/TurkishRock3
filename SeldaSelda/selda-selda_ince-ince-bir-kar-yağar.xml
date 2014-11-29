@@ -13,7 +13,7 @@
                 üstüne</poverty></line>
         <line>Neden felek <neglect>inanmıyor fukaranın sözüne</neglect></line>
         <line><address formality="formal" pos="noun"><neglect><death>Öldük öldük</death> biz açlıktan</neglect> etme <addressee>ağam</addressee> n'olur.</address></line></stanza>
-    <break/>
+    <break instr="electric guitar, " scale="major" solo="yes"/>
     <stanza type="verse"><line><class classtype="upper">Kimi mebus kimi vali</class>
             <narrator>bize tahsil haramdır</narrator></line>
         <line><address formality="informal" pos="pronoun">Dayanamam artık <addressee>senin bu yalancı pozuna</addressee></address></line>

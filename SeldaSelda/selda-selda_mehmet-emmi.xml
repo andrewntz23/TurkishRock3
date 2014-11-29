@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Selda Bağcan</artist><title>Mehmet Emmi</title><album>Selda</album><year>1976</year><source>http://lyricstranslate.com/en/mehmet-emmi-uncle-mehmet.html</source></metadata>
+    <metadata>
+        <artist>Selda Bağcan</artist>
+        <title>Mehmet Emmi</title>
+        <album>Selda</album>
+        <year>1976</year>
+        <source>http://lyricstranslate.com/en/mehmet-emmi-uncle-mehmet.html</source>
+    </metadata>
 
-<stanza type='verse'><line>Bir çift öküz yeter mi</line>
-<line><addressee>Aha mehmet emmi</addressee></line>
-<line>Böyle baca tüter mi</line>
-<line><address formality='informal' pos='noun'>Daha <addressee>mehmet emmi</addressee></address></line></stanza>
-<break/>
-<stanza type='verse'><line><neglect>Çoluk çocuk uyumaz</neglect></line>
-<line>Aha mehmet emmi</line>
-<line><neglect>Aç insanlar yatamaz</neglect></line>
-<line><address formality='informal' pos='noun'>Daha <addressee>mehmet emmi</addressee></address></line></stanza>
-<break/>
-<stanza type='verse'><line><neglect>Bu tarla susuz tarla</neglect></line>
-<line>Aha mehmet emmi</line>
-<line><address formality='informal' pos='verh' mood='imp'>Daha zorla ha zorla</address></line>
-<line><address formality='informal' pos='noun'>Daha <addressee>mehmet emmi</addressee></address></line></stanza>
-<break/>
-<stanza type='verse'><line>On çocuk arpa yiyor</line>
-<line>Aha mehmet emmi</line>
-<line>Beyler bunu bilmiyor</line>
-<line><address formality='informal' pos='noun'>Daha <addressee>mehmet emmi</addressee></address></line></stanza>
-<break/>
-<stanza type='verse'><line>Mehmet emmi irezil</line>
-<line>Aha mehmet emmi</line>
-<line>Vallahi yalan değil</line>
-<line><address formality='informal' pos='noun'>Daha <addressee>mehmet emmi</addressee></address></line></stanza>
-<break/>
-<stanza type='verse'><line><narrator>Gidelim</narrator> mahkemeye</line>
-<line>Aha mehmet emmi</line>
-<line>Mahzuni şerif geldi</line>
-<line><address formality='informal' pos='noun'>Daha <addressee>mehmet emmi</addressee></address></line></stanza>
-<break/>
+    <stanza type="verse"><line>Bir çift öküz yeter mi</line>
+        <line><addressee>Aha mehmet emmi</addressee></line>
+        <line>Böyle baca tüter mi</line>
+        <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>
+    <break instr="kaval, bağlama, electric bass" scale="major"/>
+    <stanza type="verse"><line><neglect>Çoluk çocuk uyumaz</neglect></line>
+        <line>Aha mehmet emmi</line>
+        <line><neglect>Aç insanlar yatamaz</neglect></line>
+        <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>
+    <break/>
+    <stanza type="verse"><line><neglect>Bu tarla susuz tarla</neglect></line>
+        <line>Aha mehmet emmi</line>
+        <line><address formality="informal" pos="verh" mood="imp">Daha zorla ha zorla</address></line>
+        <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>
+    <break/>
+    <stanza type="verse"><line>On çocuk arpa yiyor</line>
+        <line>Aha mehmet emmi</line>
+        <line>Beyler bunu bilmiyor</line>
+        <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>
+    <break/>
+    <stanza type="verse"><line>Mehmet emmi irezil</line>
+        <line>Aha mehmet emmi</line>
+        <line>Vallahi yalan değil</line>
+        <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>
+    <break/>
+    <stanza type="verse"><line><narrator>Gidelim</narrator> mahkemeye</line>
+        <line>Aha mehmet emmi</line>
+        <line>Mahzuni şerif geldi</line>
+        <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>
+    <break/>
 </song>

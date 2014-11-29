@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Selda Bağcan</artist><title>Kızıldere</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=78675&amp;sarki=K%FDz%FDldere&amp;sarkici=Selda%20Ba%F0can</source></metadata>
-<stanza type='verse'><line>Oy dere kızıldere</line>
-<line>Böyle akışın nere</line>
-<line><narrator>Bizde</narrator> hal mı bıraktın</line>
-<line>Sana <violence>can veren</violence> ele oy oy oy</line>
-<line>Dere <narrator>bizim <place where="home">evimiz</place></narrator></line>
-<line><address formality="formal" pos="verb" mood="imp">Suyu <addressee/>alın terimiz</address></line>
-<line><address formality="informal" pos="verb" mood="imp"><addressee/>Söyle nedendir dere</address></line>
-<line><violence>Vurulur <target><youth>gençlerimiz</youth></target> oy oy oy</violence></line>
-<line>Dere böyle durulmaz</line>
-<line><youth>Gence</youth> kurşun sıkılmaz</line>
-<line><address formality="informal" pos="verb" mood="imp-neg"><addressee/><warning>Sanma faşist olandan</warning></address></line>
-<line><future>Birgün <wealth>hesap</wealth> sorulmaz oy oy oy</future></line></stanza>
+    <metadata>
+        <artist>Selda Bağcan</artist>
+        <title>Kızıldere</title>
+        <album>Selda</album>
+        <year>1976</year>
+        <source>http://sarki.alternatifim.com/data.asp?ID=78675&amp;sarki=K%FDz%FDldere&amp;sarkici=Selda%20Ba%F0can</source>
+    </metadata>
+    <break instr="bağlama" scale="minor"/>
+    <stanza type="verse"><line>Oy dere kızıldere</line>
+        <line>Böyle akışın nere</line>
+        <line><narrator>Bizde</narrator> hal mı bıraktın</line>
+        <line>Sana <violence>can veren</violence> ele oy oy oy</line>
+        <line>Dere <narrator>bizim <place where="home">evimiz</place></narrator></line>
+        <line><address formality="formal" pos="verb" mood="imp">Suyu <addressee/>alın terimiz</address></line>
+        <line><address formality="informal" pos="verb" mood="imp"><addressee/>Söyle nedendir dere</address></line>
+        <line><violence>Vurulur <target><youth>gençlerimiz</youth></target> oy oy
+            oy</violence></line>
+        <line>Dere böyle durulmaz</line>
+        <line><youth>Gence</youth> kurşun sıkılmaz</line>
+        <line><address formality="informal" pos="verb" mood="imp-neg"><addressee/><warning>Sanma faşist olandan</warning></address></line>
+        <line><future>Birgün <wealth>hesap</wealth> sorulmaz oy oy oy</future></line></stanza>
 </song>
 <!-->The creek eternally continues along.<-->
