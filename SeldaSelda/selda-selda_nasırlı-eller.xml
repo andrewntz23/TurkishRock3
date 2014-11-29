@@ -14,7 +14,7 @@
         <line><narrator>gözler yaşlı, çatlamış topraklar</narrator></line>
         <line>kan ağlıyor burada bir insan</line>
         <line>ne ilk ne de son matem bu</line></stanza>
-    <break/>
+    <break instr="electro bağlama, kaval" scale="major"/>
     <stanza type="verse"><line>ne bir <place where="general">han</place>, ne <place where="world"
                 >mahşer yıktı bu dünyayı</place></line>
         <line><address formality="informal" pos="pronoun">sorarım, kim aldı <narrator>benden</narrator> <addressee>seni</addressee></address></line></stanza>

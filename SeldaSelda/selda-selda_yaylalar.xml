@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Selda Bağcan</artist><title>Yaylalar</title><album>Selda</album><year>1976</year><source>http://sarki.alternatifim.com/data.asp?ID=183533&amp;sarki=Yaylalar&amp;sarkici=Selda%20Ba%F0can</source></metadata>
+    <metadata>
+        <artist>Selda Bağcan</artist>
+        <title>Yaylalar</title>
+        <album>Selda</album>
+        <year>1976</year>
+        <source>http://sarki.alternatifim.com/data.asp?ID=183533&amp;sarki=Yaylalar&amp;sarkici=Selda%20Ba%F0can</source>
+    </metadata>
 
-<stanza type='verse'><line><place where='world'>Ay</place> akşamdan ışığdır</line>
-<line><nature>Yaylalar yaylalar</nature></line>
-<line>Yüküm şimşir kaşığıdır</line>
-<line>Dilo dilo yaylalar</line></stanza>
-<break/>
-<stanza type='verse'><line><address formality='informal' pos='noun'><addressee>Komşu</addressee> kızını zapteyle</address></line>
-<line>Yaylalar yaylalar</line>
-<line><love l='romantic'><family><narrator>Bizim</narrator> oğlan</family> aşıktır</love></line>
-<line>Dilo dilo yaylalar</line></stanza>
-<break/>
-    <stanza type='verse'><line><address formality='informal' pos='verb' mood='imp'>Ay akşamdan aş da gel</address></line>
-<line>Yaylalar yaylalar</line>
-<line><address formality='informal' pos='verb' mood='imp'>Cılga yola düş de gel</address></line>
-<line>Dilo dilo yaylalar</line>
-<line>Eğer <family>anan</family> koymazsa</line>
-<line>Yaylalar yaylalar</line>
-<line><address formality='informal' pos='verb' mood='imp'>Vicdanın danış da gel</address></line>
-<line>Dilo dilo yaylalar</line></stanza>
-<break/>
-<stanza type='verse'><line>Ayın önünde yıldız</line>
-<stanza type='verse'><line>Yaylalar yaylalar</line>
-<stanza type='verse'><line><address formality='informal' pos='verb' tense='aorist'>Nerden gelirsen <addressee><family>baldız</family></addressee></address></line>
-<stanza type='verse'><line>Dilo dilo yaylalar</line><stanza>
-<break/>
-<stanza type='verse'><line><address formality='informal' pos='pronoun'><addressee>Sen</addressee> git de <family>ablan</family> gelsin</address></line>
-<line>Yaylalar yaylalar</line>
-<line><narrator>Duramıram yalnız</narrator></line>
-<line>Dilo dilo yaylalar</line></stanza>
+    <stanza type="verse"><line><place where="world">Ay</place> akşamdan ışığdır</line>
+        <line><nature>Yaylalar yaylalar</nature></line>
+        <line>Yüküm şimşir kaşığıdır</line>
+        <line>Dilo dilo yaylalar</line></stanza>
+    <break instr="electric bass, electric guitar, sipsi" scale="major"/>
+    <stanza type="verse"
+            ><line><address formality="informal" pos="noun"><addressee>Komşu</addressee> kızını zapteyle</address></line>
+        <line>Yaylalar yaylalar</line>
+        <line><love l="romantic"><family><narrator>Bizim</narrator> oğlan</family>
+            aşıktır</love></line>
+        <line>Dilo dilo yaylalar</line></stanza>
+    <break/>
+    <stanza type="verse"
+            ><line><address formality="informal" pos="verb" mood="imp">Ay akşamdan aş da gel</address></line>
+        <line>Yaylalar yaylalar</line>
+        <line><address formality="informal" pos="verb" mood="imp">Cılga yola düş de gel</address></line>
+        <line>Dilo dilo yaylalar</line>
+        <line>Eğer <family>anan</family> koymazsa</line>
+        <line>Yaylalar yaylalar</line>
+        <line><address formality="informal" pos="verb" mood="imp">Vicdanın danış da gel</address></line>
+        <line>Dilo dilo yaylalar</line></stanza>
+    <break/>
+    <stanza type="verse"><line>Ayın önünde yıldız</line>
+        <line>Yaylalar yaylalar</line>
+        <line><address formality="informal" pos="verb" tense="aorist">Nerden gelirsen <addressee><family>baldız</family></addressee></address></line>
+        <line>Dilo dilo yaylalar</line></stanza>
+    <break/>
+    <stanza type="verse"
+            ><line><address formality="informal" pos="pronoun"><addressee>Sen</addressee> git de <family>ablan</family> gelsin</address></line>
+        <line>Yaylalar yaylalar</line>
+        <line><narrator>Duramıram yalnız</narrator></line>
+        <line>Dilo dilo yaylalar</line></stanza>
 </song>
