@@ -14,114 +14,120 @@
         <h3>address</h3>
         <p>We tagged an "address" element whenever the narrator used called out to a "you."For the
             "formality" attribute on address, we marked "formal" for the formal "you", and
-            "informal" for the familiar "you".</p> *****others here + addressee <p>ex: </p>
+            "informal" for the familiar "you".</p> *****others here + addressee <p>ex:&lt;address
+            formality="informal" pos="verb" mood="imp"> &lt;nature>Asmadan&lt;/nature> gel
+            &lt;nature>asmadan&lt;/nature> gel &lt;nature>asmadan&lt;/nature> &lt;/address> </p>
         <h3>place</h3>
         <p>We tagged any real or metaphorical place, and indicated where the words refferred to with
             a "where" attribute. This element may also contain references to the elements "neglect",
             "poverty", "nature", another "place", "class", or "family."</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;place where="rural"> &lt;nature>dağın başına&lt;/nature>
+            &lt;/place></p>
         <h3>journey</h3>
         <p>We used the journey element anytime a real or metaphorical journey was refferred to. This
             element may also contain references to the elements "nature" or "place."</p>
-        <p>ex:</p>
+        <p class="example">ex:****</p>
         <h3>*nature</h3>
         <p>In this element, we tagged references to the natural world. This element may also contain
             references to the elements "family", "place", "address", or "wealth."</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;nature>kara topraklar&lt;/nature></p>
         <h3>nationalism</h3>
         <p>Here we tagged any references to Turkish Nationalism and used the attribute "approve" to
             indicate whether or not they approved of a nationalistic sentiment.</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;nationalism approve="yes">birarada&lt;/nationalism></p>
         <h3>violence</h3>
         <p>We tagged any references to threatened or actual violence here. We used attribute
             "target" to indicate who this violence was against.</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;violence>Bir gürledimi yer yerinden oynar&lt;/violence> </p>
         <h3>neglect</h3>
         <p>We used this element to highlight lyrics about the neglect of the state. Elements
             "family," "death," and "place" could be inside this element.</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;neglect> &lt;family>Babamın&lt;/family> elini
+            öpmeden&lt;/neglect></p>
         <h3>death</h3>
         <p>This element indicates a mention of death. It can contain the element "narrator," to
             indicate a shift in who is narrating the song.</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;death>Vay gurban&lt;/death></p>
         <h3>econ</h3>
         <p>This element indicates economic problems or injustice. It can contain the element "place"
             to indicate a specific boundary.</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;econ>Borç ödeyince&lt;/econ></p>
         <h3>future</h3>
         <p>This element indicates references and attitueds toward the future. It can contain the
             elements "place," "nature," "nationalism," "addressee," "narrator," "poverty," and/or
             "wealth."</p>
-        <p>ex: </p>
+        <p class="example">ex: &lt;econ> &lt;place where="foreign">Libya'ya&lt;/place> gidecek
+            olanlara&lt;/econ></p>
         <h3>past</h3>
         <p>This element can be used with attribute "when". This element can be used with elements
             "nature," "love," and "place."</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;past when="foundingOfTurkey">1923`ün ılık bir ekim
+            sabahında&lt;/past></p>
         <h3>narrator</h3>
         <p>This element indicates the narrator of the song. It can have attribute number, with "1"
             meaning a singular narrator, and "2" indicating a collective narrator.</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;narrator>biz erkeklerin&lt;/narrator></p>
         <h3>class</h3>
         <p>Any references to social and economic class are tagged with "class." This element
             contains the attribute "classtype," whose value is either "upper," "middle," "lower," or
             "working." The tag can also contain elements "place," "class," "narrator," and/or
             "violence."</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;class type="working">işçiden&lt;/class></p>
         <h3>warning</h3>
         <p>This element can contain any type or warning or threat that isn't explicitly violent.</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;warning>Sanma faşist olandan&lt;/warning></p>
         <h3>wealth</h3>
         <p>This element contains any references to wealth.</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;wealth>bereket dolu&lt;/wealth> </p>
         <h3>poverty</h3>
         <p>This element contains any references to poverty. It can also contain the element
             "nature."</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;poverty>Bir Yoksulluk&lt;/poverty></p>
         <h3>crime</h3>
         <p>This element contains any references to crime.</p>
-        <p>ex:</p>
+        <p class="example">ex:****</p>
         <h3>family</h3>
         <p>This element contains any references to family. It can also include the element
             "narrator."</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;family>anam sevgi&lt;/family></p>
         <h3>friendship</h3>
         <p>This element contains any references to friendship, often the word "dost".</p>
-        <p>ex:</p>
+        <p class="example">ex:&lt;friendship>dostlar&lt;/friendship></p>
         <h3>youth</h3>
         <p>This element contains any references to youth and the ideas that surround it.</p>
-        <p>ex:</p>
+        <p class="example">ex: &lt;youth>gençlerimiz&lt;/youth></p>
         <h3>love</h3>
         <p>This element contains references to love. It must contain the attribute "l", which has a
             value of "romantic", "platonic", or "religious" to denote the type of love being
             expressed. The element can also contain the elements "narrator", "address", and/or
             "family."</p>
-        <p>ex:</p>
+        <p class="example">ex: &lt;love l="romantic">yare kavuşayım&lt;/love></p>
         <h3>break</h3>
         <p>This indicates a musical break in a song. If a song is an instremental, it will only
             contain a "break" element. A break can also contain attributes "instr", which contains
             the prominent instrements in the break or song, "scale", which will be either major or
             minor, and "solo", which indicates one or more instrements has an extensive solo. </p>
-        <p>ex:</p>
+        <p class="example">ex: &lt;break instr="electro bağlama, kaval" scale="major"/></p>
         <h3>poliWord</h3>
         <p>This element indicates any word from the list of politically charged words and phrases
             the Turkish government published*** such as "peace", "concede land", and "remove
             troops." This element contains the attribute "rl", which has the value of either "right"
             or "left" depending on which party's view the context of the word seems to point to.</p>
-        <p>ex:</p>
+        <p class="example">ex: &lt;poliWord rl="r">sağı&lt;/poliWord></p>
         <h3>allah</h3>
         <p>This element contains any references specifically to God. This element can contain a
             "narrator" element. </p>
-        <p>ex:</p>
+        <p class="example">ex: &lt;allah>Tanrım&lt;/allah></p>
         <h3>aşık</h3>
         <p>This element contains any reference to a folksinger or folk music.</p>
-        <p>ex:</p>
+        <p class="example">ex: &lt;aşık>Karacoğlan&lt;/aşık></p>
         <h3>curse</h3>
         <p>This element contains curse words or phrases. It must contain the attribute "degree",
             which can be either "minor", "offensive", or "banned word."</p>
-        <p>ex:</p>
+        <p class="example">ex:******</p>
         <h3>islam</h3>
         <p>This element contains references to the practice of Islam. It must contain the attribute
             "i", whose value is specific school or type of Islam being sung about. </p>
-        <p>ex:</p>
+        <p class="example">ex: &lt;islam i="sufism">Nasıl çıkar karanlıklar aydınlığa&lt;/islam></p>
     </body>
 </html>
