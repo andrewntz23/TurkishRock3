@@ -3,10 +3,12 @@
 <song>
 <metadata><artist>Cem Karaca</artist><title>Vay Gurban</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/vay_gurban-2-392.htm</source></metadata>
 <!-->There's a patient, could be anyone with a knife, like a sacrifice.<-->
+<break instr="synthesizer" scale="major" solo="yes"/>
 <stanza type='verse'><line><nature>Dağların ardı nazlıdır</nature></line>
 <line><nature>Uçurum kıyısında</nature></line>
 <line>İncecik bir yol gider</line>
 <line>Dolana dolana</line>
+<break instr="synthesizer" scale="major" solo="yes"/>
 <line><neglect>Bir hastam vardır umutsuz</neglect></line>
 <line>Belki Ayşe belki Elif</line>
 <line><!--><suffering><-->Endamı kuytuda başak<!--></suffering><--></line>
