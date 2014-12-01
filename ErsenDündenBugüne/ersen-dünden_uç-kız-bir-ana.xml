@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Ersen</artist><title>Uç Kız Bir Ana</title><album>Dünden Bugüne</album><year>1977</year><source>http://musicvideoswiz.com/artist/Ersen%20ve%20Dadaslar/lyrics#</source></metadata>
-instrumental(?)
+<metadata><artist>Ersen</artist><title>Uç Kız Bir Ana</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
+<stanza type="verse"><line>Yala asimdan giymişler</line>
+<line><family>Üç kız bir ana</family></line>
+<line>iyimişler ama </line>
+<line>allar ozan</line>
+<line>naile atma</line></stanza>
+
+<stanza type="verse"><line><family>Üç kız bir ana</family></line>
+<line>iyimişler ama </line>
+<line>allar ozlarkiya</line>
+<line>naile <family>ana</family></line></stanza>
+
+<break/>
+    
+<stanza type="verse"><line>karfa alları giymişler</line>
+<line><family>Üç kız bir ana</family></line>
+<line>giymişler aman</line>
+<line>allar lar ya</line>
+<line>ne ayrıl ana</line></stanza>
+
+<stanza type="chorus"><line><family>Üç kız bir ana</family></line>
+<line>giymişler aman</line>
+<line>allar ozlarkiya</line>
+<line>naile ana</line></stanza>
+
+<stanza type="verse"><line>Sokul yadonkyan</line>
+<line>adınya larına</line>
+<line><family>üç kız bir ana</family></line>
+<line>defmezler <narrator number="1">bana</narrator></line>
+<line><family>ne aile ana</family></line></stanza>
+
+<stanza type="chorus"><line><family>Üç kız bir ana</family></line>
+<line>defmezler <narrator number="1">bana</narrator></line>
+<line>allar lar ya</line>
+<line>ne ayrıl ana</line></stanza>
 </song>

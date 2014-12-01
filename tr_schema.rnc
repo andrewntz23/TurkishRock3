@@ -25,7 +25,7 @@ tense = attribute tense {'present' | 'aorist'| 'past' | 'future' | 'nonpast'}
 aspect = attribute aspect {'perfect' | 'imperfect'}
 voice = attribute voice{'passive'|'active'}
 
-place = element place {where, (text|neglect|poverty|nature|place|class|nationalism|family)+}
+place = element place {where, (text|neglect|poverty|nature|place|class|family)+}
 journey = element journey{where, (text|nature|place)+}
 where = attribute where {('home' |'region'| 'general'| 'rural' | 'urban' | 'turkey' | 'foreign'| 'world' | 'abstract')}
 nature = element nature{(text|family|place|address|wealth)+}
@@ -76,7 +76,7 @@ curse = element curse { degree, text }
 degree = element degree { text } #choose minor, offensive, or banned word
 
 
-islam = element islam {i, (text|narrator)+ } #ref to practice of Islam
+islam = element islam {i, text } #ref to practice of Islam
 i = attribute i {text} #specific school or type of Islam
 
 #I'm fairly certain none of them after this hashtag get used but are here //just in case// they need used
