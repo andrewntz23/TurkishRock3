@@ -11,8 +11,8 @@
     <svg xmlns='http://www.w3.org/2000/svg' height='100%' width='100%'>
         <g transform='translate(0 100)'>
             <xsl:for-each select='//ref'>
-                <rect x='{position()*10}' y='{-.}' height='{.}' width='5'/>
-                <text x='{position()*10}' y='15' style='font-family:Times,serif;fill:black;font-size:12px'><xsl:value-of select='./@id'/></text>
+                <rect x='{position()*25}' y='{-.}' height='{.}' width='5'/>
+                <text x='{position()*25}' y='15' style='font-family:Times,serif;fill:black;font-size:12px'><xsl:value-of select='./@id'/></text>
             </xsl:for-each>
         </g>
     </svg>
