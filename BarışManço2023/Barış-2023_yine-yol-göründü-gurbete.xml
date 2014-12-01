@@ -6,10 +6,10 @@
         <title>Yine Yol Göründü Gurbete</title>
         <album>2023</album>
         <year>1975</year>
+        <politicalS>none</politicalS>
         <source>http://www.akormerkezi.com/baris-manco-yine-yol-gorundu-sarki-sozu_sarki-hrfjj.html</source>
     </metadata>
     <!-->This song is about Barış ditching his family and home for less cold foreign lands<-->
-    <!-->Should there be a journey element? If so, it would work perfectly in this song and in uzun ince bir yoldayim<-->
     <stanza type="verse"><line>Yine yol göründü <place where="foreign">gurbete</place>
             <nature>güz</nature> geldi <nature>yapraklar döküldü</nature></line>
         <line>Martılar göç etti turnalar süzüldü yine yol göründü <place where="foreign"
@@ -21,7 +21,7 @@
     <stanza type="chorus">
         <line><neglect>Acı keder hep bana <family>kardeş, bacı, ana, baba</family></neglect></line>
         <line>Benim olsa bütün <place where="world">dünya</place> yetmez ki</line>
-        <line>Derdimi kimlere söyleyim <narrator>ben garip Barış'ım</narrator> neyleyim</line>
+        <line>Derdimi kimlere söyleyim <narrator number="1">ben garip Barış'ım</narrator> neyleyim</line>
         <line><family>Anadan babadan yuvadan</family> uzakta yine yol göründü
         gurbete</line></stanza>
 </song>

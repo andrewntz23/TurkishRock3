@@ -6,6 +6,7 @@
         <title>Dere Boyu Kavaklar</title>
         <album>2023</album>
         <year>1975</year>
+        <politicalS>none</politicalS>
         <source>http://www.akormerkezi.com/baris-manco-dere-boyu-kavaklar-sarki-sozu_sarki-htdjj.html</source>
     </metadata>
 
@@ -24,24 +25,24 @@
     <stanza type="chorus">
         <line><address formality="informal" pos="verb" mood="imp"><addressee><place where="foreign">Acem</place> kızı</addressee> <addressee><place where="foreign">çeçen</place> kızı</addressee> <addressee>sen</addressee> allar giy</address>
             ben kırmızı</line>
-        <line><address formality="informal">Çıkalım şu <place where="rural"><nature>dağın başına</nature></place> <addressee>sen</addressee> gül topla <narrator>ben</narrator> nergisi</address></line>
+        <line><address formality="informal">Çıkalım şu <place where="rural"><nature>dağın başına</nature></place> <addressee>sen</addressee> gül topla <narrator number="1">ben</narrator> nergisi</address></line>
         <line><address formality="informal">Hadi <addressee atype="romantic">gülüm</addressee> yandan yandan</address></line>
-        <line><narrator>Biz</narrator> korkmayız ondan bundan <narrator>biz</narrator> korkmayız
+        <line><narrator number="2">Biz</narrator> korkmayız ondan bundan <narrator number="2">biz</narrator> korkmayız
             ondan bundan</line>
     </stanza>
     <break instr="bağlama, electric guitar" scale="minor"/>
     <!-- All of the breaks have these instrements, but I only tagged one to make aggregating easier -->
     <stanza type="verse"><line>Oy bulanacak oy bulanacak</line>
         <line>Bu işler ne olacak bu iş nasıl olacak</line>
-        <line>Erkeklerin günahı <narrator>biz erkeklerin</narrator> günahı</line>
+        <line>Erkeklerin günahı <narrator number="2">biz erkeklerin</narrator> günahı</line>
         <line><address formality="formal" pos="verb" voice="passive"><addressee>Kız sizlerden</addressee> sorulacak <addressee>kız sizlerden</addressee> sorulacak</address></line></stanza>
     <break/>
     <stanza type="chorus">
         <line><address formality="informal" pos="verb" mood="imp"><addressee><place where="foreign">Acem</place> kızı</addressee> <addressee><place where="foreign">çeçen</place> kızı</addressee> <addressee>sen</addressee> allar giy</address>
             ben kırmızı</line>
-        <line><address formality="informal">Çıkalım şu <place where="rural"><nature>dağın başına</nature></place> <addressee>sen</addressee> gül topla <narrator>ben</narrator> nergisi</address></line>
+        <line><address formality="informal">Çıkalım şu <place where="rural"><nature>dağın başına</nature></place> <addressee>sen</addressee> gül topla <narrator number="1">ben</narrator> nergisi</address></line>
         <line><address formality="informal">Hadi <addressee atype="romantic">gülüm</addressee> yandan yandan</address></line>
-        <line><narrator>Biz</narrator> korkmayız ondan bundan <narrator>biz</narrator> korkmayız
+        <line><narrator number="2">Biz</narrator> korkmayız ondan bundan <narrator number="2">biz</narrator> korkmayız
             ondan bundan</line>
     </stanza>
 </song>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Vur Ha Vur</title><album>2023</album><year>1975</year><source>http://www.sarkisozlerilyrics.com/baris-manco-baykoca-destani-sarki-sozu</source></metadata>
+<metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Vur Ha Vur</title><album>2023</album><year>1975</year><politicalS>none</politicalS><source>http://www.sarkisozlerilyrics.com/baris-manco-baykoca-destani-sarki-sozu</source></metadata>
     
 <stanza type="verse"><line><place where="general">Dağların üstünden</place> doğdu bir yıldız</line>
 <line>Deftere alındı 12 bin kız</line>
-<line><narrator>Yollara döküldük er kişiyiz biz</narrator></line>
+<line>Yollara döküldük er kişiyiz <narrator number="2">biz</narrator></line>
 <line><address formality="informal" pos="verb" mood="imp-neg">Vur ha <addressee><friendship>kardaş</friendship></addressee> vur ha vur ha vur</address></line></stanza>
     
-<stanza type="chorus"><line><narrator>Yollara döküldük er kişiyiz biz</narrator></line>
+<stanza type="chorus"><line>Yollara döküldük er kişiyiz <narrator number="2">biz</narrator></line>
 <line><address formality="informal" pos="verb" mood="imp-neg">Vur ha <addressee><friendship>kardaş</friendship></addressee> vur ha vur ha vur</address></line>
 </stanza>
     

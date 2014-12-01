@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Gülme Ha Gülme</title><album>2023</album><year>1975</year><source></source></metadata>
+    <metadata><artist>Barış Manço</artist><title>Baykoca Destanı: Gülme Ha Gülme</title><album>2023</album><year>1975</year><politicalS>none</politicalS><source>http://www.akormerkezi.com/baris-manco-baykoca-destani-sarki-sozu_sarki-dpjvpf.html</source></metadata>
     <stanza type="chorus">
         <line>Turnalardan haberimi aldığın gün sevdiceğim</line>
         <line><address formality='informal' pos='verb' mood='imp-neg'>Gülme <addressee>sakın</addressee> gülme ha gülme</address></line>
@@ -11,12 +11,12 @@
     <stanza type="verse">
         <line><nature>Yağmur ince ığıl ığıl ağlar</nature></line>
         <line><nature>Her damlası yüreğimi dağlar</nature></line>
-        <line><address formality='informal'><addressee>Seni</addressee> <narrator>bana</narrator> çok görenler neyler</address></line>
+        <line><address formality='informal'><addressee>Seni</addressee> <narrator number="1">bana</narrator> çok görenler neyler</address></line>
     </stanza>
     <stanza type="verse">
         <line><nature>Karlı dağlar</nature> uzun uzun yollar</line>
         <line>Hepsi pişman susmuş ağlar</line>
-        <line><addressee>Seni</addressee> <narrator>bana</narrator> çok görenler neyler</line>
+        <line><addressee>Seni</addressee> <narrator number="1">bana</narrator> çok görenler neyler</line>
     </stanza>
     <stanza type="verse">
         <line>Sılada kalan dertli yaşar</line>
