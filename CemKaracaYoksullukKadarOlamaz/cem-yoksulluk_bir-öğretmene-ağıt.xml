@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca</artist><title>Bir Öğretmene Ağıt</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/bir_ogretmene_agit-2-341.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Bir Öğretmene Ağıt</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><politicalS>left</politicalS><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/bir_ogretmene_agit-2-341.htm</source></metadata>
 <stanza type='monologue'><line>Bir Öğretmene Ağıt</line></stanza>
 <break instr="music box" scale="major"/>
 <stanza type='verse'><line>Bu gün okul yok artık çocuklar</line>
@@ -16,10 +16,10 @@
 <stanza type="verse"><line>Kapatın gözlerimi bağlayın çenemi</line>
 <line>Ben toprağa hazırım</line>
 <line>Yanında yer ayır <military forNot="yes">Kubilay Teğmenim</military></line>
-<line><place where='rural'><poverty>Yoksul</poverty> bir köyde</place> <narrator>öğretmenim</narrator></line></stanza>
+<line><place where='rural'><poverty>Yoksul</poverty> bir köyde</place> <narrator number="1">öğretmenim</narrator></line></stanza>
 <stanza type="monologue"><line>Biliyorum bütün kabahat bende <communism>öğretmen oluşumda</communism></line>
 <line>Ve saklamamamda aydınlık düşüncelerimi</line></stanza>
-<stanza type="chorus"><line><nationalism approve="yes">Ama <narrator>ben</narrator> Cumhuriyette doğdum, <narrator>Cumhuriyet <family>çocuğuyum</family></narrator></nationalism></line>
+<stanza type="chorus"><line><nationalism approve="yes">Ama <narrator number="1">ben</narrator> Cumhuriyette doğdum, <narrator number="1">Cumhuriyet <family>çocuğuyum</family></narrator></nationalism></line>
 <line>Olamaz <communism>öğretmen oluşum</communism> suçum</line></stanza>
 <break instr="synthesizer, bass" scale="major"/>
 </song>

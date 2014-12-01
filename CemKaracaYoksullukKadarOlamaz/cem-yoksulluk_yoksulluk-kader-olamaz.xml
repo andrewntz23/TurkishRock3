@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca</artist><title>Yoksulluk Kader Olamaz</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/yoksulluk_kader_olamaz-2-386.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Yoksulluk Kader Olamaz</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><politicalS>left</politicalS><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/yoksulluk_kader_olamaz-2-386.htm</source></metadata>
 <break instr="synthesizer" scale="minor"/>
 <stanza type='verse'><line>Sıram gibi sıradağlar</line>
 <line>Anam anam derdin mi var?</line>
@@ -9,14 +9,14 @@
 </stanza>
 <break instr="synthesizer, organ, drums, bass" scale="minor"/>
 <stanza type="verse">
-<line>Radyolarda şarkılar boş ver diyorlar</line>
-<line>Açlıktan verem olana bal ye diyorlar</line></stanza>
+<line><neglect>Radyolarda şarkılar boş ver diyorlar</neglect></line>
+<line><neglect>Açlıktan verem olana bal ye diyorlar</neglect></line></stanza>
 
 <break instr="synthesizer, organ, drums, bass" scale="minor"/>
 <stanza type='chorus'><line><poverty>Yoksulluk</poverty> kader olamaz kader değildir</line>
 <line>Firavunlar bile böyle zalim değildir</line></stanza>
 <break/>
-<stanza type='verse'><line><narrator>Ben</narrator> vatandaş Ahmet'im evkafta memur</line>
+<stanza type='verse'><line><narrator number="1">Ben</narrator> vatandaş Ahmet'im evkafta memur</line>
 <line>Ay sonuna yetmiyor evdeki kömür</line>
 <line><neglect>Bir kilo et seksen lira</neglect> tadını unuttum</line>
 <line>İnsan gibi yaşamanın adını unuttum</line></stanza>
@@ -27,19 +27,19 @@
 <break/>
 <stanza type='verse'><line>Devlet <family>baba</family> borç içinde sabret diyorlar</line>
 <line><addressee>Sen</addressee> de bakkala kasaba borç et diyorlar</line>
-<line><narrator>Ben</narrator> onurlu insanım boyun eğemem</line>
+<line><narrator number="1">Ben</narrator> onurlu insanım boyun eğemem</line>
 <line>Alacaklı ver deyince ödün veremem</line></stanza>
 <break instr="synthesizer, organ, drums, bass" scale="minor"/>
 
 <stanza type='chorus'><line><future><poverty>Yoksulluk</poverty> kader olamaz kader değildir</future></line>
 <line>Firavunlar bile böyle zalim değildir</line></stanza>
 <break/>
-<stanza type='verse'><line>Devlet baba borç içinde sabret diyorlar</line>
+<stanza type='verse'><line><class classtype="upper">Devlet baba</class> borç içinde sabret diyorlar</line>
 <line>Sen de bakkala kasaba borç et diyorlar</line>
-<line>Ben onurlu insanım boyun eğemem</line>
+<line><narrator number="1">Ben</narrator> onurlu insanım boyun eğemem</line>
 <line>Alacaklı ver deyince ödün veremem</line></stanza>
 <break instr="synthesizer, organ, drums, bass" scale="minor"/>
-<stanza type='chorus'><line>Yoksulluk kader olamaz kader değildir</line>
-<line>Firavunlar bile böyle zalim değildir</line></stanza>
+<stanza type='chorus'><line><poverty>Yoksulluk kader olamaz kader değildir</poverty></line>
+<line><class classtype="upper">Firavunlar</class> bile böyle zalim değildir</line></stanza>
 <break instr="synthesizer, organ, drums, bass" scale="minor"/>
 </song>

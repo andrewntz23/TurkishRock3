@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Cem Karaca</artist><title>Sevdan Beni</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/sevdan_beni-2-389.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>Sevdan Beni</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><politicalS>none</politicalS><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/sevdan_beni-2-389.htm</source></metadata>
 <break instr="guitar, synthesizer, drums" scale="minor"/>
-<stanza type='verse'><line>Sevdan <narrator>beni</narrator></line>
-<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator>beni</narrator></line>
+<stanza type='verse'><line>Sevdan <narrator number="1">beni</narrator></line>
+<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator number="1">beni</narrator></line>
 <line><neglect>Aç kaldım susuz kaldım</neglect></line>
 <line>Ay karanlıktı gecem</line>
-<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator>beni</narrator></line></stanza>
+<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator number="1">beni</narrator></line></stanza>
 <break instr="guitar, synthesizer, drums" scale="minor"/>
 <stanza type="verse">
 <line>İlle can garip ille can suskun</line>
 <line>Can paramparça</line>
-<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator>beni</narrator></line>
+<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator number="1">beni</narrator></line>
 <line>Ellerim kelepçede</line>
 <line>Tütünsüz uykusuz kaldım</line>
-<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator>beni</narrator></line></stanza>
+<line>Terk etmedi <love l='romantic'>sevdan</love> <narrator number="1">beni</narrator></line></stanza>
 </song>

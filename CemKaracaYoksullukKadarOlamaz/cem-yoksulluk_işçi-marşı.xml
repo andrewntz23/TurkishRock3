@@ -1,42 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
-<!-->COME BACK TO THIS ONE, FIX TAGS<-->
 <song>
-<metadata><artist>Cem Karaca</artist><title>İşçi Marşı</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/isci_marsi-2-387.htm</source></metadata>
+<metadata><artist>Cem Karaca</artist><title>İşçi Marşı</title><album>Yoksulluk Kader Olamaz</album><year>1977</year><politicalS>left</politicalS><source>http://www.anatolianrock.com/Cem_Karaca/sarki_sozleri/isci_marsi-2-387.htm</source></metadata>
 <break instr="drums, synthesizer" scale="major"/>
 <stanza type="chorus"><line>Hava döndü <class classtype="working">işçiden</class> esiyor yel</line>
 <line>Dumanı dağıtacak yıldız poyraz başladı</line>
 <line>Bu fırtına varın ki süt limanlığa bedel</line>
 <line>Bahar yakın demek ki mevsim böyle kışladı</line></stanza>
 
-<stanza type="chorus"><line>Hava döndü işçiden ediyor yel <!-->some repetition here<--></line>
+<stanza type="chorus"><line>Hava döndü <class classtype="working">işçiden</class> ediyor yel <!-->some repetition here<--></line>
 <line>Tekliyor işte çağın çarkına okuyan çark</line>
 <line>Ve durdu muydu bir gün bu kör avara kasnak</line>
 <line>Bir zinciri yitirenler bir dünya kazanacak</line>
-<line><address pos="verb" person="second" formality="informal"><addressee>Sen</addressee> de o <place>dünyadansın</place> sınıfım insafa gel</address></line></stanza>
+<line><address pos="verb" mood='imp' formality="informal"><addressee>Sen</addressee> de o <place where="world">dünyadansın</place> sınıfım insafa gel</address></line></stanza>
 <break/>
-<stanza type="chorus"><line>Hava döndü işçiden esiyor yel</line>
+<stanza type="chorus"><line>Hava döndü <class classtype="working">işçiden</class> esiyor yel</line>
 <line><place where="rural">Köylüler</place> uykusunda döndü dönüyor sola</line>
-<line><time>Güne</time> bakıyor bebek büyüyen yumruğuyla</line>
+<line>Güne bakıyor bebek büyüyen yumruğuyla</line>
 <line>Başaklar geberdi baş baş koydular bu yola</line>
-<line>Şaltere uzanıyor tanrıya uzanmış el</line></stanza>
+<line>Şaltere uzanıyor <allah>tanrıya</allah> uzanmış el</line></stanza>
 <break instr="synthesizer" solo="yes"/>
-<stanza type="chorus"><line>Hava döndü işçiden esiyor yel</line>
+<stanza type="chorus"><line>Hava döndü <class classtype="working">işçiden</class> esiyor yel</line>
 <line>Senlik benlik bitip de kuruldu muydu bizlik</line>
-<line><econ><neglect>Asgari ücret değil</neglect>, hür ve günlük güneşlik</econ></line>
-<line>Bir <place>Türkiye</place> olacak aldığım son gündelik</line>
-<line><address>Kalıp kalkacak yine de bilince <addressee>zalim sen</addressee></address></line></stanza>
+<line><neglect>Asgari ücret değil</neglect>, hür ve günlük güneşlik</line>
+<line>Bir <place where="turkey">Türkiye</place> olacak aldığım son gündelik</line>
+<line><address formality="informal" pos="pronoun">Kalıp kalkacak yine de bilince <addressee>zalim sen</addressee></address></line></stanza>
 <break instr="synthesizer" solo="yes"/>
-<stanza type="chorus"><line>Hava döndü işçiden esiyor yel</line>
+<stanza type="chorus"><line>Hava döndü <class classtype="working">işçiden</class> esiyor yel</line>
 <line>Tarihle yürüyenler tarihle adım adım</line>
 <line>Safları sıklaştırın tarihle hırslanalım</line>
 <line>Lakin hızlandık derken komuta atma sakın</line>
-<line>Başları bozuklar var <time>şimdi</time> bize tek engel</line></stanza>
+<line>Başları bozuklar var şimdi bize tek engel</line></stanza>
 <break/>
-<stanza type="chorus"><line>Hava döndü işçiden esiyor yel</line>
+<stanza type="chorus"><line>Hava döndü <class classtype="working">işçiden</class> esiyor yel</line>
 <line><future>Sanki Ferhat' sın işçi günün senin gelecek</future></line>
 <line>İndir külüngün indir de şu karanlığı del</line>
 <line>Del ki dağlar ardından önümüze bir çiçek gibi açsın</line>
 <line>Aydınlık tekmil olunca tünel</line>
-<line>Hava döndü işçiden esiyor yel</line></stanza>
+<line>Hava döndü <class classtype="working">işçiden</class> esiyor yel</line></stanza>
 </song>
