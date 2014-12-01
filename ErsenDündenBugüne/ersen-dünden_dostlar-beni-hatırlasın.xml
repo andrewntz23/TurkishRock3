@@ -3,17 +3,21 @@
 <song>
 <metadata><artist>Ersen</artist><title>Dostlar Beni Hatırlasın</title><album>Dünden Bugüne</album><year>1977</year><source>http://sarki.alternatifim.com/data.asp?ID=149381&amp;sarki=Dostlar%20Beni%20Hat%FDrlas%FDn&amp;sarkici=Ersen%20ve%20Dada%FElar</source></metadata>
 <!-->some lyrics are missing and I haven't added them yet<-->
+<break instr="bass, organ, drums, synthesizer, saz" scale="minor"/>
 <stanza type='verse'><line><friendship>Dostlar</friendship> <narrator>Beni</narrator> Hatırlasın</line>
 <line><narrator>Ben</narrator> giderim adım kalır</line>
 <line><friendship>Dostlar</friendship> <narrator>beni</narrator> hatırlasın.</line>
 <line><past>Düğün olur bayram gelir</past></line>
 <line><friendship>Dostlar</friendship> <narrator>beni</narrator> hatırlasın</line></stanza>
-<break/>
+<break instr="bass, organ, drums" scale="minor"/>
+<break instr="acoustic guitar, bass, drums" scale="minor"/>
 <stanza type='verse'><line>Can kafeste durmaz uçar</line>
 <line><place where='world'>Dünya</place> bir <place where='turkey'>han</place>, konan göçer</line>
 <line>Ay dolanır yıllar geçer</line>
 <line><friendship>Dostlar</friendship> <narrator>beni</narrator> hatırlasın</line></stanza>
-<break/>
+<break instr="bass, organ, drums" scale="minor"/>
+<break instr="saz" scale="minor" solo="yes"/>
+<break instr="synthesizer" scale="minor" solo="yes"/>
 <stanza type='verse'><line>Ne gelsemdi, ne giderdim</line>
 <line>Günden güne arttı derdim</line></stanza>
 </song>
