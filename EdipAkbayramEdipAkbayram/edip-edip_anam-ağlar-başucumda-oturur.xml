@@ -6,21 +6,22 @@
         <title>Anam Ağlar Başucumda Oturur</title>
         <album>Edip Akbayram</album>
         <year>1974</year>
+        <politicalS>none</politicalS>
         <source>http://sarki.alternatifim.com/data.asp?ID=47814&amp;sarki=Anam%20A%F0lar%20Ba%FEucumda%20Oturur&amp;sarkici=Edip%20Akbayram</source>
     </metadata>
 
     <stanza type="verse"><line><family>Anam</family> ağlar başucumda oturur</line>
         <line>Derdim elli iken yüze getirir</line>
-        <line>Bu dert <narrator>beni</narrator>
+        <line>Bu dert <narrator number="1">beni</narrator>
             <death>yiye yiye öldürür</death></line></stanza>
     <break/>
-    <stanza type="verse"><line>El çek tabip el çek <narrator>benim</narrator> yaremden</line><!-->wound<-->
+    <stanza type="verse"><line>El çek tabip el çek <narrator number="1">benim</narrator> yaremden</line><!-->wound<-->
         <line>Ölürüm kurtulmam ben bu yareden</line></stanza>
     <break instr="bağlama" scale="minor"/>
     <stanza type="verse"><line>Anama <family>babama</family> bir sözüm kalmadı</line>
         <line><address formality="informal" pos="verb" mood="imp"><addressee/>Bir su ver demeye yüzüm kalmadı</address></line>
         <line>Doktora tabibe lüzum kalmadı</line></stanza>
     <break/>
-    <stanza type="verse"><line>El çek tabip el çek <narrator>benim</narrator> yaremden</line>
-        <line>Ölürüm kurtulmam <narrator>ben</narrator> bu yareden</line></stanza>
+    <stanza type="verse"><line>El çek tabip el çek <narrator number="1">benim</narrator> yaremden</line>
+        <line>Ölürüm kurtulmam <narrator number="1">ben</narrator> bu yareden</line></stanza>
 </song>

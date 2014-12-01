@@ -6,15 +6,16 @@
         <title>Deniz Üstü Köpürür</title>
         <album>Edip Akbayram</album>
         <year>1974</year>
+        <politicalS>none</politicalS>
         <source>http://sarki.alternatifim.com/data.asp?ID=49733&amp;sarki=Deniz%20%DCst%FC%20K%F6p%FCr%FCr&amp;sarkici=Edip%20Akbayram</source>
     </metadata>
 
     <stanza type="verse"><line><nature>Deniz üstü köpürür</nature></line>
         <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> rinna nay rinna rinna nay</address></line>
-        <line>Kayığa da <narrator>binsem</narrator> götürür</line>
+        <line>Kayığa da binsem götürür</line>
         <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> hey</address></line></stanza>
     <break instr="electric guitar" scale="major"/>
-    <stanza type="verse"><line><narrator>Benim</narrator> de şu <place where="world">dünyaya</place>
+    <stanza type="verse"><line><narrator number="1">Benim</narrator> de şu <place where="world">dünyaya</place>
             gelişim</line>
         <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> rinna nay rinna rinna nay</address></line>
         <line>Bir güzelin hatırı</line>
@@ -26,8 +27,8 @@
         <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> hey</address></line></stanza>
     <break/>
     <stanza type="verse"><line><nature>Taş üstüne taş</nature>
-            <narrator>koydum</narrator></line>
+            koydum</line>
         <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> rinna nay rinna rinna nay</address></line>
-        <line><nature>Gül</nature> yastığa baş <narrator>koydum</narrator></line>
+        <line><nature>Gül</nature> yastığa baş koydum</line>
         <line><address formality="informal" pos="noun">Hey <addressee>canım</addressee> hey</address></line></stanza>
 </song>

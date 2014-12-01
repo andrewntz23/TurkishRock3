@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Edip Akbayram</artist><title>Yakar Icenden Icenden</title><album>Edip Akbayram</album><year>1974</year><source>http://sarki.alternatifim.com/data.asp?ID=262405&amp;sarki=Yakar%20%DDnceden&amp;sarkici=Edip%20Akbayram</source></metadata>
+<metadata><artist>Edip Akbayram</artist><title>Yakar Icenden Icenden</title><album>Edip Akbayram</album><year>1974</year><politicalS>none</politicalS><source>http://sarki.alternatifim.com/data.asp?ID=262405&amp;sarki=Yakar%20%DDnceden&amp;sarkici=Edip%20Akbayram</source></metadata>
 
 <stanza type='verse'><line>Gördü bir kere gözlerim</line>
 <line>Akar yaşım dolu dolu</line>
@@ -10,7 +10,7 @@
 <break instr="bass, electric guitar, tambourine" scale="minor" solo="yes"/>
 <stanza type='verse'><line>Komayın gidem yarime</line>
 <line>O bir ateştir yarama</line>
-<line>Ayrılamam <love l="?">sevdiğimden</love></line>
+<line>Ayrılamam <love l="romantic">sevdiğimden</love></line>
 <line>Ak görünür kara kara</line></stanza>
 <break/>
 <stanza type='verse'><line>Gayrı yüzüm gülmez oldu</line>
