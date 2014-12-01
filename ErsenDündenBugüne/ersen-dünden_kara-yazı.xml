@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Ersen</artist><title>Kara Yazı</title><album>Dünden Bugüne</album><year>1977</year><source>https://eksisozluk.com/kara-yazi--314410</source></metadata>
-<!-->Lyrics Missing!!<-->
+<metadata><artist>Ersen</artist><title>Kara Yazı</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
+
+<stanza type="verse"><line>Her telimde hasret şarkısı</line>
+<line><aşık>Dertliyim çalarım sazım</aşık></line>
+<line>Sevdeğim bırakmaz nazır</line>
+<line>Vurda alım da kara yazır</line>
+<line>Sevdeğim bırakmaz nazı</line>
+<line>Vurda alım da kara yazı</line></stanza>
+
+<stanza type="chorus"><line><address formality="informal" pos="verb" mood="imp">Gel <addressee><family>amanım</family></addressee> gel</address></line>
+<line><address formality="informal" pos="verb" mood="imp"><addressee/>hey hey git</address></line>
+<line><address formality="informal" pos="verb" mood="imp"><addressee><family>amanın</family></addressee> git</address></line>
+<line><address formality="informal" pos="verb" mood="imp">Gel <addressee><family>amanım</family></addressee> gel</address></line>
+<line><address formality="informal" pos="verb" mood="imp"><addressee/>hey hey git</address></line>
+<line><address formality="informal" pos="verb" mood="imp"><addressee><family>amanın</family></addressee> git</address></line></stanza>
+
+<stanza type="verse"><line>ocak <death>öldüm</death></line>
+<line><place where="rural">köyümden</place> oldum</line>
+<line><narrator number="1">beni</narrator> anlamadım</line>
+<line>ne sazı mı</line>
+<line>ne şarkı mı</line></stanza>
+
+<stanza type="chorus"><line>ne şarkı mı</line>
+<line>kara yazı mı</line>
+<line>ne sazı mı</line>
+<line>ne şarkı mı</line>
+<line>kara yazı mı</line></stanza>
+
+<stanza type="verse"><line>sorlarım dostlarım size</line>
+<line>yok mu du de dime çare</line>
+<line>Eğer sen kutlu derdine</line>
+<line>Dünya dene güzellirle</line></stanza>
+
+    <stanza type="chorus"><line><address formality="informal" pos="verb" mood="imp">Gel <addressee><family>amanım</family></addressee> gel</address></line>
+        <line><address formality="informal" pos="verb" mood="imp"><addressee/>hey hey git</address></line>
+        <line><address formality="informal" pos="verb" mood="imp"><addressee><family>amanın</family></addressee> git</address></line>
+        <line><address formality="informal" pos="verb" mood="imp">Gel <addressee><family>amanım</family></addressee> gel</address></line>
+        <line><address formality="informal" pos="verb" mood="imp"><addressee/>hey hey git</address></line>
+        <line><address formality="informal" pos="verb" mood="imp"><addressee><family>amanın</family></addressee> git</address></line></stanza>
+
+    <stanza type="verse"><line>ocak <death>öldüm</death></line>
+        <line><place where="rural">köyümden</place> oldum</line>
+        <line><narrator number="1">beni</narrator> anlamadım</line>
+        <line><narrator number="1">beni</narrator> anlamadım</line>
+        <line>ne şarkı mı</line>
+<line>ne sazı mı</line>
+<line>ne şarkı mı</line>
+<line>ne sazı mı</line>
+<line>ne şarkı mı</line>
+<line>kara yazı mı</line>
+<line>kara yazı mı</line>
+<line>kara yazı mı</line>
+<line>kara yazı mı</line></stanza>
+
+
 </song>
