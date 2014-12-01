@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Ersen</artist><title>Garip Gönlüm</title><album>Dünden Bugüne</album><year>1977</year><source>http://www.neolsunki.com/sarki-sozleri/5793-etkin--garip-gonlum.html</source></metadata>
-<!-->These were the lyrics to the wrong song. :'(<-->
+<metadata><artist>Ersen</artist><title>Garip Gönlüm</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
+<stanza type="verse"><line>Aydilar aşmak ister</line>
+<line>Köyde yaşmak ister</line>
+<line>Çok <narrator number="1">benim</narrator> garip</line>
+<line>Yare kavuşmak ister</line></stanza>
+
+<stanza type="verse"><line>Bacı başmak bıttılar</line>
+<line>Gel aşır o turak</line>
+<line>al <narrator number="1">beni</narrator> alım seni</line>
+<line>ellerinden kurtumak</line>
+<line>aman aman oy</line></stanza>
+
+<stanza type="verse"><line>Gittim arta hiç</line>
+<line>Eğildim su içmeye</line>
+<line>Dediler yarin gelmiş</line>
+<line>Karnat aştım üç</line></stanza>
+
+<stanza type="verse"><line>Sarı boşum sevmeni</line>
+<line>Alyan aktan öpmeli</line>
+<line>Geceler on dört saat</line>
+<line>Nasıl yalnız yatmanı</line>
+<line>Aman aman oy</line></stanza>
+
+<stanza type="verse"><line>Aydilar aşmak ister</line>
+<line>Köyde kızı yaşmak ister</line>
+<line>Çok benim garip gönlü</line>
+<line>Yare kavuşmak ister</line></stanza>
+
+<stanza type="verse"><line>Bacı başmak bıttılar</line>
+<line>Gel aşır o turak</line>
+<line>al beni alım seni</line>
+<line>ellerinden kurtumak</line>
+<line>aman aman oy</line></stanza>
 </song>
