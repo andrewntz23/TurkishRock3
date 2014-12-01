@@ -29,11 +29,10 @@
     <xsl:template match='artist'>
         <h1><xsl:apply-templates/></h1>
     </xsl:template>
-    <xsl:template match='artist' mode='politicalA'>
-        <xsl:apply-templates select='@politicalA'/>
+    <xsl:template match='politicalS'>
     </xsl:template>
     <xsl:template match='title'>
-        <h1><xsl:apply-templates/></h1>
+        <h2><xsl:apply-templates/></h2>
     </xsl:template>
     <xsl:template match='album'>
         <h2><xsl:apply-templates/></h2>
@@ -42,6 +41,7 @@
         <h2><xsl:apply-templates/></h2>
     </xsl:template>
     <xsl:template match='source'>
+        <h3><xsl:apply-templates/></h3>
     </xsl:template>
     
     <xsl:template match='line'>
@@ -86,6 +86,9 @@
     </xsl:template>
     <xsl:template match='place'>
         <span class='place'><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match='place' mode='where'>
+        <xsl:apply-templates select='@where'/>
     </xsl:template>
     <xsl:template match='journey'>
         <span class='journey'><xsl:apply-templates/></span>
@@ -174,6 +177,9 @@
     </xsl:template>
     <xsl:template match='break' mode='scale'>
         <xsl:apply-templates select='@scale'/>
+    </xsl:template>'
+    <xsl:template match='break' mode='solo'>
+        <xsl:apply-templates select='@solo'/>
     </xsl:template>
 
     <xsl:template match='poliWord'>
