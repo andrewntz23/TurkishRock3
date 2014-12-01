@@ -1,0 +1,8 @@
+xquery version "3.0";
+(: COUNTS OF OVERALL ADDRESSES :)
+let $turkus := collection('/db/course/turkish/data')[.//politicalS="left"]
+(: Again, you should change politicalS :)
+let $arts := distinct-values($turkus//artist)
+for $art in $arts
+let $artturkus := $turkus[.//artist=$art]
+return $art||"- TOTAL = "|| count($artturkus//narrator) ||", SINGULAR = "|| count($artturkus//narrator[./@number="1"]) || ", PLURAL = " || count($artturkus//narrator[./@number="2"])
