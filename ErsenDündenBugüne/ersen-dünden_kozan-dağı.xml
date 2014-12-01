@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Ersen</artist><title>Kozan Dağı</title><album>Dünden Bugüne</album><year>1977</year><source>http://www.sarki-sozleri.net/ersen-ve-dadaslar-kozan-dagi</source></metadata>
+<metadata><artist>Ersen</artist><title>Kozan Dağı</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>http://www.sarki-sozleri.net/ersen-ve-dadaslar-kozan-dagi</source></metadata>
 <break instr="saz" solo="yes" scale="minor"/>
 <break instr="traditional drums" solo="yes"/>
 <stanza type='verse'><line><place where='rural'><place where='urban'>Kozan</place> <nature>dağının eteği</nature></place></line>
@@ -10,7 +10,7 @@
 <line><address formality='formal'><addressee>Beyler</addressee> aman aman</address></line>
 <line><family>Evlat</family> derde ağlarmıola</line></stanza>
 <break instr="ney" scale="minor"/>
-<stanza type='verse'><line><narrator>Çıktım</narrator> kozanın dağına</line>
+<stanza type='verse'><line>Çıktım kozanın dağına</line>
 <line>Karı dizleyi,dizleyi</line>
 <line>Yaralarım göz göz olmuş</line>
 <line><address formality='formal' pos='noun'><addressee>Beyler</addressee> aman aman</address></line>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Ersen</artist><title>Bir Ayrılık Bir Yoksulluk</title><album>Dünden Bugüne</album><year>1977</year><source>http://sarki.alternatifim.com/data.asp?ID=149382&amp;sarki=Bir%20Ayr%FDl%FDk%20Bir%20Yoksulluk%20Bir%20%D6l%FCm&amp;sarkici=Ersen%20ve%20Dada%FElar</source></metadata>
+<metadata><artist>Ersen</artist><title>Bir Ayrılık Bir Yoksulluk</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><!--line about dethroning sultans--><source>http://sarki.alternatifim.com/data.asp?ID=149382&amp;sarki=Bir%20Ayr%FDl%FDk%20Bir%20Yoksulluk%20Bir%20%D6l%FCm&amp;sarkici=Ersen%20ve%20Dada%FElar</source></metadata>
 <break instr="electic saz, drums, guitar, saz" scale="minor"/>
 <stanza type='verse'><line>Bir Ayrılık <poverty>Bir Yoksulluk</poverty> <death>Bir Ölüm</death></line>
 <line>Vara vara vardım <nature>o kara taşa</nature></line>
-<line>Hasret ettin <narrator>beni</narrator> kavim <friendship>gardaşa</friendship></line>
+<line>Hasret ettin <narrator number="1">beni</narrator> kavim <friendship>gardaşa</friendship></line>
 <line>Sebep ne gözden <neglect>akan kanlı</neglect><!-->flowing blood, not really neglect<--> yaşa</line>
 <line>Bir ayrılık, <poverty>bir yoksulluk</poverty>, <death>bir ölüm</death></line></stanza>
 <break instr="electic saz" scale="minor"/>

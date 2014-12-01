@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Ersen</artist><title>Döne Sevdiğim</title><album>Dünden Bugüne</album><year>1977</year><source>http://www.anatolianrock.com/Ersen/sarki_sozleri/done_sevdigim-5-57883.htm</source></metadata>
+<metadata><artist>Ersen</artist><title>Döne Sevdiğim</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>http://www.anatolianrock.com/Ersen/sarki_sozleri/done_sevdigim-5-57883.htm</source></metadata>
 <!-->I think this takes place in the past<-->
 <break instr="violin" solo="yes" scale="minor"/>
 <stanza type='verse'><line>Hayatın elinden, <place where='general'>meyhanesinden</place></line>
@@ -15,7 +15,7 @@
 <stanza type='verse'><line>Hayat şarabından, kanmak isterim</line>
 <line><friendship>Dost</friendship> ismini her dem, anmak isterim</line>
 <line><love l='romantic'>Ateşi aşkınla, yanmak</love> isterim</line>
-<line><narrator>Pervaneyim</narrator> döne döne</line></stanza>
+<line>Pervaneyim döne döne</line></stanza>
 <break instr="electric guitar, organ, drums" scale="minor"/>
 <stanza type='verse'><line>Döne döne, döne döne...döne</line>
 <line>Döne <love l='romantic'>sevdiğim</love>, <love l='romantic'>döne</love> sevdiğim</line></stanza>
@@ -28,7 +28,7 @@
 <stanza type='verse'><line>Döne döne, döne döne...döne</line>
 <line>Döne <love l='romantic'>sevdiğim</love>, döne <love l='romantic'>sevdiğim</love></line></stanza>
 <break instr="electric guitar, organ, drums" scale="minor"/>
-<stanza type='verse'><line><narrator>Pervaneyim</narrator> döne döne</line>
+<stanza type='verse'><line>Pervaneyim döne döne</line>
 <line>Döne döne, döne döne</line>
 <line>Döne....</line>
 <line>Döne <love l='romantic'>sevdiğim</love>, döne <love l='romantic'>sevdiğim</love>...</line></stanza>
