@@ -25,7 +25,7 @@ tense = attribute tense {'present' | 'aorist'| 'past' | 'future' | 'nonpast'}
 aspect = attribute aspect {'perfect' | 'imperfect'}
 voice = attribute voice{'passive'|'active'}
 
-place = element place {where, (text|neglect|poverty|nature|place|class|family)+}
+place = element place {where, (text|neglect|poverty|nature|place|class|nationalism|family)+}
 journey = element journey{where, (text|nature|place)+}
 where = attribute where {('home' |'region'| 'general'| 'rural' | 'urban' | 'turkey' | 'foreign'| 'world' | 'abstract')}
 nature = element nature{(text|family|place|address|wealth)+}

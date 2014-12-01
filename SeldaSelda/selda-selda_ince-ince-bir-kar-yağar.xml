@@ -6,6 +6,7 @@
         <title>İnce İnce Bir Kar Yağar</title>
         <album>Selda</album>
         <year>1976</year>
+        <politicalS>left</politicalS>
         <source>http://sarki.alternatifim.com/data.asp?ID=183528&amp;sarki=%DDnce%20%DDnce%20Bir%20Kar%20Ya%F0ar&amp;sarkici=Selda%20Ba%F0can</source>
     </metadata>
 
@@ -15,9 +16,9 @@
         <line><address formality="formal" pos="noun"><neglect><death>Öldük öldük</death> biz açlıktan</neglect> etme <addressee>ağam</addressee> n'olur.</address></line></stanza>
     <break instr="electric guitar, " scale="major" solo="yes"/>
     <stanza type="verse"><line><class classtype="upper">Kimi mebus kimi vali</class>
-            <narrator>bize tahsil haramdır</narrator></line>
+            <narrator number="2">bize</narrator> tahsil haramdır</line>
         <line><address formality="informal" pos="pronoun">Dayanamam artık <addressee>senin bu yalancı pozuna</addressee></address></line>
-        <line><narrator>Yandık yandık bize okul bize yol bize hayat</narrator></line>
+        <line>Yandık yandık <narrator number="2">bize</narrator> okul <narrator number="2">bize</narrator> yol <narrator number="2">bize</narrator> hayat</line>
         <line><address formality="formal" pos="noun">Etme <addressee>ağam</addressee> n'olur n'olur n'olur n'olur n'olur n'olur.</address></line></stanza>
     <break/>
     <stanza type="verse"><line><neglect><death>Adam mı ölür</death> yol yapılınca</neglect></line>
@@ -29,7 +30,7 @@
         <line><place where="rural"><neglect>Yoksul</neglect> maraş</place>
             <place where="rural"><neglect>susuz</neglect> urfa</place> ya <place where="rural"
                 >diyarbakırların</place>?</line>
-        <line><narrator>Yandık yandık <death>öldük öldük</death></narrator>
+        <line>Yandık yandık <death>öldük öldük</death>
             <poverty>bir yudum su</poverty></line>
         <line><address formality="formal" pos="noun">Etme <addressee>ağam</addressee> n'olur…</address></line></stanza>
     <break/>
@@ -43,7 +44,7 @@
             ><line><address formality="formal"><addressee/>N'olur n'olur n'olur n'olur n'olur…</address></line></stanza>
     <break/>
     <stanza type="verse"
-            ><line><address formality="informal"><addressee>Sen</addressee> <family>anandan</family> <narrator>ben</narrator> <family>babamdan</family> <class classtype="middle"><class classtype="upper">ağa</class> <narrator>doğmadık</narrator></class> <addressee>dostum</addressee></address></line>
+            ><line><address formality="informal"><addressee>Sen</addressee> <family>anandan</family> <narrator number="1">ben</narrator> <family>babamdan</family> <class classtype="middle"><class classtype="upper">ağa</class> doğmadık</class> <addressee>dostum</addressee></address></line>
         <line><address formality="informal" pos="pronoun">Gel <friendship>beraber yaşayalım</friendship> sanma ki <addressee>sana</addressee> küstüm</address></line>
         <line><address formality="informal" pos="noun">Yandım yandım ayrı gezme etme <addressee>gardaş</addressee></address></line>
         <line><address formality="informal"><addressee/>N'olur n'olur n'olur n'olur n'olur n'olur…</address></line></stanza>

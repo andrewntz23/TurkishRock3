@@ -6,6 +6,7 @@
         <title>Gine Haber Gelmiş</title>
         <album>Selda</album>
         <year>1976</year>
+        <politicalS>none</politicalS>
         <source>http://sarki.alternatifim.com/data.asp?ID=183532&amp;sarki=Gine%20Haber%20Gelmi%FE&amp;sarkici=Selda%20Ba%F0can</source>
     </metadata>
 
@@ -17,6 +18,6 @@
     <break instr="bağlama" solo="yes" scale="minor"/>
     <stanza type="verse"><line>Böyle selam salmış kaşlar' karam</line>
         <line>Tazelendi yine <love l="romantic">yürekten</love> yaram</line>
-        <line>Yardan haber gelmiş <narrator>ben</narrator> nasıl duram</line>
+        <line>Yardan haber gelmiş <narrator number="1">ben</narrator> nasıl duram</line>
         <line>Tez günler içinde gelesin demiş</line></stanza>
 </song>

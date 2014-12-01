@@ -6,6 +6,7 @@
         <title>Dost Uyan</title>
         <album>Selda</album>
         <year>1976</year>
+        <politicalS>none</politicalS>
         <source>http://sarki.alternatifim.com/data.asp?ID=183526&amp;sarki=Dost%20Uyan&amp;sarkici=Selda%20Ba%F0can</source>
     </metadata>
 
@@ -26,7 +27,7 @@
     <break/>
     <stanza type="verse"><line>Kazanmadan yemek ayıp</line>
         <line>İnsan hakkı olur kayıp</line>
-        <line>Tek <narrator>benim sırtımdan</narrator> soyup</line>
+        <line>Tek <narrator number="1">benim sırtımdan</narrator> soyup</line>
         <line><address formality="informal" pos="verb" mood="imp">Doy uyan yapma uyan</address></line></stanza>
     <break/>
     <stanza type="verse"><line>Uyuyanın kazancı olmaz</line>

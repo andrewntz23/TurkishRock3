@@ -6,6 +6,7 @@
         <title>Mehmet Emmi</title>
         <album>Selda</album>
         <year>1976</year>
+        <politicalS>left</politicalS>
         <source>http://lyricstranslate.com/en/mehmet-emmi-uncle-mehmet.html</source>
     </metadata>
 
@@ -21,7 +22,7 @@
     <break/>
     <stanza type="verse"><line><neglect>Bu tarla susuz tarla</neglect></line>
         <line>Aha mehmet emmi</line>
-        <line><address formality="informal" pos="verh" mood="imp">Daha zorla ha zorla</address></line>
+        <line><address formality="informal" pos="verb" mood="imp">Daha zorla ha zorla</address></line>
         <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>
     <break/>
     <stanza type="verse"><line>On çocuk arpa yiyor</line>
@@ -34,7 +35,7 @@
         <line>Vallahi yalan değil</line>
         <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>
     <break/>
-    <stanza type="verse"><line><narrator>Gidelim</narrator> mahkemeye</line>
+    <stanza type="verse"><line>Gidelim mahkemeye</line>
         <line>Aha mehmet emmi</line>
         <line>Mahzuni şerif geldi</line>
         <line><address formality="informal" pos="noun">Daha <addressee>mehmet emmi</addressee></address></line></stanza>

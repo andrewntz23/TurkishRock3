@@ -6,6 +6,7 @@
         <title>Yaylalar</title>
         <album>Selda</album>
         <year>1976</year>
+        <politicalS>none</politicalS>
         <source>http://sarki.alternatifim.com/data.asp?ID=183533&amp;sarki=Yaylalar&amp;sarkici=Selda%20Ba%F0can</source>
     </metadata>
 
@@ -17,7 +18,7 @@
     <stanza type="verse"
             ><line><address formality="informal" pos="noun"><addressee>Komşu</addressee> kızını zapteyle</address></line>
         <line>Yaylalar yaylalar</line>
-        <line><love l="romantic"><family><narrator>Bizim</narrator> oğlan</family>
+        <line><love l="romantic"><family><narrator number="2">Bizim</narrator> oğlan</family>
             aşıktır</love></line>
         <line>Dilo dilo yaylalar</line></stanza>
     <break/>
@@ -39,6 +40,6 @@
     <stanza type="verse"
             ><line><address formality="informal" pos="pronoun"><addressee>Sen</addressee> git de <family>ablan</family> gelsin</address></line>
         <line>Yaylalar yaylalar</line>
-        <line><narrator>Duramıram yalnız</narrator></line>
+        <line>Duramıram yalnız</line>
         <line>Dilo dilo yaylalar</line></stanza>
 </song>

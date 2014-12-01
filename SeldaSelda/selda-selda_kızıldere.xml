@@ -6,14 +6,15 @@
         <title>Kızıldere</title>
         <album>Selda</album>
         <year>1976</year>
+        <politicalS>none</politicalS>
         <source>http://sarki.alternatifim.com/data.asp?ID=78675&amp;sarki=K%FDz%FDldere&amp;sarkici=Selda%20Ba%F0can</source>
     </metadata>
     <break instr="bağlama" scale="minor"/>
     <stanza type="verse"><line>Oy dere kızıldere</line>
         <line>Böyle akışın nere</line>
-        <line><narrator>Bizde</narrator> hal mı bıraktın</line>
+        <line><narrator number="2">Bizde</narrator> hal mı bıraktın</line>
         <line>Sana <violence>can veren</violence> ele oy oy oy</line>
-        <line>Dere <narrator>bizim <place where="home">evimiz</place></narrator></line>
+        <line>Dere <narrator number="2">bizim <place where="home">evimiz</place></narrator></line>
         <line><address formality="formal" pos="verb" mood="imp">Suyu <addressee/>alın terimiz</address></line>
         <line><address formality="informal" pos="verb" mood="imp"><addressee/>Söyle nedendir dere</address></line>
         <line><violence>Vurulur <target><youth>gençlerimiz</youth></target> oy oy
