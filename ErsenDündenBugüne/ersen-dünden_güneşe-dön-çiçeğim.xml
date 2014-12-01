@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Ersen</artist><title>Güneşe Dön Çiçeğim</title><album>Dünden Bugüne</album><year>1977</year><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
-<stanza><line>Göstlerinden bellidir</line>
+<metadata><artist>Ersen</artist><title>Güneşe Dön Çiçeğim</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
+<stanza type="verse"><line>Göstlerinden bellidir</line>
 <line>Durmadan gidelim</line>
 <line>Soldermuşler seni</line>
 <line>Title</line>
 <line>Yılların allah</line></stanza>
 
-<stanza><line>Söymesin sana</line>
+<stanza type="verse"><line>Söymesin sana</line>
 <line>neyler verdi</line>
 <line>garip başar</line>
 <line>yallar</line></stanza>
 
-<stanza><line>ah ne var ah noy</line>
+<stanza type="verse"><line>ah ne var ah noy</line>
 <line>ah ne var ah noy</line></stanza>
 
-<stanza><line>Gözlerinden bilemem</line>
+<stanza type="verse"><line>Gözlerinden bilemem</line>
 <line>Neden</line>
 <line>Bilmeden ki neden</line>
 <line>Güneşe</line></stanza>
 
-<stanza><line>Senin bahden nereden kara</line></stanza>
+<stanza type="chorus"><line>Senin bahden nereden kara</line></stanza>
 
-<stanza><line>Ah ne var ah noy</line>
+<stanza type="chorus"><line>Ah ne var ah noy</line>
 <line>Ah ne lar ah noy</line></stanza>
 
-<stanza><line>söylesen sana</line>
+<stanza type="verse"><line>söylesen sana</line>
 <line>yarar</line>
 <line>başar</line>
 <line>alarım yana yanar</line></stanza>
 
-<stanza><line>Ah ne var ah noy</line>
+<stanza type="chorus"><line>Ah ne var ah noy</line>
 <line>Ah ne ler ah noy</line></stanza>
 </song>
