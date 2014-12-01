@@ -1,0 +1,31 @@
+xquery version "3.0";
+(: THIS RETURNS A COUNT OF HOW MANY BREAKS AN ARTIST HAS CONTAINING EACH INSTRUMENT:
+: I'll be doing a better version of this shortly that's based on _songs_ :)
+<root>
+    {
+let $turkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($turkus//artist/text())
+for $art in $arts
+let $tarts := collection('/db/course/turkish/data')[.//artist=$art]
+let $brs := $tarts//break
+    return <artist who="{$art}">{(<ref type="total">{count($brs)}</ref>,
+<ref type="bass">{count($brs[contains(./@instr, "bass")])}</ref>,
+<ref type="çığırtma">{count($brs[contains(./@instr, "çığırtma")])+ count($brs[contains(./@instr, "Çığırtma")])}</ref>,
+<ref type="cümbüs">{count($brs[contains(./@instr, "cümbüs")])}</ref>,
+<ref type="düdük">{count($brs[contains(./@instr, "düdük")])+ count($brs[contains(./@instr, "duduk")])}</ref>,
+<ref type="guitar">{count($brs[contains(./@instr, "guitar")])}</ref>,
+<ref type="kaval">{count($brs[contains(./@instr, "kaval")])}</ref>,
+<ref type="kemençe">{count($brs[contains(./@instr, "kemençe")])}</ref>,
+<ref type="ney">{count($brs[contains(./@instr, "ney")])}</ref>,
+<ref type="organ">{count($brs[contains(./@instr, "organ")])}</ref>,
+<ref type="percussion">{count($brs[contains(./@instr, "percussion")])+ count($brs[contains(./@instr, "drums")])+ count($brs[contains(./@instr, "tambourine")])+ count($brs[contains(./@instr, "cymbals")])+ count($brs[contains(./@instr, "bongos")])}</ref>,
+<ref type="quanun">{count($brs[contains(./@instr, "quanun")])}</ref>,
+<ref type="saxophone">{count($brs[contains(./@instr, "saxophone")])}</ref>,
+<ref type="sipsi">{count($brs[contains(./@instr, "sipsi")])}</ref>,
+<ref type="sound effects">{count($brs[contains(./@instr, "sound effects")])+ count($brs[contains(./@instr, "experimental sounds")])+ count($brs[contains(./@instr, "telephone")])+ count($brs[contains(./@instr, "music box")])}</ref>,
+<ref type="synth">{count($brs[contains(./@instr, "synth")])}</ref>,
+<ref type="trumpet">{count($brs[contains(./@instr, "trumpet")])}</ref>,
+<ref type="violin">{count($brs[contains(./@instr, "violin")])}</ref>,
+<ref type="bağlama or saz">{count($brs[contains(./@instr, "saz")])+ count($brs[contains(./@instr, "bağlama")])}</ref>)}
+</artist>}
+</root>
