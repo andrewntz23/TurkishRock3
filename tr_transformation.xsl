@@ -8,7 +8,7 @@
 
     <xsl:template match='/'>
         <html>
-            <head><link rel='stylesheet' type='text/css' href='turkishSplashpg.css'></link><title>turkish</title></head>
+            <head><link rel='stylesheet' type='text/css' href='turkishSplashpg.css'></link><script type='text/javascript' scr='turkish.js'>//</script><title>turkish</title></head>
             <body>
                 <div>
                     <xsl:comment>#include virtual='dropDownMenu.html'</xsl:comment>
