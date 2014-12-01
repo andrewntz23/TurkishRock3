@@ -1,15 +1,15 @@
 #ARGH!
 start = song
 song = element song {metadata, (stanza|break)*}
-metadata = element metadata {artist, title, album, year, source, politicalS}
+metadata = element metadata {artist, title, album, year, politicalS, source}
 stanza = element stanza {type, line+, text}
 type = attribute type {'chorus' | 'verse' | 'monologue' }
 artist = element artist {text}
 title = element title {text}
 album = element album {text}
 year = element year {xsd:int}
+politicalS = element politicalS {'right'|'left'|'none'} #this is used to explain what *I* think the political leaning of the song is.
 source = element source {text}
-politicalS = attribute politicalS {'right'|'left'|'none'} #this is used to explain what *I* think the political leaning of the song is.
 
 
 line = element line { (text|family|poverty|death|m|aşık|address|nature|poverty|addressee|friendship|love|nature|past|future|wealth|narrator|place|youth|poliWord|curse|sac|sarc|critAtt|emp|islam|allah|family|economic|war|military|nationalism|communism|poverty|coup|drugs|morals|class|place|race|violence|neglect|econ|friendship|future|warning)*  }

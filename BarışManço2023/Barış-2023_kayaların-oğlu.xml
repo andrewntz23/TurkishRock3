@@ -6,6 +6,7 @@
         <title>Kayaların Oğlu</title>
         <album>2023</album>
         <year>1975</year>
+        <politicalS>right</politicalS>
         <source>http://www.akormerkezi.com/baris-manco-kayalarin-oglu-sarki-sozu_sarki-jvhrdf.html</source>
     </metadata>
     <!-->This should probably get split into multiple stanzas but too lazy to do that at the moment<-->
@@ -14,7 +15,7 @@
         <line><past when="foundingOfTurkey"><nature>Kayaların toprağa dikine saplandığı
                     yerde</nature> doğdum</past></line>
         <line>Toprak anayla kaya <family>babanın oğluyum</family>
-            <narrator>ben</narrator></line>
+            <narrator number="1">ben</narrator></line>
         <line><place where="turkey">Toprak <family>anam sevgi</family></place> dolu, <wealth>bereket
                 dolu</wealth></line>
         <line><place where="turkey">Toprak <family>anam</family></place> sessiz, ama toprak
