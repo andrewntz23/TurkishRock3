@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Erkin Koray</artist><title>Korkulu Rüya</title><album>Elektronik Türküler</album><year>1974</year><source>http://sonichits.com/video/Erkin_Koray/Korkulu_R%C3%BCya</source></metadata>
+<metadata><artist>Erkin Koray</artist><title>Korkulu Rüya</title><album>Elektronik Türküler</album><year>1974</year><politicalS>none</politicalS><source>http://sonichits.com/video/Erkin_Koray/Korkulu_R%C3%BCya</source></metadata>
 <break instr="organ, guitar" scale="minor"/>
 </song>

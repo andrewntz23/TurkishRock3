@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Erkin Koray</artist><title>Yalnızlar Rıhtımı</title><album>Elektronik Türküler</album><year>1974</year><source>http://www.nomorelyrics.net/tr/sozleri/3489-Yalnzlar_Rhtm-sozleri.html</source></metadata>
+<metadata><artist>Erkin Koray</artist><title>Yalnızlar Rıhtımı</title><album>Elektronik Türküler</album><year>1974</year><politicalS>none</politicalS><source>http://www.nomorelyrics.net/tr/sozleri/3489-Yalnzlar_Rhtm-sozleri.html</source></metadata>
 <!-->This song is basically, I'm so lonely!!<-->
-<stanza type='verse'><line><narrator>Bir ben miyim perişan</narrator></line>
+<stanza type='verse'><line><narrator number="1">Bir ben miyim perişan</narrator></line>
 <line>Gecenin karanlığında</line>
 <line>Yosun tuttu gözlerim</line>
 <line>Yalnızlar rıhtımında</line></stanza>
 <break instr='guitar, piano' scale='major'/>
 <stanza type='verse'><line>Bütün gece ağladım</line>
 <line>Dalgalar kucağında</line>
-<line>Geceler <narrator>ben</narrator> ve deniz</line>
+<line>Geceler <narrator number="1">ben</narrator> ve deniz</line>
 <line>Yalnızlar rıhtımında</line></stanza>
 <break instr='electric guitar' scale='major' solo='yes'/>
-<stanza type='verse'><line>Bir <narrator>beni</narrator> mi unuttular</line>
+<stanza type='verse'><line>Bir <narrator number="1">beni</narrator> mi unuttular</line>
 <line>Uçup gitti martılar</line>
-<line>Geceler <narrator>ben</narrator> ve deniz</line>
+<line>Geceler <narrator number="1">ben</narrator> ve deniz</line>
 <line>Yalnızlar rıhtımında</line></stanza>
 <break instr='electric guitar' scale='major' solo='yes'/>
 </song>

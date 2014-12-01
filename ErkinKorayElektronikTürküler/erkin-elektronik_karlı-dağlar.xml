@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
-<metadata><artist>Erkin Koray</artist><title>Karlı Dağlar</title><album>Elektronik Türküler</album><year>1974</year><source>http://www.sarki-sozleri.net/erkin-koray-karli-daglar</source></metadata>
+<metadata><artist>Erkin Koray</artist><title>Karlı Dağlar</title><album>Elektronik Türküler</album><year>1974</year><politicalS>none</politicalS><source>http://www.sarki-sozleri.net/erkin-koray-karli-daglar</source></metadata>
 <!-->lots of oversentimental lines of sadness here... there's no tag for that.<-->
 <break instr='saz' scale='minor' solo='yes'/>
 <stanza type='verse'><line><nature>Karlı dağlar</nature> geçit vermez</line>
@@ -13,7 +13,7 @@
 <line>Gözlerimden yaşlar akar</line>
 <line>O <love l='romantic'>güzelim</love> lüle saçlar</line>
 <line>Kalem kaşlar bal dudaklar</line>
-<line><address formality='informal' pos='verb' mood='imp'><addressee/>Gel <narrator>bana</narrator> yarim</address></line>
+<line><address formality='informal' pos='verb' mood='imp'><addressee/>Gel <narrator number="1">bana</narrator> yarim</address></line>
 <line><address formality='informal' pos='verb' mood='imp'><addressee><allah>Tanrım</allah></addressee> al beni beni de</address></line></stanza>
 <break instr='guitar' scale='minor' solo='yes'/>
 <break instr='saz' scale='minor' solo='yes'/>
