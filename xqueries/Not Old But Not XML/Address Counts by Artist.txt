@@ -1,0 +1,8 @@
+xquery version "3.0";
+(: COUNTS OF OVERALL ADDRESSES :)
+let $turkus := collection('/db/course/turkish/data')[.//politicalS="left"]
+(: Modify if you're looking for political sentiment with predicate above. :)
+let $arts := distinct-values($turkus//artist)
+for $art in $arts
+let $artturkus := $turkus[.//artist=$art]
+return $art||"-"|| count($artturkus//address)
