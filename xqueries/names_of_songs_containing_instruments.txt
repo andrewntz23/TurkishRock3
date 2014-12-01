@@ -1,0 +1,30 @@
+xquery version "3.0";
+(: THIS RETURNS THE NAMES OF SONGS CONTAINING INSTRUMENTS. AS THE SONGS DO NOT HAVE A SEPERATOR AT PRESENT, THIS IS OF USE ONLY AS A REFERENCE. THIS WILL BE FIXED. :)
+<root>
+    {
+let $turkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($turkus//artist/text())
+for $art in $arts
+let $tarts := collection('/db/course/turkish/data')[.//artist=$art]
+    order by $art
+    return <artist who="{$art}">{(
+<ref type="bass">{$tarts[contains(.//break/@instr, "bass")]//title/text()}</ref>,
+<ref type="çığırtma">{$tarts[contains(.//break/@instr, "çığırtma")]//title/text()+ $tarts[contains(.//break/@instr, "Çığırtma")]//title/text()}</ref>,
+<ref type="cümbüş">{$tarts[contains(.//break/@instr, "cümbüs")]//title/text()}</ref>,
+<ref type="düdük">{($tarts[contains(.//break/@instr, "düdük")]//title/text(), $tarts[contains(.//break/@instr, "duduk")]//title/text())}</ref>,
+<ref type="guitar">{$tarts[contains(.//break/@instr, "guitar")]//title/text()}</ref>,
+<ref type="kaval">{$tarts[contains(.//break/@instr, "kaval")]//title/text()}</ref>,
+<ref type="kemençe">{$tarts[contains(.//break/@instr, "kemençe")]//title/text()}</ref>,
+<ref type="ney">{$tarts[contains(.//break/@instr, "ney")]//title/text()}</ref>,
+<ref type="organ">{$tarts[contains(.//break/@instr, "organ")]//title/text()}</ref>,
+<ref type="percussion">{($tarts[contains(.//break/@instr, "percussion")]//title/text(), $tarts[contains(.//break/@instr, "drums")]//title/text(), $tarts[contains(.//break/@instr, "tambourine")]//title/text(), $tarts[contains(.//break/@instr, "cymbals")]//title/text(), $tarts[contains(.//break/@instr, "bongos")]//title/text() )}</ref>,
+<ref type="quanun">{$tarts[contains(.//break/@instr, "quanun")]//title/text()}</ref>,
+<ref type="saxophone">{$tarts[contains(.//break/@instr, "saxophone")]//title/text()}</ref>,
+<ref type="sipsi">{$tarts[contains(.//break/@instr, "sipsi")]//title/text()}</ref>,
+<ref type="sound effects">{($tarts[contains(.//break/@instr, "sound effects")]//title/text(), $tarts[contains(.//break/@instr, "experimental sounds")]//title/text(), $tarts[contains(.//break/@instr, "telephone")]//title/text(), $tarts[contains(.//break/@instr, "music box")]//title/text())}</ref>,
+<ref type="synth">{$tarts[contains(.//break/@instr, "synth")]//title/text()}</ref>,
+<ref type="trumpet">{$tarts[contains(.//break/@instr, "trumpet")]//title/text()}</ref>,
+<ref type="violin">{$tarts[contains(.//break/@instr, "violin")]//title/text()}</ref>,
+<ref type="bağlama or saz">{($tarts[contains(.//break/@instr, "saz")]//title/text(), $tarts[contains(.//break/@instr, "bağlama")]//title/text())}</ref>)}
+</artist>}
+</root>

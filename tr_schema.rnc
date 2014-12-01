@@ -1,15 +1,15 @@
 #ARGH!
 start = song
 song = element song {metadata, (stanza|break)*}
-metadata = element metadata {artist, title, album, year, source}
+metadata = element metadata {artist, title, album, year, source, politicalS}
 stanza = element stanza {type, line+, text}
 type = attribute type {'chorus' | 'verse' | 'monologue' }
-artist = element artist {politicalA?, text}
+artist = element artist {text}
 title = element title {text}
 album = element album {text}
 year = element year {xsd:int}
 source = element source {text}
-politicalA = attribute politicalA {text} #Right or left
+politicalS = attribute politicalS {'right'|'left'|'none'} #this is used to explain what *I* think the political leaning of the song is.
 
 
 line = element line { (text|family|poverty|death|m|aşık|address|nature|poverty|addressee|friendship|love|nature|past|future|wealth|narrator|place|youth|poliWord|curse|sac|sarc|critAtt|emp|islam|allah|family|economic|war|military|nationalism|communism|poverty|coup|drugs|morals|class|place|race|violence|neglect|econ|friendship|future|warning)*  }
@@ -43,8 +43,8 @@ future = element future {(text|place|nature|nationalism|addressee|narrator|pover
 past = element past {when?, (text|nature|love|place)+}
 when = attribute when{'foundingOfTurkey'|text}
 
-narrator = element narrator {number?,(text|place|family|death)+}
-number = attribute number {xsd:int} #This should be reinstated. a '1' for single narrators, '2' for plurals or collectives like we.
+narrator = element narrator {number,(text|place|family|death)+}
+number = attribute number {'1'|'2'}
 
 class = element class {classtype, (place|class|narrator|violence|text)+}
 classtype = attribute classtype{ 'upper' | 'middle' | 'lower' | 'working'}
