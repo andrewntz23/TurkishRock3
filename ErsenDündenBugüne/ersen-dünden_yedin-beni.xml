@@ -3,6 +3,8 @@
 <song>
 <!-->Do we want to count statements like "you ate me" as an address?<-->
 <metadata><artist>Ersen</artist><title>Yedin Beni</title><album>Dünden Bugüne</album><year>1977</year><source>http://sarki.alternatifim.com/data.asp?ID=19144&amp;sarki=Yedin%20Beni&amp;sarkici=Murat%20G%F6%F0ebakan</source></metadata>
+<break instr="organ" solo="yes" scale="major"/>
+<break instr="saz, organ, drums" scale="major"/>
 <stanza type='verse'><line>Daha anamdan doğmadan</line>
 <line>Yedin <narrator>beni</narrator>, Yedin <narrator>beni</narrator></line>
 <line><neglect><family>Babamın</family> elini öpmeden</neglect></line>
@@ -13,7 +15,7 @@
 <line>Yedin <narrator>beni</narrator>, yedin <narrator>beni</narrator></line>
 <line>Dilden dile</line>
 <line>Koydun <narrator>beni</narrator></line></stanza>
-
+<break instr="saz, organ, drums" scale="major"/>
 <stanza type='verse'><line>Mahsuni böyle sevilmez</line>
 <line>Mahsuni böyle sevilmez</line>
 <line>Yaptığın yanına kalmaz</line>
@@ -25,4 +27,14 @@
 <line>Yedin <narrator>beni</narrator>, yedin <narrator>beni</narrator></line>
 <line>Dilden dile</line>
 <line>Koydun <narrator>beni</narrator></line></stanza>
+<break instr="saz, organ, drums" scale="major"/>
+<break instr="saz" solo="yes" scale="major"/>
+<break instr="saz, organ, drums" scale="major"/>
+    
+<stanza type='verse'><line>Mahsuni böyle sevilmez</line>
+<line>Mahsuni böyle sevilmez</line>
+<line>Yaptığın yanına kalmaz</line>
+<line>Yedin <narrator>beni</narrator>, yedin <narrator>beni</narrator></line>
+<line>Yedin <narrator>beni</narrator>, yedin <narrator>beni</narrator></line></stanza>
+    <break instr="saz, organ, drums" scale="major"/>
 </song>
