@@ -2,7 +2,7 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Ersen</artist><title>Derman Bulunmaz</title><album>Dünden Bugüne</album><year>1977</year><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
-
+<break instr="piano, electric saz, drums, guitar, bass" scale="major"/>
 <stanza type="verse"><line>Kırmak güne şişe seni</line>
 <line>Saram bulunmaz bulunmaz</line>
 <line>Yıkma hakın bina seni</line>
@@ -12,25 +12,26 @@
 <line>Ey leni ey leni leni</line>
 <line>Gelir döse senin gökçü</line>
 <line>dolanı dolanı lanı</line></stanza>
-
+<break instr="piano, electric saz, drums, guitar, bass" scale="major"/>
 <stanza type="verse"><line>Sinem göz göz oldu yare</line>
 <line>uyarle kimler sarar</line>
 <line>Tabii gerek derman sarar</line>
 <line>Derman bulunmaz bulunmaz</line></stanza>
 
-<stanza type="verse"><line>Berişan dış aşkına</line>
-<line>Hak yardım ve ilkler dışgine (?)</line>
+<stanza type="chorus"><line>Berişan dış aşkına</line>
+<line>Hak yardım ve ilkler dışgine</line>
 <line>Mecnun gibi dost aşkına</line>
 <line>Derman bulunmaz bulunmaz</line></stanza>
 
-<break/>
-
-<stanza><line>Varıp dosyanın kalar gör</line>
+<break instr="piano, electric saz, drums, guitar, bass" scale="major"/>
+<break instr="bass" solo="yes" scale="major"/>
+<break instr="bass, guitar, piano" scale="major"/>
+<stanza type="verse"><line>Varıp dosyanın kalar gör</line>
 <line>Söyünün irgyan dola gör</line>
 <line>Arayıp mevla bula gör</line>
 <line><islam i='sufism'>Mevla</islam> bulunmaz bulunmaz</line></stanza>
-
-<stanza><line><love l="romantic">Aşk verişan dış aşkınar</love></line>
+<break instr="piano, electric saz, drums, guitar, bass" scale="major"/>
+<stanza type="chorus"><line><love l="romantic">Aşk verişan dış aşkınar</love></line>
 <line>Hak yardım ve ilkler dışgine</line>
 <line><love l="platonic">Mecnun gibi <friendship>dost</friendship> aşkına</love></line>
 <line>Derman bulunmaz bulunmaz</line></stanza>

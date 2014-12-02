@@ -2,6 +2,7 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Ersen</artist><title>Uç Kız Bir Ana</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
+<break instr="guitar, synth, drums, bass" scale="minor"/>
 <stanza type="verse"><line>Yala asimdan giymişler</line>
 <line><family>Üç kız bir ana</family></line>
 <line>iyimişler ama </line>
@@ -13,14 +14,14 @@
 <line>allar ozlarkiya</line>
 <line>naile <family>ana</family></line></stanza>
 
-<break/>
+<break instr="synthesizer, bass, drums" solo="yes"/>
     
 <stanza type="verse"><line>karfa alları giymişler</line>
 <line><family>Üç kız bir ana</family></line>
 <line>giymişler aman</line>
 <line>allar lar ya</line>
 <line>ne ayrıl ana</line></stanza>
-
+<break instr="guitar, synth, drums, bass" scale="minor"/>
 <stanza type="chorus"><line><family>Üç kız bir ana</family></line>
 <line>giymişler aman</line>
 <line>allar ozlarkiya</line>
