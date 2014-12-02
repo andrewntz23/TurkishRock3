@@ -1,0 +1,77 @@
+RESULTS OF BASIC xQUERIES, AND MY THOUGHTS ON THEM.
+
+== SONG COUNTS PER ARTIST == 
+This is for my own reference when analyzing data, possibly useful for write-up.
+
+Barış Manço - Total: 13, Rightist: 1, None: 0
+Cem Karaca - Total:8 , Leftist 4, None: 4
+Edip Akbayram - Total: 10
+Erkin Koray - Total: 8
+Ersen - Total: 10
+Selda Bağcan - Total: 10, Leftist: 5, None: 7
+
+== MOST COMMMON ELEMENTS ==
+{Run Results For ELEMENTS BY ARTIST. We'll want a total here, too.}
+
+Looking at overall thematic element counts, there are a lot of similarities between the artists.
+
+Love is the most commonly used theme. It is also Erkin Koray's most commonly used element, probably skewed by the song "Hele Yar." This comes as no suprise, due to the seeming universality and popularity of love songs.
+
+Nature is the second most commonly used theme. It appears extremely often in the works of Barış Manço and Edip Akbayram, and less commonly in those of the other artists.
+
+Place
+
+Family is one of the top themes for every artist except Erkin Koray, who does not make a reference to it.
+
+Death appears in each artist's songs, except for Barış Manço. It has an important role 
+
+Friendship is also important and is a commonly used element throughtout. Dostluk is important in Turkish culture.
+
+Neglect appears most commonly in the songs of Selda and Cem, though also less frequently in the works of Ersen and Edip.
+
+Allah / Islam - Religious references are most common in the works of Edip, Erkin, and Selda. This does not appear to have any obvious relationship to their politics.
+
+Aşık - Ersen & Barış
+
+
+== NARRATORS ==
+The narrator tag was used to examine whether or not singers referred to themselves using singular or plural nouns or pronouns. The hypothesis was that a more overt political sentiment, possibly associated with leftist ideals of collectivity would lead the singer to use more plural nouns or pronouns to refer to themselves. Our results were the following:
+
+-- Overall Counts --
+Barış Manço- TOTAL = 16, SINGULAR = 9, PLURAL = 7
+Cem Karaca- TOTAL = 14, SINGULAR = 13, PLURAL = 1
+Edip Akbayram- TOTAL = 45, SINGULAR = 40, PLURAL = 5
+Erkin Koray- TOTAL = 24, SINGULAR = 6, PLURAL = 18
+Ersen- TOTAL = 38, SINGULAR = 38, PLURAL = 0
+Selda Bağcan- TOTAL = 31, SINGULAR = 12, PLURAL = 19
+
+-- Overtly Leftist Songs --
+Cem Karaca- TOTAL = 6, SINGULAR = 6, PLURAL = 0
+Selda Bağcan- TOTAL = 24, SINGULAR = 8, PLURAL = 16
+
+-- Songs Without Overt Political Sentiments --
+Cem Karaca- TOTAL = 8, SINGULAR = 7, PLURAL = 1
+Selda Bağcan- TOTAL = 7, SINGULAR = 4, PLURAL = 3
+
+From an examination of the data, it appears that Selda does adhere to the hypothesized patten. She refers to a narrator considerably more in her protet songs than in her non-protest songs. Additionally, her protest songs show a more frequent use of plural narration than singular, while her non-protest songs show no discernable difference.
+
+Cem Karaca, the other left-wing artist with protest songs does not follow the same pattern. In fact, he refers to narrators more often in non-protest songs, and uses singular narration considerably more than plural narration. One reason why this may differ is because of Cem's use of lyrics from earlier folk singers, or from poets. 
+
+There are no real conclusions that can be drawn from the rest of the data.
+
+
+== INSTRUMENTATION ==
+To look at the effect of artists and politics on instrumentation, we divided the instruments into two groups, 'traditional' and 'western.'
+
+Overall, 64 breaks contained traditional instrumentation. > 18 solos
+111 contained western. > 28 solos
+Hangon.. there's supposed to be 212 total breaks? what am I doing wrong.
+ANSWER: Nothing. There are 75 that are blank, or are drums (which I left out) or music boxes.
+Still need to divide this by song, then artist and such
+Also still need to do major or minor.
+
+== ADDRESS ==
+
+
+== ETYMOLOGY ==
+TBD

@@ -1,0 +1,5 @@
+xquery version "3.0";
+let $turkus := collection('/db/course/turkish/data')
+let $tradbrs := $turkus//break[contains(./@instr, ("violin", "duduk", "düdük", "ney", "bağlama", "saz", "kavan", "quanun", "cümbüs", "Çığırtma", "oud"))]
+let $westbrs :=  $turkus//break[contains(./@instr, ("guitar", "organ", "synth", "bass", "mellotron", "experimental sounds", "trumpet", "saxaphone", "piano", "kemençe"))]
+return "total: " || count($turkus//break) || "/ trad: " || count($tradbrs) || "/ west: " || count($westbrs)
