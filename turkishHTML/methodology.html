@@ -20,7 +20,9 @@
             <h3>address</h3>
             <p>We tagged an "address" element whenever the narrator used called out to a "you."For
                 the "formality" attribute on address, we marked "formal" for the formal "you", and
-                "informal" for the familiar "you". *****others here + addressee </p>
+                "informal" for the familiar "you". We also included an "addressee" attribute to
+                indicate if a particular party was being addressed, along with "mood", "tense",
+                "aspect", and "voice" to capture more of the grammar.</p>
             <p>ex:&lt;address formality="informal" pos="verb" mood="imp">
                 &lt;nature>Asmadan&lt;/nature> gel &lt;nature>asmadan&lt;/nature> gel
                 &lt;nature>asmadan&lt;/nature> &lt;/address> </p>
@@ -30,13 +32,10 @@
                 "neglect", "poverty", "nature", another "place", "class", or "family."</p>
             <p class="example">ex:&lt;place where="rural"> &lt;nature>dağın başına&lt;/nature>
                 &lt;/place></p>
-            <h3>journey</h3>
-            <p>We used the journey element anytime a real or metaphorical journey was refferred to.
-                This element may also contain references to the elements "nature" or "place."</p>
-            <p class="example">ex:****</p>
-            <h3>****nature</h3>
-            <p>In this element, we tagged references to the natural world. This element may also
-                contain references to the elements "family", "place", "address", or "wealth."</p>
+            <h3>nature</h3>
+            <p>In this element, we tagged references to the natural world or any natural imagery.
+                This element may also contain references to the elements "family", "place",
+                "address", or "wealth."</p>
             <p class="example">ex:&lt;nature>kara topraklar&lt;/nature></p>
             <h3>nationalism</h3>
             <p>Here we tagged any references to Turkish Nationalism and used the attribute "approve"
@@ -91,9 +90,6 @@
             <p>This element contains any references to poverty. It can also contain the element
                 "nature."</p>
             <p class="example">ex:&lt;poverty>Bir Yoksulluk&lt;/poverty></p>
-            <h3>crime</h3>
-            <p>This element contains any references to crime.</p>
-            <p class="example">ex:****</p>
             <h3>family</h3>
             <p>This element contains any references to family. It can also include the element
                 "narrator."</p>
@@ -131,10 +127,6 @@
             <h3>aşık</h3>
             <p>This element contains any reference to a folksinger or folk music.</p>
             <p class="example">ex: &lt;aşık>Karacoğlan&lt;/aşık></p>
-            <h3>curse</h3>
-            <p>This element contains curse words or phrases. It must contain the attribute "degree",
-                which can be either "minor", "offensive", or "banned word."</p>
-            <p class="example">ex:******</p>
             <h3>islam</h3>
             <p>This element contains references to the practice of Islam. It must contain the
                 attribute "i", whose value is specific school or type of Islam being sung about. </p>
@@ -142,5 +134,4 @@
                 aydınlığa&lt;/islam></p>
         </div>
     </body>
-
 </html>

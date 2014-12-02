@@ -1,7 +1,6 @@
 (: Count of solos by artist :)
 
 xquery version "3.0";
-(: THIS RETURNS MOST COMMON ELEMENTS BY ARTIST :)
 <root>
 {let $turkus := collection('/db/course/turkish/data')
 let $arts := distinct-values($turkus//artist)
