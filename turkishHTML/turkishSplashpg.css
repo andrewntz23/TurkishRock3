@@ -26,10 +26,13 @@ div{
     padding-bottom:50px;
     padding-left:150px;
 }
+div.finn {    background-color:rgba(60, 0, 100, .9);
+float: right;
+}
 img{
     width:150px;
     height:auto;
-    float:right;
+    margin-left:80px
 }
 img.license{
     padding:5%;
