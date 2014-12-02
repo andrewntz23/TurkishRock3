@@ -2,36 +2,38 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Ersen</artist><title>Garip Gönlüm</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
+<break instr="oud" scale="minor" solo="yes"/>
+<break instr="guitar, oud, drums, bass" scale="minor"/>
 <stanza type="verse"><line>Aydilar aşmak ister</line>
-<line>Köyde yaşmak ister</line>
-<line>Çok <narrator number="1">benim</narrator> garip</line>
+<line><place where="rural">Köyde</place> kızı yaşmak ister</line>
+<line>Çok <narrator number="1">benim</narrator> garip gönlüm</line>
 <line>Yare kavuşmak ister</line></stanza>
-
-<stanza type="verse"><line>Bacı başmak bıttılar</line>
-<line>Gel aşır o turak</line>
-<line>al <narrator number="1">beni</narrator> alım seni</line>
-<line>ellerinden kurtumak</line>
+<break instr="guitar, oud, drums, bass" scale="minor"/>
+<stanza type="verse"><line>Bacı başıp bıttılar</line>
+<line><address formality="informal" pos="verb" mood="imp"><addressee/>Gel aşır o turak</address></line>
+<line><address formality="informal" pos="verb" mood="imp">al <narrator number="1">beni</narrator> alım <addressee>seni</addressee></address></line>
+<line>ellerinden kurturak</line>
 <line>aman aman oy</line></stanza>
-
+    <break instr="guitar, oud, drums, bass" scale="minor"/>
 <stanza type="verse"><line>Gittim arta hiç</line>
-<line>Eğildim su içmeye</line>
+<line>Eğildim su içme</line>
 <line>Dediler yarin gelmiş</line>
-<line>Karnat aştım üç</line></stanza>
-
+<line>Karnat aştım üçmaya</line></stanza>
+    <break instr="guitar, oud, drums, bass" scale="minor"/>
 <stanza type="verse"><line>Sarı boşum sevmeni</line>
 <line>Alyan aktan öpmeli</line>
 <line>Geceler on dört saat</line>
 <line>Nasıl yalnız yatmanı</line>
 <line>Aman aman oy</line></stanza>
-
+<break instr="saz" solo="yes" scale="minor"/>
 <stanza type="verse"><line>Aydilar aşmak ister</line>
-<line>Köyde kızı yaşmak ister</line>
-<line>Çok benim garip gönlü</line>
+<line><place where="rural">Köyde</place> kızı yaşmak ister</line>
+<line>Çok <narrator number="1">benim</narrator> garip gönlü</line>
 <line>Yare kavuşmak ister</line></stanza>
-
-<stanza type="verse"><line>Bacı başmak bıttılar</line>
-<line>Gel aşır o turak</line>
-<line>al beni alım seni</line>
+    <break instr="guitar, oud, drums, bass" scale="minor"/>
+<stanza type="verse"><line>Bacı başıp bıttılar</line>
+<line><address formality="informal" pos="verb" mood="imp"><addressee/>Gel aşır o turak</address></line>
+<line><address formality="informal" pos="verb" mood="imp">al <narrator number="1">beni</narrator> alım <addressee>seni</addressee></address></line>
 <line>ellerinden kurtumak</line>
 <line>aman aman oy</line></stanza>
 </song>
