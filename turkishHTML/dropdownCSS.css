@@ -3,7 +3,7 @@
 #qqq
 {	margin-left: auto;
 	margin-right: auto;
-	width:600px;
+	width:700px;
 	z-index: 30;
 	text-align: center;
 	display:block;
@@ -13,7 +13,7 @@
 {	
 	list-style: none;
 	float: left;
-	font: bold 18px arial;
+	font: bold 16px arial;
 	display: inline;
 	}
 
@@ -21,7 +21,7 @@
 {	display: block;
 	margin: 0 1px 0 0;
 	padding: 6px 28px;
-	width: 60px;
+	width: 76px;
 	background: #5970B2;
 	color: #FFF;
 	text-align: center;
