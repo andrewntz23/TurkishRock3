@@ -2,11 +2,11 @@
 <?xml-model href="../tr_schema.rnc" type="application/relax-ng-compact-syntax"?>
 <song>
 <metadata><artist>Ersen</artist><title>Kara Yazı</title><album>Dünden Bugüne</album><year>1977</year><politicalS>none</politicalS><source>Transcribed by Steve Sloto (Warning: There May Be Errors!)</source></metadata>
-
+<break instr="saz, drums, ney, bass" scale="minor"/>
 <stanza type="verse"><line>Her telimde hasret şarkısı</line>
 <line><aşık>Dertliyim çalarım sazım</aşık></line>
-<line>Sevdeğim bırakmaz nazır</line>
-<line>Vurda alım da kara yazır</line>
+<line><love l="romantic">Sevdeğim</love> bırakmaz nazır</line>
+<line>Vurda alım da kara yazı</line>
 <line>Sevdeğim bırakmaz nazı</line>
 <line>Vurda alım da kara yazı</line></stanza>
 
@@ -16,23 +16,23 @@
 <line><address formality="informal" pos="verb" mood="imp">Gel <addressee><family>amanım</family></addressee> gel</address></line>
 <line><address formality="informal" pos="verb" mood="imp"><addressee/>hey hey git</address></line>
 <line><address formality="informal" pos="verb" mood="imp"><addressee><family>amanın</family></addressee> git</address></line></stanza>
-
+<break instr="saz, drums, ney, bass" scale="minor"/>
 <stanza type="verse"><line>ocak <death>öldüm</death></line>
 <line><place where="rural">köyümden</place> oldum</line>
 <line><narrator number="1">beni</narrator> anlamadım</line>
 <line>ne sazı mı</line>
 <line>ne şarkı mı</line></stanza>
-
+<break instr="saz, drums, ney, bass" scale="minor"/>
 <stanza type="chorus"><line>ne şarkı mı</line>
 <line>kara yazı mı</line>
 <line>ne sazı mı</line>
 <line>ne şarkı mı</line>
 <line>kara yazı mı</line></stanza>
-
-<stanza type="verse"><line>sorlarım dostlarım size</line>
+<break instr="saz, drums, ney, bass" scale="minor"/>
+<stanza type="verse"><line><address formality="formal" pos="pronoun">sorlarım <friendship>dostlarım</friendship> <addressee>size</addressee></address></line>
 <line>yok mu du de dime çare</line>
 <line>Eğer sen kutlu derdine</line>
-<line>Dünya dene güzellirle</line></stanza>
+<line><place where="world">Dünya</place> dene güzellirle</line></stanza>
 
     <stanza type="chorus"><line><address formality="informal" pos="verb" mood="imp">Gel <addressee><family>amanım</family></addressee> gel</address></line>
         <line><address formality="informal" pos="verb" mood="imp"><addressee/>hey hey git</address></line>
@@ -40,7 +40,7 @@
         <line><address formality="informal" pos="verb" mood="imp">Gel <addressee><family>amanım</family></addressee> gel</address></line>
         <line><address formality="informal" pos="verb" mood="imp"><addressee/>hey hey git</address></line>
         <line><address formality="informal" pos="verb" mood="imp"><addressee><family>amanın</family></addressee> git</address></line></stanza>
-
+    
     <stanza type="verse"><line>ocak <death>öldüm</death></line>
         <line><place where="rural">köyümden</place> oldum</line>
         <line><narrator number="1">beni</narrator> anlamadım</line>
@@ -54,6 +54,7 @@
 <line>kara yazı mı</line>
 <line>kara yazı mı</line>
 <line>kara yazı mı</line></stanza>
+<break instr="guitar, ney, drums, saz" scale="minor" solo="yes"/>
 
 
 </song>
