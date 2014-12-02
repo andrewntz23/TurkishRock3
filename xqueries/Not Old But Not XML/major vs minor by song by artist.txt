@@ -2,7 +2,7 @@ xquery version "3.0";
 let $tutkus := collection('/db/course/turkish/data')
 let $arts := distinct-values($tutkus//artist)
 for $art in $arts
-let $turkus := $tutkus[.//artist=$art]
+let $turkus := $tutkus[.//politicalS="none"][.//artist=$art]
 let $tradbrs := $turkus[contains(.//break/@instr, ("violin", "duduk", "düdük", "ney", "bağlama", "saz", "kavan", "quanun", "cümbüs", "Çığırtma", "oud"))]
 let $westbrs :=  $turkus[contains(.//break/@instr, ("guitar", "organ", "synth", "bass", "mellotron", "experimental sounds", "trumpet", "saxaphone", "piano", "kemençe"))]
 let $both := $turkus[contains(.//break/@instr, ("guitar", "organ", "synth", "bass", "mellotron", "experimental sounds", "trumpet", "saxaphone", "piano", "kemençe"))][contains(.//break/@instr, ("violin", "duduk", "düdük", "ney", "bağlama", "saz", "kavan", "quanun", "cümbüs", "Çığırtma", "oud"))]

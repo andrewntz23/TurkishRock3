@@ -63,6 +63,7 @@ There are no real conclusions that can be drawn from the rest of the data.
 == INSTRUMENTATION ==
 To look at the effect of artists and politics on instrumentation, we divided the instruments into two groups, 'traditional' and 'western.'
 {}
+-- Overall Results --
 Overall, 64 breaks contained traditional instrumentation. > 18 solos
 111 contained western. > 28 solos
 Hang on.. there's supposed to be 212 total breaks? what am I doing wrong.
@@ -80,7 +81,7 @@ Selda's political songs do not differ in instrumentation in any special way from
 Selda Bağcan (protest songs) -- total: 5/ trad: 3/ west: 3/ both: 1
 Selda Bağcan (non-protest songs) -- total: 7/ trad: 4/ west: 4/ both: 1
 
-
+-- Differences in Thematic Elements Based on Instrumentation --
 Differences in thematic elements between songs with traditional/western information. (I've picked these results out of a longer xQuery)
 Barış Manço = love== trad: 1, west: 5, both:1
 Cem Karaca = no data, obviously
@@ -102,6 +103,26 @@ Selda Bağcan = violence== trad: 2, west: 0, both:0
 Selda Bağcan = youth== trad: 2, west: 0, both:0
 Selda Bağcan = death== trad: 1, west: 3, both:1
 Selda Bağcan = family== trad: 0, west: 4, both:0
+
+-- Instruments Most Often Used By Artists --
+{Chart}
+
+-- Solos --
+
+-- Major vs Minor --
+Overall, the artists tended to prefer using minor scales. Although all artists recorded songs with both scales, only one song contains both.
+
+Ersen - minor: 8, major: 2, both: 0
+Barış Manço - minor: 10, major: 3, both: 0
+Cem Karaca - minor: 4, major: 4, both: 0
+Edip Akbayram - minor: 5, major: 5, both: 0
+Erkin Koray - minor: 5, major: 2, both: 1
+Selda Bağcan - minor: 7, major: 5, both: 0
+
+Again, there is no discernable difference in instrumentation between Selda and Cem's protest songs and non-protest songs.
+Cem Karaca - minor: 2, major: 2, both: 0
+Selda Bağcan - minor: 2, major: 3, both: 0
+
 
 == ADDRESS ==
 
