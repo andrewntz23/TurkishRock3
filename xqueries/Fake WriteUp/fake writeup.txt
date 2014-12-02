@@ -134,6 +134,17 @@ class== Minor: 0.128205128205128205, Major: 0.095238095238095238, Both:0
 -- Solos --
 I'm going to hold-off on this one for the time being...
 
+
+<root>
+<artist who="Ersen">17</artist>
+<artist who="Barış Manço">0</artist>
+<artist who="Cem Karaca">8</artist>
+<artist who="Edip Akbayram">2</artist>
+<artist who="Erkin Koray">13</artist>
+<artist who="Selda Bağcan">6</artist>
+</root>
+
+
 == ADDRESS ==
 -- Overall Address Counts --
 Artist, #of songs containing formal addresses, #songs w/ informal, #songs w/ both
