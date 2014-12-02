@@ -1,0 +1,9 @@
+xquery version "3.0";
+let $tutkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($tutkus//artist)
+for $art in $arts
+let $turkus := $tutkus[.//artist=$art]
+let $formalTs := $turkus//address[./@formality="formal"]
+let $informalTs := $turkus//address[./@formality="informal"]
+order by $art
+return $art || ", Formal: " || count($formalTs) || ", Informal: " || count($informalTs)

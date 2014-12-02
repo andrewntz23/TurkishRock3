@@ -107,8 +107,6 @@ Selda Bağcan = family== trad: 0, west: 4, both:0
 -- Instruments Most Often Used By Artists --
 {Chart}
 
--- Solos --
-
 -- Major vs Minor --
 Overall, the artists tended to prefer using minor scales. Although all artists recorded songs with both scales, only one song contains both.
 
@@ -123,9 +121,37 @@ Again, there is no discernable difference in instrumentation between Selda and C
 Cem Karaca - minor: 2, major: 2, both: 0
 Selda Bağcan - minor: 2, major: 3, both: 0
 
+There are a few differences in overall thematic elements based on key, but nothing overwhelming.
+(These are in percentages, and I accidentally did not save this xQuery but it won't be hard to redo in XML table form.)
+love== Minor: 0.307692307692307692, Major: 0.333333333333333333, Both:1
+family== Minor: 0.25641025641025641, Major: 0.285714285714285714, Both:0
+friendship== Minor: 0.25641025641025641, Major: 0.095238095238095238, Both:0
+death== Minor: 0.205128205128205128, Major: 0.238095238095238095, Both:0
+neglect== Minor: 0.179487179487179487, Major: 0.285714285714285714, Both:0
+future== Minor: 0.128205128205128205, Major: 0.095238095238095238, Both:1
+class== Minor: 0.128205128205128205, Major: 0.095238095238095238, Both:0
+
+-- Solos --
+I'm going to hold-off on this one for the time being...
 
 == ADDRESS ==
+-- Overall Address Counts --
+Artist, #of songs containing formal addresses, #songs w/ informal, #songs w/ both
+Barış Manço, Formal: 2, Informal: 6, Both: 1
+Cem Karaca, Formal: 0, Informal: 2, Both: 0
+Edip Akbayram, Formal: 1, Informal: 6, Both: 0
+Erkin Koray, Formal: 1, Informal: 2, Both: 1
+Ersen, Formal: 2, Informal: 4, Both: 1
+Selda Bağcan, Formal: 4, Informal: 10, Both: 3
 
+Selda Bağcan (left only), Formal: 3, Informal: 4, Both: 2
+Selda Bağcan (none only), Formal: 1, Informal: 6, Both: 1
 
+Cem Karaca (left only), Formal: 0, Informal: 2, Both: 0
+Cem Karaca (none only), Formal: 0, Informal: 0, Both: 0
+
+-- Most Common Addressees --
+
+-- Themes Inside Addresses --
 == ETYMOLOGY ==
 TBD

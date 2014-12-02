@@ -1,0 +1,16 @@
+xquery version "3.0";
+let $tutkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($tutkus//artist)
+for $art in $arts
+let $turkus := $tutkus[.//artist=$art]
+let $mIturkus := $turkus[.//@scale="minor"]
+let $mAturkus := $turkus[.//@scale="major"]
+let $bOturkus := $turkus[.//@scale="major"][.//@scale="minor"]
+let $elements := distinct-values($turkus//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")][not(.="song")][not(.="politicalS")][not(.="addressee")])
+for $element in $elements
+let $countMi := count($mIturkus//*/name()[. = $element])
+let $countMa := count($mAturkus//*/name()[. = $element])
+let $countBo := count($bOturkus//*/name()[. = $element])
+
+order by $art, $countMi descending, $countMa descending, $countBo descending
+return $art || " = " || $element || "== Minor: " || $countMi || ", Major: " || $countMa || ", Both:" || $countBo
