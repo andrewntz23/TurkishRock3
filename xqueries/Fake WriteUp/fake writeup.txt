@@ -62,13 +62,46 @@ There are no real conclusions that can be drawn from the rest of the data.
 
 == INSTRUMENTATION ==
 To look at the effect of artists and politics on instrumentation, we divided the instruments into two groups, 'traditional' and 'western.'
-
+{}
 Overall, 64 breaks contained traditional instrumentation. > 18 solos
 111 contained western. > 28 solos
-Hangon.. there's supposed to be 212 total breaks? what am I doing wrong.
+Hang on.. there's supposed to be 212 total breaks? what am I doing wrong.
 ANSWER: Nothing. There are 75 that are blank, or are drums (which I left out) or music boxes.
-Still need to divide this by song, then artist and such
-Also still need to do major or minor.
+{}
+If we divide the information up by song, we get the following results:
+Barış Manço -- total: 13/ trad: 7/ west: 12
+Cem Karaca -- total: 8/ trad: 0/ west: 8
+Edip Akbayram -- total: 10/ trad: 4/ west: 7
+Erkin Koray -- total: 8/ trad: 3/ west: 7
+Ersen -- total: 10/ trad: 9/ west: 9
+Selda Bağcan -- total: 12/ trad: 7/ west: 7
+
+Selda's political songs do not differ in instrumentation in any special way from her normal songs.
+Selda Bağcan (protest songs) -- total: 5/ trad: 3/ west: 3/ both: 1
+Selda Bağcan (non-protest songs) -- total: 7/ trad: 4/ west: 4/ both: 1
+
+
+Differences in thematic elements between songs with traditional/western information. (I've picked these results out of a longer xQuery)
+Barış Manço = love== trad: 1, west: 5, both:1
+Cem Karaca = no data, obviously
+
+Edip Akbayram = family== trad: 8, west: 2, both:0
+Edip Akbayram = allah== trad: 4, west: 0, both:0
+Edip Akbayram = nature== trad: 3, west: 14, both:0
+Edip Akbayram = neglect== trad: 0, west: 3, both:0
+Edip Akbayram = friendship== trad: 0, west: 2, both:0
+
+Erkin Koray = love== trad: 17, west: 2, both:2
+Erkin Koray = allah== trad: 3, west: 3, both:3
+Erkin Koray = narrator== trad: 1, west: 6, both:1
+
+Limited data from Ersen, due to the fact that the majority of his songs contain both types of instrumentation. He's good at that.
+
+Selda Bağcan = love== trad: 6, west: 6, both:3
+Selda Bağcan = violence== trad: 2, west: 0, both:0
+Selda Bağcan = youth== trad: 2, west: 0, both:0
+Selda Bağcan = death== trad: 1, west: 3, both:1
+Selda Bağcan = family== trad: 0, west: 4, both:0
 
 == ADDRESS ==
 

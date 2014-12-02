@@ -1,0 +1,16 @@
+xquery version "3.0";
+let $tutkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($tutkus//artist)
+for $art in $arts
+let $turkus := $tutkus[.//politicalS="none"][.//artist=$art]
+let $tradbrs := $turkus[contains(.//break/@instr, ("violin", "duduk", "düdük", "ney", "bağlama", "saz", "kavan", "quanun", "cümbüs", "Çığırtma", "oud"))]
+let $westbrs :=  $turkus[contains(.//break/@instr, ("guitar", "organ", "synth", "bass", "mellotron", "experimental sounds", "trumpet", "saxaphone", "piano", "kemençe"))]
+let $both := $turkus[contains(.//break/@instr, ("guitar", "organ", "synth", "bass", "mellotron", "experimental sounds", "trumpet", "saxaphone", "piano", "kemençe"))][contains(.//break/@instr, ("violin", "duduk", "düdük", "ney", "bağlama", "saz", "kavan", "quanun", "cümbüs", "Çığırtma", "oud"))]
+let $elements := distinct-values($turkus//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")][not(.="song")][not(.="politicalS")][not(.="addressee")])
+for $element in $elements
+let $countW := count($westbrs//*/name()[. = $element])
+let $countT := count($tradbrs//*/name()[. = $element])
+let $countB := count($both//*/name()[. = $element])
+
+order by $art, $countT descending, $countW descending
+return $art || " = " || $element || "== trad: " || $countT || ", west: " || $countW || ", both:" || $countB
