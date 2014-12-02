@@ -1,0 +1,15 @@
+xquery version "3.0";
+(: Attempt- count of major vs minor scale songs for each artist :)
+<root>
+{let $turkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($turkus//artist)
+for $art in $arts
+    return <artist who="{$art}">
+{let $artsongs := $turkus//artist[contains(., $art)]/../..
+let $artScale := $artsongs//break/@scale/name()
+let $countMa := count($artScale[contains(., "major")])
+let $countMi := count($artScale[contains(., "minor")])
+
+return ({$countMa} {$countMi})}
+</artist>}
+</root>
