@@ -3,15 +3,23 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs"
     xmlns="http://www.w3.org/2000/svg" version="2.0">
     <xsl:output method="xml" indent="yes"/>
-    <xsl:variable name="XSpacing" select="40" as="xs:integer"/>
-    <xsl:variable name="barWidth" select="25" as="xs:integer"/>
+    <xsl:variable name="XSpacing" select="60" as="xs:integer"/>
+    <xsl:variable name="barWidth" select="30" as="xs:integer"/>
     <xsl:variable name="XLength" select="$XSpacing * count(//ref)"/>
-    <xsl:variable name="YScale" select="5" as="xs:integer"/>
+    <xsl:variable name="YScale" select="6" as="xs:integer"/>
     <xsl:variable name="maxHeight" select="max(//ref) * $YScale" as="xs:double"/>
+    <xsl:variable name="fill" as="xs:string">
+        <xsl:choose>
+            <xsl:when test="string-length(.) &gt; 0">purple</xsl:when>
+            <xsl:otherwise>red</xsl:otherwise>
+        </xsl:choose>
+    </xsl:variable>
+    <rect x="{$XPosition}" y="-{$height}" height="{$height}" width="{$barWidth}" fill="{$fill}"/>
     <xsl:template match="/">
-        <svg width="200%" height="{$maxHeight + 100}">
+        <svg width="180%" height="{$maxHeight + 100}">
             <g transform="translate(40,{$maxHeight + 50})">
-                <rect x="0" y="-{$maxHeight + 100}" width="{$XLength}" height="{$maxHeight + 100}"
+                
+                    <rect x="0" y="-{$maxHeight + 100}" width="{$XLength}" height="{$maxHeight + 100}"
                     fill="white"/>
                 <xsl:for-each select="1 to max(//ref) idiv 10">
                     <line x1="0" y1="-{. * $YScale * 10}" x2="{$XLength}" y2="-{. * $YScale * 10}"
@@ -29,7 +37,7 @@
     <xsl:template match="ref">
         <xsl:variable name="XPosition" select="(position() - 1) * $XSpacing" as="xs:integer"/>
         <xsl:variable name="height" select=". * $YScale"/>
-        <rect x="{$XPosition}" y="-{$height}" height="{$height}" width="{$barWidth}" fill="blue"/>
+        <rect x="{$XPosition}" y="-{$height}" height="{$height}" width="{$barWidth}" fill="{$fill}"/>
         <text x="{$XPosition + $barWidth div 2}" y="20" text-anchor="middle">
             <xsl:value-of select="@type"/>
         </text>
