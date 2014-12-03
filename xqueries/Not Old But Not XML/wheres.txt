@@ -1,0 +1,10 @@
+xquery version "3.0";
+let $tutkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($tutkus//artist)
+for $art in $arts
+let $turkus := $tutkus[.//artist=$art]
+let $wheres := distinct-values($turkus//place/@where)
+for $where in $wheres
+let $wsongs := $turkus//place[./@where=$where]
+order by $art, count($wsongs) descending
+return $art || "-" || $where || " " || count($wsongs)

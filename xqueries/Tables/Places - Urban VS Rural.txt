@@ -1,0 +1,11 @@
+xquery version "3.0";
+<table><tr><td>Artist</td><td>Songs Referencing Urban Places</td><td>Songs Referencing Rural Places</td><td>Songs Referencing Both</td></tr>{let $tutkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($tutkus//artist)
+for $art in $arts
+let $turkus := $tutkus[.//artist=$art]
+let $rural := $turkus[.//@where="rural"]
+let $urban := $turkus[.//@where="urban"]
+let $both := $turkus[.//@where="urban"][.//@where="rural"]
+let $elements := distinct-values($turkus//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")][not(.="song")][not(.="politicalS")][not(.="addressee")])
+order by $art
+return <tr>{(<td>{$art}</td>,<td>{count($urban)}</td>,<td>{count($rural)}</td>,<td>{count($both)}</td>)}</tr>}</table>
