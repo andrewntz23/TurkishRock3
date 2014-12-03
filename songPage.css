@@ -1,0 +1,14 @@
+span {color: pink;}
+
+#sidebar {width:5%;
+          right:5%;
+          position:fixed;
+          background-color:rgba(0,0,0,0)}
+          #sidebar div {width:5%;
+          right:5%;
+          position:fixed;
+          background-color:rgba(0,0,0,0);}
+#sidebar div p{width:100%; background-color: rgba(50,0,150,.9); padding: 20px}
+#sidebar div p a{width:100%;}
+
+p {width: 50%}
