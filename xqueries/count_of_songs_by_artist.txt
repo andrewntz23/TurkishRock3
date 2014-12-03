@@ -1,0 +1,7 @@
+xquery version "3.0";
+<root>
+{let $tutkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($tutkus//artist)
+for $art in $arts
+    order by $art
+    return <ref type="{$art}">{count($tutkus[.//artist=$art])}</ref>}</root>

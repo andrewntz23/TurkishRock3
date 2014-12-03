@@ -1,0 +1,13 @@
+xquery version "3.0";
+<root>
+{let $tutkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($tutkus//artist)
+for $art in $arts
+    order by $art
+    return <artist who="{$art}">{
+let $turkus := $tutkus[.//artist=$art]
+let $wheres := distinct-values($turkus//place/@where)
+for $where in $wheres
+let $wsongs := $turkus//place[./@where=$where]
+order by count($wsongs) descending
+return <ref type="{$where}">{count($wsongs)}</ref>}</artist>}</root>
