@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
-    <artist who="Ersen">
-        
-        <ref type="bass">6</ref>
-        
-        
-        
-        <ref type="guitar">8</ref>
-        
-        
-        <ref type="ney">2</ref>
-        <ref type="organ">3</ref>
-        
-        
-        
-        
-        
-        <ref type="synth">2</ref>
-        
-        <ref type="violin">1</ref>
-        <ref type="bağlama">8</ref>
-    </artist>
+
     <artist who="Barış Manço">
-        <ref type="total">13</ref>
         <ref type="bass">1</ref>
         
         <ref type="cümbüs">1</ref>
@@ -43,7 +22,6 @@
         <ref type="bağlama">3</ref>
     </artist>
     <artist who="Cem Karaca">
-        <ref type="total">8</ref>
         <ref type="bass">4</ref>
         
         
@@ -105,8 +83,28 @@
         
         <ref type="bağlama">3</ref>
     </artist>
+    <artist who="Ersen">
+        
+        <ref type="bass">6</ref>
+        
+        
+        
+        <ref type="guitar">8</ref>
+        
+        
+        <ref type="ney">2</ref>
+        <ref type="organ">3</ref>
+        
+        
+        
+        
+        
+        <ref type="synth">2</ref>
+        
+        <ref type="violin">1</ref>
+        <ref type="bağlama">8</ref>
+    </artist>
     <artist who="Selda Bağcan">
-        <ref type="total">12</ref>
         <ref type="bass">2</ref>
         
         
