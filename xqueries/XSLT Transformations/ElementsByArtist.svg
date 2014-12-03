@@ -1,150 +1,826 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="180%" height="262">
-   <g transform="translate(40,212)">
-      <rect x="0" y="-262" width="2340" height="262" fill="white"/>
-      <line x1="0"
-            y1="-60"
-            x2="2340"
-            y2="-60"
-            stroke="black"
-            stroke-width="1"/>
-      <text x="-20" y="-55" text-align="right">10</text>
-      <line x1="0"
-            y1="-120"
-            x2="2340"
-            y2="-120"
-            stroke="black"
-            stroke-width="1"/>
-      <text x="-20" y="-115" text-align="right">20</text>
-      <line x1="0"
-            y1="0"
-            x2="2340"
-            y2="0"
-            stroke="black"
-            stroke-width="2"/>
-      <line x1="0"
-            y1="0"
-            x2="0"
-            y2="-162"
-            stroke="black"
-            stroke-width="2"/>
-      <rect x="0" y="-162" height="162" width="30" fill="#d73027"/>
-      <text x="15" y="20" text-anchor="middle">nature</text>
-	  <text x="150" y="40" text-anchor="middle" font-size="16">Barış Manço</text>
-      <text x="15" y="-167" text-anchor="middle">27</text>
-      <rect x="60" y="-78" height="78" width="30" fill="#d73027"/>
-      <text x="75" y="20" text-anchor="middle">family</text>
-      <text x="75" y="-83" text-anchor="middle">13</text>
-      <rect x="120" y="-66" height="66" width="30" fill="#d73027"/>
-      <text x="135" y="20" text-anchor="middle">future</text>
-      <text x="135" y="-71" text-anchor="middle">11</text>
-      <rect x="180" y="-30" height="30" width="30" fill="#d73027"/>
-      <text x="195" y="20" text-anchor="middle">friendship</text>
-      <text x="195" y="-35" text-anchor="middle">5</text>
-      <rect x="240" y="-30" height="30" width="30" fill="#d73027"/>
-      <text x="255" y="20" text-anchor="middle">love</text>
-      <text x="255" y="-35" text-anchor="middle">5</text>
-      <rect x="300" y="-18" height="18" width="30" fill="#d73027"/>
-      <text x="315" y="20" text-anchor="middle">past</text>
-      <text x="315" y="-23" text-anchor="middle">3</text>
-      <rect x="360" y="-54" height="54" width="30" fill="#fc8d59"/>
-      <text x="375" y="20" text-anchor="middle">class</text>
-      <text x="375" y="-59" text-anchor="middle">9</text>
-      <rect x="420" y="-48" height="48" width="30" fill="#fc8d59"/>
-      <text x="435" y="20" text-anchor="middle">family</text>
-      <text x="435" y="-53" text-anchor="middle">8</text>
-      <rect x="480" y="-36" height="36" width="30" fill="#fc8d59"/>
-      <text x="495" y="20" text-anchor="middle">neglect</text>
-      <text x="495" y="-41" text-anchor="middle">6</text>
-      <rect x="540" y="-36" height="36" width="30" fill="#fc8d59"/>
-      <text x="555" y="20" text-anchor="middle">poverty</text>
-      <text x="555" y="-41" text-anchor="middle">6</text>
-      <rect x="600" y="-30" height="30" width="30" fill="#fc8d59"/>
-      <text x="615" y="20" text-anchor="middle">love</text>
-      <text x="615" y="-35" text-anchor="middle">5</text>
-      <rect x="660" y="-102" height="102" width="30" fill="#fc8d59"/>
-      <text x="675" y="20" text-anchor="middle">nature</text>
-      <text x="675" y="-107" text-anchor="middle">17</text>
-      <rect x="720" y="-60" height="60" width="30" fill="#fee090"/>
-      <text x="735" y="20" text-anchor="middle">family</text>
-      <text x="735" y="-65" text-anchor="middle">10</text>
-      <rect x="780" y="-36" height="36" width="30" fill="#fee090"/>
-      <text x="795" y="20" text-anchor="middle">death</text>
-      <text x="795" y="-41" text-anchor="middle">6</text>
-      <rect x="840" y="-30" height="30" width="30" fill="#fee090"/>
-      <text x="855" y="20" text-anchor="middle">love</text>
-      <text x="855" y="-35" text-anchor="middle">5</text>
-      <rect x="900" y="-24" height="24" width="30" fill="#fee090"/>
-      <text x="915" y="20" text-anchor="middle">allah</text>
-      <text x="915" y="-29" text-anchor="middle">4</text>
-      <rect x="960" y="-18" height="18" width="30" fill="#fee090"/>
-      <text x="975" y="20" text-anchor="middle">neglect</text>
-      <text x="975" y="-23" text-anchor="middle">3</text>
-      <rect x="1020" y="-102" height="102" width="30" fill="#e0f3f8"/>
-      <text x="1035" y="20" text-anchor="middle">love</text>
-      <text x="1035" y="-107" text-anchor="middle">17</text>
-      <rect x="1080" y="-78" height="78" width="30" fill="#e0f3f8"/>
-      <text x="1095" y="20" text-anchor="middle">friendship</text>
-      <text x="1095" y="-83" text-anchor="middle">13</text>
-      <rect x="1140" y="-18" height="18" width="30" fill="#e0f3f8"/>
-      <text x="1155" y="20" text-anchor="middle">allah</text>
-      <text x="1155" y="-23" text-anchor="middle">3</text>
-      <rect x="1200" y="-18" height="18" width="30" fill="#e0f3f8"/>
-      <text x="1215" y="20" text-anchor="middle">nationalism</text>
-      <text x="1215" y="-23" text-anchor="middle">3</text>
-      <rect x="1260" y="-18" height="18" width="30" fill="#e0f3f8"/>
-      <text x="1275" y="20" text-anchor="middle">nature</text>
-      <text x="1275" y="-23" text-anchor="middle">3</text>
-      <rect x="1320" y="-114" height="114" width="30" fill="#91bfdb"/>
-      <text x="1335" y="20" text-anchor="middle">family</text>
-      <text x="1335" y="-119" text-anchor="middle">19</text>
-      <rect x="1380" y="-72" height="72" width="30" fill="#91bfdb"/>
-      <text x="1395" y="20" text-anchor="middle">love</text>
-      <text x="1395" y="-77" text-anchor="middle">12</text>
-      <rect x="1440" y="-48" height="48" width="30" fill="#91bfdb"/>
-      <text x="1455" y="20" text-anchor="middle">friendship</text>
-      <text x="1455" y="-53" text-anchor="middle">8</text>
-      <rect x="1500" y="-36" height="36" width="30" fill="#91bfdb"/>
-      <text x="1515" y="20" text-anchor="middle">death</text>
-      <text x="1515" y="-41" text-anchor="middle">6</text>
-      <rect x="1560" y="-24" height="24" width="30" fill="#91bfdb"/>
-      <text x="1575" y="20" text-anchor="middle">poverty</text>
-      <text x="1575" y="-29" text-anchor="middle">4</text>
-      <rect x="1620" y="-18" height="18" width="30" fill="#91bfdb"/>
-      <text x="1635" y="20" text-anchor="middle">aşık</text>
-      <text x="1635" y="-23" text-anchor="middle">3</text>
-      <rect x="1680" y="-18" height="18" width="30" fill="#91bfdb"/>
-      <text x="1695" y="20" text-anchor="middle">nature</text>
-      <text x="1695" y="-23" text-anchor="middle">3</text>
-      <rect x="1740" y="-18" height="18" width="30" fill="#4575b4"/>
-      <text x="1755" y="20" text-anchor="middle">neglect</text>
-      <text x="1755" y="-23" text-anchor="middle">3</text>
-      <rect x="1800" y="-90" height="90" width="30" fill="#4575b4"/>
-      <text x="1815" y="20" text-anchor="middle">neglect</text>
-      <text x="1815" y="-95" text-anchor="middle">15</text>
-      <rect x="1860" y="-78" height="78" width="30" fill="#4575b4"/>
-      <text x="1875" y="20" text-anchor="middle">class</text>
-      <text x="1875" y="-83" text-anchor="middle">13</text>
-      <rect x="1920" y="-78" height="78" width="30" fill="#4575b4"/>
-      <text x="1935" y="20" text-anchor="middle">death</text>
-      <text x="1935" y="-83" text-anchor="middle">13</text>
-      <rect x="1980" y="-66" height="66" width="30" fill="#4575b4"/>
-      <text x="1995" y="20" text-anchor="middle">love</text>
-      <text x="1995" y="-71" text-anchor="middle">11</text>
-      <rect x="2040" y="-48" height="48" width="30" fill="#4575b4"/>
-      <text x="2055" y="20" text-anchor="middle">family</text>
-      <text x="2055" y="-53" text-anchor="middle">8</text>
-      <rect x="2100" y="-30" height="30" width="30" fill="#4575b4"/>
-      <text x="2115" y="20" text-anchor="middle">friendship</text>
-      <text x="2115" y="-35" text-anchor="middle">5</text>
-      <rect x="2160" y="-30" height="30" width="30" fill="#4575b4"/>
-      <text x="2175" y="20" text-anchor="middle">nature</text>
-      <text x="2175" y="-35" text-anchor="middle">5</text>
-      <rect x="2220" y="-30" height="30" width="30" fill="#4575b4"/>
-      <text x="2235" y="20" text-anchor="middle">violence</text>
-      <text x="2235" y="-35" text-anchor="middle">5</text>
-      <rect x="2280" y="-24" height="24" width="30" fill="#4575b4"/>
-      <text x="2295" y="20" text-anchor="middle">allah</text>
-      <text x="2295" y="-29" text-anchor="middle">4</text>
-   </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="180%"
+   height="262"
+   id="svg3336"
+   version="1.1"
+   inkscape:version="0.91pre3 r13670"
+   sodipodi:docname="ElementsByArtist.svg">
+  <metadata
+     id="metadata3594">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3592" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     id="namedview3590"
+     showgrid="false"
+     inkscape:zoom="2.0648855"
+     inkscape:cx="1917.4212"
+     inkscape:cy="131"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3338" />
+  <g
+     transform="translate(40,212)"
+     id="g3338">
+    <rect
+       x="0"
+       y="-262"
+       width="2340"
+       height="262"
+       fill="white"
+       id="rect3340" />
+    <line
+       x1="0"
+       y1="-60"
+       x2="2340"
+       y2="-60"
+       stroke="black"
+       stroke-width="1"
+       id="line3342" />
+    <text
+       x="-20"
+       y="-55"
+       text-align="right"
+       id="text3344">10</text>
+    <line
+       x1="0"
+       y1="-120"
+       x2="2340"
+       y2="-120"
+       stroke="black"
+       stroke-width="1"
+       id="line3346" />
+    <text
+       x="-20"
+       y="-115"
+       text-align="right"
+       id="text3348">20</text>
+    <line
+       x1="0"
+       y1="0"
+       x2="2340"
+       y2="0"
+       stroke="black"
+       stroke-width="2"
+       id="line3350" />
+    <line
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="-162"
+       stroke="black"
+       stroke-width="2"
+       id="line3352" />
+    <rect
+       x="0"
+       y="-162"
+       height="162"
+       width="30"
+       fill="#d73027"
+       id="rect3354" />
+    <text
+       x="15"
+       y="20"
+       text-anchor="middle"
+       id="text3356">nature</text>
+    <text
+       x="150"
+       y="48.062836"
+       font-size="16"
+       id="text3358"
+       style="font-size:16px;text-anchor:middle">Barış Manço</text>
+    <text
+       x="15"
+       y="-167"
+       text-anchor="middle"
+       id="text3360">27</text>
+    <rect
+       x="60"
+       y="-78"
+       height="78"
+       width="30"
+       fill="#d73027"
+       id="rect3362" />
+    <text
+       x="75"
+       y="20"
+       text-anchor="middle"
+       id="text3364">family</text>
+    <text
+       x="75"
+       y="-83"
+       text-anchor="middle"
+       id="text3366">13</text>
+    <rect
+       x="120"
+       y="-66"
+       height="66"
+       width="30"
+       fill="#d73027"
+       id="rect3368" />
+    <text
+       x="135"
+       y="20"
+       text-anchor="middle"
+       id="text3370">future</text>
+    <text
+       x="135"
+       y="-71"
+       text-anchor="middle"
+       id="text3372">11</text>
+    <rect
+       x="180"
+       y="-30"
+       height="30"
+       width="30"
+       fill="#d73027"
+       id="rect3374" />
+    <text
+       x="195"
+       y="20"
+       text-anchor="middle"
+       id="text3376">friendship</text>
+    <text
+       x="195"
+       y="-35"
+       text-anchor="middle"
+       id="text3378">5</text>
+    <rect
+       x="240"
+       y="-30"
+       height="30"
+       width="30"
+       fill="#d73027"
+       id="rect3380" />
+    <text
+       x="255"
+       y="20"
+       text-anchor="middle"
+       id="text3382">love</text>
+    <text
+       x="255"
+       y="-35"
+       text-anchor="middle"
+       id="text3384">5</text>
+    <rect
+       x="300"
+       y="-18"
+       height="18"
+       width="30"
+       fill="#d73027"
+       id="rect3386" />
+    <text
+       x="315"
+       y="20"
+       text-anchor="middle"
+       id="text3388">past</text>
+    <text
+       x="315"
+       y="-23"
+       text-anchor="middle"
+       id="text3390">3</text>
+    <rect
+       x="360"
+       y="-54"
+       height="54"
+       width="30"
+       fill="#fc8d59"
+       id="rect3392" />
+    <text
+       x="375"
+       y="20"
+       text-anchor="middle"
+       id="text3394">class</text>
+    <text
+       x="375"
+       y="-59"
+       text-anchor="middle"
+       id="text3396">9</text>
+    <rect
+       x="420"
+       y="-48"
+       height="48"
+       width="30"
+       fill="#fc8d59"
+       id="rect3398" />
+    <text
+       x="435"
+       y="20"
+       text-anchor="middle"
+       id="text3400">family</text>
+    <text
+       x="435"
+       y="-53"
+       text-anchor="middle"
+       id="text3402">8</text>
+    <rect
+       x="480"
+       y="-36"
+       height="36"
+       width="30"
+       fill="#fc8d59"
+       id="rect3404" />
+    <text
+       x="495"
+       y="20"
+       text-anchor="middle"
+       id="text3406">neglect</text>
+    <text
+       x="495"
+       y="-41"
+       text-anchor="middle"
+       id="text3408">6</text>
+    <rect
+       x="540"
+       y="-36"
+       height="36"
+       width="30"
+       fill="#fc8d59"
+       id="rect3410" />
+    <text
+       x="555"
+       y="20"
+       text-anchor="middle"
+       id="text3412">poverty</text>
+    <text
+       x="555"
+       y="-41"
+       text-anchor="middle"
+       id="text3414">6</text>
+    <rect
+       x="600"
+       y="-30"
+       height="30"
+       width="30"
+       fill="#fc8d59"
+       id="rect3416" />
+    <text
+       x="615"
+       y="20"
+       text-anchor="middle"
+       id="text3418">love</text>
+    <text
+       x="615"
+       y="-35"
+       text-anchor="middle"
+       id="text3420">5</text>
+    <rect
+       x="660"
+       y="-102"
+       height="102"
+       width="30"
+       fill="#fee090"
+       id="rect3422" />
+    <text
+       x="675"
+       y="20"
+       text-anchor="middle"
+       id="text3424">nature</text>
+    <text
+       x="675"
+       y="-107"
+       text-anchor="middle"
+       id="text3426">17</text>
+    <rect
+       x="720"
+       y="-60"
+       height="60"
+       width="30"
+       fill="#fee090"
+       id="rect3428" />
+    <text
+       x="735"
+       y="20"
+       text-anchor="middle"
+       id="text3430">family</text>
+    <text
+       x="735"
+       y="-65"
+       text-anchor="middle"
+       id="text3432">10</text>
+    <rect
+       x="780"
+       y="-36"
+       height="36"
+       width="30"
+       fill="#fee090"
+       id="rect3434" />
+    <text
+       x="795"
+       y="20"
+       text-anchor="middle"
+       id="text3436">death</text>
+    <text
+       x="795"
+       y="-41"
+       text-anchor="middle"
+       id="text3438">6</text>
+    <rect
+       x="840"
+       y="-30"
+       height="30"
+       width="30"
+       fill="#fee090"
+       id="rect3440" />
+    <text
+       x="855"
+       y="20"
+       text-anchor="middle"
+       id="text3442">love</text>
+    <text
+       x="855"
+       y="-35"
+       text-anchor="middle"
+       id="text3444">5</text>
+    <rect
+       x="900"
+       y="-24"
+       height="24"
+       width="30"
+       fill="#fee090"
+       id="rect3446" />
+    <text
+       x="915"
+       y="20"
+       text-anchor="middle"
+       id="text3448">allah</text>
+    <text
+       x="915"
+       y="-29"
+       text-anchor="middle"
+       id="text3450">4</text>
+    <rect
+       x="960"
+       y="-18"
+       height="18"
+       width="30"
+       fill="#fee090"
+       id="rect3452" />
+    <text
+       x="975"
+       y="20"
+       text-anchor="middle"
+       id="text3454">neglect</text>
+    <text
+       x="975"
+       y="-23"
+       text-anchor="middle"
+       id="text3456">3</text>
+    <rect
+       x="1020"
+       y="-102"
+       height="102"
+       width="30"
+       fill="#e0f3f8"
+       id="rect3458" />
+    <text
+       x="1035"
+       y="20"
+       text-anchor="middle"
+       id="text3460">love</text>
+    <text
+       x="1035"
+       y="-107"
+       text-anchor="middle"
+       id="text3462">17</text>
+    <rect
+       x="1080"
+       y="-78"
+       height="78"
+       width="30"
+       fill="#e0f3f8"
+       id="rect3464" />
+    <text
+       x="1095"
+       y="20"
+       text-anchor="middle"
+       id="text3466">friendship</text>
+    <text
+       x="1095"
+       y="-83"
+       text-anchor="middle"
+       id="text3468">13</text>
+    <rect
+       x="1140"
+       y="-18"
+       height="18"
+       width="30"
+       fill="#e0f3f8"
+       id="rect3470" />
+    <text
+       x="1155"
+       y="20"
+       text-anchor="middle"
+       id="text3472">allah</text>
+    <text
+       x="1155"
+       y="-23"
+       text-anchor="middle"
+       id="text3474">3</text>
+    <rect
+       x="1200"
+       y="-18"
+       height="18"
+       width="30"
+       fill="#e0f3f8"
+       id="rect3476" />
+    <text
+       x="1215"
+       y="20"
+       text-anchor="middle"
+       id="text3478">nationalism</text>
+    <text
+       x="1215"
+       y="-23"
+       text-anchor="middle"
+       id="text3480">3</text>
+    <rect
+       x="1260"
+       y="-18"
+       height="18"
+       width="30"
+       fill="#e0f3f8"
+       id="rect3482" />
+    <text
+       x="1275"
+       y="20"
+       text-anchor="middle"
+       id="text3484">nature</text>
+    <text
+       x="1275"
+       y="-23"
+       text-anchor="middle"
+       id="text3486">3</text>
+    <rect
+       x="1320"
+       y="-114"
+       height="114"
+       width="30"
+       fill="#91bfdb"
+       id="rect3488" />
+    <text
+       x="1335"
+       y="20"
+       text-anchor="middle"
+       id="text3490">family</text>
+    <text
+       x="1335"
+       y="-119"
+       text-anchor="middle"
+       id="text3492">19</text>
+    <rect
+       x="1380"
+       y="-72"
+       height="72"
+       width="30"
+       fill="#91bfdb"
+       id="rect3494" />
+    <text
+       x="1395"
+       y="20"
+       text-anchor="middle"
+       id="text3496">love</text>
+    <text
+       x="1395"
+       y="-77"
+       text-anchor="middle"
+       id="text3498">12</text>
+    <rect
+       x="1440"
+       y="-48"
+       height="48"
+       width="30"
+       fill="#91bfdb"
+       id="rect3500" />
+    <text
+       x="1455"
+       y="20"
+       text-anchor="middle"
+       id="text3502">friendship</text>
+    <text
+       x="1455"
+       y="-53"
+       text-anchor="middle"
+       id="text3504">8</text>
+    <rect
+       x="1500"
+       y="-36"
+       height="36"
+       width="30"
+       fill="#91bfdb"
+       id="rect3506" />
+    <text
+       x="1515"
+       y="20"
+       text-anchor="middle"
+       id="text3508">death</text>
+    <text
+       x="1515"
+       y="-41"
+       text-anchor="middle"
+       id="text3510">6</text>
+    <rect
+       x="1560"
+       y="-24"
+       height="24"
+       width="30"
+       fill="#91bfdb"
+       id="rect3512" />
+    <text
+       x="1575"
+       y="20"
+       text-anchor="middle"
+       id="text3514">poverty</text>
+    <text
+       x="1575"
+       y="-29"
+       text-anchor="middle"
+       id="text3516">4</text>
+    <rect
+       x="1620"
+       y="-18"
+       height="18"
+       width="30"
+       fill="#91bfdb"
+       id="rect3518" />
+    <text
+       x="1635"
+       y="20"
+       text-anchor="middle"
+       id="text3520">aşık</text>
+    <text
+       x="1635"
+       y="-23"
+       text-anchor="middle"
+       id="text3522">3</text>
+    <rect
+       x="1680"
+       y="-18"
+       height="18"
+       width="30"
+       fill="#91bfdb"
+       id="rect3524" />
+    <text
+       x="1695"
+       y="20"
+       text-anchor="middle"
+       id="text3526">nature</text>
+    <text
+       x="1695"
+       y="-23"
+       text-anchor="middle"
+       id="text3528">3</text>
+    <rect
+       x="1740"
+       y="-18"
+       height="18"
+       width="30"
+       fill="#91bfdb"
+       id="rect3530" />
+    <text
+       x="1755"
+       y="20"
+       text-anchor="middle"
+       id="text3532">neglect</text>
+    <text
+       x="1755"
+       y="-23"
+       text-anchor="middle"
+       id="text3534">3</text>
+    <rect
+       x="1800"
+       y="-90"
+       height="90"
+       width="30"
+       fill="#4575b4"
+       id="rect3536" />
+    <text
+       x="1815"
+       y="20"
+       text-anchor="middle"
+       id="text3538">neglect</text>
+    <text
+       x="1815"
+       y="-95"
+       text-anchor="middle"
+       id="text3540">15</text>
+    <rect
+       x="1860"
+       y="-78"
+       height="78"
+       width="30"
+       fill="#4575b4"
+       id="rect3542" />
+    <text
+       x="1875"
+       y="20"
+       text-anchor="middle"
+       id="text3544">class</text>
+    <text
+       x="1875"
+       y="-83"
+       text-anchor="middle"
+       id="text3546">13</text>
+    <rect
+       x="1920"
+       y="-78"
+       height="78"
+       width="30"
+       fill="#4575b4"
+       id="rect3548" />
+    <text
+       x="1935"
+       y="20"
+       text-anchor="middle"
+       id="text3550">death</text>
+    <text
+       x="1935"
+       y="-83"
+       text-anchor="middle"
+       id="text3552">13</text>
+    <rect
+       x="1980"
+       y="-66"
+       height="66"
+       width="30"
+       fill="#4575b4"
+       id="rect3554" />
+    <text
+       x="1995"
+       y="20"
+       text-anchor="middle"
+       id="text3556">love</text>
+    <text
+       x="1995"
+       y="-71"
+       text-anchor="middle"
+       id="text3558">11</text>
+    <rect
+       x="2040"
+       y="-48"
+       height="48"
+       width="30"
+       fill="#4575b4"
+       id="rect3560" />
+    <text
+       x="2055"
+       y="20"
+       text-anchor="middle"
+       id="text3562">family</text>
+    <text
+       x="2055"
+       y="-53"
+       text-anchor="middle"
+       id="text3564">8</text>
+    <rect
+       x="2100"
+       y="-30"
+       height="30"
+       width="30"
+       fill="#4575b4"
+       id="rect3566" />
+    <text
+       x="2115"
+       y="20"
+       text-anchor="middle"
+       id="text3568">friendship</text>
+    <text
+       x="2115"
+       y="-35"
+       text-anchor="middle"
+       id="text3570">5</text>
+    <rect
+       x="2160"
+       y="-30"
+       height="30"
+       width="30"
+       fill="#4575b4"
+       id="rect3572" />
+    <text
+       x="2175"
+       y="20"
+       text-anchor="middle"
+       id="text3574">nature</text>
+    <text
+       x="2175"
+       y="-35"
+       text-anchor="middle"
+       id="text3576">5</text>
+    <rect
+       x="2220"
+       y="-30"
+       height="30"
+       width="30"
+       fill="#4575b4"
+       id="rect3578" />
+    <text
+       x="2235"
+       y="20"
+       text-anchor="middle"
+       id="text3580">violence</text>
+    <text
+       x="2235"
+       y="-35"
+       text-anchor="middle"
+       id="text3582">5</text>
+    <rect
+       x="2280"
+       y="-24"
+       height="24"
+       width="30"
+       fill="#4575b4"
+       id="rect3584" />
+    <text
+       x="2295"
+       y="20"
+       text-anchor="middle"
+       id="text3586">allah</text>
+    <text
+       x="2295"
+       y="-29"
+       text-anchor="middle"
+       id="text3588">4</text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="430.72827"
+       y="35.955643"
+       id="text3596"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3598"
+         x="430.72827"
+         y="48.062836">Cem Karaca</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="732.92419"
+       y="48.062836"
+       id="text3604"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3606"
+         x="732.92419"
+         y="48.062836">Edip Akbayram</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1073.3789"
+       y="46.609985"
+       id="text3608"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3610"
+         x="1073.3789"
+         y="48.062836">Erkin Koray</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1430.7837"
+       y="50.968567"
+       id="text3612"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3614"
+         x="1430.7837"
+         y="48.062836">Ersen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1848.7246"
+       y="48.062836"
+       id="text3616"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3618"
+         x="1848.7246"
+         y="48.062836">Selda Bağcan</tspan></text>
+  </g>
 </svg>

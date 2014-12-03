@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <artist who="Barış Manço">
+        <ref type="turkey">10</ref>
+        <ref type="foreign">6</ref>
+        <ref type="region">4</ref>
+        <ref type="rural">3</ref>
+        <ref type="world">2</ref>
+        <ref type="general">1</ref>
+        <ref type="abstract">1</ref>
+    </artist>
+    <artist who="Cem Karaca">
+        <ref type="world">2</ref>
+        <ref type="rural">2</ref>
+        <ref type="general">1</ref>
+        <ref type="turkey">1</ref>
+    </artist>
+    <artist who="Edip Akbayram">
+        <ref type="general">1</ref>
+        <ref type="world">1</ref>
+    </artist>
+    <artist who="Erkin Koray">
+        <ref type="turkey">2</ref>
+        <ref type="rural">2</ref>
+        <ref type="foreign">1</ref>
+        <ref type="region">1</ref>
+        <ref type="home">1</ref>
+    </artist>
+    <artist who="Ersen">
+        <ref type="rural">6</ref>
+        <ref type="world">2</ref>
+        <ref type="urban">2</ref>
+        <ref type="general">1</ref>
+        <ref type="turkey">1</ref>
+    </artist>
+    <artist who="Selda Bağcan">
+        <ref type="rural">8</ref>
+        <ref type="urban">5</ref>
+        <ref type="world">4</ref>
+        <ref type="general">4</ref>
+        <ref type="foreign">3</ref>
+        <ref type="turkey">3</ref>
+        <ref type="abstract">2</ref>
+        <ref type="home">1</ref>
+    </artist>
+</root>

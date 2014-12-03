@@ -63,3 +63,12 @@ a:hover{
 a:visited{
     color:teal;
 }
+svg{
+  width:2400px;
+  background-color:white
+}
+#wrapper{
+  border:2px black solid;
+  padding:0 1em;
+  overflow-x:scroll;
+}
