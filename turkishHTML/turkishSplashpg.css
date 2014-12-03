@@ -37,6 +37,8 @@ img.mm {
 img.license{
     padding:5%;
 }
+img{padding:5%;
+display: inline-block}
 li{
     font-family:arial, helvetica, sans-serif;
     color:white;
