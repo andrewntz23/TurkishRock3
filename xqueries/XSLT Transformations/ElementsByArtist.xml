@@ -1,0 +1,53 @@
+<root>
+    <artist who="Barış Manço">
+        <ref type="nature">27</ref>
+        <ref type="family">13</ref>
+        <ref type="future">11</ref>
+        <ref type="friendship">5</ref>
+        <ref type="love">5</ref>
+        <ref type="past">3</ref>
+    </artist>
+    <artist who="Cem Karaca">
+        <ref type="class">9</ref>
+        <ref type="family">8</ref>
+        <ref type="neglect">6</ref>
+        <ref type="poverty">6</ref>
+        <ref type="love">5</ref>
+    </artist>
+    <artist who="Edip Akbayram">
+        <ref type="nature">17</ref>
+        <ref type="family">10</ref>
+        <ref type="death">6</ref>
+        <ref type="love">5</ref>
+        <ref type="allah">4</ref>
+        <ref type="neglect">3</ref>
+    </artist>
+    <artist who="Erkin Koray">
+        <ref type="love">17</ref>
+        <ref type="friendship">13</ref>
+        <ref type="allah">3</ref>
+        <ref type="nationalism">3</ref>
+        <ref type="nature">3</ref>
+    </artist>
+    <artist who="Ersen">
+        <ref type="family">19</ref>
+        <ref type="love">12</ref>
+        <ref type="friendship">8</ref>
+        <ref type="death">6</ref>
+        <ref type="poverty">4</ref>
+        <ref type="aşık">3</ref>
+        <ref type="nature">3</ref>
+        <ref type="neglect">3</ref>
+    </artist>
+    <artist who="Selda Bağcan">
+        <ref type="neglect">15</ref>
+        <ref type="class">13</ref>
+        <ref type="death">13</ref>
+        <ref type="love">11</ref>
+        <ref type="family">8</ref>
+        <ref type="friendship">5</ref>
+        <ref type="nature">5</ref>
+        <ref type="violence">5</ref>
+        <ref type="allah">4</ref>
+    </artist>
+</root>
