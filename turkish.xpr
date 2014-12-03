@@ -25,6 +25,21 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>SeldaSelda/selda-selda_yaz-gazeteci-yaz.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>selda-selda_dost-uyan</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>SeldaSelda/selda-selda_ince-ince-bir-kar-yag%CC%86ar.xml</String>
                                 </field>
                                 <field name="scenarioIds">

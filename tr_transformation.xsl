@@ -8,10 +8,18 @@
 
     <xsl:template match='/'>
         <html>
-            <head><link rel='stylesheet' type='text/css' href='turkishSplashpg.css'></link><script type='text/javascript' scr='turkish.js'>//</script><title>turkish</title></head>
+            <head>
+                <link rel='stylesheet' type='text/css' href='turkishSplashpg.css'/>
+                <link rel='stylesheet' type='text/css' href='songPage.css'/>
+                <link rel='stylesheet' type='text/css' href='dropdownCSS.css'/>
+                <script type='text/javascript' src='turkish.js'>//</script>
+                <script type='text/javascript' src='dropdownJava.js'>//</script>
+                <title>turkish</title>
+            </head>
             <body>
                 <div>
                     <xsl:comment>#include virtual='dropDownMenu.html'</xsl:comment>
+                    <xsl:comment>#include virtual='tagsSSI.html'</xsl:comment>
                     <xsl:comment>#include virtual='<xsl:value-of select='lower-case(substring-before(//artist, " "))'/>SSI.html'</xsl:comment>
                     <xsl:apply-templates select='//song'/>
                 </div>
@@ -41,7 +49,7 @@
         <h2><xsl:apply-templates/></h2>
     </xsl:template>
     <xsl:template match='source'>
-        <h3><xsl:apply-templates/></h3>
+       <a href='{current()}'>Source</a>
     </xsl:template>
     
     <xsl:template match='line'>
@@ -177,7 +185,7 @@
     </xsl:template>
     <xsl:template match='break' mode='scale'>
         <xsl:apply-templates select='@scale'/>
-    </xsl:template>'
+    </xsl:template>
     <xsl:template match='break' mode='solo'>
         <xsl:apply-templates select='@solo'/>
     </xsl:template>
