@@ -162,6 +162,7 @@ Cem Karaca (left only), Formal: 0, Informal: 2, Both: 0
 Cem Karaca (none only), Formal: 0, Informal: 0, Both: 0
 
 -- Most Common Addressees --
+This one doesn't look too promissing, seeing as forms of "you" and the null addressee dwarf the others in number.
 
 -- Themes Inside Addresses --
 == ETYMOLOGY ==

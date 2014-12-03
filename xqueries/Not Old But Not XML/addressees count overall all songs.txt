@@ -1,0 +1,7 @@
+xquery version "3.0";
+let $turkus := collection('/db/course/turkish/data')
+let $as := distinct-values($turkus//addressee)
+for $a in $as
+let $count := count($turkus[.//addressee=$a])
+order by $count descending
+return $a || " - " || $count
