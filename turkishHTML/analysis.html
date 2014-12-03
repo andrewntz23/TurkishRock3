@@ -1,1140 +1,813 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <title>Analysis</title>
-        <link rel="stylesheet" type="text/css" href="turkishSplashpg.css" />
-        <script type="text/javascript" src="dropdownJava.js">
+   <head>
+      <title>Analysis</title>
+      <link rel="stylesheet" type="text/css" href="turkishSplashpg.css" />
+      <script type="text/javascript" src="dropdownJava.js">
         </script>
-        <link rel="stylesheet" type="text/css" href="dropdownCSS.css" />
-    </head>
-    <body>
-        <div>
-            <!--#include virtual="dropDownMenu.html" -->
-           <h1>Analysis</h1>
-            <div id="toc" class="toc">
-                <span class="ch">Table Of Contents</span>
-                <ul>
-                    <li><a href="#review"><span>1. Review of Data</span></a></li>
-                    <li><a href="#themes"><span>2. Themes</span></a></li>
-                    <li><a href="#narrators"><span>3. Narrators</span></a></li>
-                    <li><a href="#instrumentation"><span>4. Instrumentation</span></a></li>
-                    <li><a href="#addresses"><span>5. Addresses</span></a></li>
-                    <li><a href="#places"><span>6. Places</span></a></li>
-                    <!--<li><a href="#etymology"><span>7. Etymology</span></a></li>-->
-                </ul>
-            </div>
-            
-            
-            <h2 id="review">Review of Data</h2>
-            <p>These are the total number of songs from each artist that we are analyzing.</p>
+      <link rel="stylesheet" type="text/css" href="dropdownCSS.css" />
+   </head>
+   <body>
+      <div>
+         <!--#include virtual="dropDownMenu.html" -->
+         <h1>Analysis</h1>
+         <div id="toc" class="toc">
+            <span class="ch">Table Of Contents</span>
             <ul>
-                <li>Barış Manço <ul><li>Total Songs: 13</li><li> Songs With Vocals: 9 </li><li> Instrumentals: 4</li></ul></li>
-                <li>Cem Karaca 0<ul><li>Total Songs: 8 </li><li>Songs With Vocals: 8 </li><li>Instrumentals: 0</li></ul></li>
-                <li>Edip Akbayram <ul><li> Total Songs: 10 </li><li>Songs With Vocals: 10</li><li> Instrumentals: 0 </li></ul></li>
-                <li>Erkin Koray <ul><li> Total Songs: 8</li><li> Songs With Vocals: 5</li><li> Instrumentals: 3</li></ul></li>
-                <li>Ersen <ul><li> Total Songs: 10</li><li> Songs With Vocals: 10</li><li> Instrumentals: 0</li></ul></li>
-                <li>Selda Bağcan <ul><li> Total Songs: 12 </li><li>Songs With Vocals: 12</li><li> Instrumentals: 0</li></ul></li>
+               <li><a href="#review"><span>1. Review of Data</span></a></li>
+               <li><a href="#themes"><span>2. Themes</span></a></li>
+               <li><a href="#narrators"><span>3. Narrators</span></a></li>
+               <li><a href="#instrumentation"><span>4. Instrumentation</span></a></li>
+               <li><a href="#addresses"><span>5. Addresses</span></a></li>
+               <li><a href="#places"><span>6. Places</span></a></li>
+               <!--<li><a href="#etymology"><span>7. Etymology</span></a></li>-->
             </ul>
-            <p>4/8 of Cem Karaca's songs have overtly leftist lyrics.<br/>
-            5/12 of Selda Bağcan's songs have overtly leftist lyrics.<br/>
-            One of Barış Manço's songs has overtly nationalistic (perhaps rightist) lyrics.</p>
-            <!--CHART OF SONG TOTALS-->
-            <br/><a href="#top">Return to Top of Page</a>
-            <hr/>
-            <h2 id="themes">Themes</h2>
-            <div id="wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" height="300">
+         </div>
+         <hr />
+         <h2 id="review">Review of Data</h2>
+         <p>These are the total number of songs from each artist that we are analyzing.</p>
+         <ul>
+            <li>Barış Manço <ul>
+                  <li>Total Songs: 13</li>
+                  <li> Songs With Vocals: 9 </li>
+                  <li> Instrumentals: 4</li>
+               </ul></li>
+            <li>Cem Karaca 0<ul>
+                  <li>Total Songs: 8 </li>
+                  <li>Songs With Vocals: 8 </li>
+                  <li>Instrumentals: 0</li>
+               </ul></li>
+            <li>Edip Akbayram <ul>
+                  <li> Total Songs: 10 </li>
+                  <li>Songs With Vocals: 10</li>
+                  <li> Instrumentals: 0 </li>
+               </ul></li>
+            <li>Erkin Koray <ul>
+                  <li> Total Songs: 8</li>
+                  <li> Songs With Vocals: 5</li>
+                  <li> Instrumentals: 3</li>
+               </ul></li>
+            <li>Ersen <ul>
+                  <li> Total Songs: 10</li>
+                  <li> Songs With Vocals: 10</li>
+                  <li> Instrumentals: 0</li>
+               </ul></li>
+            <li>Selda Bağcan <ul>
+                  <li> Total Songs: 12 </li>
+                  <li>Songs With Vocals: 12</li>
+                  <li> Instrumentals: 0</li>
+               </ul></li>
+         </ul>
+         <p>4/8 of Cem Karaca's songs have overtly leftist lyrics.<br /> 5/12 of Selda Bağcan's
+            songs have overtly leftist lyrics.<br /> One of Barış Manço's songs has overtly
+            nationalistic (perhaps rightist) lyrics.</p>
+         <!--CHART OF SONG TOTALS-->
+         <br /><a href="#top">Return to Top of Page</a>
+         <hr />
+         <h2 id="themes">Themes</h2>
+         <div id="wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" height="300">
 
-                    <g transform="translate(40,212)" id="g3338">
-                        <rect x="0" y="-262" width="2340" height="262" fill="white" id="rect3340"></rect>
-                        <line x1="0" y1="-60" x2="2340" y2="-60" stroke="black" stroke-width="1"
-                            id="line3342"></line>
-                        <text x="-20" y="-55" id="text3344">10</text>
-                        <line x1="0" y1="-120" x2="2340" y2="-120" stroke="black" stroke-width="1"
-                            id="line3346"></line>
-                        <text x="-20" y="-115" id="text3348">20</text>
-                        <line x1="0" y1="0" x2="2340" y2="0" stroke="black" stroke-width="2"
-                            id="line3350"></line>
-                        <line x1="0" y1="0" x2="0" y2="-162" stroke="black" stroke-width="2"
-                            id="line3352"></line>
-                        <rect x="0" y="-162" height="162" width="30" fill="#d73027" id="rect3354"></rect>
-                        <text x="15" y="20" text-anchor="middle" id="text3356">nature</text>
-                        <text x="150" y="48.062836" font-size="16" id="text3358"
-                            style="font-size:16px;text-anchor:middle">Barış Manço</text>
-                        <text x="15" y="-167" text-anchor="middle" id="text3360">27</text>
-                        <rect x="60" y="-78" height="78" width="30" fill="#d73027" id="rect3362"></rect>
-                        <text x="75" y="20" text-anchor="middle" id="text3364">family</text>
-                        <text x="75" y="-83" text-anchor="middle" id="text3366">13</text>
-                        <rect x="120" y="-66" height="66" width="30" fill="#d73027" id="rect3368"></rect>
-                        <text x="135" y="20" text-anchor="middle" id="text3370">future</text>
-                        <text x="135" y="-71" text-anchor="middle" id="text3372">11</text>
-                        <rect x="180" y="-30" height="30" width="30" fill="#d73027" id="rect3374"></rect>
-                        <text x="195" y="20" text-anchor="middle" id="text3376">friendship</text>
-                        <text x="195" y="-35" text-anchor="middle" id="text3378">5</text>
-                        <rect x="240" y="-30" height="30" width="30" fill="#d73027" id="rect3380"></rect>
-                        <text x="255" y="20" text-anchor="middle" id="text3382">love</text>
-                        <text x="255" y="-35" text-anchor="middle" id="text3384">5</text>
-                        <rect x="300" y="-18" height="18" width="30" fill="#d73027" id="rect3386"></rect>
-                        <text x="315" y="20" text-anchor="middle" id="text3388">past</text>
-                        <text x="315" y="-23" text-anchor="middle" id="text3390">3</text>
-                        <rect x="360" y="-54" height="54" width="30" fill="#fc8d59" id="rect3392"></rect>
-                        <text x="375" y="20" text-anchor="middle" id="text3394">class</text>
-                        <text x="375" y="-59" text-anchor="middle" id="text3396">9</text>
-                        <rect x="420" y="-48" height="48" width="30" fill="#fc8d59" id="rect3398"></rect>
-                        <text x="435" y="20" text-anchor="middle" id="text3400">family</text>
-                        <text x="435" y="-53" text-anchor="middle" id="text3402">8</text>
-                        <rect x="480" y="-36" height="36" width="30" fill="#fc8d59" id="rect3404"></rect>
-                        <text x="495" y="20" text-anchor="middle" id="text3406">neglect</text>
-                        <text x="495" y="-41" text-anchor="middle" id="text3408">6</text>
-                        <rect x="540" y="-36" height="36" width="30" fill="#fc8d59" id="rect3410"></rect>
-                        <text x="555" y="20" text-anchor="middle" id="text3412">poverty</text>
-                        <text x="555" y="-41" text-anchor="middle" id="text3414">6</text>
-                        <rect x="600" y="-30" height="30" width="30" fill="#fc8d59" id="rect3416"></rect>
-                        <text x="615" y="20" text-anchor="middle" id="text3418">love</text>
-                        <text x="615" y="-35" text-anchor="middle" id="text3420">5</text>
-                        <rect x="660" y="-102" height="102" width="30" fill="#fee090" id="rect3422"></rect>
-                        <text x="675" y="20" text-anchor="middle" id="text3424">nature</text>
-                        <text x="675" y="-107" text-anchor="middle" id="text3426">17</text>
-                        <rect x="720" y="-60" height="60" width="30" fill="#fee090" id="rect3428"></rect>
-                        <text x="735" y="20" text-anchor="middle" id="text3430">family</text>
-                        <text x="735" y="-65" text-anchor="middle" id="text3432">10</text>
-                        <rect x="780" y="-36" height="36" width="30" fill="#fee090" id="rect3434"></rect>
-                        <text x="795" y="20" text-anchor="middle" id="text3436">death</text>
-                        <text x="795" y="-41" text-anchor="middle" id="text3438">6</text>
-                        <rect x="840" y="-30" height="30" width="30" fill="#fee090" id="rect3440"></rect>
-                        <text x="855" y="20" text-anchor="middle" id="text3442">love</text>
-                        <text x="855" y="-35" text-anchor="middle" id="text3444">5</text>
-                        <rect x="900" y="-24" height="24" width="30" fill="#fee090" id="rect3446"></rect>
-                        <text x="915" y="20" text-anchor="middle" id="text3448">allah</text>
-                        <text x="915" y="-29" text-anchor="middle" id="text3450">4</text>
-                        <rect x="960" y="-18" height="18" width="30" fill="#fee090" id="rect3452"></rect>
-                        <text x="975" y="20" text-anchor="middle" id="text3454">neglect</text>
-                        <text x="975" y="-23" text-anchor="middle" id="text3456">3</text>
-                        <rect x="1020" y="-102" height="102" width="30" fill="#e0f3f8" id="rect3458"></rect>
-                        <text x="1035" y="20" text-anchor="middle" id="text3460">love</text>
-                        <text x="1035" y="-107" text-anchor="middle" id="text3462">17</text>
-                        <rect x="1080" y="-78" height="78" width="30" fill="#e0f3f8" id="rect3464"></rect>
-                        <text x="1095" y="20" text-anchor="middle" id="text3466">friendship</text>
-                        <text x="1095" y="-83" text-anchor="middle" id="text3468">13</text>
-                        <rect x="1140" y="-18" height="18" width="30" fill="#e0f3f8" id="rect3470"></rect>
-                        <text x="1155" y="20" text-anchor="middle" id="text3472">allah</text>
-                        <text x="1155" y="-23" text-anchor="middle" id="text3474">3</text>
-                        <rect x="1200" y="-18" height="18" width="30" fill="#e0f3f8" id="rect3476"></rect>
-                        <text x="1215" y="20" text-anchor="middle" id="text3478">nationalism</text>
-                        <text x="1215" y="-23" text-anchor="middle" id="text3480">3</text>
-                        <rect x="1260" y="-18" height="18" width="30" fill="#e0f3f8" id="rect3482"></rect>
-                        <text x="1275" y="20" text-anchor="middle" id="text3484">nature</text>
-                        <text x="1275" y="-23" text-anchor="middle" id="text3486">3</text>
-                        <rect x="1320" y="-114" height="114" width="30" fill="#91bfdb" id="rect3488"></rect>
-                        <text x="1335" y="20" text-anchor="middle" id="text3490">family</text>
-                        <text x="1335" y="-119" text-anchor="middle" id="text3492">19</text>
-                        <rect x="1380" y="-72" height="72" width="30" fill="#91bfdb" id="rect3494"></rect>
-                        <text x="1395" y="20" text-anchor="middle" id="text3496">love</text>
-                        <text x="1395" y="-77" text-anchor="middle" id="text3498">12</text>
-                        <rect x="1440" y="-48" height="48" width="30" fill="#91bfdb" id="rect3500"></rect>
-                        <text x="1455" y="20" text-anchor="middle" id="text3502">friendship</text>
-                        <text x="1455" y="-53" text-anchor="middle" id="text3504">8</text>
-                        <rect x="1500" y="-36" height="36" width="30" fill="#91bfdb" id="rect3506"></rect>
-                        <text x="1515" y="20" text-anchor="middle" id="text3508">death</text>
-                        <text x="1515" y="-41" text-anchor="middle" id="text3510">6</text>
-                        <rect x="1560" y="-24" height="24" width="30" fill="#91bfdb" id="rect3512"></rect>
-                        <text x="1575" y="20" text-anchor="middle" id="text3514">poverty</text>
-                        <text x="1575" y="-29" text-anchor="middle" id="text3516">4</text>
-                        <rect x="1620" y="-18" height="18" width="30" fill="#91bfdb" id="rect3518"></rect>
-                        <text x="1635" y="20" text-anchor="middle" id="text3520">aşık</text>
-                        <text x="1635" y="-23" text-anchor="middle" id="text3522">3</text>
-                        <rect x="1680" y="-18" height="18" width="30" fill="#91bfdb" id="rect3524"></rect>
-                        <text x="1695" y="20" text-anchor="middle" id="text3526">nature</text>
-                        <text x="1695" y="-23" text-anchor="middle" id="text3528">3</text>
-                        <rect x="1740" y="-18" height="18" width="30" fill="#91bfdb" id="rect3530"></rect>
-                        <text x="1755" y="20" text-anchor="middle" id="text3532">neglect</text>
-                        <text x="1755" y="-23" text-anchor="middle" id="text3534">3</text>
-                        <rect x="1800" y="-90" height="90" width="30" fill="#4575b4" id="rect3536"></rect>
-                        <text x="1815" y="20" text-anchor="middle" id="text3538">neglect</text>
-                        <text x="1815" y="-95" text-anchor="middle" id="text3540">15</text>
-                        <rect x="1860" y="-78" height="78" width="30" fill="#4575b4" id="rect3542"></rect>
-                        <text x="1875" y="20" text-anchor="middle" id="text3544">class</text>
-                        <text x="1875" y="-83" text-anchor="middle" id="text3546">13</text>
-                        <rect x="1920" y="-78" height="78" width="30" fill="#4575b4" id="rect3548"></rect>
-                        <text x="1935" y="20" text-anchor="middle" id="text3550">death</text>
-                        <text x="1935" y="-83" text-anchor="middle" id="text3552">13</text>
-                        <rect x="1980" y="-66" height="66" width="30" fill="#4575b4" id="rect3554"></rect>
-                        <text x="1995" y="20" text-anchor="middle" id="text3556">love</text>
-                        <text x="1995" y="-71" text-anchor="middle" id="text3558">11</text>
-                        <rect x="2040" y="-48" height="48" width="30" fill="#4575b4" id="rect3560"></rect>
-                        <text x="2055" y="20" text-anchor="middle" id="text3562">family</text>
-                        <text x="2055" y="-53" text-anchor="middle" id="text3564">8</text>
-                        <rect x="2100" y="-30" height="30" width="30" fill="#4575b4" id="rect3566"></rect>
-                        <text x="2115" y="20" text-anchor="middle" id="text3568">friendship</text>
-                        <text x="2115" y="-35" text-anchor="middle" id="text3570">5</text>
-                        <rect x="2160" y="-30" height="30" width="30" fill="#4575b4" id="rect3572"></rect>
-                        <text x="2175" y="20" text-anchor="middle" id="text3574">nature</text>
-                        <text x="2175" y="-35" text-anchor="middle" id="text3576">5</text>
-                        <rect x="2220" y="-30" height="30" width="30" fill="#4575b4" id="rect3578"></rect>
-                        <text x="2235" y="20" text-anchor="middle" id="text3580">violence</text>
-                        <text x="2235" y="-35" text-anchor="middle" id="text3582">5</text>
-                        <rect x="2280" y="-24" height="24" width="30" fill="#4575b4" id="rect3584"></rect>
-                        <text x="2295" y="20" text-anchor="middle" id="text3586">allah</text>
-                        <text x="2295" y="-29" text-anchor="middle" id="text3588">4</text>
-                        <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="430.72827" y="35.955643" id="text3596"><tspan id="tspan3598" x="430.72827" y="48.062836">Cem Karaca</tspan></text>
-                        <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="732.92419" y="48.062836" id="text3604"><tspan id="tspan3606" x="732.92419" y="48.062836">Edip Akbayram</tspan></text>
-                        <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="1073.3789" y="46.609985" id="text3608"><tspan id="tspan3610" x="1073.3789" y="48.062836">Erkin Koray</tspan></text>
-                        <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="1430.7837" y="50.968567" id="text3612"><tspan id="tspan3614" x="1430.7837" y="48.062836">Ersen</tspan></text>
-                        <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="1848.7246" y="48.062836" id="text3616"><tspan id="tspan3618" x="1848.7246" y="48.062836">Selda Bağcan</tspan></text>
-                    </g>
-                </svg>
-            </div>
-            <p> Looking at overall thematic element counts, there are a lot of similarities between
-                the artists.</p>
-            <p> <b>Love</b> is the theme that is overall used the most by the artists combined. It is also Erkin Koray's most commonly used
-                element, probably skewed by the song "Hele Yar." This comes as no suprise, due to
-                the seeming universality and popularity of love songs.</p>
-            <p> <b>Nature</b> is the second most commonly used theme. It appears extremely often in the
-                works of Barış Manço and Edip Akbayram, and less commonly in those of the other
-                artists.</p>
-            <p><b>Family</b> is one of the top themes for every artist except Erkin Koray, who does not
-                make a reference to it. This may be due to the high number of instrumentals on his album.</p>
-            <p> <b>Death</b> appears in each artist's songs, except for Barış Manço. It has an important
-                role </p>
-            <p><b>Friendship</b> is also important and is a commonly used element throughtout. Dostluk is
-                important in Turkish culture.</p>
-            <p><b>Neglect</b> appears most commonly in the songs of Selda and Cem, as well as the works of
-                Ersen and Edip, albeit less frequently.</p>
-            <p> <b>Allah / Islam</b> - Religious references are most common in the works of Edip, Erkin,
-                and Selda. This does not appear to have any obvious relationship to their
-                politics.</p>
-            <p> <b>Aşık</b> - Ersen &amp; Barış Manço make the most use of this element, most likely to highlight
-                their statuses as the rock versions Turkish folk singers.</p>
-            <br/><a href="#top">Return to Top of Page</a>
-            <hr/>
-            <h2 id="narrators">Narrators</h2>
-            <p>The narrator tag was used to examine whether or not singers referred to themselves
-                using singular or plural nouns or pronouns. The hypothesis was that a more overt
-                political sentiment, possibly associated with leftist ideals of collectivity would
-                lead the singer to use more plural nouns or pronouns to refer to themselves. Our
-                results were the following:</p>
-            <ul>
-            <li>Barış Manço- <ul><li>TOTAL = 16,</li><li>SINGULAR = 9,</li><li> PLURAL = 7</li></ul></li>
-            <li>Cem Karaca- <ul><li>TOTAL = 14,</li> <li>SINGULAR = 13, </li><li>PLURAL = 1</li></ul></li>
-            <li>Edip Akbayram- <ul><li>TOTAL = 45, </li><li>SINGULAR = 40, </li><li>PLURAL = 5</li> </ul></li>
-            <li>Erkin Koray- <ul><li>TOTAL = 24,</li> <li>SINGULAR = 6,</li> <li>PLURAL = 18</li></ul></li>
-            <li>Ersen- <ul><li>TOTAL = 38,</li> <li>SINGULAR = 38,</li> <li>PLURAL = 0</li> </ul></li>
-            <li>Selda Bağcan- <ul><li>TOTAL = 31,</li><li> SINGULAR = 12, </li><li>PLURAL = 19</li></ul></li>
-            </ul>
-            <p>Using the political sentiment marking described in the <a href="#introduction">introduction</a>, we can differentiate between the overtly political and non-overtly political songs from Selda and Cem.</p>
-<ul>            <li>Cem Karaca (Protest Songs)<ul><li>- TOTAL = 6,</li> <li>SINGULAR = 6,</li><li> PLURAL = 0</li></ul></li>
-            <li>Cem Karaca (Non-Overtly Political)<ul><li>- TOTAL = 8,</li><li> SINGULAR = 7,</li> <li>PLURAL = 1</li></ul></li>
-            <li>Cem Karaca- <ul><li>TOTAL = 14,</li> <li>SINGULAR = 13, </li><li>PLURAL = 1</li></ul></li>
-            <li>Selda Bağcan (Protest Songs)- <ul><li>TOTAL = 24</li><li> SINGULAR = 8,</li><li> PLURAL = 16</li></ul></li>
-            <li>Selda Bağcan (Non-Overtly Political)- <ul><li>TOTAL = 7,</li><li> SINGULAR = 4</li><li>, PLURAL = 3</li></ul></li>
-            <li>Selda Bağcan (Total) <ul><li>TOTAL = 31,</li><li> SINGULAR = 12, </li><li>PLURAL = 19</li></ul></li></ul>
-            <p> From an examination of the data, it appears that Selda does adhere to the
-                hypothesized patten. She refers to a narrator considerably more in her protet songs
-                than in her non-protest songs. Additionally, her protest songs show a more frequent
-                use of plural narration than singular, while her non-protest songs show no
-                discernable difference.</p>
-            <p> Cem Karaca, the other left-wing artist with protest songs does not follow the same
-                pattern. In fact, he refers to narrators more often in non-protest songs, and uses
-                singular narration considerably more than plural narration. One reason why this may
-                differ is because of Cem's use of lyrics from earlier folk singers, or from poets. </p>
-            <p> There are no real conclusions that can be drawn from the rest of the data.</p>
-            <br/><a href="#top">Return to Top of Page</a>
-            <hr/>
-            <h2 id="instrumentation">Instrumentation</h2>
-            
-            <p>To look at the effect of artists and politics on instrumentation, we divided the
-                instruments into two groups, 'traditional' and 'western.' <br/>Traditional instruments include the violin, düdük, ney, bağlama/saz, kavan, quanun, cümbüs, çığırtma, and oud.<br/> Western instruments included the guitar, organ, synth, bass, mellotron, trumpet, saxophone, and piano.<br/> It is important to note that one of the main features of Anatolian Rock is the blending of traditional and western instrumentation, though the singers' folk-like identities lead to the additional presence of folk songs featuring more traditional instrumentation.</p>
-            <h3>Overall Results</h3> 
-            <p>Overall, <b>64</b> instrumental breaks contained traditional instrumentation. 18 solos used traditional instruments.</p>
-            <p><b>111</b> instrumental breaks contained western instruments. This includes 28 solos.</p>
-            <p>If we divide the information up by the types of instrumentation contained <i>within a song</i>, we get the following results:</p>
-<ul><li>            Barış Manço 
-<ul><li>            total: 13</li>
-<li>            trad: 7</li>
-<li>            west: 12 </li></ul></li>
-<li>            Cem Karaca 
-<ul><li>            total: 8</li>
-<li>            trad: 0</li>
-<li>            west: 8 </li></ul></li>
-<li>            Edip Akbayram 
-<ul><li>            total: 10</li>
-<li>            trad: 4</li>
-<li>            west: 7 </li></ul></li>
-<li>            Erkin Koray 
-<ul><li>            total: 8</li>
-<li>            trad: 3</li>
-<li>            west: 7</li></ul></li>
-<li>            Ersen 
-<ul><li>            total: 10</li>
-<li>            trad: 9</li>
-<li>            west: 9 </li></ul></li>
-<li>            Selda Bağcan
-<ul><li>            total: 12</li>
-<li>            trad: 7</li>
-<li>            west: 7</li></ul> </li></ul>
-            <p> Selda's political songs do not differ in instrumentation in any special way from her
-                normal songs.</p>
-            <ul><li>Selda Bağcan (protest songs)
-                <ul><li>total: 5</li><li>trad: 3</li><li>west: 3</li><li>both: 1</li></ul> </li>
-            <li>Selda Bağcan (non-protest songs) -\- <ul><li>total: 7</li><li>trad: 4</li><li>west: 4</li><li>both: 1</li></ul></li></ul>
-            <h3>Differences in Thematic Elements Based on Instrumentation</h3>
-            <p>There are a few differences in the themes each artist uses in songs based on instrumentation. Though they are probably not significant due to the small sample size, the most interesting results are the following:</p>
-            <ul>
-                <li>Barış Manço uses western instrumentation in the same songs as all five love elements.</li>
-                <li>Erkin Koray uses traditional instrumentation considerably more often in love songs.</li>
-                <li>Edip Akbayram uses traditional instrumentation in eight songs discussing family. Two other songs on the same subject use western instrumentation. </li>
-                <li>Edip Akbayram only uses traditional instrumentation when discussing religious themes.</li>
-                <li>Selda Bağcan discusses (all two counts of) youth, violence with traditional instruments. </li>
-            </ul>
-            <p> There is limited data on how lyrical content of the songs vary with instrumentation for Ersen, due to the fact that the majority of his songs contain both
-                types of instrumentation. He's good at that. The same applies to Cem Karaca, due to his use of almost entirely Western instrumentation. </p>
-            
-            <h3>Instruments Most Often Used By Artists</h3>
-            <h3>Instruments Used By Each Artist</h3>
-            <ul><li>Barış Manço<ul> 
-                <li>bass - 1</li>
-                
-                <li>cümbüs - 1</li>
-                
-                <li>guitar - 2</li>
-                <li>kaval - 2</li>
-                
-                <li>ney - 3</li>
-                
-                <li>percussion - 2</li>
-                <li>quanun - 1</li>
-                
-                
-                <li>sound effects - 1</li>
-                <li>synth - 8</li>
-                
-                
-                <li>bağlama - 3</li>
-            </ul></li>
-                <li>Cem Karaca<ul>
-                    <li>bass - 4</li>
-                    
-                    
-                    
-                    <li>guitar - 3</li>
-                    
-                    
-                    
-                    <li>organ - 3</li>
-                    <li>percussion - 6</li>
-                    
-                    
-                    
-                    <li>sound effects - 2</li>
-                    <li>synth - 8</li>
-                    
-                    
-                    
-                </ul></li>
-                <li>Edip Akbayram<ul>
-                    
-                    <li>bass - 1</li>
-                    <li>çığırtma - 1</li>
-                    
-                    
-                    <li>guitar - 7</li>
-                    <li>kaval - 1</li>
-                    
-                    
-                    
-                    <li>percussion - 3</li>
-                    
-                    
-                    
-                    
-                    <li>synth - 1</li>
-                    <li>trumpet - 1</li>
-                    
-                    <li>bağlama - 3</li>
-                </ul></li>
-                <li>Erkin Koray<ul>
-                    <li>bass - 1</li>
-                    
-                    
-                    <li>düdük - 2</li>
-                    <li>guitar - 7</li>
-                    
-                    
-                    <li>ney - 1</li>
-                    <li>organ - 1</li>
-                    <li>percussion - 3</li>
-                    
-                    
-                    
-                    <li>sound effects - 1</li>
-                    
-                    
-                    
-                    <li>bağlama - 3</li>
-                </ul></li>
-                <li>Ersen<ul>
-                    
-                    <li>bass - 6</li>
-                    
-                    
-                    
-                    <li>guitar - 8</li>
-                    
-                    
-                    <li>ney - 2</li>
-                    <li>organ - 3</li>
-                    
-                    
-                    
-                    
-                    
-                    <li>synth - 2</li>
-                    
-                    <li>violin - 1</li>
-                    <li>bağlama - 8</li>
-                </ul></li>
-                <li>Selda Bağcan <ul>
-                    <li>bass - 2</li>
-                    
-                    
-                    
-                    <li>guitar - 5</li>
-                    <li>kaval - 2</li>
-                    <li>kemençe - 1</li>
-                    <li>ney - 1</li>
-                    
-                    <li>percussion - 1</li>
-                    
-                    
-                    <li>sipsi - 1</li>
-                    
-                    <li>synth - 2</li>
-                    
-                    
-                    <li>bağlama - 6</li>
-                </ul></li></ul>
-            
-            <h3>Major vs Minor</h3>
-            <p>Overall, the artists tended to prefer using minor scales. Although all artists
-                recorded songs with both scales, only one song contains both.</p> 
-            <ul>
-<li>                Ersen - <ul><li>minor: 8,</li> <li>major: 2, </li><li>both: 0 </li></ul></li>
-<li>            Barış Manço - <ul><li>minor: 10,</li><li> major: 3,</li><li> both: 0</li></ul> </li>
-<li>            Cem Karaca - <ul><li>minor: 4, </li><li>major: 4, </li><li>both: 0 </li></ul></li>
-<li>            Edip Akbayram - <ul><li>minor: 5,</li><li> major: 5,</li><li> both: 0 </li></ul></li>
-<li>            Erkin Koray - <ul><li>minor: 5, </li><li>major: 2, </li><li>both: 1</li></ul> </li>
-<li>            Selda Bağcan - <ul><li>minor: 7,</li><li> major: 5, </li><li>both: 0</li></ul></li>
-            </ul> <p> Again, there is no
-                discernable difference in instrumentation between Selda and Cem's protest songs and
-                non-protest songs.</p> 
-            <h3>Solos</h3>
-           <div id="rapper">
-              <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" version="1.1">
-                 
-                 <line x1="0" y1="0" x2="0" y2="305" style="stroke:black;stroke-width:2" />
-                 <line x1="0" y1="305" x2="400" y2="305" style="stroke:black;stroke-width:2" />
-                 
-                 <text x="10" y="320" fill="black">Selda</text>
-                 <text x="10" y="270" fill="black">6</text>
-                 <rect x="10" y="275" width="30" height="30" style="fill:blue;stroke-width:3;stroke:rgb(10,10,0)" />  
-                 
-                 <text x="60" y="320" fill="black">Cem</text>
-                 <text x="60" y="260" fill="black">8</text>
-                 <rect x="60"  y="265" width="30" height="40" style="fill:blue;stroke-width:3;stroke:rgb(10,10,0)" /> 
-                 
-                 <text x="110" y="320" fill="black">Edip</text>
-                 <text x="110" y="290" fill="black">2</text>
-                 <rect x ="110" y="295" width="30" height="10" style="fill:blue;stroke-width:3;stroke:rgb(10,10,0)" />  
-                 
-                 <line x1="170" y1="0" x2="170" y2="305" style="stroke:rgb(255,0,0);stroke-width:2" stroke-dasharray="5, 5" />
-                 
-                 <text x="200" y="320" fill="black">Erkin</text>
-                 <text x="200" y="60" fill="black">235</text>
-                 <rect x ="200" y="65" width="30" height="235" style="fill:green;stroke-width:3;stroke:rgb(10,10,0)" />  
-                 
-                 <text x="250" y="320" fill="black"> Barış </text>
-                 <text x="250" y="295" fill="black"> 0 </text>
-                 <rect x ="250" y="305" width="30" height="0" style="fill:green;stroke-width:3;stroke:rgb(10,10,0)" />  
-                 
-                 <line x1="275" y1="0" x2="275" y2="300" style="stroke:rgb(255,0,0);stroke-width:2" stroke-dasharray="5, 5" />
-                 
-                 <text x="300" y="320" fill="black">Ersen</text>
-                 <text x="300" y="215" fill="black">17</text>
-                 <rect x ="300" y="220" width="30" height="85" style="fill:red;stroke-width:3;stroke:rgb(10,10,0)" />  
-                 
-              </svg>
-              <p>This graph contains the number of solos by artist with dividing lines by political affiliation. Right-leaning singers were somewhat more likely to include solos.</p>
-           </div>
-        <br/><a href="#top">Return to Top of Page</a>
-            <hr/>
-            <h2 id="addresses">Addresses</h2>
-            <h3>Overall Address Counts</h3> 
-            <p>These are the overall counts of how many songs contain formal addresses, informal addresses, or both from each artist. For Cem and Selda, they are also divided by the presence of overt political sentiment.</p>
-            <ul>
-<li>                Barış Manço, Formal: 2, Informal: 6, Both: 1</li>
-<li>            Cem Karaca, Formal: 0, Informal: 2, Both: 0</li>
-<li>            Cem Karaca (protest songs only), Formal: 0, Informal: 2, Both: 0 </li>
-<li>            Cem Karaca (non-protest songs only), Formal: 0, Informal: 0, Both: 0 </li>
-<li>            Edip Akbayram, Formal: 1, Informal: 6, Both: 0 </li>
-<li>            Erkin Koray, Formal: 1, Informal: 2, Both: 1 </li>
-<li>            Ersen, Formal: 2, Informal: 4, Both: 1</li>
-<li>            Selda Bağcan, Formal: 4, Informal: 10, Both: 3 </li>
-<li>            Selda Bağcan (protest songs), Formal: 3, Informal:4, Both: 2 </li>
-<li>            Selda Bağcan (non-protest songs only), Formal: 1, Informal: 6, Both: 1 </li>
-            </ul>
-<p>The overall  counts of addresses show important distinctions within the artists' identities. Generally, the informal address is most popular. Protest songs from both Cem and Selda contain more addresses than non-protest songs. Selda uses formal addresses much more often during protest songs, as shw is often addressing the priviledged, or making commands in an ironic fashion.</p>
-            <br/><a href="#top">Return to Top of Page</a>
-            <hr/>
-            <h2 id="places">Places</h2>
-            <p>Another element common to many of the songs is the <a href="methodology.html#place"
-                    >place</a> element. The artists refer to a variety of places in their work,
-                including geographical locations, the nation of turkey, villages, cities, the
-                cosmos, or abstract concepts. The artists reference distinctly different types of
-                places in correspondance with their political identites.</p>
-            <div id="wrapper2">
-                <svg xmlns="http://www.w3.org/2000/svg" height="300">
-               
-<svg
-   xmlns="http://www.w3.org/2000/svg"
-   width="180%"
-   height="230"
-   id="svg4634"
-   version="1.1">
+               <g transform="translate(40,212)" id="g3338">
+                  <rect x="0" y="-262" width="2340" height="262" fill="white" id="rect3340"></rect>
+                  <line x1="0" y1="-60" x2="2340" y2="-60" stroke="black" stroke-width="1"
+                     id="line3342"></line>
+                  <text x="-20" y="-55" id="text3344">10</text>
+                  <line x1="0" y1="-120" x2="2340" y2="-120" stroke="black" stroke-width="1"
+                     id="line3346"></line>
+                  <text x="-20" y="-115" id="text3348">20</text>
+                  <line x1="0" y1="0" x2="2340" y2="0" stroke="black" stroke-width="2" id="line3350"></line>
+                  <line x1="0" y1="0" x2="0" y2="-162" stroke="black" stroke-width="2" id="line3352"></line>
+                  <rect x="0" y="-162" height="162" width="30" fill="#d73027" id="rect3354"></rect>
+                  <text x="15" y="20" text-anchor="middle" id="text3356">nature</text>
+                  <text x="150" y="48.062836" font-size="16" id="text3358"
+                     style="font-size:16px;text-anchor:middle">Barış Manço</text>
+                  <text x="15" y="-167" text-anchor="middle" id="text3360">27</text>
+                  <rect x="60" y="-78" height="78" width="30" fill="#d73027" id="rect3362"></rect>
+                  <text x="75" y="20" text-anchor="middle" id="text3364">family</text>
+                  <text x="75" y="-83" text-anchor="middle" id="text3366">13</text>
+                  <rect x="120" y="-66" height="66" width="30" fill="#d73027" id="rect3368"></rect>
+                  <text x="135" y="20" text-anchor="middle" id="text3370">future</text>
+                  <text x="135" y="-71" text-anchor="middle" id="text3372">11</text>
+                  <rect x="180" y="-30" height="30" width="30" fill="#d73027" id="rect3374"></rect>
+                  <text x="195" y="20" text-anchor="middle" id="text3376">friendship</text>
+                  <text x="195" y="-35" text-anchor="middle" id="text3378">5</text>
+                  <rect x="240" y="-30" height="30" width="30" fill="#d73027" id="rect3380"></rect>
+                  <text x="255" y="20" text-anchor="middle" id="text3382">love</text>
+                  <text x="255" y="-35" text-anchor="middle" id="text3384">5</text>
+                  <rect x="300" y="-18" height="18" width="30" fill="#d73027" id="rect3386"></rect>
+                  <text x="315" y="20" text-anchor="middle" id="text3388">past</text>
+                  <text x="315" y="-23" text-anchor="middle" id="text3390">3</text>
+                  <rect x="360" y="-54" height="54" width="30" fill="#fc8d59" id="rect3392"></rect>
+                  <text x="375" y="20" text-anchor="middle" id="text3394">class</text>
+                  <text x="375" y="-59" text-anchor="middle" id="text3396">9</text>
+                  <rect x="420" y="-48" height="48" width="30" fill="#fc8d59" id="rect3398"></rect>
+                  <text x="435" y="20" text-anchor="middle" id="text3400">family</text>
+                  <text x="435" y="-53" text-anchor="middle" id="text3402">8</text>
+                  <rect x="480" y="-36" height="36" width="30" fill="#fc8d59" id="rect3404"></rect>
+                  <text x="495" y="20" text-anchor="middle" id="text3406">neglect</text>
+                  <text x="495" y="-41" text-anchor="middle" id="text3408">6</text>
+                  <rect x="540" y="-36" height="36" width="30" fill="#fc8d59" id="rect3410"></rect>
+                  <text x="555" y="20" text-anchor="middle" id="text3412">poverty</text>
+                  <text x="555" y="-41" text-anchor="middle" id="text3414">6</text>
+                  <rect x="600" y="-30" height="30" width="30" fill="#fc8d59" id="rect3416"></rect>
+                  <text x="615" y="20" text-anchor="middle" id="text3418">love</text>
+                  <text x="615" y="-35" text-anchor="middle" id="text3420">5</text>
+                  <rect x="660" y="-102" height="102" width="30" fill="#fee090" id="rect3422"></rect>
+                  <text x="675" y="20" text-anchor="middle" id="text3424">nature</text>
+                  <text x="675" y="-107" text-anchor="middle" id="text3426">17</text>
+                  <rect x="720" y="-60" height="60" width="30" fill="#fee090" id="rect3428"></rect>
+                  <text x="735" y="20" text-anchor="middle" id="text3430">family</text>
+                  <text x="735" y="-65" text-anchor="middle" id="text3432">10</text>
+                  <rect x="780" y="-36" height="36" width="30" fill="#fee090" id="rect3434"></rect>
+                  <text x="795" y="20" text-anchor="middle" id="text3436">death</text>
+                  <text x="795" y="-41" text-anchor="middle" id="text3438">6</text>
+                  <rect x="840" y="-30" height="30" width="30" fill="#fee090" id="rect3440"></rect>
+                  <text x="855" y="20" text-anchor="middle" id="text3442">love</text>
+                  <text x="855" y="-35" text-anchor="middle" id="text3444">5</text>
+                  <rect x="900" y="-24" height="24" width="30" fill="#fee090" id="rect3446"></rect>
+                  <text x="915" y="20" text-anchor="middle" id="text3448">allah</text>
+                  <text x="915" y="-29" text-anchor="middle" id="text3450">4</text>
+                  <rect x="960" y="-18" height="18" width="30" fill="#fee090" id="rect3452"></rect>
+                  <text x="975" y="20" text-anchor="middle" id="text3454">neglect</text>
+                  <text x="975" y="-23" text-anchor="middle" id="text3456">3</text>
+                  <rect x="1020" y="-102" height="102" width="30" fill="#e0f3f8" id="rect3458"></rect>
+                  <text x="1035" y="20" text-anchor="middle" id="text3460">love</text>
+                  <text x="1035" y="-107" text-anchor="middle" id="text3462">17</text>
+                  <rect x="1080" y="-78" height="78" width="30" fill="#e0f3f8" id="rect3464"></rect>
+                  <text x="1095" y="20" text-anchor="middle" id="text3466">friendship</text>
+                  <text x="1095" y="-83" text-anchor="middle" id="text3468">13</text>
+                  <rect x="1140" y="-18" height="18" width="30" fill="#e0f3f8" id="rect3470"></rect>
+                  <text x="1155" y="20" text-anchor="middle" id="text3472">allah</text>
+                  <text x="1155" y="-23" text-anchor="middle" id="text3474">3</text>
+                  <rect x="1200" y="-18" height="18" width="30" fill="#e0f3f8" id="rect3476"></rect>
+                  <text x="1215" y="20" text-anchor="middle" id="text3478">nationalism</text>
+                  <text x="1215" y="-23" text-anchor="middle" id="text3480">3</text>
+                  <rect x="1260" y="-18" height="18" width="30" fill="#e0f3f8" id="rect3482"></rect>
+                  <text x="1275" y="20" text-anchor="middle" id="text3484">nature</text>
+                  <text x="1275" y="-23" text-anchor="middle" id="text3486">3</text>
+                  <rect x="1320" y="-114" height="114" width="30" fill="#91bfdb" id="rect3488"></rect>
+                  <text x="1335" y="20" text-anchor="middle" id="text3490">family</text>
+                  <text x="1335" y="-119" text-anchor="middle" id="text3492">19</text>
+                  <rect x="1380" y="-72" height="72" width="30" fill="#91bfdb" id="rect3494"></rect>
+                  <text x="1395" y="20" text-anchor="middle" id="text3496">love</text>
+                  <text x="1395" y="-77" text-anchor="middle" id="text3498">12</text>
+                  <rect x="1440" y="-48" height="48" width="30" fill="#91bfdb" id="rect3500"></rect>
+                  <text x="1455" y="20" text-anchor="middle" id="text3502">friendship</text>
+                  <text x="1455" y="-53" text-anchor="middle" id="text3504">8</text>
+                  <rect x="1500" y="-36" height="36" width="30" fill="#91bfdb" id="rect3506"></rect>
+                  <text x="1515" y="20" text-anchor="middle" id="text3508">death</text>
+                  <text x="1515" y="-41" text-anchor="middle" id="text3510">6</text>
+                  <rect x="1560" y="-24" height="24" width="30" fill="#91bfdb" id="rect3512"></rect>
+                  <text x="1575" y="20" text-anchor="middle" id="text3514">poverty</text>
+                  <text x="1575" y="-29" text-anchor="middle" id="text3516">4</text>
+                  <rect x="1620" y="-18" height="18" width="30" fill="#91bfdb" id="rect3518"></rect>
+                  <text x="1635" y="20" text-anchor="middle" id="text3520">aşık</text>
+                  <text x="1635" y="-23" text-anchor="middle" id="text3522">3</text>
+                  <rect x="1680" y="-18" height="18" width="30" fill="#91bfdb" id="rect3524"></rect>
+                  <text x="1695" y="20" text-anchor="middle" id="text3526">nature</text>
+                  <text x="1695" y="-23" text-anchor="middle" id="text3528">3</text>
+                  <rect x="1740" y="-18" height="18" width="30" fill="#91bfdb" id="rect3530"></rect>
+                  <text x="1755" y="20" text-anchor="middle" id="text3532">neglect</text>
+                  <text x="1755" y="-23" text-anchor="middle" id="text3534">3</text>
+                  <rect x="1800" y="-90" height="90" width="30" fill="#4575b4" id="rect3536"></rect>
+                  <text x="1815" y="20" text-anchor="middle" id="text3538">neglect</text>
+                  <text x="1815" y="-95" text-anchor="middle" id="text3540">15</text>
+                  <rect x="1860" y="-78" height="78" width="30" fill="#4575b4" id="rect3542"></rect>
+                  <text x="1875" y="20" text-anchor="middle" id="text3544">class</text>
+                  <text x="1875" y="-83" text-anchor="middle" id="text3546">13</text>
+                  <rect x="1920" y="-78" height="78" width="30" fill="#4575b4" id="rect3548"></rect>
+                  <text x="1935" y="20" text-anchor="middle" id="text3550">death</text>
+                  <text x="1935" y="-83" text-anchor="middle" id="text3552">13</text>
+                  <rect x="1980" y="-66" height="66" width="30" fill="#4575b4" id="rect3554"></rect>
+                  <text x="1995" y="20" text-anchor="middle" id="text3556">love</text>
+                  <text x="1995" y="-71" text-anchor="middle" id="text3558">11</text>
+                  <rect x="2040" y="-48" height="48" width="30" fill="#4575b4" id="rect3560"></rect>
+                  <text x="2055" y="20" text-anchor="middle" id="text3562">family</text>
+                  <text x="2055" y="-53" text-anchor="middle" id="text3564">8</text>
+                  <rect x="2100" y="-30" height="30" width="30" fill="#4575b4" id="rect3566"></rect>
+                  <text x="2115" y="20" text-anchor="middle" id="text3568">friendship</text>
+                  <text x="2115" y="-35" text-anchor="middle" id="text3570">5</text>
+                  <rect x="2160" y="-30" height="30" width="30" fill="#4575b4" id="rect3572"></rect>
+                  <text x="2175" y="20" text-anchor="middle" id="text3574">nature</text>
+                  <text x="2175" y="-35" text-anchor="middle" id="text3576">5</text>
+                  <rect x="2220" y="-30" height="30" width="30" fill="#4575b4" id="rect3578"></rect>
+                  <text x="2235" y="20" text-anchor="middle" id="text3580">violence</text>
+                  <text x="2235" y="-35" text-anchor="middle" id="text3582">5</text>
+                  <rect x="2280" y="-24" height="24" width="30" fill="#4575b4" id="rect3584"></rect>
+                  <text x="2295" y="20" text-anchor="middle" id="text3586">allah</text>
+                  <text x="2295" y="-29" text-anchor="middle" id="text3588">4</text>
+                  <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="430.72827" y="35.955643" id="text3596"><tspan id="tspan3598" x="430.72827" y="48.062836">Cem Karaca</tspan></text>
+                  <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="732.92419" y="48.062836" id="text3604"><tspan id="tspan3606" x="732.92419" y="48.062836">Edip Akbayram</tspan></text>
+                  <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="1073.3789" y="46.609985" id="text3608"><tspan id="tspan3610" x="1073.3789" y="48.062836">Erkin Koray</tspan></text>
+                  <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="1430.7837" y="50.968567" id="text3612"><tspan id="tspan3614" x="1430.7837" y="48.062836">Ersen</tspan></text>
+                  <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" x="1848.7246" y="48.062836" id="text3616"><tspan id="tspan3618" x="1848.7246" y="48.062836">Selda Bağcan</tspan></text>
+               </g>
+            </svg>
+         </div>
+         <p> Looking at overall thematic element counts, there are a lot of similarities between the
+            artists.</p>
+         <p>
+            <b>Love</b> is the theme that is overall used the most by the artists combined. It is
+            also Erkin Koray's most commonly used element, probably skewed by the song "Hele Yar."
+            This comes as no suprise, due to the seeming universality and popularity of love
+            songs.</p>
+         <p>
+            <b>Nature</b> is the second most commonly used theme. It appears extremely often in the
+            works of Barış Manço and Edip Akbayram, and less commonly in those of the other
+            artists.</p>
+         <p><b>Family</b> is one of the top themes for every artist except Erkin Koray, who does not
+            make a reference to it. This may be due to the high number of instrumentals on his
+            album.</p>
+         <p>
+            <b>Death</b> appears in each artist's songs, except for Barış Manço. It has an important
+            role </p>
+         <p><b>Friendship</b> is also important and is a commonly used element throughtout. Dostluk
+            is important in Turkish culture.</p>
+         <p><b>Neglect</b> appears most commonly in the songs of Selda and Cem, as well as the works
+            of Ersen and Edip, albeit less frequently.</p>
+         <p>
+            <b>Allah / Islam</b> - Religious references are most common in the works of Edip, Erkin,
+            and Selda. This does not appear to have any obvious relationship to their politics.</p>
+         <p>
+            <b>Aşık</b> - Ersen &amp; Barış Manço make the most use of this element, most likely to
+            highlight their statuses as the rock versions Turkish folk singers.</p>
+         <br /><a href="#top">Return to Top of Page</a>
+         <hr />
+         <h2 id="narrators">Narrators</h2>
+         <p>The narrator tag was used to examine whether or not singers referred to themselves using
+            singular or plural nouns or pronouns. The hypothesis was that a more overt political
+            sentiment, possibly associated with leftist ideals of collectivity would lead the singer
+            to use more plural nouns or pronouns to refer to themselves. Our results were the
+            following:</p>
+         <ul>
+            <li>Barış Manço- <ul>
+                  <li>TOTAL = 16,</li>
+                  <li>SINGULAR = 9,</li>
+                  <li> PLURAL = 7</li>
+               </ul></li>
+            <li>Cem Karaca- <ul>
+                  <li>TOTAL = 14,</li>
+                  <li>SINGULAR = 13, </li>
+                  <li>PLURAL = 1</li>
+               </ul></li>
+            <li>Edip Akbayram- <ul>
+                  <li>TOTAL = 45, </li>
+                  <li>SINGULAR = 40, </li>
+                  <li>PLURAL = 5</li>
+               </ul></li>
+            <li>Erkin Koray- <ul>
+                  <li>TOTAL = 24,</li>
+                  <li>SINGULAR = 6,</li>
+                  <li>PLURAL = 18</li>
+               </ul></li>
+            <li>Ersen- <ul>
+                  <li>TOTAL = 38,</li>
+                  <li>SINGULAR = 38,</li>
+                  <li>PLURAL = 0</li>
+               </ul></li>
+            <li>Selda Bağcan- <ul>
+                  <li>TOTAL = 31,</li>
+                  <li> SINGULAR = 12, </li>
+                  <li>PLURAL = 19</li>
+               </ul></li>
+         </ul>
+         <p>Using the political sentiment marking described in the <a href="#introduction"
+               >introduction</a>, we can differentiate between the overtly political and non-overtly
+            political songs from Selda and Cem.</p>
+         <ul>
+            <li>Cem Karaca (Protest Songs)<ul>
+                  <li>- TOTAL = 6,</li>
+                  <li>SINGULAR = 6,</li>
+                  <li> PLURAL = 0</li>
+               </ul></li>
+            <li>Cem Karaca (Non-Overtly Political)<ul>
+                  <li>- TOTAL = 8,</li>
+                  <li> SINGULAR = 7,</li>
+                  <li>PLURAL = 1</li>
+               </ul></li>
+            <li>Cem Karaca- <ul>
+                  <li>TOTAL = 14,</li>
+                  <li>SINGULAR = 13, </li>
+                  <li>PLURAL = 1</li>
+               </ul></li>
+            <li>Selda Bağcan (Protest Songs)- <ul>
+                  <li>TOTAL = 24</li>
+                  <li> SINGULAR = 8,</li>
+                  <li> PLURAL = 16</li>
+               </ul></li>
+            <li>Selda Bağcan (Non-Overtly Political)- <ul>
+                  <li>TOTAL = 7,</li>
+                  <li> SINGULAR = 4</li>
+                  <li>, PLURAL = 3</li>
+               </ul></li>
+            <li>Selda Bağcan (Total) <ul>
+                  <li>TOTAL = 31,</li>
+                  <li> SINGULAR = 12, </li>
+                  <li>PLURAL = 19</li>
+               </ul></li>
+         </ul>
+         <p> From an examination of the data, it appears that Selda does adhere to the hypothesized
+            patten. She refers to a narrator considerably more in her protet songs than in her
+            non-protest songs. Additionally, her protest songs show a more frequent use of plural
+            narration than singular, while her non-protest songs show no discernable difference.</p>
+         <p> Cem Karaca, the other left-wing artist with protest songs does not follow the same
+            pattern. In fact, he refers to narrators more often in non-protest songs, and uses
+            singular narration considerably more than plural narration. One reason why this may
+            differ is because of Cem's use of lyrics from earlier folk singers, or from poets. </p>
+         <p> There are no real conclusions that can be drawn from the rest of the data.</p>
+         <br /><a href="#top">Return to Top of Page</a>
+         <hr />
+         <h2 id="instrumentation">Instrumentation</h2>
+         <p>To look at the effect of artists and politics on instrumentation, we divided the
+            instruments into two groups, 'traditional' and 'western.' <br />Traditional instruments
+            include the violin, düdük, ney, bağlama/saz, kavan, quanun, cümbüs, çığırtma, and
+            oud.<br /> Western instruments included the guitar, organ, synth, bass, mellotron,
+            trumpet, saxophone, and piano.<br /> It is important to note that one of the main
+            features of Anatolian Rock is the blending of traditional and western instrumentation,
+            though the singers' folk-like identities lead to the additional presence of folk songs
+            featuring more traditional instrumentation.</p>
+         <h3>Overall Results</h3>
+         <p>Overall, <b>64</b> instrumental breaks contained traditional instrumentation. 18 solos
+            used traditional instruments.</p>
+         <p><b>111</b> instrumental breaks contained western instruments. This includes 28
+            solos.</p>
+         <p>If we divide the information up by the types of instrumentation contained <i>within a
+               song</i>, we get the following results:</p>
+         <ul>
+            <li> Barış Manço <ul>
+                  <li> total: 13</li>
+                  <li> trad: 7</li>
+                  <li> west: 12 </li>
+               </ul></li>
+            <li> Cem Karaca <ul>
+                  <li> total: 8</li>
+                  <li> trad: 0</li>
+                  <li> west: 8 </li>
+               </ul></li>
+            <li> Edip Akbayram <ul>
+                  <li> total: 10</li>
+                  <li> trad: 4</li>
+                  <li> west: 7 </li>
+               </ul></li>
+            <li> Erkin Koray <ul>
+                  <li> total: 8</li>
+                  <li> trad: 3</li>
+                  <li> west: 7</li>
+               </ul></li>
+            <li> Ersen <ul>
+                  <li> total: 10</li>
+                  <li> trad: 9</li>
+                  <li> west: 9 </li>
+               </ul></li>
+            <li> Selda Bağcan <ul>
+                  <li> total: 12</li>
+                  <li> trad: 7</li>
+                  <li> west: 7</li>
+               </ul>
+            </li>
+         </ul>
+         <p> Selda's political songs do not differ in instrumentation in any special way from her
+            normal songs.</p>
+         <ul>
+            <li>Selda Bağcan (protest songs) <ul>
+                  <li>total: 5</li>
+                  <li>trad: 3</li>
+                  <li>west: 3</li>
+                  <li>both: 1</li>
+               </ul>
+            </li>
+            <li>Selda Bağcan (non-protest songs) -\- <ul>
+                  <li>total: 7</li>
+                  <li>trad: 4</li>
+                  <li>west: 4</li>
+                  <li>both: 1</li>
+               </ul></li>
+         </ul>
+         <h3>Differences in Thematic Elements Based on Instrumentation</h3>
+         <p>There are a few differences in the themes each artist uses in songs based on
+            instrumentation. Though they are probably not significant due to the small sample size,
+            the most interesting results are the following:</p>
+         <ul>
+            <li>Barış Manço uses western instrumentation in the same songs as all five love
+               elements.</li>
+            <li>Erkin Koray uses traditional instrumentation considerably more often in love
+               songs.</li>
+            <li>Edip Akbayram uses traditional instrumentation in eight songs discussing family. Two
+               other songs on the same subject use western instrumentation. </li>
+            <li>Edip Akbayram only uses traditional instrumentation when discussing religious
+               themes.</li>
+            <li>Selda Bağcan discusses (all two counts of) youth, violence with traditional
+               instruments. </li>
+         </ul>
+         <p> There is limited data on how lyrical content of the songs vary with instrumentation for
+            Ersen, due to the fact that the majority of his songs contain both types of
+            instrumentation. He's good at that. The same applies to Cem Karaca, due to his use of
+            almost entirely Western instrumentation. </p>
+         <h3>Instruments Most Often Used By Artists</h3>
+         <h3>Instruments Used By Each Artist</h3>
+         <ul>
+            <li>Barış Manço<ul>
+                  <li>bass - 1</li>
 
-  <g
-     transform="translate(40,180)"
-     id="g4636">
-    <rect
-       x="0"
-       y="-230"
-       width="1860"
-       height="230"
-       fill="white"
-       id="rect4638" />
-    <line
-       x1="0"
-       y1="-130"
-       x2="1860"
-       y2="-130"
-       stroke="black"
-       stroke-width="1"
-       id="line4640" />
-    <text
-       x="-20"
-       y="-125"
-       
-       id="text4642">10</text>
-    <line
-       x1="0"
-       y1="0"
-       x2="1860"
-       y2="0"
-       stroke="black"
-       stroke-width="2"
-       id="line4644" />
-    <line
-       x1="0"
-       y1="0"
-       x2="0"
-       y2="-130"
-       stroke="black"
-       stroke-width="2"
-       id="line4646" />
-    <rect
-       x="0"
-       y="-130"
-       height="130"
-       width="30"
-       fill="purple"
-       id="rect4648"
-       style="fill:#d73027;fill-opacity:1" />
-    <text
-       x="15"
-       y="20"
-       text-anchor="middle"
-       id="text4650">turkey</text>
-    <text
-       x="15"
-       y="-135"
-       text-anchor="middle"
-       id="text4652">10</text>
-    <rect
-       x="60"
-       y="-78"
-       height="78"
-       width="30"
-       fill="purple"
-       id="rect4654"
-       style="fill:#d73027;fill-opacity:1" />
-    <text
-       x="75"
-       y="20"
-       text-anchor="middle"
-       id="text4656">foreign</text>
-    <text
-       x="75"
-       y="-83"
-       text-anchor="middle"
-       id="text4658">6</text>
-    <rect
-       x="120"
-       y="-52"
-       height="52"
-       width="30"
-       fill="purple"
-       id="rect4660"
-       style="fill:#d73027;fill-opacity:1" />
-    <text
-       x="135"
-       y="20"
-       text-anchor="middle"
-       id="text4662">region</text>
-    <text
-       x="135"
-       y="-57"
-       text-anchor="middle"
-       id="text4664">4</text>
-    <rect
-       x="180"
-       y="-39"
-       height="39"
-       width="30"
-       fill="purple"
-       id="rect4666"
-       style="fill:#d73027;fill-opacity:1" />
-    <text
-       x="195"
-       y="20"
-       text-anchor="middle"
-       id="text4668">rural</text>
-    <text
-       x="195"
-       y="-44"
-       text-anchor="middle"
-       id="text4670">3</text>
-    <rect
-       x="240"
-       y="-26"
-       height="26"
-       width="30"
-       fill="purple"
-       id="rect4672"
-       style="fill:#d73027;fill-opacity:1" />
-    <text
-       x="255"
-       y="20"
-       text-anchor="middle"
-       id="text4674">world</text>
-    <text
-       x="255"
-       y="-31"
-       text-anchor="middle"
-       id="text4676">2</text>
-    <rect
-       x="300"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4678"
-       style="fill:#d73027;fill-opacity:1" />
-    <text
-       x="315"
-       y="20"
-       text-anchor="middle"
-       id="text4680">general</text>
-    <text
-       x="315"
-       y="-18"
-       text-anchor="middle"
-       id="text4682">1</text>
-    <rect
-       x="360"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4684"
-       style="fill:#d73027;fill-opacity:1" />
-    <text
-       x="375"
-       y="20"
-       text-anchor="middle"
-       id="text4686">abstract</text>
-    <text
-       x="375"
-       y="-18"
-       text-anchor="middle"
-       id="text4688">1</text>
-    <rect
-       x="420"
-       y="-26"
-       height="26"
-       width="30"
-       fill="purple"
-       id="rect4690"
-       style="fill:#fc8d59;fill-opacity:1" />
-    <text
-       x="435"
-       y="20"
-       text-anchor="middle"
-       id="text4692">world</text>
-    <text
-       x="435"
-       y="-31"
-       text-anchor="middle"
-       id="text4694">2</text>
-    <rect
-       x="480"
-       y="-26"
-       height="26"
-       width="30"
-       fill="purple"
-       id="rect4696"
-       style="fill:#fc8d59;fill-opacity:1" />
-    <text
-       x="495"
-       y="20"
-       text-anchor="middle"
-       id="text4698">rural</text>
-    <text
-       x="495"
-       y="-31"
-       text-anchor="middle"
-       id="text4700">2</text>
-    <rect
-       x="540"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4702"
-       style="fill:#fc8d59;fill-opacity:1" />
-    <text
-       x="555"
-       y="20"
-       text-anchor="middle"
-       id="text4704">general</text>
-    <text
-       x="555"
-       y="-18"
-       text-anchor="middle"
-       id="text4706">1</text>
-    <rect
-       x="600"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4708"
-       style="fill:#fc8d59;fill-opacity:1" />
-    <text
-       x="615"
-       y="20"
-       text-anchor="middle"
-       id="text4710">turkey</text>
-    <text
-       x="615"
-       y="-18"
-       text-anchor="middle"
-       id="text4712">1</text>
-    <rect
-       x="660"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4714"
-       style="fill:#fee090;fill-opacity:1" />
-    <text
-       x="675"
-       y="20"
-       text-anchor="middle"
-       id="text4716">general</text>
-    <text
-       x="675"
-       y="-18"
-       text-anchor="middle"
-       id="text4718">1</text>
-    <rect
-       x="720"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4720"
-       style="fill:#fee090;fill-opacity:1" />
-    <text
-       x="735"
-       y="20"
-       text-anchor="middle"
-       id="text4722">world</text>
-    <text
-       x="735"
-       y="-18"
-       text-anchor="middle"
-       id="text4724">1</text>
-    <rect
-       x="780"
-       y="-26"
-       height="26"
-       width="30"
-       fill="purple"
-       id="rect4726"
-       style="fill:#e0f3f8;fill-opacity:1" />
-    <text
-       x="795"
-       y="20"
-       text-anchor="middle"
-       id="text4728">turkey</text>
-    <text
-       x="795"
-       y="-31"
-       text-anchor="middle"
-       id="text4730">2</text>
-    <rect
-       x="840"
-       y="-26"
-       height="26"
-       width="30"
-       fill="purple"
-       id="rect4732"
-       style="fill:#e0f3f8;fill-opacity:1" />
-    <text
-       x="855"
-       y="20"
-       text-anchor="middle"
-       id="text4734">rural</text>
-    <text
-       x="855"
-       y="-31"
-       text-anchor="middle"
-       id="text4736">2</text>
-    <rect
-       x="900"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4738"
-       style="fill:#e0f3f8;fill-opacity:1" />
-    <text
-       x="915"
-       y="20"
-       text-anchor="middle"
-       id="text4740">foreign</text>
-    <text
-       x="915"
-       y="-18"
-       text-anchor="middle"
-       id="text4742">1</text>
-    <rect
-       x="960"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4744"
-       style="fill:#e0f3f8;fill-opacity:1" />
-    <text
-       x="975"
-       y="20"
-       text-anchor="middle"
-       id="text4746">region</text>
-    <text
-       x="975"
-       y="-18"
-       text-anchor="middle"
-       id="text4748">1</text>
-    <rect
-       x="1020"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4750"
-       style="fill:#e0f3f8;fill-opacity:1" />
-    <text
-       x="1035"
-       y="20"
-       text-anchor="middle"
-       id="text4752">home</text>
-    <text
-       x="1035"
-       y="-18"
-       text-anchor="middle"
-       id="text4754">1</text>
-    <rect
-       x="1080"
-       y="-78"
-       height="78"
-       width="30"
-       fill="purple"
-       id="rect4756"
-       style="fill:#91bfdb;fill-opacity:1" />
-    <text
-       x="1095"
-       y="20"
-       text-anchor="middle"
-       id="text4758">rural</text>
-    <text
-       x="1095"
-       y="-83"
-       text-anchor="middle"
-       id="text4760">6</text>
-    <rect
-       x="1140"
-       y="-26"
-       height="26"
-       width="30"
-       fill="purple"
-       id="rect4762"
-       style="fill:#91bfdb;fill-opacity:1" />
-    <text
-       x="1155"
-       y="20"
-       text-anchor="middle"
-       id="text4764">world</text>
-    <text
-       x="1155"
-       y="-31"
-       text-anchor="middle"
-       id="text4766">2</text>
-    <rect
-       x="1200"
-       y="-26"
-       height="26"
-       width="30"
-       fill="purple"
-       id="rect4768"
-       style="fill:#91bfdb;fill-opacity:1" />
-    <text
-       x="1215"
-       y="20"
-       text-anchor="middle"
-       id="text4770">urban</text>
-    <text
-       x="1215"
-       y="-31"
-       text-anchor="middle"
-       id="text4772">2</text>
-    <rect
-       x="1260"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4774"
-       style="fill:#91bfdb;fill-opacity:1" />
-    <text
-       x="1275"
-       y="20"
-       text-anchor="middle"
-       id="text4776">general</text>
-    <text
-       x="1275"
-       y="-18"
-       text-anchor="middle"
-       id="text4778">1</text>
-    <rect
-       x="1320"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4780"
-       style="fill:#91bfdb;fill-opacity:1" />
-    <text
-       x="1335"
-       y="20"
-       text-anchor="middle"
-       id="text4782">turkey</text>
-    <text
-       x="1335"
-       y="-18"
-       text-anchor="middle"
-       id="text4784">1</text>
-    <rect
-       x="1380"
-       y="-104"
-       height="104"
-       width="30"
-       fill="purple"
-       id="rect4786"
-       style="fill:#4575b4;fill-opacity:1" />
-    <text
-       x="1395"
-       y="20"
-       text-anchor="middle"
-       id="text4788">rural</text>
-    <text
-       x="1395"
-       y="-109"
-       text-anchor="middle"
-       id="text4790">8</text>
-    <rect
-       x="1440"
-       y="-65"
-       height="65"
-       width="30"
-       fill="purple"
-       id="rect4792"
-       style="fill:#4575b4;fill-opacity:1" />
-    <text
-       x="1455"
-       y="20"
-       text-anchor="middle"
-       id="text4794">urban</text>
-    <text
-       x="1455"
-       y="-70"
-       text-anchor="middle"
-       id="text4796">5</text>
-    <rect
-       x="1500"
-       y="-52"
-       height="52"
-       width="30"
-       fill="purple"
-       id="rect4798"
-       style="fill:#4575b4;fill-opacity:1" />
-    <text
-       x="1515"
-       y="20"
-       text-anchor="middle"
-       id="text4800">world</text>
-    <text
-       x="1515"
-       y="-57"
-       text-anchor="middle"
-       id="text4802">4</text>
-    <rect
-       x="1560"
-       y="-52"
-       height="52"
-       width="30"
-       fill="purple"
-       id="rect4804"
-       style="fill:#4575b4;fill-opacity:1" />
-    <text
-       x="1575"
-       y="20"
-       text-anchor="middle"
-       id="text4806">general</text>
-    <text
-       x="1575"
-       y="-57"
-       text-anchor="middle"
-       id="text4808">4</text>
-    <rect
-       x="1620"
-       y="-39"
-       height="39"
-       width="30"
-       fill="purple"
-       id="rect4810"
-       style="fill:#4575b4;fill-opacity:1" />
-    <text
-       x="1635"
-       y="20"
-       text-anchor="middle"
-       id="text4812">foreign</text>
-    <text
-       x="1635"
-       y="-44"
-       text-anchor="middle"
-       id="text4814">3</text>
-    <rect
-       x="1680"
-       y="-39"
-       height="39"
-       width="30"
-       fill="purple"
-       id="rect4816"
-       style="fill:#4575b4;fill-opacity:1" />
-    <text
-       x="1695"
-       y="20"
-       text-anchor="middle"
-       id="text4818">turkey</text>
-    <text
-       x="1695"
-       y="-44"
-       text-anchor="middle"
-       id="text4820">3</text>
-    <rect
-       x="1740"
-       y="-26"
-       height="26"
-       width="30"
-       fill="purple"
-       id="rect4822"
-       style="fill:#4575b4;fill-opacity:1" />
-    <text
-       x="1755"
-       y="20"
-       text-anchor="middle"
-       id="text4824">abstract</text>
-    <text
-       x="1755"
-       y="-31"
-       text-anchor="middle"
-       id="text4826">2</text>
-    <rect
-       x="1800"
-       y="-13"
-       height="13"
-       width="30"
-       fill="purple"
-       id="rect4828"
-       style="fill:#4575b4;fill-opacity:1" />
-    <text
-       x="1815"
-       y="20"
-       text-anchor="middle"
-       id="text4830">home</text>
-    <text
-       x="1815"
-       y="-18"
-       text-anchor="middle"
-       id="text4832">1</text>
-     <text
-        x="1630"
-        y="40"
-        text-anchor="middle">Selda Bağcan</text>
-     <text
-        x="1230"
-        y="40"
-        text-anchor="middle">Ersen</text>
-     <text
-        x="930"
-        y="40"
-        text-anchor="middle">Erkin Koray</text>
-     <text
-        x="700"
-        y="40"
-        text-anchor="middle">Edip Akbayram</text>
-     <text
-        x="500"
-        y="40"
-        text-anchor="middle">Cem Karaca</text>
-     <text
-        x="200"
-        y="40"
-        text-anchor="middle">Barış Manço</text>
-    </g></svg></svg></div>
-            <p>Overall, the artists tend to make the most references to rural places, correlating
-                with the image of the folk singer.</p>
-            <p>Barış Manço makes an unusually high number of references to the republic of Turkey.
-                These can be traced back to "<!--SONG NAME-->", a highly nationalistic song that
-                describes how the Turkish republic will continue to exist in a hundered years time.
-                The pro-nationalist political sentiment is linked to the higher number of references
-                to Turkey.</p>
-            <br/><a href="#top">Return to Top of Page</a>
-            <hr/>
-            <!--<h2 id="etymology">Etymology</h2> TBD 
+                  <li>cümbüs - 1</li>
+
+                  <li>guitar - 2</li>
+                  <li>kaval - 2</li>
+
+                  <li>ney - 3</li>
+
+                  <li>percussion - 2</li>
+                  <li>quanun - 1</li>
+
+
+                  <li>sound effects - 1</li>
+                  <li>synth - 8</li>
+
+
+                  <li>bağlama - 3</li>
+               </ul></li>
+            <li>Cem Karaca<ul>
+                  <li>bass - 4</li>
+
+
+
+                  <li>guitar - 3</li>
+
+
+
+                  <li>organ - 3</li>
+                  <li>percussion - 6</li>
+
+
+
+                  <li>sound effects - 2</li>
+                  <li>synth - 8</li>
+
+
+
+               </ul></li>
+            <li>Edip Akbayram<ul>
+
+                  <li>bass - 1</li>
+                  <li>çığırtma - 1</li>
+
+
+                  <li>guitar - 7</li>
+                  <li>kaval - 1</li>
+
+
+
+                  <li>percussion - 3</li>
+
+
+
+
+                  <li>synth - 1</li>
+                  <li>trumpet - 1</li>
+
+                  <li>bağlama - 3</li>
+               </ul></li>
+            <li>Erkin Koray<ul>
+                  <li>bass - 1</li>
+
+
+                  <li>düdük - 2</li>
+                  <li>guitar - 7</li>
+
+
+                  <li>ney - 1</li>
+                  <li>organ - 1</li>
+                  <li>percussion - 3</li>
+
+
+
+                  <li>sound effects - 1</li>
+
+
+
+                  <li>bağlama - 3</li>
+               </ul></li>
+            <li>Ersen<ul>
+
+                  <li>bass - 6</li>
+
+
+
+                  <li>guitar - 8</li>
+
+
+                  <li>ney - 2</li>
+                  <li>organ - 3</li>
+
+
+
+
+
+                  <li>synth - 2</li>
+
+                  <li>violin - 1</li>
+                  <li>bağlama - 8</li>
+               </ul></li>
+            <li>Selda Bağcan <ul>
+                  <li>bass - 2</li>
+
+
+
+                  <li>guitar - 5</li>
+                  <li>kaval - 2</li>
+                  <li>kemençe - 1</li>
+                  <li>ney - 1</li>
+
+                  <li>percussion - 1</li>
+
+
+                  <li>sipsi - 1</li>
+
+                  <li>synth - 2</li>
+
+
+                  <li>bağlama - 6</li>
+               </ul></li>
+         </ul>
+         <h3>Major vs Minor</h3>
+         <p>Overall, the artists tended to prefer using minor scales. Although all artists recorded
+            songs with both scales, only one song contains both.</p>
+         <ul>
+            <li> Ersen - <ul>
+                  <li>minor: 8,</li>
+                  <li>major: 2, </li>
+                  <li>both: 0 </li>
+               </ul></li>
+            <li> Barış Manço - <ul>
+                  <li>minor: 10,</li>
+                  <li> major: 3,</li>
+                  <li> both: 0</li>
+               </ul>
+            </li>
+            <li> Cem Karaca - <ul>
+                  <li>minor: 4, </li>
+                  <li>major: 4, </li>
+                  <li>both: 0 </li>
+               </ul></li>
+            <li> Edip Akbayram - <ul>
+                  <li>minor: 5,</li>
+                  <li> major: 5,</li>
+                  <li> both: 0 </li>
+               </ul></li>
+            <li> Erkin Koray - <ul>
+                  <li>minor: 5, </li>
+                  <li>major: 2, </li>
+                  <li>both: 1</li>
+               </ul>
+            </li>
+            <li> Selda Bağcan - <ul>
+                  <li>minor: 7,</li>
+                  <li> major: 5, </li>
+                  <li>both: 0</li>
+               </ul></li>
+         </ul>
+         <p> Again, there is no discernable difference in instrumentation between Selda and Cem's
+            protest songs and non-protest songs.</p>
+         <h3>Solos</h3>
+         <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="250" height="330" version="1.1">
+
+               <line x1="0" y1="0" x2="0" y2="305" style="stroke:black;stroke-width:2"></line>
+               <line x1="0" y1="305" x2="400" y2="305" style="stroke:black;stroke-width:2"></line>
+
+               <text x="10" y="320" fill="black">Selda</text>
+               <text x="10" y="270" fill="black">6</text>
+               <rect x="10" y="275" width="30" height="30"
+                  style="fill:blue;stroke-width:3;stroke:rgb(10,10,0)"></rect>
+
+               <text x="60" y="320" fill="black">Cem</text>
+               <text x="60" y="260" fill="black">8</text>
+               <rect x="60" y="265" width="30" height="40"
+                  style="fill:blue;stroke-width:3;stroke:rgb(10,10,0)"></rect>
+
+               <text x="110" y="320" fill="black">Edip</text>
+               <text x="110" y="290" fill="black">2</text>
+               <rect x="110" y="295" width="30" height="10"
+                  style="fill:blue;stroke-width:3;stroke:rgb(10,10,0)"></rect>
+
+               <line x1="170" y1="0" x2="170" y2="305" style="stroke:rgb(255,0,0);stroke-width:2"
+                  stroke-dasharray="5, 5"></line>
+
+               <text x="200" y="320" fill="black">Erkin</text>
+               <text x="200" y="60" fill="black">235</text>
+               <rect x="200" y="65" width="30" height="235"
+                  style="fill:green;stroke-width:3;stroke:rgb(10,10,0)"></rect>
+
+               <text x="250" y="320" fill="black"> Barış </text>
+               <text x="250" y="295" fill="black"> 0 </text>
+               <rect x="250" y="305" width="30" height="0"
+                  style="fill:green;stroke-width:3;stroke:rgb(10,10,0)"></rect>
+
+               <line x1="275" y1="0" x2="275" y2="300" style="stroke:rgb(255,0,0);stroke-width:2"
+                  stroke-dasharray="5, 5"></line>
+
+               <text x="300" y="320" fill="black">Ersen</text>
+               <text x="300" y="215" fill="black">17</text>
+               <rect x="300" y="220" width="30" height="85"
+                  style="fill:red;stroke-width:3;stroke:rgb(10,10,0)"></rect>
+
+            </svg>
+            <p>This graph contains the number of solos by artist with dividing lines by political
+               affiliation. Right-leaning singers were somewhat more likely to include solos.</p>
+         </div>
+         <br /><a href="#top">Return to Top of Page</a>
+         <hr />
+         <h2 id="addresses">Addresses</h2>
+         <h3>Overall Address Counts</h3>
+         <p>These are the overall counts of how many songs contain formal addresses, informal
+            addresses, or both from each artist. For Cem and Selda, they are also divided by the
+            presence of overt political sentiment.</p>
+         <ul>
+            <li> Barış Manço, Formal: 2, Informal: 6, Both: 1</li>
+            <li> Cem Karaca, Formal: 0, Informal: 2, Both: 0</li>
+            <li> Cem Karaca (protest songs only), Formal: 0, Informal: 2, Both: 0 </li>
+            <li> Cem Karaca (non-protest songs only), Formal: 0, Informal: 0, Both: 0 </li>
+            <li> Edip Akbayram, Formal: 1, Informal: 6, Both: 0 </li>
+            <li> Erkin Koray, Formal: 1, Informal: 2, Both: 1 </li>
+            <li> Ersen, Formal: 2, Informal: 4, Both: 1</li>
+            <li> Selda Bağcan, Formal: 4, Informal: 10, Both: 3 </li>
+            <li> Selda Bağcan (protest songs), Formal: 3, Informal:4, Both: 2 </li>
+            <li> Selda Bağcan (non-protest songs only), Formal: 1, Informal: 6, Both: 1 </li>
+         </ul>
+         <p>The overall counts of addresses show important distinctions within the artists'
+            identities. Generally, the informal address is most popular. Protest songs from both Cem
+            and Selda contain more addresses than non-protest songs. Selda uses formal addresses
+            much more often during protest songs, as shw is often addressing the priviledged, or
+            making commands in an ironic fashion.</p>
+         <br /><a href="#top">Return to Top of Page</a>
+         <hr />
+         <h2 id="places">Places</h2>
+         <p>Another element common to many of the songs is the <a href="methodology.html#place"
+               >place</a> element. The artists refer to a variety of places in their work, including
+            geographical locations, the nation of turkey, villages, cities, the cosmos, or abstract
+            concepts. The artists reference distinctly different types of places in correspondance
+            with their political identites.</p>
+         <div id="wrapper2">
+            <svg xmlns="http://www.w3.org/2000/svg" height="300">
+
+               <svg xmlns="http://www.w3.org/2000/svg" width="180%" height="230" id="svg4634"
+                  version="1.1">
+
+                  <g transform="translate(40,180)" id="g4636">
+                     <rect x="0" y="-230" width="1860" height="230" fill="white" id="rect4638"></rect>
+                     <line x1="0" y1="-130" x2="1860" y2="-130" stroke="black" stroke-width="1"
+                        id="line4640"></line>
+                     <text x="-20" y="-125" id="text4642">10</text>
+                     <line x1="0" y1="0" x2="1860" y2="0" stroke="black" stroke-width="2"
+                        id="line4644"></line>
+                     <line x1="0" y1="0" x2="0" y2="-130" stroke="black" stroke-width="2"
+                        id="line4646"></line>
+                     <rect x="0" y="-130" height="130" width="30" fill="purple" id="rect4648"
+                        style="fill:#d73027;fill-opacity:1"></rect>
+                     <text x="15" y="20" text-anchor="middle" id="text4650">turkey</text>
+                     <text x="15" y="-135" text-anchor="middle" id="text4652">10</text>
+                     <rect x="60" y="-78" height="78" width="30" fill="purple" id="rect4654"
+                        style="fill:#d73027;fill-opacity:1"></rect>
+                     <text x="75" y="20" text-anchor="middle" id="text4656">foreign</text>
+                     <text x="75" y="-83" text-anchor="middle" id="text4658">6</text>
+                     <rect x="120" y="-52" height="52" width="30" fill="purple" id="rect4660"
+                        style="fill:#d73027;fill-opacity:1"></rect>
+                     <text x="135" y="20" text-anchor="middle" id="text4662">region</text>
+                     <text x="135" y="-57" text-anchor="middle" id="text4664">4</text>
+                     <rect x="180" y="-39" height="39" width="30" fill="purple" id="rect4666"
+                        style="fill:#d73027;fill-opacity:1"></rect>
+                     <text x="195" y="20" text-anchor="middle" id="text4668">rural</text>
+                     <text x="195" y="-44" text-anchor="middle" id="text4670">3</text>
+                     <rect x="240" y="-26" height="26" width="30" fill="purple" id="rect4672"
+                        style="fill:#d73027;fill-opacity:1"></rect>
+                     <text x="255" y="20" text-anchor="middle" id="text4674">world</text>
+                     <text x="255" y="-31" text-anchor="middle" id="text4676">2</text>
+                     <rect x="300" y="-13" height="13" width="30" fill="purple" id="rect4678"
+                        style="fill:#d73027;fill-opacity:1"></rect>
+                     <text x="315" y="20" text-anchor="middle" id="text4680">general</text>
+                     <text x="315" y="-18" text-anchor="middle" id="text4682">1</text>
+                     <rect x="360" y="-13" height="13" width="30" fill="purple" id="rect4684"
+                        style="fill:#d73027;fill-opacity:1"></rect>
+                     <text x="375" y="20" text-anchor="middle" id="text4686">abstract</text>
+                     <text x="375" y="-18" text-anchor="middle" id="text4688">1</text>
+                     <rect x="420" y="-26" height="26" width="30" fill="purple" id="rect4690"
+                        style="fill:#fc8d59;fill-opacity:1"></rect>
+                     <text x="435" y="20" text-anchor="middle" id="text4692">world</text>
+                     <text x="435" y="-31" text-anchor="middle" id="text4694">2</text>
+                     <rect x="480" y="-26" height="26" width="30" fill="purple" id="rect4696"
+                        style="fill:#fc8d59;fill-opacity:1"></rect>
+                     <text x="495" y="20" text-anchor="middle" id="text4698">rural</text>
+                     <text x="495" y="-31" text-anchor="middle" id="text4700">2</text>
+                     <rect x="540" y="-13" height="13" width="30" fill="purple" id="rect4702"
+                        style="fill:#fc8d59;fill-opacity:1"></rect>
+                     <text x="555" y="20" text-anchor="middle" id="text4704">general</text>
+                     <text x="555" y="-18" text-anchor="middle" id="text4706">1</text>
+                     <rect x="600" y="-13" height="13" width="30" fill="purple" id="rect4708"
+                        style="fill:#fc8d59;fill-opacity:1"></rect>
+                     <text x="615" y="20" text-anchor="middle" id="text4710">turkey</text>
+                     <text x="615" y="-18" text-anchor="middle" id="text4712">1</text>
+                     <rect x="660" y="-13" height="13" width="30" fill="purple" id="rect4714"
+                        style="fill:#fee090;fill-opacity:1"></rect>
+                     <text x="675" y="20" text-anchor="middle" id="text4716">general</text>
+                     <text x="675" y="-18" text-anchor="middle" id="text4718">1</text>
+                     <rect x="720" y="-13" height="13" width="30" fill="purple" id="rect4720"
+                        style="fill:#fee090;fill-opacity:1"></rect>
+                     <text x="735" y="20" text-anchor="middle" id="text4722">world</text>
+                     <text x="735" y="-18" text-anchor="middle" id="text4724">1</text>
+                     <rect x="780" y="-26" height="26" width="30" fill="purple" id="rect4726"
+                        style="fill:#e0f3f8;fill-opacity:1"></rect>
+                     <text x="795" y="20" text-anchor="middle" id="text4728">turkey</text>
+                     <text x="795" y="-31" text-anchor="middle" id="text4730">2</text>
+                     <rect x="840" y="-26" height="26" width="30" fill="purple" id="rect4732"
+                        style="fill:#e0f3f8;fill-opacity:1"></rect>
+                     <text x="855" y="20" text-anchor="middle" id="text4734">rural</text>
+                     <text x="855" y="-31" text-anchor="middle" id="text4736">2</text>
+                     <rect x="900" y="-13" height="13" width="30" fill="purple" id="rect4738"
+                        style="fill:#e0f3f8;fill-opacity:1"></rect>
+                     <text x="915" y="20" text-anchor="middle" id="text4740">foreign</text>
+                     <text x="915" y="-18" text-anchor="middle" id="text4742">1</text>
+                     <rect x="960" y="-13" height="13" width="30" fill="purple" id="rect4744"
+                        style="fill:#e0f3f8;fill-opacity:1"></rect>
+                     <text x="975" y="20" text-anchor="middle" id="text4746">region</text>
+                     <text x="975" y="-18" text-anchor="middle" id="text4748">1</text>
+                     <rect x="1020" y="-13" height="13" width="30" fill="purple" id="rect4750"
+                        style="fill:#e0f3f8;fill-opacity:1"></rect>
+                     <text x="1035" y="20" text-anchor="middle" id="text4752">home</text>
+                     <text x="1035" y="-18" text-anchor="middle" id="text4754">1</text>
+                     <rect x="1080" y="-78" height="78" width="30" fill="purple" id="rect4756"
+                        style="fill:#91bfdb;fill-opacity:1"></rect>
+                     <text x="1095" y="20" text-anchor="middle" id="text4758">rural</text>
+                     <text x="1095" y="-83" text-anchor="middle" id="text4760">6</text>
+                     <rect x="1140" y="-26" height="26" width="30" fill="purple" id="rect4762"
+                        style="fill:#91bfdb;fill-opacity:1"></rect>
+                     <text x="1155" y="20" text-anchor="middle" id="text4764">world</text>
+                     <text x="1155" y="-31" text-anchor="middle" id="text4766">2</text>
+                     <rect x="1200" y="-26" height="26" width="30" fill="purple" id="rect4768"
+                        style="fill:#91bfdb;fill-opacity:1"></rect>
+                     <text x="1215" y="20" text-anchor="middle" id="text4770">urban</text>
+                     <text x="1215" y="-31" text-anchor="middle" id="text4772">2</text>
+                     <rect x="1260" y="-13" height="13" width="30" fill="purple" id="rect4774"
+                        style="fill:#91bfdb;fill-opacity:1"></rect>
+                     <text x="1275" y="20" text-anchor="middle" id="text4776">general</text>
+                     <text x="1275" y="-18" text-anchor="middle" id="text4778">1</text>
+                     <rect x="1320" y="-13" height="13" width="30" fill="purple" id="rect4780"
+                        style="fill:#91bfdb;fill-opacity:1"></rect>
+                     <text x="1335" y="20" text-anchor="middle" id="text4782">turkey</text>
+                     <text x="1335" y="-18" text-anchor="middle" id="text4784">1</text>
+                     <rect x="1380" y="-104" height="104" width="30" fill="purple" id="rect4786"
+                        style="fill:#4575b4;fill-opacity:1"></rect>
+                     <text x="1395" y="20" text-anchor="middle" id="text4788">rural</text>
+                     <text x="1395" y="-109" text-anchor="middle" id="text4790">8</text>
+                     <rect x="1440" y="-65" height="65" width="30" fill="purple" id="rect4792"
+                        style="fill:#4575b4;fill-opacity:1"></rect>
+                     <text x="1455" y="20" text-anchor="middle" id="text4794">urban</text>
+                     <text x="1455" y="-70" text-anchor="middle" id="text4796">5</text>
+                     <rect x="1500" y="-52" height="52" width="30" fill="purple" id="rect4798"
+                        style="fill:#4575b4;fill-opacity:1"></rect>
+                     <text x="1515" y="20" text-anchor="middle" id="text4800">world</text>
+                     <text x="1515" y="-57" text-anchor="middle" id="text4802">4</text>
+                     <rect x="1560" y="-52" height="52" width="30" fill="purple" id="rect4804"
+                        style="fill:#4575b4;fill-opacity:1"></rect>
+                     <text x="1575" y="20" text-anchor="middle" id="text4806">general</text>
+                     <text x="1575" y="-57" text-anchor="middle" id="text4808">4</text>
+                     <rect x="1620" y="-39" height="39" width="30" fill="purple" id="rect4810"
+                        style="fill:#4575b4;fill-opacity:1"></rect>
+                     <text x="1635" y="20" text-anchor="middle" id="text4812">foreign</text>
+                     <text x="1635" y="-44" text-anchor="middle" id="text4814">3</text>
+                     <rect x="1680" y="-39" height="39" width="30" fill="purple" id="rect4816"
+                        style="fill:#4575b4;fill-opacity:1"></rect>
+                     <text x="1695" y="20" text-anchor="middle" id="text4818">turkey</text>
+                     <text x="1695" y="-44" text-anchor="middle" id="text4820">3</text>
+                     <rect x="1740" y="-26" height="26" width="30" fill="purple" id="rect4822"
+                        style="fill:#4575b4;fill-opacity:1"></rect>
+                     <text x="1755" y="20" text-anchor="middle" id="text4824">abstract</text>
+                     <text x="1755" y="-31" text-anchor="middle" id="text4826">2</text>
+                     <rect x="1800" y="-13" height="13" width="30" fill="purple" id="rect4828"
+                        style="fill:#4575b4;fill-opacity:1"></rect>
+                     <text x="1815" y="20" text-anchor="middle" id="text4830">home</text>
+                     <text x="1815" y="-18" text-anchor="middle" id="text4832">1</text>
+                     <text x="1630" y="40" text-anchor="middle">Selda Bağcan</text>
+                     <text x="1230" y="40" text-anchor="middle">Ersen</text>
+                     <text x="930" y="40" text-anchor="middle">Erkin Koray</text>
+                     <text x="700" y="40" text-anchor="middle">Edip Akbayram</text>
+                     <text x="500" y="40" text-anchor="middle">Cem Karaca</text>
+                     <text x="200" y="40" text-anchor="middle">Barış Manço</text>
+                  </g>
+               </svg>
+            </svg></div>
+         <p>Overall, the artists tend to make the most references to rural places, correlating with
+            the image of the folk singer.</p>
+         <p>Barış Manço makes an unusually high number of references to the republic of Turkey.
+            These can be traced back to "<!--SONG NAME-->", a highly nationalistic song that
+            describes how the Turkish republic will continue to exist in a hundered years time. The
+            pro-nationalist political sentiment is linked to the higher number of references to
+            Turkey.</p>
+         <br /><a href="#top">Return to Top of Page</a>
+         <hr />
+         <!--<h2 id="etymology">Etymology</h2> TBD 
             <br/><a href="#top">Return to Top of Page</a>-->
-            <hr/></div>
-    </body>
+         <hr /></div>
+   </body>
 </html>
