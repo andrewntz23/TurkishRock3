@@ -74,6 +74,11 @@ svg{
   padding:0 1em;
   overflow-x:scroll;
 }
+#wrapper2{
+  border:2px black solid;
+  padding:0 1em;
+  overflow-x:scroll;
+}
 div.toc{border: 1px solid #aaa;
 background-color: #f9f9f9;
 font-size: 95%;
