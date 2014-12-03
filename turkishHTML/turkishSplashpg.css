@@ -29,10 +29,10 @@ div{
 div.finn {    background-color:rgba(60, 0, 100, .9);
 float: right;
 }
-img{
+img.mm {
     width:150px;
     height:auto;
-    margin-left:80px
+    margin-left:60px
 }
 img.license{
     padding:5%;

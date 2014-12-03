@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" version="1.1">
+    
+    <line x1="0" y1="0" x2="0" y2="305" style="stroke:rgb(255,0,0);stroke-width:2" />
+    <line x1="0" y1="305" x2="400" y2="305" style="stroke:rgb(255,200,200);stroke-width:2" />
+    
+    <text x="10" y="320" fill="black">Selda</text>
+    <text x="10" y="270" fill="black">6</text>
+    <rect x="10" y="275" width="30" height="30" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(10,10,0)" />  
+    
+    <text x="60" y="320" fill="black">Cem</text>
+    <text x="60" y="260" fill="black">8</text>
+    <rect x="60"  y="265" width="30" height="40" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(10,10,0)" /> 
+    
+    <text x="110" y="320" fill="black">Edip</text>
+    <text x="110" y="290" fill="black">2</text>
+    <rect x ="110" y="295" width="30" height="10" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(10,10,0)" />  
+    
+    <line x1="170" y1="0" x2="170" y2="305" style="stroke:rgb(255,0,0);stroke-width:2" stroke-dasharray="5, 5" />
+    
+    <text x="200" y="320" fill="black">Erkin</text>
+    <text x="200" y="60" fill="black">235</text>
+    <rect x ="200" y="65" width="30" height="235" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(10,10,0)" />  
+    
+    <text x="250" y="320" fill="black"> Barış </text>
+    <text x="250" y="295" fill="black"> 0 </text>
+    <rect x ="250" y="305" width="30" height="0" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(10,10,0)" />  
+    
+    <line x1="275" y1="0" x2="275" y2="300" style="stroke:rgb(255,0,0);stroke-width:2" stroke-dasharray="5, 5" />
+    
+    <text x="300" y="320" fill="black">Ersen</text>
+    <text x="300" y="215" fill="black">17</text>
+    <rect x ="300" y="220" width="30" height="85" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(10,10,0)" />  
+    
+</svg>
