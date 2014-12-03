@@ -11,29 +11,21 @@
     <body>
         <div>
             <!--#include virtual="dropDownMenu.html" -->
-            <h1>Analysis</h1>
-            <h2>Introduction</h2>
-            <h3>Contents</h3>
             <div id="toc" class="toc">
-                <span class="ch">Contents</span>
+                <span class="ch">Table Of Contents</span>
                 <ul>
-                    <li class="toclevel-1 tocsection-1"><a href="#Classical_analysis_of_character"><span class="tocnumber">1</span> <span class="toctext">Classical analysis of character</span></a></li>
-                    <li class="toclevel-1 tocsection-2"><a href="#Types_of_characters"><span class="tocnumber">2</span> <span class="toctext">Types of characters</span></a>
-                        <ul>
-                            <li class="toclevel-2 tocsection-3"><a href="#Round_vs._flat"><span class="tocnumber">2.1</span> <span class="toctext">Round vs. flat</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="toclevel-1 tocsection-4"><a href="#Dynamic_vs._static"><span class="tocnumber">3</span> <span class="toctext">Dynamic vs. static</span></a></li>
-                    <li class="toclevel-1 tocsection-5"><a href="#Creation_of_characters"><span class="tocnumber">4</span> <span class="toctext">Creation of characters</span></a></li>
-                    <li class="toclevel-1 tocsection-6"><a href="#Other"><span class="tocnumber">5</span> <span class="toctext">Other</span></a></li>
-                    <li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
-                    <li class="toclevel-1 tocsection-8"><a href="#Notes"><span class="tocnumber">7</span> <span class="toctext">Notes</span></a></li>
-                    <li class="toclevel-1 tocsection-9"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+                    <li><a href="#review"><span>1. Review of Data</span></a></li>
+                    <li><a href="#themes"><span>2. Themes</span></a></li>
+                    <li><a href="#narrators"><span>3. Narrators</span></a></li>
+                    <li><a href="#instrumentation"><span>4. Instrumentation</span></a></li>
+                    <li><a href="#addresses"><span>5. Addresses</span></a></li>
+                    <li><a href="#places"><span>6. Places</span></a></li>
+                    <li><a href="#etymology"><span>7. Etymology</span></a></li>
                 </ul>
             </div>
             <!---->
             <hr/>
-            <h2>Review of Data</h2>
+            <h2 id="review">Review of Data</h2>
             <p>These are the total number of songs from each artist that we are analyzing.</p>
             <ul>
                 <li>Barış Manço <ul><li>Total Songs: 13</li><li> Songs With Vocals: 9 </li><li> Instrumentals: 4</li></ul></li>
@@ -47,8 +39,9 @@
             5/12 of Selda Bağcan's songs have overtly leftist lyrics.<br/>
             One of Barış Manço's songs has overtly nationalistic (perhaps rightist) lyrics.</p>
             <!--CHART OF SONG TOTALS-->
+            <br/><a href="#top">Return to Top of Page</a>
             <hr/>
-            <h2>Themes</h2>
+            <h2 id="themes">Themes</h2>
             <div id="wrapper">
                 <svg xmlns="http://www.w3.org/2000/svg" height="300">
 
@@ -212,7 +205,9 @@
                 politics.</p>
             <p> <b>Aşık</b> - Ersen &amp; Barış Manço make the most use of this element, most likely to highlight
                 their statuses as the rock versions Turkish folk singers.</p>
-            <h2>Narrators</h2>
+            <br/><a href="#top">Return to Top of Page</a>
+            <hr/>
+            <h2 id="narrators">Narrators</h2>
             <p>The narrator tag was used to examine whether or not singers referred to themselves
                 using singular or plural nouns or pronouns. The hypothesis was that a more overt
                 political sentiment, possibly associated with leftist ideals of collectivity would
@@ -243,7 +238,10 @@
                 singular narration considerably more than plural narration. One reason why this may
                 differ is because of Cem's use of lyrics from earlier folk singers, or from poets. </p>
             <p> There are no real conclusions that can be drawn from the rest of the data.</p>
-            <h2>Instrumentation</h2>
+            <br/><a href="#top">Return to Top of Page</a>
+            <hr/>
+            <h2 id="instrumentation">Instrumentation</h2>
+            
             <p>To look at the effect of artists and politics on instrumentation, we divided the
                 instruments into two groups, 'traditional' and 'western.' <br/>Traditional instruments include the violin, düdük, ney, bağlama/saz, kavan, quanun, cümbüs, çığırtma, and oud.<br/> Western instruments included the guitar, organ, synth, bass, mellotron, trumpet, saxophone, and piano.<br/> It is important to note that one of the main features of Anatolian Rock is the blending of traditional and western instrumentation, though the singers' folk-like identities lead to the additional presence of folk songs featuring more traditional instrumentation.</p>
             <h3>Overall Results</h3> 
@@ -280,24 +278,142 @@
                 <ul><li>total: 5</li><li>trad: 3</li><li>west: 3</li><li>both: 1</li></ul> </li>
             <li>Selda Bağcan (non-protest songs) -\- <ul><li>total: 7</li><li>trad: 4</li><li>west: 4</li><li>both: 1</li></ul></li></ul>
             <h3>Differences in Thematic Elements Based on Instrumentation</h3>
-            <p>Differences in thematic elements between songs with traditional/western information.
-                (I've picked these results out of a longer xQuery)</p>
-            <!--Barış Manço = love== trad: 1,
-            west: 5, both:1 Cem Karaca = no data, obviously Edip Akbayram = family== trad: 8, west:
-            2, both:0 Edip Akbayram = allah== trad: 4, west: 0, both:0 Edip Akbayram = nature==
-            trad: 3, west: 14, both:0 Edip Akbayram = neglect== trad: 0, west: 3, both:0 Edip
-            Akbayram = friendship== trad: 0, west: 2, both:0 Erkin Koray = love== trad: 17, west: 2,
-            both:2 Erkin Koray = allah== trad: 3, west: 3, both:3 Erkin Koray = narrator== trad: 1,
-            west: 6, both:1-->
-            <p> Limited data from Ersen, due to the fact that the majority of his songs contain both
-                types of instrumentation. He's good at that. </p>
-            <!--Selda Bağcan =
-            love== trad: 6, west: 6, both:3 Selda Bağcan = violence== trad: 2, west: 0, both:0 Selda
-            Bağcan = youth== trad: 2, west: 0, both:0 Selda Bağcan = death== trad: 1, west: 3,
-            both:1 Selda Bağcan = family== trad: 0, west: 4, both:0-->
+            <p>There are a few differences in the themes each artist uses in songs based on instrumentation. Though they are probably not significant due to the small sample size, the most interesting results are the following:</p>
+            <ul>
+                <li>Barış Manço uses western instrumentation in the same songs as all five love elements.</li>
+                <li>Erkin Koray uses traditional instrumentation considerably more often in love songs.</li>
+                <li>Edip Akbayram uses traditional instrumentation in eight songs discussing family. Two other songs on the same subject use western instrumentation. </li>
+                <li>Edip Akbayram only uses traditional instrumentation when discussing religious themes.</li>
+                <li>Selda Bağcan discusses (all two counts of) youth, violence with traditional instruments. </li>
+            </ul>
+            <p> There is limited data on how lyrical content of the songs vary with instrumentation for Ersen, due to the fact that the majority of his songs contain both
+                types of instrumentation. He's good at that. The same applies to Cem Karaca, due to his use of almost entirely Western instrumentation. </p>
+            
             <h3>Instruments Most Often Used By Artists</h3>
-            <!--Chart-->
-            <hr/>
+            <h3>Instruments Used By Each Artist</h3>
+            <ul><li>Barış Manço<ul> 
+                <li>bass - 1</li>
+                
+                <li>cümbüs - 1</li>
+                
+                <li>guitar - 2</li>
+                <li>kaval - 2</li>
+                
+                <li>ney - 3</li>
+                
+                <li>percussion - 2</li>
+                <li>quanun - 1</li>
+                
+                
+                <li>sound effects - 1</li>
+                <li>synth - 8</li>
+                
+                
+                <li>bağlama - 3</li>
+            </ul></li>
+                <li>Cem Karaca<ul>
+                    <li>bass - 4</li>
+                    
+                    
+                    
+                    <li>guitar - 3</li>
+                    
+                    
+                    
+                    <li>organ - 3</li>
+                    <li>percussion - 6</li>
+                    
+                    
+                    
+                    <li>sound effects - 2</li>
+                    <li>synth - 8</li>
+                    
+                    
+                    
+                </ul></li>
+                <li>Edip Akbayram<ul>
+                    
+                    <li>bass - 1</li>
+                    <li>çığırtma - 1</li>
+                    
+                    
+                    <li>guitar - 7</li>
+                    <li>kaval - 1</li>
+                    
+                    
+                    
+                    <li>percussion - 3</li>
+                    
+                    
+                    
+                    
+                    <li>synth - 1</li>
+                    <li>trumpet - 1</li>
+                    
+                    <li>bağlama - 3</li>
+                </ul></li>
+                <li>Erkin Koray<ul>
+                    <li>bass - 1</li>
+                    
+                    
+                    <li>düdük - 2</li>
+                    <li>guitar - 7</li>
+                    
+                    
+                    <li>ney - 1</li>
+                    <li>organ - 1</li>
+                    <li>percussion - 3</li>
+                    
+                    
+                    
+                    <li>sound effects - 1</li>
+                    
+                    
+                    
+                    <li>bağlama - 3</li>
+                </ul></li>
+                <li>Ersen<ul>
+                    
+                    <li>bass - 6</li>
+                    
+                    
+                    
+                    <li>guitar - 8</li>
+                    
+                    
+                    <li>ney - 2</li>
+                    <li>organ - 3</li>
+                    
+                    
+                    
+                    
+                    
+                    <li>synth - 2</li>
+                    
+                    <li>violin - 1</li>
+                    <li>bağlama - 8</li>
+                </ul></li>
+                <li>Selda Bağcan <ul>
+                    <li>bass - 2</li>
+                    
+                    
+                    
+                    <li>guitar - 5</li>
+                    <li>kaval - 2</li>
+                    <li>kemençe - 1</li>
+                    <li>ney - 1</li>
+                    
+                    <li>percussion - 1</li>
+                    
+                    
+                    <li>sipsi - 1</li>
+                    
+                    <li>synth - 2</li>
+                    
+                    
+                    <li>bağlama - 6</li>
+                </ul></li></ul>
+            
             <h3>Major vs Minor</h3>
             <p>Overall, the artists tended to prefer using minor scales. Although all artists
                 recorded songs with both scales, only one song contains both.</p> 
@@ -321,8 +437,9 @@
                 <artist who="Erkin Koray">13</artist>
                 <artist who="Selda Bağcan">6</artist>
             </root>-->
-        <hr/>
-            <h2>Addresses</h2>
+        <br/><a href="#top">Return to Top of Page</a>
+            <hr/>
+            <h2 id="addresses">Addresses</h2>
             <h3>Overall Address Counts</h3> Artist, #of songs containing formal addresses, #songs w/
             informal, #songs w/ both Barış Manço, Formal: 2, Informal: 6, Both: 1 Cem Karaca,
             Formal: 0, Informal: 2, Both: 0 Edip Akbayram, Formal: 1, Informal: 6, Both: 0 Erkin
@@ -334,8 +451,9 @@
             <p>This one doesn't look too promissing, seeing as forms of "you" and the null addressee
                 dwarf the others in number.</p>
             <h3>Themes Inside Addresses</h3>
+            <br/><a href="#top">Return to Top of Page</a>
             <hr/>
-            <h2>Places</h2>
+            <h2 id="places">Places</h2>
             <p>Another element common to many of the songs is the <a href="methodology.html#place"
                     >place</a> element. The artists refer to a variety of places in their work,
                 including geographical locations, the nation of turkey, villages, cities, the
@@ -349,7 +467,10 @@
                 describes how the Turkish republic will continue to exist in a hundered years time.
                 The pro-nationalist political sentiment is linked to the higher number of references
                 to Turkey.</p>
+            <br/><a href="#top">Return to Top of Page</a>
             <hr/>
-            <h2>Etymology</h2> TBD </div>
+            <h2 id="etymology">Etymology</h2> TBD 
+            <br/><a href="#top">Return to Top of Page</a>
+            <hr/></div>
     </body>
 </html>

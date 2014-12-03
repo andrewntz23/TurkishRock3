@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <artist who="Ersen">
+        
+        <ref type="bass">6</ref>
+        
+        
+        
+        <ref type="guitar">8</ref>
+        
+        
+        <ref type="ney">2</ref>
+        <ref type="organ">3</ref>
+        
+        
+        
+        
+        
+        <ref type="synth">2</ref>
+        
+        <ref type="violin">1</ref>
+        <ref type="bağlama">8</ref>
+    </artist>
+    <artist who="Barış Manço">
+        <ref type="total">13</ref>
+        <ref type="bass">1</ref>
+        
+        <ref type="cümbüs">1</ref>
+        
+        <ref type="guitar">2</ref>
+        <ref type="kaval">2</ref>
+        
+        <ref type="ney">3</ref>
+        
+        <ref type="percussion">2</ref>
+        <ref type="quanun">1</ref>
+        
+        
+        <ref type="sound effects">1</ref>
+        <ref type="synth">8</ref>
+        
+        
+        <ref type="bağlama">3</ref>
+    </artist>
+    <artist who="Cem Karaca">
+        <ref type="total">8</ref>
+        <ref type="bass">4</ref>
+        
+        
+        
+        <ref type="guitar">3</ref>
+        
+        
+        
+        <ref type="organ">3</ref>
+        <ref type="percussion">6</ref>
+        
+        
+        
+        <ref type="sound effects">2</ref>
+        <ref type="synth">8</ref>
+        
+        
+        
+    </artist>
+    <artist who="Edip Akbayram">
+        
+        <ref type="bass">1</ref>
+        <ref type="çığırtma">1</ref>
+        
+        
+        <ref type="guitar">7</ref>
+        <ref type="kaval">1</ref>
+        
+        
+        
+        <ref type="percussion">3</ref>
+        
+        
+        
+        
+        <ref type="synth">1</ref>
+        <ref type="trumpet">1</ref>
+        
+        <ref type="bağlama">3</ref>
+    </artist>
+    <artist who="Erkin Koray">
+        <ref type="total">8</ref>
+        <ref type="bass">1</ref>
+        
+        
+        <ref type="düdük">2</ref>
+        <ref type="guitar">7</ref>
+        
+        
+        <ref type="ney">1</ref>
+        <ref type="organ">1</ref>
+        <ref type="percussion">3</ref>
+        
+        
+        
+        <ref type="sound effects">1</ref>
+        
+        
+        
+        <ref type="bağlama">3</ref>
+    </artist>
+    <artist who="Selda Bağcan">
+        <ref type="total">12</ref>
+        <ref type="bass">2</ref>
+        
+        
+        
+        <ref type="guitar">5</ref>
+        <ref type="kaval">2</ref>
+        <ref type="kemençe">1</ref>
+        <ref type="ney">1</ref>
+        
+        <ref type="percussion">1</ref>
+        
+        
+        <ref type="sipsi">1</ref>
+        
+        <ref type="synth">2</ref>
+        
+        
+        <ref type="bağlama">6</ref>
+    </artist>
+</root>

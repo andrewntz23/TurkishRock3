@@ -1,0 +1,30 @@
+xquery version "3.0";
+(: THIS RETURNS A COUNT OF HOW MANY BREAKS AN ARTIST HAS CONTAINING EACH INSTRUMENT:
+: I'll be doing a better version of this shortly that's based on _songs_ :)
+<root>
+    {
+let $turkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($turkus//artist/text())
+for $art in $arts
+let $tarts := collection('/db/course/turkish/data')[.//artist=$art]
+    return <artist who="{$art}">{(<ref type="total">{count($tarts)}</ref>,
+<ref type="bass">{count($tarts[contains(.//@instr, "bass")])}</ref>,
+<ref type="çığırtma">{count($tarts[contains(.//@instr, "çığırtma")])+ count($tarts[contains(.//@instr, "Çığırtma")])}</ref>,
+<ref type="cümbüs">{count($tarts[contains(.//@instr, "cümbüs")])}</ref>,
+<ref type="düdük">{count($tarts[contains(.//@instr, "düdük")])+ count($tarts[contains(.//@instr, "duduk")])}</ref>,
+<ref type="guitar">{count($tarts[contains(.//@instr, "guitar")])}</ref>,
+<ref type="kaval">{count($tarts[contains(.//@instr, "kaval")])}</ref>,
+<ref type="kemençe">{count($tarts[contains(.//@instr, "kemençe")])}</ref>,
+<ref type="ney">{count($tarts[contains(.//@instr, "ney")])}</ref>,
+<ref type="organ">{count($tarts[contains(.//@instr, "organ")])}</ref>,
+<ref type="percussion">{count($tarts[contains(.//@instr, "percussion")])+ count($tarts[contains(.//@instr, "drums")])+ count($tarts[contains(.//@instr, "tambourine")])+ count($tarts[contains(.//@instr, "cymbals")])+ count($tarts[contains(.//@instr, "bongos")])}</ref>,
+<ref type="quanun">{count($tarts[contains(.//@instr, "quanun")])}</ref>,
+<ref type="saxophone">{count($tarts[contains(.//@instr, "saxophone")])}</ref>,
+<ref type="sipsi">{count($tarts[contains(.//@instr, "sipsi")])}</ref>,
+<ref type="sound effects">{count($tarts[contains(.//@instr, "sound effects")])+ count($tarts[contains(.//@instr, "experimental sounds")])+ count($tarts[contains(.//@instr, "telephone")])+ count($tarts[contains(.//@instr, "music box")])}</ref>,
+<ref type="synth">{count($tarts[contains(.//@instr, "synth")])}</ref>,
+<ref type="trumpet">{count($tarts[contains(.//@instr, "trumpet")])}</ref>,
+<ref type="violin">{count($tarts[contains(.//@instr, "violin")])}</ref>,
+<ref type="bağlama or saz">{count($tarts[contains(.//@instr, "saz")])+ count($tarts[contains(.//@instr, "bağlama")])}</ref>)}
+</artist>}
+</root>
