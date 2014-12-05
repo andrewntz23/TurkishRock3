@@ -28,7 +28,7 @@
     </xsl:template>
     
     <xsl:template match='song'>
-        <xsl:apply-templates></xsl:apply-templates>
+        <xsl:apply-templates/>
     </xsl:template>
     
     <xsl:template match='metadata'>
@@ -53,13 +53,13 @@
     </xsl:template>
     
     <xsl:template match='line'>
-        <xsl:apply-templates/>
-    </xsl:template>
-    <xsl:template match='stanza'>
         <p><xsl:apply-templates/></p>
     </xsl:template>
+    <xsl:template match='stanza'>
+        <div class='stanza'><xsl:apply-templates/></div>
+    </xsl:template>
     <xsl:template match='stanza' mode='type'>
-        <xsl:apply-templates select='@type'/>
+        <div class='stanza'><xsl:apply-templates select='@type'/></div>
     </xsl:template>
     
     <xsl:template match='address'>

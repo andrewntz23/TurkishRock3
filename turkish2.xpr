@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="16.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="turkish2.xpr">
+        <file name="BM/Baris-2023_2023.xml"/>
+        <file name="BM/Baris-2023_acih-da-baga-vir.xml"/>
+        <file name="BM/Baris-2023_baykoca-destani-durma-ha-durma.xml"/>
+        <file name="BM/Baris-2023_baykoca-destani-gelinlik-kizlarin-dansi.xml"/>
+        <file name="BM/Baris-2023_baykoca-destani-gulme-ha-gulme.xml"/>
+        <file name="BM/Baris-2023_baykoca-destani-kara-haber.xml"/>
+        <file name="BM/Baris-2023_baykoca-destani-vur-ha-vur.xml"/>
+        <file name="BM/Baris-2023_dere-boyu-kavaklar.xml"/>
+        <file name="BM/Baris-2023_kayalarin-oglu.xml"/>
+        <file name="BM/Baris-2023_tavuklara-kist-de.xml"/>
+        <file name="BM/Baris-2023_uzun-ince-bir-yoldayim.xml"/>
+        <file name="BM/Baris-2023_yine-yol-gorundu-gurbete.xml"/>
+        <file name="CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_adilos-bebe.xml"/>
+        <file name="CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_bir-ogretmene-agit.xml"/>
+        <file name="CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_isci-marsi.xml"/>
+        <file name="CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_kerem-gibi.xml"/>
+        <file name="CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_maden-ocaginin-dibinde.xml"/>
+        <file name="CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_sevdan-beni.xml"/>
+        <file name="CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_vay-gurban.xml"/>
+        <file name="CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_yoksulluk-kader-olamaz.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_anam-aglar-basucumda-oturur.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_bosu-bosuna.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_daglar-dagladi-beni.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_degmen-benim-gamli-yasli-gonlume.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_deniz-ustu-kopurur.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_dumanli-dumanli-oy-bizim-eller.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_ince-ince-bir-kar-yagar.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_kukredi-cimenler.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_sev-beni-beni.xml"/>
+        <file name="EdipAkbayramEdipAkbayram/edip-edip_yakar-icenden-icenden.xml"/>
+        <file name="ErkinKorayElektronikTurkuler/erkin-elektronik_cemalim.xml"/>
+        <file name="ErkinKorayElektronikTurkuler/erkin-elektronik_hele-yar.xml"/>
+        <file name="ErkinKorayElektronikTurkuler/erkin-elektronik_inat.xml"/>
+        <file name="ErkinKorayElektronikTurkuler/erkin-elektronik_karli-daglar.xml"/>
+        <file name="ErkinKorayElektronikTurkuler/erkin-elektronik_korkulu-ruya.xml"/>
+        <file name="ErkinKorayElektronikTurkuler/erkin-elektronik_sir.xml"/>
+        <file name="ErkinKorayElektronikTurkuler/erkin-elektronik_turku.xml"/>
+        <file name="ErkinKorayElektronikTurkuler/erkin-elektronik_yalnizlar-rihtimi.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_bir-ayrilik-bir-yoksulluk.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_derman-bulunmaz.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_done-sevdigim.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_dostlar-beni-hatirlasin.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_garip-gonlum.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_gunese-don-cicegim.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_kara-yazi.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_kozan-dagi.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_uc-kiz-bir-ana.xml"/>
+        <file name="ErsenDundenBugune/ersen-dunden_yedin-beni.xml"/>
+        <file name="SeldaSelda/selda-selda_dam-ustune-cul-serer.xml"/>
+        <file name="SeldaSelda/selda-selda_dost-uyan.xml"/>
+        <file name="SeldaSelda/selda-selda_gine-haber-gelmis.xml"/>
+        <file name="SeldaSelda/selda-selda_gitme.xml"/>
+        <file name="SeldaSelda/selda-selda_ince-ince-bir-kar-yagar.xml"/>
+        <file name="SeldaSelda/selda-selda_kizildere.xml"/>
+        <file name="SeldaSelda/selda-selda_mehmet-emmi.xml"/>
+        <file name="SeldaSelda/selda-selda_meydan-sizindir.xml"/>
+        <file name="SeldaSelda/selda-selda_nasirli-eller.xml"/>
+        <file name="SeldaSelda/selda-selda_niye-cattin-kaslarini.xml"/>
+        <file name="SeldaSelda/selda-selda_yaylalar.xml"/>
+        <file name="SeldaSelda/selda-selda_yaz-gazeteci-yaz.xml"/>
+    </projectTree>
+</project>
