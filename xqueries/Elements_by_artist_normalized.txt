@@ -1,0 +1,16 @@
+xquery version "3.0";
+(: THIS RETURNS THE PERCENTAGE OF NON-INSTRUMENTAL SONGS CONTAINING AN ELEMENT BY ARTISTS :)
+<root>
+{let $turkus := collection('/db/course/turkish/data')
+let $arts := distinct-values($turkus//artist)
+for $art in $arts
+    order by $art
+    return <artist who="{$art}">
+{let $artsongs := $turkus[.//artist=$art]
+let $artelements := $artsongs//*/name()[not(.= "artist")][not(.= "metadata")][not(.= "line")][not(.= "stanza")][not(.= "title")][not(.= "album")][not(.= "year")][not(.= "source")][not(.="break")][not(.="address")][not(.="song")][not(.="m")][not(.="narrator")][not(.="place")][not(.="politicalS")][not(.="addressee")]
+for $artelement in distinct-values($artelements)
+
+let $count := (count($artsongs[.//*/name() = $artelement]) div count($artsongs[.//*/name() = "stanza"]) * 100)
+order by $count descending, $artelement
+return <ref type="{$artelement}">{$count}</ref>}
+</artist>}
