@@ -1,0 +1,87 @@
+﻿<root>
+<artist who="Barış Manço">
+<ref type="nature">66.6666666666666667</ref>
+<ref type="family">22.2222222222222222</ref>
+<ref type="love">22.2222222222222222</ref>
+<ref type="past">22.2222222222222222</ref>
+<ref type="aşık">11.1111111111111111</ref>
+<ref type="class">11.1111111111111111</ref>
+<ref type="friendship">11.1111111111111111</ref>
+<ref type="future">11.1111111111111111</ref>
+<ref type="nationalism">11.1111111111111111</ref>
+<ref type="neglect">11.1111111111111111</ref>
+<ref type="poliWord">11.1111111111111111</ref>
+<ref type="violence">11.1111111111111111</ref>
+<ref type="wealth">11.1111111111111111</ref>
+</artist>
+<artist who="Cem Karaca">
+<ref type="family">50</ref>
+<ref type="neglect">50</ref>
+<ref type="poverty">37.5</ref>
+<ref type="class">25</ref>
+<ref type="future">25</ref>
+<ref type="love">25</ref>
+<ref type="violence">25</ref>
+<ref type="allah">12.5</ref>
+<ref type="communism">12.5</ref>
+<ref type="death">12.5</ref>
+<ref type="islam">12.5</ref>
+<ref type="military">12.5</ref>
+<ref type="nationalism">12.5</ref>
+<ref type="nature">12.5</ref>
+</artist>
+<artist who="Edip Akbayram">
+<ref type="nature">60</ref>
+<ref type="death">50</ref>
+<ref type="family">30</ref>
+<ref type="love">30</ref>
+<ref type="friendship">20</ref>
+<ref type="allah">10</ref>
+<ref type="drugs">10</ref>
+<ref type="neglect">10</ref>
+<ref type="poverty">10</ref>
+</artist>
+<artist who="Erkin Koray">
+<ref type="love">40</ref>
+<ref type="nature">40</ref>
+<ref type="allah">20</ref>
+<ref type="class">20</ref>
+<ref type="death">20</ref>
+<ref type="friendship">20</ref>
+<ref type="future">20</ref>
+<ref type="nationalism">20</ref>
+</artist>
+<artist who="Ersen">
+<ref type="friendship">50</ref>
+<ref type="family">40</ref>
+<ref type="aşık">30</ref>
+<ref type="love">30</ref>
+<ref type="nature">30</ref>
+<ref type="neglect">30</ref>
+<ref type="death">20</ref>
+<ref type="coup">10</ref>
+<ref type="islam">10</ref>
+<ref type="past">10</ref>
+<ref type="poverty">10</ref>
+</artist>
+<artist who="Selda Bağcan">
+<ref type="love">50</ref>
+<ref type="death">33.3333333333333333</ref>
+<ref type="nature">33.3333333333333333</ref>
+<ref type="neglect">33.3333333333333333</ref>
+<ref type="class">25</ref>
+<ref type="family">25</ref>
+<ref type="friendship">25</ref>
+<ref type="allah">16.6666666666666667</ref>
+<ref type="econ">16.6666666666666667</ref>
+<ref type="future">16.6666666666666667</ref>
+<ref type="violence">16.6666666666666667</ref>
+<ref type="aşık">8.3333333333333333</ref>
+<ref type="nationalism">8.3333333333333333</ref>
+<ref type="poverty">8.3333333333333333</ref>
+<ref type="target">8.3333333333333333</ref>
+<ref type="warning">8.3333333333333333</ref>
+<ref type="wealth">8.3333333333333333</ref>
+<ref type="youth">8.3333333333333333</ref>
+</artist>
+</root>
