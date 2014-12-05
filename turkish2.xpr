@@ -2,7 +2,1008 @@
 <project version="16.1">
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
-        <options/>
+        <options>
+            <serialized version="16.1" xml:space="preserve">
+                <map>
+                    <entry>
+                        <String>scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_yaz-gazeteci-yaz.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_yaylalar.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_niye-cattin-kaslarini.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_nasirli-eller.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_meydan-sizindir.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_mehmet-emmi.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_kizildere.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_ince-ince-bir-kar-yagar.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_gitme.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_gine-haber-gelmis.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_dost-uyan.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>SeldaSelda/selda-selda_dam-ustune-cul-serer.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_yedin-beni.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_uc-kiz-bir-ana.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_kozan-dagi.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_kara-yazi.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_gunese-don-cicegim.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_garip-gonlum.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_dostlar-beni-hatirlasin.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_done-sevdigim.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_derman-bulunmaz.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErsenDundenBugune/ersen-dunden_bir-ayrilik-bir-yoksulluk.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErkinKorayElektronikTurkuler/erkin-elektronik_yalnizlar-rihtimi.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErkinKorayElektronikTurkuler/erkin-elektronik_turku.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErkinKorayElektronikTurkuler/erkin-elektronik_sir.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErkinKorayElektronikTurkuler/erkin-elektronik_korkulu-ruya.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErkinKorayElektronikTurkuler/erkin-elektronik_karli-daglar.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErkinKorayElektronikTurkuler/erkin-elektronik_inat.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErkinKorayElektronikTurkuler/erkin-elektronik_hele-yar.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>ErkinKorayElektronikTurkuler/erkin-elektronik_cemalim.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_yakar-icenden-icenden.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_sev-beni-beni.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_kukredi-cimenler.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_ince-ince-bir-kar-yagar.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_dumanli-dumanli-oy-bizim-eller.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_deniz-ustu-kopurur.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_degmen-benim-gamli-yasli-gonlume.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_daglar-dagladi-beni.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_bosu-bosuna.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>EdipAkbayramEdipAkbayram/edip-edip_anam-aglar-basucumda-oturur.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_yoksulluk-kader-olamaz.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_vay-gurban.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_sevdan-beni.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_maden-ocaginin-dibinde.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_kerem-gibi.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_isci-marsi.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_bir-ogretmene-agit.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>CemKaracaYoksullukKadarOlamaz/cem-yoksulluk_adilos-bebe.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_yine-yol-gorundu-gurbete.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_uzun-ince-bir-yoldayim.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_tavuklara-kist-de.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_kayalarin-oglu.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_dere-boyu-kavaklar.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_baykoca-destani-vur-ha-vur.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_baykoca-destani-kara-haber.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_baykoca-destani-gulme-ha-gulme.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_baykoca-destani-gelinlik-kizlarin-dansi.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_baykoca-destani-durma-ha-durma.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_acih-da-baga-vir.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>BM/Baris-2023_2023.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>turkish2transformation</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
+                    </entry>
+                    <entry>
+                        <String>scenarios</String>
+                        <scenario-array>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>turkish2transformation</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/tr_transformation.xsl</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <File>${cfn}.html</File>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${cfn}.html</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-HE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                        </scenario-array>
+                    </entry>
+                </map>
+            </serialized>
+        </options>
     </meta>
     <projectTree name="turkish2.xpr">
         <file name="BM/Baris-2023_2023.xml"/>
