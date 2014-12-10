@@ -1,0 +1,15 @@
+xquery version "3.0";
+(: COUNTS OF OVERALL NARRATORS :)
+<root>{
+let $turkus := collection('/db/course/turkish/data')
+(: Again, you should change politicalS :)
+let $arts := distinct-values($turkus//artist)
+for $art in $arts
+order by $art
+return <artist who="{$art}">{
+let $artturkus := $turkus[.//artist=$art]
+return (<ref type="singular">{count($artturkus//narrator[./@number="1"])}</ref>,<ref type="plural">{count($artturkus//narrator[./@number="2"])}</ref>)
+}
+</artist>
+}
+</root>
