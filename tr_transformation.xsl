@@ -9,11 +9,11 @@
     <xsl:template match='/'>
         <html>
             <head>
-                <link rel='stylesheet' type='text/css' href='turkishSplashpg.css'/>
-                <link rel='stylesheet' type='text/css' href='songPage.css'/>
-                <link rel='stylesheet' type='text/css' href='dropdownCSS.css'/>
-                <script type='text/javascript' src='turkish.js'>//</script>
-                <script type='text/javascript' src='dropdownJava.js'>//</script>
+                <link rel='stylesheet' type='text/css' href='../turkishSplashpg.css'/>
+                <link rel='stylesheet' type='text/css' href='../songPage.css'/>
+                <link rel='stylesheet' type='text/css' href='../dropdownCSS.css'/>
+                <script type='text/javascript' src='../turkish.js'>//</script>
+                <script type='text/javascript' src='../dropdownJava.js'>//</script>
                 <title>turkish</title>
             </head>
             <body>
