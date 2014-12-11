@@ -18,8 +18,8 @@
             </head>
             <body>
                 <div>
-                    <xsl:comment>#include virtual='dropDownMenu.html'<xsl:text>../</xsl:text></xsl:comment>
-                    <xsl:comment>#include virtual='tagsSSI.html'<xsl:text>../</xsl:text></xsl:comment>
+                    <xsl:comment>#include virtual='../dropDownMenu.html'
+                    <xsl:comment>#include virtual='../tagsSSI.html'
                     <xsl:comment>#include virtual='<xsl:text>../</xsl:text><xsl:value-of select='lower-case(substring-before(//artist, " "))'/>SSI.html'</xsl:comment>
                     <xsl:apply-templates select='//song'/>
                     <a>
