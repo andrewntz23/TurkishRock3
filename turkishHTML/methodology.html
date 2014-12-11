@@ -46,6 +46,8 @@
                     <li><a href="#youth"><span>23. Youth</span></a></li>
                 </ul>
             </div>
+            <h2 id="tagging">tagging</h2>
+            <p>We used XML tagging on the Turkish songs to mark up a variety of elements and attributes that occured within the songs. Each song was verified against <a href="../xmls/tr_schema.rnc">our Relax NG schema</a> to ensure that the mark-up followed the same conventions.</p>
             <h3 id="address">address</h3>
             <p>We tagged an "address" element whenever the narrator used called out to a "you."For
                 the "formality" attribute on address, we marked "formal" for the formal "you", and
@@ -210,6 +212,8 @@
             <p class="example">ex: &lt;youth>gençlerimiz&lt;/youth></p>
             <br /><a href="#top">Return to Top of Page</a>
             <hr />
+            <h2 id="xqueries">xQueries</h2>
+            <p>In order to sort through our data, we wrote xQuery scripts to sort through an eXide database containing the tagged xml files. Some examples of our xQueries, along with explanations of what they do appear below.</p>
         </div>
     </body>
 </html>
