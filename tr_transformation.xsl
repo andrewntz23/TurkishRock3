@@ -22,6 +22,13 @@
                     <xsl:comment>#include virtual='tagsSSI.html'</xsl:comment>
                     <xsl:comment>#include virtual='<xsl:value-of select='lower-case(substring-before(//artist, " "))'/>SSI.html'</xsl:comment>
                     <xsl:apply-templates select='//song'/>
+                    <a>
+                        <xsl:attribute name="ḧref">
+                        <xsl:text>../xmls/</xsl:text>
+                        <xsl:value-of select="tokenize(base-uri(), '/')[last()]"/>
+                            </xsl:attribute>
+                        original xml
+                    </a>
                 </div>
             </body>
         </html>
