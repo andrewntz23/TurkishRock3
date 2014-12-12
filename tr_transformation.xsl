@@ -22,8 +22,9 @@
                     <xsl:comment>#include virtual='../tagsSSI.html'</xsl:comment>
                     <xsl:comment>#include virtual='<xsl:text>../</xsl:text><xsl:value-of select='lower-case(substring-before(//artist, " "))'/>SSI.html'</xsl:comment>
                     <xsl:apply-templates select='//song'/>
+                    <xsl:if test='not(//stanza)'><p>This song is an instrumental.</p></xsl:if>
                     <a>
-                        <xsl:attribute name="ḧref">
+                        <xsl:attribute name="href">
                         <xsl:text>../xmls/</xsl:text>
                         <xsl:value-of select="tokenize(base-uri(), '/')[last()]"/>
                             </xsl:attribute>
@@ -56,7 +57,8 @@
         <h2><xsl:apply-templates/></h2>
     </xsl:template>
     <xsl:template match='source'>
-       <a href='{current()}'>Source</a>
+       <xsl:if  test="starts-with(text(), 'http')"><a href='{current()}'>Source</a></xsl:if>
+        <xsl:if  test="not(starts-with(text(), 'http'))"><p><xsl:apply-templates/></p></xsl:if>
     </xsl:template>
     
     <xsl:template match='line'>
