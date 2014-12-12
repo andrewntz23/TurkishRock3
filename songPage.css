@@ -1,4 +1,26 @@
-span {color: pink;}
+span {font-style: italic;}
+span.address {color: #00ff00;}
+span.narrator {color:#0066cc}
+span.allah {color:#446d44}
+span.death {color:#9a9a9a}
+span.death {color:#dd6200}
+span.econ {color:#a86bf0}
+span.family {color:#bf166b}
+span.friendship {color:#1ffc64}
+span.future {color:#1aa3a3}
+span.love {color:#c39797}
+span.nationalism {color:#6600cc}
+span.nature {color:#ffcc00}
+span.neglect {color:#088da5}
+span.past {color:#e3e3e3}
+span.place {color:#c39797}
+span.poliWord {color:#af919d}
+span.poverty {color:#ff6666}
+span.violence {color:#f0f8ff}
+span.warning {color:#6b4423}
+span.wealth {color:#9a1c1c}
+span.youth {color:#e0cda7}
+
 
 #sidebar {width:5%;
           right:5%;
@@ -12,3 +34,4 @@ span {color: pink;}
 #sidebar div p a{width:100%;}
 
 p {width: 50%}
+
