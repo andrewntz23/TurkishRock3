@@ -32,7 +32,7 @@ float: right;
 img.mm {
     width:150px;
     height:auto;
-    margin-left:50px
+    padding:3%;
 }
 img.license{
     padding:5%;
