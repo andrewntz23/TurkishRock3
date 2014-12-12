@@ -19,6 +19,27 @@ p.example{
     color:white;
     font-style:italic;
 }
+p.a {color: #00ff00;}
+p.b {color:#446d44}
+p.e {color:#00ff11}
+p.f {color:#9a9a9a}
+p.g {color:#a86bf0}
+p.h {color:#bf166b}
+p.i {color:#1ffc64}
+p.j {color:#a86bf0}
+p.l {color:#c39797}
+p.m {color:#0066cc}
+p.n {color:#ffcc00}
+p.o {color:#088da5}
+p.p {color:#e3e3e3}
+p.q {color:#c39797}
+p.r {color:#af919d}
+p.s {color:#ff6666}
+p.t {color:#f0f8ff}
+p.u {color:#6b4423}
+p.v {color:#9a1c1c}
+p.z {color:#6600cc}
+p.w {color:#e0cda7}
 div{
     background-color:rgba(60, 0, 100, .9);
     padding-top:50px;
