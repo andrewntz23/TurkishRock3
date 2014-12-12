@@ -1,0 +1,65 @@
+body{
+    background-image:url(psychedelic_background.jpg);
+    background-color:aqua;
+    margin:3%;
+}
+h1{
+    font-weight:bold;
+    text-align:"center";
+    font-family:krungthep;
+    color:white;
+    padding-top:10%;
+}
+p{
+    font-family:arial, helvetica, sans-serif;
+    color:white;
+}
+p.example{
+    font-family:arial, helvetica, sans-serif;
+    color:white;
+    font-style:italic;
+}
+div{
+    background-color:rgba(60, 0, 100, .9);
+    padding-top:50px;
+    padding-right:150px;
+    padding-bottom:50px;
+    padding-left:150px;
+}
+div.finn {    background-color:rgba(60, 0, 100, .9);
+float: right;
+}
+img.mm {
+    width:150px;
+    height:auto;
+    margin-left:60px
+}
+img.license{
+    padding:5%;
+}
+li{
+    font-family:arial, helvetica, sans-serif;
+    color:white;
+}
+h2{
+    font-weight:bold;
+    font-family:arial, helvetica, sans-serif;
+    color:white;
+}
+h3{
+    font-weight:bold;
+    font-family:arial, helvetica, sans-serif;
+    color:white;
+}
+a{
+    color:grey;
+}
+a.cc{
+    padding:10px;
+}
+a:hover{
+    color:white;
+}
+a:visited{
+    color:teal;
+}
